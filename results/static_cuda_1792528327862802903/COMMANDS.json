@@ -1,0 +1,33 @@
+[
+  {
+    "name": "cubin",
+    "argv": [
+      "/usr/local/cuda-13.3/bin/nvcc",
+      "-std=c++17",
+      "-O2",
+      "-arch=sm_89",
+      "--cubin",
+      "vendor/rcc_20261021/cuda/kernels.cu",
+      "-o",
+      "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/main/build/static/rcc_kernels.cubin"
+    ],
+    "code": 0,
+    "seconds": 0.5394054439999998
+  },
+  {
+    "name": "native_owner",
+    "argv": [
+      "x86_64-w64-mingw32-g++",
+      "-std=c++17",
+      "-O2",
+      "-static",
+      "-Ivendor/rcc_20261021/frozen/consumer",
+      "-I/usr/local/cuda-13.3/include",
+      "vendor/rcc_20261021/cuda/owner.cpp",
+      "-o",
+      "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/main/build/static/rcc_owner.exe"
+    ],
+    "code": 0,
+    "seconds": 11.596342014000001
+  }
+]

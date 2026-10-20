@@ -1,0 +1,7 @@
+src/graph.cpp: In static member function ‘static std::shared_ptr<const rcc_api::Graph> rcc_api::Graph::from_edges(std::string, rcc_api::L, rcc_api::U, const std::vector<std::pair<unsigned int, unsigned int> >&)’:
+src/graph.cpp:12:2: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+   12 |  for(U u=0;u<n;++u)row[u+1]+=row[u];auto cursor=row;
+      |  ^~~
+src/graph.cpp:12:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   12 |  for(U u=0;u<n;++u)row[u+1]+=row[u];auto cursor=row;
+      |                                     ^~~~

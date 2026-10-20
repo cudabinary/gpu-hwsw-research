@@ -1,0 +1,5 @@
+In file included from vendor/rcc_20261021/cuda/owner.cpp:3:
+vendor/rcc_20261021/cuda/native_driver.hpp:4:10: fatal error: cuda.h: No such file or directory
+    4 | #include <cuda.h>
+      |          ^~~~~~~~
+compilation terminated.

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "api_version": "1.0.0",
+  "same_main_binary_sha256": "02440e4b4d0601ca6dd53b3947ab37dc7d9439ae50b7f3829e660aed5d55532a",
+  "swapped_modules": [
+    {
+      "status": "PASS",
+      "implementation": "baseline-1",
+      "api": 65536,
+      "checks": 6870,
+      "arrays": 2095,
+      "graphs_exhaustive": 512,
+      "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+    },
+    {
+      "status": "PASS",
+      "implementation": "rcc-table-20261021-v1",
+      "api": 65536,
+      "checks": 6870,
+      "arrays": 2095,
+      "graphs_exhaustive": 512,
+      "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+    },
+    {
+      "status": "PASS",
+      "implementation": "rcc-last-20261021-v1",
+      "api": 65536,
+      "checks": 6870,
+      "arrays": 2095,
+      "graphs_exhaustive": 512,
+      "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+    }
+  ],
+  "vendor_unchanged": true,
+  "gpu_api_compatibility": "NOT_IMPLEMENTED_NOT_VERIFIED",
+  "sanitizers_run": false,
+  "performance_experiments": 0
+}

@@ -1,0 +1,4 @@
+src/cpu_module.cpp: In member function ‘rcc_api::Reply rcc_api::CpuModule::execute(const rcc_api::Request&)’:
+src/cpu_module.cpp:42:57: error: expression cannot be used as a function
+   42 |    out.metrics.output_copy_elements=out.output?graph_->n():0;
+      |                                                ~~~~~~~~~^~

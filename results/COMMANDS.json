@@ -1,0 +1,48 @@
+[
+  {
+    "name": "build_graph",
+    "argv": [
+      "g++",
+      "-std=c++20",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-pthread",
+      "-Iapi",
+      "-Ivendor/rcc_20261021/include",
+      "-Ivendor/rcc_20261021/frozen/bridge",
+      "-Ivendor/rcc_20261021/frozen/consumer",
+      "-fPIC",
+      "-shared",
+      "src/graph.cpp",
+      "-o",
+      "build/libgraph.so"
+    ],
+    "returncode": 0,
+    "seconds": 2.540519213
+  },
+  {
+    "name": "build_baseline",
+    "argv": [
+      "g++",
+      "-std=c++20",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-pthread",
+      "-Iapi",
+      "-Ivendor/rcc_20261021/include",
+      "-Ivendor/rcc_20261021/frozen/bridge",
+      "-Ivendor/rcc_20261021/frozen/consumer",
+      "-DRCC_KIND=0",
+      "-fPIC",
+      "-shared",
+      "src/cpu_module.cpp",
+      "vendor/rcc_20261021/frozen/consumer/consumers.cpp",
+      "-o",
+      "build/baseline.so"
+    ],
+    "returncode": 1,
+    "seconds": 5.645712184
+  }
+]

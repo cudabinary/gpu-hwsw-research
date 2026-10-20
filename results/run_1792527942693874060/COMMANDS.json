@@ -1,0 +1,147 @@
+[
+  {
+    "name": "build_graph",
+    "argv": [
+      "g++",
+      "-std=c++20",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-pthread",
+      "-Iapi",
+      "-Ivendor/rcc_20261021/include",
+      "-Ivendor/rcc_20261021/frozen/bridge",
+      "-Ivendor/rcc_20261021/frozen/consumer",
+      "-fPIC",
+      "-shared",
+      "src/graph.cpp",
+      "-o",
+      "build/libgraph.so"
+    ],
+    "returncode": 0,
+    "seconds": 2.9684903020000064
+  },
+  {
+    "name": "build_baseline",
+    "argv": [
+      "g++",
+      "-std=c++20",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-pthread",
+      "-Iapi",
+      "-Ivendor/rcc_20261021/include",
+      "-Ivendor/rcc_20261021/frozen/bridge",
+      "-Ivendor/rcc_20261021/frozen/consumer",
+      "-DRCC_KIND=0",
+      "-fPIC",
+      "-shared",
+      "src/cpu_module.cpp",
+      "vendor/rcc_20261021/frozen/consumer/consumers.cpp",
+      "-o",
+      "build/baseline.so"
+    ],
+    "returncode": 0,
+    "seconds": 6.189933046999997
+  },
+  {
+    "name": "build_rcc_table",
+    "argv": [
+      "g++",
+      "-std=c++20",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-pthread",
+      "-Iapi",
+      "-Ivendor/rcc_20261021/include",
+      "-Ivendor/rcc_20261021/frozen/bridge",
+      "-Ivendor/rcc_20261021/frozen/consumer",
+      "-DRCC_KIND=1",
+      "-fPIC",
+      "-shared",
+      "src/cpu_module.cpp",
+      "vendor/rcc_20261021/frozen/consumer/consumers.cpp",
+      "-o",
+      "build/rcc_table.so"
+    ],
+    "returncode": 0,
+    "seconds": 5.459960371999998
+  },
+  {
+    "name": "build_rcc_last",
+    "argv": [
+      "g++",
+      "-std=c++20",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-pthread",
+      "-Iapi",
+      "-Ivendor/rcc_20261021/include",
+      "-Ivendor/rcc_20261021/frozen/bridge",
+      "-Ivendor/rcc_20261021/frozen/consumer",
+      "-DRCC_KIND=2",
+      "-fPIC",
+      "-shared",
+      "src/cpu_module.cpp",
+      "vendor/rcc_20261021/frozen/consumer/consumers.cpp",
+      "-o",
+      "build/rcc_last.so"
+    ],
+    "returncode": 0,
+    "seconds": 4.701220596999988
+  },
+  {
+    "name": "build_main_client",
+    "argv": [
+      "g++",
+      "-std=c++20",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-pthread",
+      "-Iapi",
+      "-Ivendor/rcc_20261021/include",
+      "-Ivendor/rcc_20261021/frozen/bridge",
+      "-Ivendor/rcc_20261021/frozen/consumer",
+      "tests/main_client.cpp",
+      "-Lbuild",
+      "-lgraph",
+      "-Wl,-rpath,$ORIGIN",
+      "-ldl",
+      "-o",
+      "build/main_client"
+    ],
+    "returncode": 0,
+    "seconds": 2.6527108679999998
+  },
+  {
+    "name": "test_baseline",
+    "argv": [
+      "build/main_client",
+      "build/baseline.so"
+    ],
+    "returncode": 0,
+    "seconds": 0.029684110999994573
+  },
+  {
+    "name": "test_rcc_table",
+    "argv": [
+      "build/main_client",
+      "build/rcc_table.so"
+    ],
+    "returncode": 0,
+    "seconds": 0.02499993600000039
+  },
+  {
+    "name": "test_rcc_last",
+    "argv": [
+      "build/main_client",
+      "build/rcc_last.so"
+    ],
+    "returncode": 0,
+    "seconds": 0.017616349000007858
+  }
+]

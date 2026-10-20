@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "unchanged historical kernels and native owner, NOT common RCC API backend",
+  "GPU_queries": 0,
+  "GPU_kernel_executions": 0,
+  "artifacts": {
+    "rcc_kernels.cubin": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836",
+    "rcc_owner.exe": "d89c5a34b785c1136da8daeff17459259ec2b841943d68b26ebea7f218f6eb0c"
+  }
+}

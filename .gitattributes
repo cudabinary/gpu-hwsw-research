@@ -7,3 +7,7 @@ research/SCOPE_DISTANCE_PROTOCOL.json text eol=lf
 tools/intake_scope_distance.py text eol=lf
 tools/audit_scope_distance.py text eol=lf
 tools/analyze_scope_distance.py text eol=lf
+results/dg_api_20261021/** -text
+research/dg_api* text eol=lf
+research/DG_API* text eol=lf
+tools/*dg_api.py text eol=lf

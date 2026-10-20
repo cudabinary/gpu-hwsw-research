@@ -1,5 +1,7 @@
 # 새 RCC Codex 채팅 시작
 
+최신 시작점: `research/DG_API_RESULTS.md`, `RCC_STATUS.md`의 맨 위 갱신을 읽는다. DistanceGuard API1.0.0 실험 plugin의 기존 MAIN 무수정·무재빌드 교체 PASS, 고정 CPU 전체 서비스 비교 완료. **기본 통합 HOLD / 제한적 합성 ready witness만 보존**. Google/LJ 강한 고유 우위 없음, 합성도 준비 포함 시 역전. 추가 최적화 반복·MAIN 병합·GPU/유료 자원 실행을 자동 재개하지 않는다. 이전 감사/OLD_P2는 불변이며 아래 시작 문구는 그 이전 체크포인트의 역사적 기록이다.
+
 Codex에서 로컬 작업 폴더를 다음 경로로 선택하고 새 채팅을 연다. 자동으로 채팅을 생성하거나 다른 연구 채팅에 지시를 보내지 않았다.
 
 `C:\Users\정다빈\Documents\Codex\2026-10-20\task\GPU_HW_SW_RESEARCH_20261021\rcc`

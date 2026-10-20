@@ -1,0 +1,21 @@
+{
+  "purpose": "One fixed CPU campaign for DistanceGuard experimental API 1.0.0 eligibility; no MAIN rebuild or default integration",
+  "version": 1,
+  "main_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+  "sessions": 5,
+  "rounds": 8,
+  "mirrored_sweeps": 2,
+  "followup_queries": [8, 32],
+  "graphs": ["google_sampled_1024", "livejournal_sampled_4096", "oneway_dense"],
+  "schedules": ["legacy", "unique"],
+  "paths": ["ready", "deferred"],
+  "modes": ["BFS_DEPLOYED", "TABLE_DEPLOYED", "LAST_DEPLOYED", "PUSH_MATCHED", "TABLE_MATCHED", "LAST_MATCHED", "OLD_P2", "RIE", "RIE_TABLE", "DG_COUNT", "DG_CLOSURE", "DG_RADIUS", "DG_FRONTIER", "EXACT_REUSE"],
+  "service": "Factory + prepare for deferred + first common Push_N query + q followups + all module calls, allocations, copies, maintenance, module release/destroy + separately timed consumer output deallocation. Independent oracle validation excluded and separately timed. Ready moves factory/prepare into separately reported historical preparation; history-inclusive service adds it back. Graph API construction and one-time dlopen startup are outside batches and separately identified.",
+  "comparison": "Identical source lists, owned output lifetime, counters enabled as deployed API. First query Push_N for every mode. No implicit result reuse except named EXACT_REUSE control. Existing deployed modules have two copies; matched controls and DG one copy. Never pool previous non-API timings.",
+  "ordering": "Rotate mode order by round/session, reverse alternate round/session, then mirrored reverse sweep. Average two sweeps before ratios; sessions are fresh sequential processes, not concurrent.",
+  "gate": "DG_FRONTIER must have paired median service ratio <0.95, >=32/40 paired wins, and all five session median ratios <0.95 against EVERY strong comparator (TABLE/LAST deployed and matched, OLD_P2, RIE, RIE_TABLE, EXACT_REUSE) and DG_COUNT/DG_RADIUS. Ready gate separately from history-inclusive gate. No optimization reruns after negative result.",
+  "uncertainty": "Report 40 mirrored pairs, five session medians/range, win count, sweep-order discrepancy, deterministic 10000-resample session-cluster bootstrap median-ratio 95% interval. Five sessions and selected fixtures limit inference; no population or GPU claim.",
+  "phase_diagnostics": "Separate timer-enabled DSOs, one process three mirrored rounds q32, same inputs. Algorithm, owned allocation/copy, maintenance, reverse build, prepare, release, residual dispatch/adapter time measured separately. Intrusive clocks excluded from primary campaign; no cross-run subtraction.",
+  "worker_timeout_seconds": 240,
+  "stop": "One campaign only; HOLD if no reproducible practical full-service advantage. No GPU or paid resources. No automatic merge."
+}

@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "workers": [
+    {
+      "status": "PASS",
+      "trials": 5376,
+      "arrays": 112896,
+      "rss_peak_kib": 19848
+    },
+    {
+      "status": "PASS",
+      "trials": 5376,
+      "arrays": 112896,
+      "rss_peak_kib": 19848
+    },
+    {
+      "status": "PASS",
+      "trials": 5376,
+      "arrays": 112896,
+      "rss_peak_kib": 19848
+    },
+    {
+      "status": "PASS",
+      "trials": 5376,
+      "arrays": 112896,
+      "rss_peak_kib": 19848
+    },
+    {
+      "status": "PASS",
+      "trials": 5376,
+      "arrays": 112896,
+      "rss_peak_kib": 19848
+    }
+  ],
+  "trials": 26880,
+  "full_arrays": 564480,
+  "phase": {
+    "status": "PASS",
+    "trials": 1008,
+    "arrays": 33264,
+    "rss_peak_kib": 19848
+  },
+  "intake_files_verified": 92,
+  "vendor_files_verified": 37,
+  "MAIN_unchanged": true,
+  "GPU_runs": 0,
+  "paid_resources": 0
+}

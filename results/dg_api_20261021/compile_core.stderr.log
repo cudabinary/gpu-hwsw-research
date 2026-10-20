@@ -1,0 +1,11 @@
+research/dg_api_module.cpp: In member function ‘bool rcc_api::CpuModule::ensure_reverse()’:
+research/dg_api_module.cpp:28:3: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   28 |   if(reverse_)return true;if(reverse_failed_)return false;
+      |   ^~
+research/dg_api_module.cpp:28:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   28 |   if(reverse_)return true;if(reverse_failed_)return false;
+      |                           ^~
+research/dg_api_module.cpp: In member function ‘rcc_api::Reply rcc_api::CpuModule::execute(const rcc_api::Request&)’:
+research/dg_api_module.cpp:58:173: warning: enumerated and non-enumerated type in conditional expression [-Wextra]
+   58 |     }else if(direction){static_cast<stop_bridge::Work&>(st)=stop_bridge::direction<true>(*legacy_,*reverse_,q.source,*workspace_,stop_bridge::N|stop_bridge::RIE|(policy_==5?stop_bridge::RCC:0),policy_==5?before:graph_->n);}
+      |                                                                                                                                                                   ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "file": "results/dg_api_20261021/arrays.jsonl",
+      "arrays": 2688,
+      "elements": 6544608
+    }
+  ],
+  "distinct_graph_source_oracles": 86,
+  "graph_files": 12
+}

@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "trials": 26880,
+  "arrays": 564480,
+  "mirrored_pairs_per_comparison": 40,
+  "sessions": 5,
+  "gate_positive_conditions": [
+    {
+      "graph": "oneway_dense",
+      "schedule": "legacy",
+      "q": "32",
+      "path": "ready",
+      "metric": "service_ns",
+      "gate": true,
+      "failed_baselines": []
+    }
+  ],
+  "verdict": "CONDITIONAL_EXPERIMENT_ONLY",
+  "no_default_integration": true,
+  "limitations": [
+    "Five local sequential sessions are not across-day replication.",
+    "Bootstrap interval is descriptive, with only five session clusters and no multiple-comparison correction.",
+    "Synthetic and derived sampled graphs do not establish population generality.",
+    "Counter-enabled CPU API result, not GPU evidence.",
+    "Phase clocks are intrusive and separate from the primary campaign.",
+    "P2/RIE wrappers are algorithm comparison controls, not certificate-providing integration candidates.",
+    "API useful-bound < n semantics exclude all-n previous closures.",
+    "Dlopen and API Graph construction are startup costs outside the batch; actual output destruction is included."
+  ],
+  "default_integration": "HOLD",
+  "optimization_iterations_after_campaign": 0
+}

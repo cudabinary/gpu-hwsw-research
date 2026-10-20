@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "g++",
+    "-std=c++20",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-pthread",
+    "-Iapi",
+    "-Iresearch",
+    "-Ivendor/rcc_20261021/frozen/bridge",
+    "-Ivendor/rcc_20261021/frozen/consumer",
+    "-shared",
+    "-fPIC",
+    "-DDG_POLICY=2",
+    "-DDG_DEFERRED=0",
+    "-DDG_TIMERS=1",
+    "research/dg_api_factory.cpp",
+    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/core.o",
+    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/consumer.o",
+    "-o",
+    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/p2_0_phase.so"
+  ],
+  "returncode": 0,
+  "seconds": 1.8769861500000005
+}

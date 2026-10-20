@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "unchanged_main_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+  "swaps": [
+    {
+      "module": "baseline",
+      "binary_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+      "result": {
+        "status": "PASS",
+        "implementation": "baseline-1",
+        "api": 65536,
+        "checks": 193136,
+        "arrays": 2111,
+        "graphs_exhaustive": 512,
+        "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+      }
+    },
+    {
+      "module": "table",
+      "binary_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+      "result": {
+        "status": "PASS",
+        "implementation": "rcc-table-20261021-v1",
+        "api": 65536,
+        "checks": 193136,
+        "arrays": 2111,
+        "graphs_exhaustive": 512,
+        "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+      }
+    },
+    {
+      "module": "last",
+      "binary_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+      "result": {
+        "status": "PASS",
+        "implementation": "rcc-last-20261021-v1",
+        "api": 65536,
+        "checks": 193136,
+        "arrays": 2111,
+        "graphs_exhaustive": 512,
+        "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+      }
+    },
+    {
+      "module": "DG6_0",
+      "binary_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+      "result": {
+        "status": "PASS",
+        "implementation": "distance-count-api1-experimental",
+        "api": 65536,
+        "checks": 193136,
+        "arrays": 2111,
+        "graphs_exhaustive": 512,
+        "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+      }
+    },
+    {
+      "module": "DG6_1",
+      "binary_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+      "result": {
+        "status": "PASS",
+        "implementation": "distance-count-api1-experimental",
+        "api": 65536,
+        "checks": 193136,
+        "arrays": 2111,
+        "graphs_exhaustive": 512,
+        "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+      }
+    },
+    {
+      "module": "DG7_0",
+      "binary_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+      "result": {
+        "status": "PASS",
+        "implementation": "distance-closure-api1-experimental",
+        "api": 65536,
+        "checks": 193136,
+        "arrays": 2111,
+        "graphs_exhaustive": 512,
+        "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+      }
+    },
+    {
+      "module": "DG7_1",
+      "binary_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+      "result": {
+        "status": "PASS",
+        "implementation": "distance-closure-api1-experimental",
+        "api": 65536,
+        "checks": 193136,
+        "arrays": 2111,
+        "graphs_exhaustive": 512,
+        "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+      }
+    },
+    {
+      "module": "DG8_0",
+      "binary_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+      "result": {
+        "status": "PASS",
+        "implementation": "distance-radius-api1-experimental",
+        "api": 65536,
+        "checks": 193136,
+        "arrays": 2111,
+        "graphs_exhaustive": 512,
+        "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+      }
+    },
+    {
+      "module": "DG8_1",
+      "binary_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+      "result": {
+        "status": "PASS",
+        "implementation": "distance-radius-api1-experimental",
+        "api": 65536,
+        "checks": 193136,
+        "arrays": 2111,
+        "graphs_exhaustive": 512,
+        "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+      }
+    },
+    {
+      "module": "DG9_0",
+      "binary_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+      "result": {
+        "status": "PASS",
+        "implementation": "distance-frontier-api1-experimental",
+        "api": 65536,
+        "checks": 193136,
+        "arrays": 2111,
+        "graphs_exhaustive": 512,
+        "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+      }
+    },
+    {
+      "module": "DG9_1",
+      "binary_sha256": "d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e",
+      "result": {
+        "status": "PASS",
+        "implementation": "distance-frontier-api1-experimental",
+        "api": 65536,
+        "checks": 193136,
+        "arrays": 2111,
+        "graphs_exhaustive": 512,
+        "cuda_runtime": "UNSUPPORTED_NOT_TESTED"
+      }
+    }
+  ]
+}

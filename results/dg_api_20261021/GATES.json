@@ -1,0 +1,828 @@
+[
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS"
+    ]
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "OLD_P2",
+      "RIE",
+      "RIE_TABLE",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "metric": "service_ns",
+    "gate": true,
+    "failed_baselines": []
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "metric": "service_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "metric": "history_inclusive_ns",
+    "gate": false,
+    "failed_baselines": [
+      "TABLE_DEPLOYED",
+      "LAST_DEPLOYED",
+      "TABLE_MATCHED",
+      "LAST_MATCHED",
+      "DG_COUNT",
+      "DG_RADIUS",
+      "EXACT_REUSE"
+    ]
+  }
+]

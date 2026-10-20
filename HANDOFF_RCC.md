@@ -1,5 +1,11 @@
 # RCC 독립 연구 인계
 
+## 최신 DistanceGuard API 체크포인트
+
+`research/DG_API_RESULTS.md`를 먼저 읽는다. 사용자 명시 요청으로 기본 RCC와 분리한 API1.0.0 실험 plugin을 구현했다. **MAIN 소스·실행물 수정/재빌드0**. 기존 MAIN에서 기본3종+DG4종×ready/deferred 실제 교체 모두 PASS다. primary 5프로세스×8round×mirror의26,880 trials/564,480 전체 배열, Python2688배열/6544608원소 PASS. 원본 ZIP·기존 Scope/DG202 artifact·OLD_P260 artifact를 commit blob과 현 파일로 확인해 보존했다.
+
+기본 통합은 **HOLD**다. oneway_dense/legacy/q32/ready의 유일한 합성 조건부 gate 양성은 matched TABLE 대비0.7331이나 준비 포함 약1.31/unique ready1.3117로 역전된다. Google/LJ의 고유 강한 전체시간 우위 없음. bound<n API 의미에 따른 fallback과 출력 한 번 복사의 효과를 guard 자체의 효과와 구별한다. 결과를 본 뒤 추가 최적화/실험 반복을 하지 않았다. GPU/유료 자원0. 원시 로그·통계·비용·실행 binary bundle은 `results/dg_api_20261021/`다. 기본 활성화·MAIN 병합·후속 최적화/GPU를 자동 진행하지 않는다. 아래는 이전 체크포인트 당시의 인계 기록이며 그 문서·raw 결과를 덮어쓰지 않았다.
+
 ## 시작 위치
 
 - 브랜치: `research/rcc`

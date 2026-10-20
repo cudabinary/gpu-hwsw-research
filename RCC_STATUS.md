@@ -1,5 +1,11 @@
 # RCC status
 
+최신(2026-10-21): **DistanceGuard API1.0.0 실험 호환성 PASS / 기본 RCC 통합 HOLD**. `research/DG_API_RESULTS.md`와 `results/dg_api_20261021/`가 이번 후보 API 검증의 근거다. 기존 MAIN SHA `d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e`를 변경·재빌드하지 않고 기본 BFS/TABLE/LAST 및 DG4종×ready/deferred 11개 교체 모두 PASS. 전체 서비스 26,880 trials/564,480 배열과 별도 Python 검증 PASS. matched 출력 복사·알고리즘/어댑터 비용·5 session 변동을 분리했다.
+
+유일한 조건부 양성은 합성 oneway_dense/legacy/q32/ready, DG/matched TABLE0.7331 [기술적 bootstrap95% 0.7195–0.7672],37/40승리다. 준비 포함 약1.31 및 unique ready1.3117로 역전된다. Google은 API bound<n 제한으로 필터의 고유 작업 생략이 유지되지 않고, LJ는 matched 생략48,273 probes에도 OLD_P2/RIE보다 느리다. 실제 graph의 강한 고유 전체시간 우위 미확보. 추가 최적화·기본 통합·자동 병합 없음. 새 GPU/유료 자원0. 신규성·독립 논문 기여 미확립 판정 유지.
+
+아래는 이전 OLD_P2/패키지 감사 체크포인트 기록이다. 그 시점의 후보 API 미구현·비용 UNKNOWN은 위 새 실험으로 갱신됐으며, 이전 자료와 측정 경계는 그대로 보존한다.
+
 현재 단계: **독립 SW 검증 지속 / PAPER_CANDIDATE 아님**.
 
 기능: 현재 CPU RCC TABLE/LAST를 API1.0.0으로 교체 가능하게 감싼 모듈과 baseline 대체 구현이 있다. API 호환성은 실제 동일 MAIN 바이너리 교체로 검사한다. `results/COMPATIBILITY.json`을 권위 있는 새 검사 결과로 읽는다. 이전 수치와 합산하여 새 독립 실험 횟수를 부풀리지 않는다.

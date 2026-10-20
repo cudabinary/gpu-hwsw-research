@@ -1,0 +1,4706 @@
+[
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0042230610744596,
+      "minimum": 0.4991680162880015,
+      "maximum": 1.1406640882486083,
+      "p05": 0.774853468326254,
+      "p95": 1.135945369606731
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.998906905216089,
+      "minimum": 0.5307136734400191,
+      "maximum": 1.4209965030629201,
+      "p05": 0.6903530817058812,
+      "p95": 1.1653369819047836
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.007250051478072,
+      "minimum": 0.2749765737689384,
+      "maximum": 1.4037887855630236,
+      "p05": 0.8292427847564267,
+      "p95": 1.1661863178931615
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9650619076300839,
+      "minimum": 0.6235904610758436,
+      "maximum": 1.4048724973656481,
+      "p05": 0.7566029081168835,
+      "p95": 1.0595891393953247
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9796046405866778,
+      "minimum": 0.7421734580819894,
+      "maximum": 2.409712228885132,
+      "p05": 0.8773681605835002,
+      "p95": 1.091113005654048
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9867799900411018,
+      "minimum": 0.643141633570308,
+      "maximum": 1.9637315304939138,
+      "p05": 0.7900838761355947,
+      "p95": 1.3655943446238836
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9835221820161593,
+      "minimum": 0.7691925837032325,
+      "maximum": 1.7748624116291125,
+      "p05": 0.8754590021078408,
+      "p95": 1.1463886794242166
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9744641667100926,
+      "minimum": 0.7964584598468543,
+      "maximum": 1.4373551027895937,
+      "p05": 0.8682141510676813,
+      "p95": 1.0566101702775506
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 1.0091701089482314,
+      "minimum": 0.7759057665332113,
+      "maximum": 1.4802854250919433,
+      "p05": 0.8788023171573952,
+      "p95": 1.1002201615877116
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9914789246901277,
+      "minimum": 0.7756087417941039,
+      "maximum": 1.3549906164084737,
+      "p05": 0.8374273940178069,
+      "p95": 1.1214733769658438
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.9933196192466827,
+      "minimum": 0.8675813587802735,
+      "maximum": 1.936732324070134,
+      "p05": 0.9117858150238558,
+      "p95": 1.1434442934329285
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9885149208912505,
+      "minimum": 0.7179379626551857,
+      "maximum": 1.4491314964103241,
+      "p05": 0.8215630807152958,
+      "p95": 1.145062510945307
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 1.0007074573475547,
+      "minimum": 0.7308957896896666,
+      "maximum": 1.153582344415905,
+      "p05": 0.8684367373905368,
+      "p95": 1.1093960380419812
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 1.0141510243880865,
+      "minimum": 0.5829348417947732,
+      "maximum": 1.0807501302024598,
+      "p05": 0.7873180483665865,
+      "p95": 1.0649291531073788
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0003251953555208,
+      "minimum": 0.7679447882831953,
+      "maximum": 1.7961240215314027,
+      "p05": 0.8260533605706532,
+      "p95": 1.2742587098083278
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9858311269327645,
+      "minimum": 0.6192417009371793,
+      "maximum": 4.810741445685594,
+      "p05": 0.7947456342567665,
+      "p95": 1.0863185330011502
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0174439449182,
+      "minimum": 0.5561409665592302,
+      "maximum": 1.2662285444915842,
+      "p05": 0.864468805954323,
+      "p95": 1.244667216944228
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9635051448802432,
+      "minimum": 0.7150846517906646,
+      "maximum": 1.2125428777757719,
+      "p05": 0.7545977903007495,
+      "p95": 1.1432080691539146
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9835365036338539,
+      "minimum": 0.6852390526515688,
+      "maximum": 1.350918700536831,
+      "p05": 0.8445933515310524,
+      "p95": 1.160230582390068
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9735855578028,
+      "minimum": 0.7286058095931046,
+      "maximum": 1.2645726705461684,
+      "p05": 0.7616462222435368,
+      "p95": 1.2048869243746532
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 1.0017300069621562,
+      "minimum": 0.50464420156358,
+      "maximum": 1.2561692632371326,
+      "p05": 0.8735509062703624,
+      "p95": 1.1198000264440051
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 1.0057046573394919,
+      "minimum": 0.6792880087476022,
+      "maximum": 1.5570699805849664,
+      "p05": 0.8879016294115345,
+      "p95": 1.2729215735343835
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9955956564113972,
+      "minimum": 0.7460967444942236,
+      "maximum": 1.560724033903175,
+      "p05": 0.9293488629854576,
+      "p95": 1.2207430075589667
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9998480712988381,
+      "minimum": 0.7402536644543891,
+      "maximum": 1.5886025703291367,
+      "p05": 0.7869152415479994,
+      "p95": 1.1640448007554516
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 1.015654887590437,
+      "minimum": 0.8575257242425584,
+      "maximum": 1.3274741963607728,
+      "p05": 0.9174963453087598,
+      "p95": 1.187327927001865
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9983572671928798,
+      "minimum": 0.7321623173101423,
+      "maximum": 1.1177735739097052,
+      "p05": 0.8947329832829359,
+      "p95": 1.0961098603253543
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9943328996653698,
+      "minimum": 0.7591938738876902,
+      "maximum": 1.403503685546858,
+      "p05": 0.9248887671271393,
+      "p95": 1.1589870036875083
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9799021805797821,
+      "minimum": 0.7043405561014291,
+      "maximum": 1.2861411704593149,
+      "p05": 0.7632034346322791,
+      "p95": 1.2217597198251624
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9708230743279351,
+      "minimum": 0.6140172195312592,
+      "maximum": 1.711880876847009,
+      "p05": 0.7945216432394708,
+      "p95": 1.229173318915431
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.952602473140181,
+      "minimum": 0.6442933235067502,
+      "maximum": 1.5797319666688487,
+      "p05": 0.7109639846351944,
+      "p95": 1.0321096888546344
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9603718002577597,
+      "minimum": 0.5357550858411684,
+      "maximum": 1.3153997397998611,
+      "p05": 0.7861018113359469,
+      "p95": 1.2452539959986355
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9650387187839716,
+      "minimum": 0.5043133941204213,
+      "maximum": 1.6244915499855086,
+      "p05": 0.701781753218177,
+      "p95": 1.1019893132486518
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9705153167374603,
+      "minimum": 0.7003721102987199,
+      "maximum": 1.2649229474972277,
+      "p05": 0.8183914056688039,
+      "p95": 1.1077162527515876
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9559680113454165,
+      "minimum": 0.6304525071341215,
+      "maximum": 1.213391360542844,
+      "p05": 0.7461968455352473,
+      "p95": 1.0651961448582579
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9690017570641696,
+      "minimum": 0.6570815049948651,
+      "maximum": 1.2037056997499354,
+      "p05": 0.8040022750764263,
+      "p95": 1.0900668697215037
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9844161079867888,
+      "minimum": 0.7256574168240593,
+      "maximum": 1.1970190331111576,
+      "p05": 0.7835081934928788,
+      "p95": 1.0577619377641088
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9712498430025821,
+      "minimum": 0.5851129568106312,
+      "maximum": 1.2417409762036065,
+      "p05": 0.8038721271720692,
+      "p95": 1.0511618921093993
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9736212338021609,
+      "minimum": 0.7007837383244462,
+      "maximum": 1.0855900533998577,
+      "p05": 0.7538423330762755,
+      "p95": 1.0667603822166267
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.9678401121313631,
+      "minimum": 0.5710816864556284,
+      "maximum": 1.0752708422127288,
+      "p05": 0.8328635809603027,
+      "p95": 1.0378718747994349
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9784586587790753,
+      "minimum": 0.8200176550520228,
+      "maximum": 2.354875001244512,
+      "p05": 0.8465781322321556,
+      "p95": 1.476979289207157
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9737780430495959,
+      "minimum": 0.7185096256913777,
+      "maximum": 2.303772636310762,
+      "p05": 0.8929536816349257,
+      "p95": 1.1430514313054787
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9693734869108865,
+      "minimum": 0.7134467991251126,
+      "maximum": 1.0773937170327157,
+      "p05": 0.828391078474513,
+      "p95": 1.0692075546721806
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9937910325025094,
+      "minimum": 0.8249170544414999,
+      "maximum": 1.4736028108952222,
+      "p05": 0.8665503746761645,
+      "p95": 1.4479012737235408
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9964350781917817,
+      "minimum": 0.6624636807192588,
+      "maximum": 1.631845067735165,
+      "p05": 0.7648207328427907,
+      "p95": 1.2709667452591156
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0041882862949671,
+      "minimum": 0.4552804528891202,
+      "maximum": 6.020921202383343,
+      "p05": 0.7842447938798944,
+      "p95": 1.3968662818443256
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9705454717867609,
+      "minimum": 0.6174549468971369,
+      "maximum": 1.1284564455406985,
+      "p05": 0.7028172338166078,
+      "p95": 1.0445434582675377
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9709210266931303,
+      "minimum": 0.44309839922810856,
+      "maximum": 2.441233966880652,
+      "p05": 0.8242378573523214,
+      "p95": 1.0779869041004286
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9754820778000788,
+      "minimum": 0.5634524829550864,
+      "maximum": 1.9885841190680278,
+      "p05": 0.7113695423023912,
+      "p95": 1.3641442758205111
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9949456680550404,
+      "minimum": 0.6817942140093728,
+      "maximum": 1.366055254653862,
+      "p05": 0.8817903137228158,
+      "p95": 1.1298458726353748
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9924932397772275,
+      "minimum": 0.7789041581986516,
+      "maximum": 1.2766139867062651,
+      "p05": 0.7938577518194959,
+      "p95": 1.1871397863019615
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9744372653782805,
+      "minimum": 0.47770777852078666,
+      "maximum": 1.57400573330258,
+      "p05": 0.7866472068856022,
+      "p95": 1.1693602757393664
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9843091295727203,
+      "minimum": 0.2717015194824733,
+      "maximum": 1.1764772413099756,
+      "p05": 0.6317476306162269,
+      "p95": 1.0953105183338558
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.9928588641442799,
+      "minimum": 0.8365964530379666,
+      "maximum": 1.2610042386697098,
+      "p05": 0.8571142358489726,
+      "p95": 1.0807094994559883
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9974372683530963,
+      "minimum": 0.764906754032258,
+      "maximum": 1.565041944066092,
+      "p05": 0.8656773087727082,
+      "p95": 1.278229808807369
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9855809400189572,
+      "minimum": 0.341563993189682,
+      "maximum": 3.412961366093008,
+      "p05": 0.8115146556120376,
+      "p95": 1.2052167478228382
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9987234251999824,
+      "minimum": 0.7270570830995255,
+      "maximum": 1.5516550987720235,
+      "p05": 0.8118875463230156,
+      "p95": 1.2769983030529377
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9923075675629174,
+      "minimum": 0.5531168037232049,
+      "maximum": 1.889351691609126,
+      "p05": 0.8812133000171585,
+      "p95": 1.3829089432058606
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9936837813021325,
+      "minimum": 0.7128684974136843,
+      "maximum": 1.668028669033425,
+      "p05": 0.7987142912134417,
+      "p95": 1.2301582743009771
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0133460644382632,
+      "minimum": 0.7104576293838788,
+      "maximum": 1.7808403423846684,
+      "p05": 0.855486965173043,
+      "p95": 1.2466239580619247
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9668842547463394,
+      "minimum": 0.5966925294352178,
+      "maximum": 1.2631439661256174,
+      "p05": 0.7303171683854317,
+      "p95": 1.073768080916036
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 1.002617172682219,
+      "minimum": 0.5989968016498594,
+      "maximum": 1.4085092021534291,
+      "p05": 0.8630498577212543,
+      "p95": 1.1677696317099795
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.986062146762192,
+      "minimum": 0.6826163890414302,
+      "maximum": 1.3347263957220539,
+      "p05": 0.8035563700394299,
+      "p95": 1.1786134063273899
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9987422765260994,
+      "minimum": 0.665188686085081,
+      "maximum": 1.1340516390385866,
+      "p05": 0.854030667391978,
+      "p95": 1.0826164987002018
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9880870943037312,
+      "minimum": 0.6676894514555257,
+      "maximum": 3.11316506435349,
+      "p05": 0.8173785613526591,
+      "p95": 1.1210974137783045
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9949391999352419,
+      "minimum": 0.6563560920407393,
+      "maximum": 1.7118317016517266,
+      "p05": 0.696813100716341,
+      "p95": 1.131153708800033
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9838349023416807,
+      "minimum": 0.7875777794437364,
+      "maximum": 1.1972181776381332,
+      "p05": 0.8289080806249789,
+      "p95": 1.1241272790362595
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 1.002213305254325,
+      "minimum": 0.7284502086118027,
+      "maximum": 1.2114412711965494,
+      "p05": 0.8668612111670433,
+      "p95": 1.131603950653097
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9939375162104487,
+      "minimum": 0.16494187930504434,
+      "maximum": 2.2589521983720418,
+      "p05": 0.7720652473098291,
+      "p95": 1.2624665432194773
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9891257637772587,
+      "minimum": 0.7684507177955487,
+      "maximum": 1.1428757359776882,
+      "p05": 0.8781042168487094,
+      "p95": 1.1036569642112262
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9776295288016066,
+      "minimum": 0.5192909219190969,
+      "maximum": 1.920972141853352,
+      "p05": 0.8227726483818831,
+      "p95": 1.0904872367002367
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0101769220244474,
+      "minimum": 0.9032913069012483,
+      "maximum": 1.757747006797327,
+      "p05": 0.9133256245926359,
+      "p95": 1.2188201228610283
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9826003895976374,
+      "minimum": 0.7124161511758411,
+      "maximum": 1.1432275873606725,
+      "p05": 0.7970193062756027,
+      "p95": 1.1138418537522627
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9986221498838652,
+      "minimum": 0.7999408999927519,
+      "maximum": 2.3234905963710006,
+      "p05": 0.8717639709361248,
+      "p95": 1.3556866289603646
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9941211093672313,
+      "minimum": 0.7301781299168353,
+      "maximum": 1.3542227461990854,
+      "p05": 0.7784572537514596,
+      "p95": 1.1364398510511997
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0020315628101448,
+      "minimum": 0.8598153822872924,
+      "maximum": 1.3738697332994334,
+      "p05": 0.8941335186685984,
+      "p95": 1.1323016073758303
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9712708509673784,
+      "minimum": 0.31980688619127234,
+      "maximum": 1.1974951703836094,
+      "p05": 0.7373827778825125,
+      "p95": 1.1418597253222889
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9958769638479822,
+      "minimum": 0.7702567242098465,
+      "maximum": 1.2156744829781871,
+      "p05": 0.8954076940290107,
+      "p95": 1.1593586555200166
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9844752338805853,
+      "minimum": 0.786344797673933,
+      "maximum": 1.2704111876434983,
+      "p05": 0.7886207374728117,
+      "p95": 1.094028764792112
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 1.0013164165079849,
+      "minimum": 0.7306302321908071,
+      "maximum": 2.268958106906432,
+      "p05": 0.8542293749555151,
+      "p95": 1.1553136036658573
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9592643125077445,
+      "minimum": 0.6667037037037037,
+      "maximum": 1.3209090970564568,
+      "p05": 0.8309512589184433,
+      "p95": 1.1558437434199753
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 1.0040118201794133,
+      "minimum": 0.877639962139941,
+      "maximum": 1.2314531081510904,
+      "p05": 0.9092320117961792,
+      "p95": 1.11050133472909
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 1.0010457158239376,
+      "minimum": 0.7737205416813225,
+      "maximum": 1.8491913508157272,
+      "p05": 0.8621206631977183,
+      "p95": 1.131260438939738
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9888200541724741,
+      "minimum": 0.6079509238477496,
+      "maximum": 2.1251356160222192,
+      "p05": 0.7684177236410916,
+      "p95": 1.2910186494663427
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9907511875583848,
+      "minimum": 0.7029008340460559,
+      "maximum": 1.348047663234796,
+      "p05": 0.8522657397818383,
+      "p95": 1.1924251829201107
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.982598625203737,
+      "minimum": 0.6520055442108493,
+      "maximum": 1.4922554328102544,
+      "p05": 0.7198057167151126,
+      "p95": 1.3107593906675874
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9649741997532146,
+      "minimum": 0.6125999286396204,
+      "maximum": 1.3636178061618769,
+      "p05": 0.754705709848359,
+      "p95": 1.078641574989495
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9497000716570201,
+      "minimum": 0.6292364027144819,
+      "maximum": 1.5182212784561098,
+      "p05": 0.8031722121579037,
+      "p95": 1.1301043647475513
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9459662297846322,
+      "minimum": 0.5293975046867929,
+      "maximum": 1.2680381206943185,
+      "p05": 0.7501429532588815,
+      "p95": 1.1679111970383784
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9638699452660049,
+      "minimum": 0.16669397947637443,
+      "maximum": 1.6942370227628567,
+      "p05": 0.5945047424740486,
+      "p95": 1.116304510351854
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9573136862282887,
+      "minimum": 0.29360335712463675,
+      "maximum": 2.526504913525083,
+      "p05": 0.7334987400129069,
+      "p95": 1.314084525651573
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9271894079296428,
+      "minimum": 0.6638344959369805,
+      "maximum": 2.8135817223198596,
+      "p05": 0.758626831817167,
+      "p95": 1.608638282069211
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9787358461454141,
+      "minimum": 0.5510334577630306,
+      "maximum": 1.2287462743886657,
+      "p05": 0.6759057083549999,
+      "p95": 1.2038757251264958
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9717546130253885,
+      "minimum": 0.459136154385537,
+      "maximum": 1.2424678141908458,
+      "p05": 0.8104165387897928,
+      "p95": 1.0609555883319364
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.962082416076915,
+      "minimum": 0.6179488498945094,
+      "maximum": 1.41713832738803,
+      "p05": 0.7263649174983866,
+      "p95": 1.1332318649021516
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.9710134097310623,
+      "minimum": 0.6431349542619994,
+      "maximum": 3.2618933665167034,
+      "p05": 0.8318454876477295,
+      "p95": 1.3247851095604142
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9846043135394202,
+      "minimum": 0.5076503991217965,
+      "maximum": 1.2609370103415858,
+      "p05": 0.8250750733034753,
+      "p95": 1.2305884239396834
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9755205664119612,
+      "minimum": 0.7736755476454924,
+      "maximum": 1.2768801117095552,
+      "p05": 0.8742715484995567,
+      "p95": 1.1810023986473104
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9702503578366434,
+      "minimum": 0.2814869992318257,
+      "maximum": 1.6233182552034093,
+      "p05": 0.8001267282849294,
+      "p95": 1.159668681877683
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9884402234899283,
+      "minimum": 0.6565904821540388,
+      "maximum": 2.866745827561185,
+      "p05": 0.7851547181472305,
+      "p95": 1.3286409443430216
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9887576952849417,
+      "minimum": 0.6529502290930712,
+      "maximum": 1.2520760287875992,
+      "p05": 0.7619287206270595,
+      "p95": 1.1941667525641737
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0338574137057415,
+      "minimum": 0.15180004050285856,
+      "maximum": 3.0192635128367775,
+      "p05": 0.693833474988381,
+      "p95": 1.7153964264114703
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9146898506760441,
+      "minimum": 0.26980157722338355,
+      "maximum": 1.4343446120840426,
+      "p05": 0.6943264825260989,
+      "p95": 1.3135766963516522
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9441171451764123,
+      "minimum": 0.6821248795116205,
+      "maximum": 1.8048195523069894,
+      "p05": 0.7508133332143753,
+      "p95": 1.0895152377828912
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9557167632448272,
+      "minimum": 0.44171429799303796,
+      "maximum": 1.272193892618771,
+      "p05": 0.6884740252046965,
+      "p95": 1.0962302682593008
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9765316830453785,
+      "minimum": 0.5573947406008475,
+      "maximum": 3.394511033564288,
+      "p05": 0.6929825183532903,
+      "p95": 1.236313891144282
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9561359671726909,
+      "minimum": 0.29474731045834884,
+      "maximum": 1.1442745005558737,
+      "p05": 0.4838406074507081,
+      "p95": 1.0695834407968494
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9891803213296975,
+      "minimum": 0.811123747927486,
+      "maximum": 1.9240647577259145,
+      "p05": 0.8378622976023364,
+      "p95": 1.2562057921322187
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.977930257088891,
+      "minimum": 0.7159384218289085,
+      "maximum": 1.9813386287838286,
+      "p05": 0.7371985519990618,
+      "p95": 1.1217484397163144
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.9798467686665095,
+      "minimum": 0.4874666400618562,
+      "maximum": 1.9278331241152746,
+      "p05": 0.8095087846374867,
+      "p95": 1.3124089846976836
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9726652451618579,
+      "minimum": 0.6699601476556905,
+      "maximum": 1.2948740263696097,
+      "p05": 0.8067255181868532,
+      "p95": 1.1359411141887317
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9684609688875212,
+      "minimum": 0.7045831981216714,
+      "maximum": 1.9589575727055268,
+      "p05": 0.7911150777205738,
+      "p95": 1.189365832601996
+    }
+  },
+  {
+    "graph": "google_sampled_1024",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.978954200830175,
+      "minimum": 0.6174345009202041,
+      "maximum": 1.5610322813508086,
+      "p05": 0.7504466678108128,
+      "p95": 1.1195694465348716
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.995554645414483,
+      "minimum": 0.881688272137612,
+      "maximum": 1.3946336253702705,
+      "p05": 0.931873238435772,
+      "p95": 1.116553767067178
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0028770410733445,
+      "minimum": 0.847462838262256,
+      "maximum": 1.2198153807188796,
+      "p05": 0.924147825175885,
+      "p95": 1.069802191587955
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9981429568181943,
+      "minimum": 0.8308419694434439,
+      "maximum": 1.2372907562738462,
+      "p05": 0.8873641733799138,
+      "p95": 1.0497154907415374
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 1.002163366589281,
+      "minimum": 0.6889467515786719,
+      "maximum": 1.3340705412511584,
+      "p05": 0.9234806680413796,
+      "p95": 1.1028107286753874
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0048991969162004,
+      "minimum": 0.9167831896613314,
+      "maximum": 1.3583684002446412,
+      "p05": 0.962124646820904,
+      "p95": 1.2565450103723703
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0047545124905095,
+      "minimum": 0.7918872643332739,
+      "maximum": 1.1140488434455225,
+      "p05": 0.8710085567379909,
+      "p95": 1.0758866582338724
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 1.0030257159707716,
+      "minimum": 0.8417198872746258,
+      "maximum": 1.3215121872821374,
+      "p05": 0.9155172051349427,
+      "p95": 1.0650240874057684
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 1.0114830298011426,
+      "minimum": 0.8982791068127424,
+      "maximum": 1.2809503280797574,
+      "p05": 0.9282255164498207,
+      "p95": 1.0694362660000514
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 1.0020252539566816,
+      "minimum": 0.8090905408285295,
+      "maximum": 1.1356051506689484,
+      "p05": 0.9021305922925755,
+      "p95": 1.1073162511955488
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9929851314706737,
+      "minimum": 0.8014461071439486,
+      "maximum": 1.253544027497327,
+      "p05": 0.9116855355560093,
+      "p95": 1.1215709684907045
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.9956034359823194,
+      "minimum": 0.8123854506782023,
+      "maximum": 1.1421750953019087,
+      "p05": 0.8921146942220797,
+      "p95": 1.0934169009831332
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 1.0066424442607835,
+      "minimum": 0.8855379485703956,
+      "maximum": 1.2099071287874776,
+      "p05": 0.9177351423904102,
+      "p95": 1.178171358061732
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9994782621733989,
+      "minimum": 0.8377978726418522,
+      "maximum": 1.2643204134106631,
+      "p05": 0.937924518273335,
+      "p95": 1.0450787616095862
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 1.001816993549537,
+      "minimum": 0.8082805030267449,
+      "maximum": 1.1871144493069203,
+      "p05": 0.9142627623873482,
+      "p95": 1.1121692221418669
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9978092277464836,
+      "minimum": 0.8469504146909058,
+      "maximum": 1.2109362841940683,
+      "p05": 0.9152417122783919,
+      "p95": 1.097813919172053
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0025061708706886,
+      "minimum": 0.7737200153358301,
+      "maximum": 1.1726879348227908,
+      "p05": 0.8659113021308216,
+      "p95": 1.1450727316067824
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0031936446840217,
+      "minimum": 0.8608805013005835,
+      "maximum": 1.184235887952002,
+      "p05": 0.9163411876412823,
+      "p95": 1.1495235411274183
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0024614899465452,
+      "minimum": 0.7544943976432872,
+      "maximum": 1.2244271565119964,
+      "p05": 0.9371808696713948,
+      "p95": 1.072318503531374
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9969132238026284,
+      "minimum": 0.8734576725130411,
+      "maximum": 1.2773135888904645,
+      "p05": 0.9253634762105306,
+      "p95": 1.096423396501677
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0059711438488446,
+      "minimum": 0.7365897842103242,
+      "maximum": 1.1215102674819672,
+      "p05": 0.8882293552179525,
+      "p95": 1.0993596983001523
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 1.002241548310499,
+      "minimum": 0.8327772245610323,
+      "maximum": 1.3338237435366258,
+      "p05": 0.9339584518877901,
+      "p95": 1.0988398129207129
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 1.0116023641314156,
+      "minimum": 0.7894235320985721,
+      "maximum": 1.203627621517874,
+      "p05": 0.8937308182940253,
+      "p95": 1.1581188985743252
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9957229221379285,
+      "minimum": 0.8835430459892996,
+      "maximum": 1.6227882931768964,
+      "p05": 0.8983241054744387,
+      "p95": 1.1426633145627474
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 1.0104009224248296,
+      "minimum": 0.8842832820907218,
+      "maximum": 1.1701606701088998,
+      "p05": 0.9591856506279616,
+      "p95": 1.0909308635833255
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.9998907309833873,
+      "minimum": 0.8498202801520002,
+      "maximum": 1.1166963137746495,
+      "p05": 0.9109027392511064,
+      "p95": 1.0916404858347728
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 1.000991627540306,
+      "minimum": 0.7630318046058445,
+      "maximum": 1.1570635816579982,
+      "p05": 0.88375932250949,
+      "p95": 1.1072199369158489
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9947102430798304,
+      "minimum": 0.8387487678924312,
+      "maximum": 1.1373913347851197,
+      "p05": 0.8835109885866003,
+      "p95": 1.1253452656959562
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.99178499468202,
+      "minimum": 0.9117740301651126,
+      "maximum": 1.4475318991618753,
+      "p05": 0.9301000612728856,
+      "p95": 1.047427156540652
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.002250214247758,
+      "minimum": 0.6995339599617001,
+      "maximum": 1.3836621174848405,
+      "p05": 0.7928030729150172,
+      "p95": 1.1533859348187714
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9875256106218087,
+      "minimum": 0.6906088974668855,
+      "maximum": 1.431898456863877,
+      "p05": 0.8382882399833186,
+      "p95": 1.1676117001640913
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9980094673989992,
+      "minimum": 0.7334190247022631,
+      "maximum": 1.1288871606073,
+      "p05": 0.8958717933806163,
+      "p95": 1.1012509800406842
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9883399438098088,
+      "minimum": 0.785806765269433,
+      "maximum": 1.0984279292472652,
+      "p05": 0.8943854577745767,
+      "p95": 1.0575244318009829
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.991842834360864,
+      "minimum": 0.8495390934571794,
+      "maximum": 1.2437128430296378,
+      "p05": 0.894703960614597,
+      "p95": 1.0861222699657325
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9877448917462097,
+      "minimum": 0.9099990220770122,
+      "maximum": 1.158530127217892,
+      "p05": 0.92260019365535,
+      "p95": 1.052244551436904
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9810511914132889,
+      "minimum": 0.8184965531462206,
+      "maximum": 1.1552843688007481,
+      "p05": 0.8534563336348535,
+      "p95": 1.1137643673252862
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9857639618600624,
+      "minimum": 0.7436515410958904,
+      "maximum": 1.319433491305139,
+      "p05": 0.8145783948506925,
+      "p95": 1.1471446582361413
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9920021221443345,
+      "minimum": 0.6336572940529774,
+      "maximum": 1.2088110171597233,
+      "p05": 0.8356037191823406,
+      "p95": 1.0816106270710952
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9919499748878955,
+      "minimum": 0.6436299698823538,
+      "maximum": 1.295502490397313,
+      "p05": 0.9148021218360969,
+      "p95": 1.1467335450991445
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 1.0113973715807507,
+      "minimum": 0.8171603757575894,
+      "maximum": 1.2995172296215596,
+      "p05": 0.9357147102615602,
+      "p95": 1.2230105175907036
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9987669374332697,
+      "minimum": 0.5422594392109571,
+      "maximum": 1.0912591936566365,
+      "p05": 0.9029192847207201,
+      "p95": 1.0626510861666836
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 1.0041909621737357,
+      "minimum": 0.8126444006155313,
+      "maximum": 1.2952685222578981,
+      "p05": 0.9090995952446927,
+      "p95": 1.187290133814129
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9889315788967975,
+      "minimum": 0.5996482158199632,
+      "maximum": 1.632370054925732,
+      "p05": 0.8686170482785143,
+      "p95": 1.0879584380640286
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0014504853805684,
+      "minimum": 0.8836991999048877,
+      "maximum": 1.2079265283350857,
+      "p05": 0.9215678879412968,
+      "p95": 1.0753073429224262
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9877334797233983,
+      "minimum": 0.6955005120837429,
+      "maximum": 1.333691680770544,
+      "p05": 0.8291896912858203,
+      "p95": 1.1568798977971146
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0154667823203836,
+      "minimum": 0.7217045745337407,
+      "maximum": 1.379292224837513,
+      "p05": 0.8596191833752069,
+      "p95": 1.3079351750849908
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.999397261521557,
+      "minimum": 0.46091582920285573,
+      "maximum": 1.9449820653469096,
+      "p05": 0.8710069789338478,
+      "p95": 1.057196799932226
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9948429096275249,
+      "minimum": 0.5410963680569953,
+      "maximum": 2.0000550186585015,
+      "p05": 0.894292079766477,
+      "p95": 1.088887469869589
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9842689762076529,
+      "minimum": 0.7245770227268775,
+      "maximum": 1.1811574652580559,
+      "p05": 0.8174848467121356,
+      "p95": 1.050000934508269
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9887347556384917,
+      "minimum": 0.2731382877022363,
+      "maximum": 1.1720865469124953,
+      "p05": 0.9200299194332491,
+      "p95": 1.0673178301214854
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9855663800221086,
+      "minimum": 0.7167469069458146,
+      "maximum": 1.3620263809612099,
+      "p05": 0.8780382068144797,
+      "p95": 1.0900045759224999
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9909899410861163,
+      "minimum": 0.5979022308040245,
+      "maximum": 1.6973558924778438,
+      "p05": 0.761121399022375,
+      "p95": 1.0793990564834854
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.994198343990979,
+      "minimum": 0.847892428708485,
+      "maximum": 1.0872665824114967,
+      "p05": 0.8933261556744859,
+      "p95": 1.0615671031453426
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.9946009189160196,
+      "minimum": 0.6650772053775387,
+      "maximum": 1.1914744127797994,
+      "p05": 0.9136659014460724,
+      "p95": 1.0782287932134462
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9945291911400658,
+      "minimum": 0.8623075647304442,
+      "maximum": 1.2993426274104118,
+      "p05": 0.9252824607989165,
+      "p95": 1.06576217104303
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9975853073729578,
+      "minimum": 0.89796772238355,
+      "maximum": 1.1305587879012784,
+      "p05": 0.963396482871491,
+      "p95": 1.0935871688706782
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 1.000573292475688,
+      "minimum": 0.7639654846266898,
+      "maximum": 1.2463810924343153,
+      "p05": 0.8292742119581338,
+      "p95": 1.0547405453566214
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0048956230157182,
+      "minimum": 0.8578096055396088,
+      "maximum": 1.1392950222099838,
+      "p05": 0.9116295597425127,
+      "p95": 1.0943244712461948
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9963869265018152,
+      "minimum": 0.7953457900091451,
+      "maximum": 1.1188159695416278,
+      "p05": 0.8964694596615959,
+      "p95": 1.0694609080532074
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0042372280508594,
+      "minimum": 0.7294135300757071,
+      "maximum": 1.2940339085512407,
+      "p05": 0.9070230398431072,
+      "p95": 1.076783517433905
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0012669479334957,
+      "minimum": 0.6808136465918735,
+      "maximum": 1.1760814335969503,
+      "p05": 0.912727906478056,
+      "p95": 1.1096953916955183
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0008905942218138,
+      "minimum": 0.7555515788688811,
+      "maximum": 1.3945983869125638,
+      "p05": 0.8749877630715123,
+      "p95": 1.156262441891795
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9887711265244927,
+      "minimum": 0.7126554277544389,
+      "maximum": 1.395938469386198,
+      "p05": 0.8596020043749344,
+      "p95": 1.0717287080871445
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9994385438099562,
+      "minimum": 0.5937396955580736,
+      "maximum": 1.4831872493499476,
+      "p05": 0.8921529709032838,
+      "p95": 1.1180418417893698
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9896174690213726,
+      "minimum": 0.8909831860545027,
+      "maximum": 1.5113676169933614,
+      "p05": 0.9071248097800053,
+      "p95": 1.0858509038792297
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9987399566738133,
+      "minimum": 0.5808297315981262,
+      "maximum": 1.045778409688523,
+      "p05": 0.8045168454535219,
+      "p95": 1.0354994154837645
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9920082482076069,
+      "minimum": 0.6123265943641772,
+      "maximum": 1.1030422670294413,
+      "p05": 0.723327125612957,
+      "p95": 1.0492922601565677
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 1.0015843217519373,
+      "minimum": 0.7029448759543198,
+      "maximum": 1.2899401574996183,
+      "p05": 0.9461549262328198,
+      "p95": 1.078853412349994
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9921075306316425,
+      "minimum": 0.6708465956162788,
+      "maximum": 1.2660856783146501,
+      "p05": 0.8980688491192322,
+      "p95": 1.0602773637844076
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9952653646003589,
+      "minimum": 0.8976482724295164,
+      "maximum": 1.3268919908466819,
+      "p05": 0.9408140785348105,
+      "p95": 1.0656105788124366
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9958806724720934,
+      "minimum": 0.9123865867774402,
+      "maximum": 1.409785303806948,
+      "p05": 0.9410103225725103,
+      "p95": 1.0358477707291742
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0048109421068303,
+      "minimum": 0.7291611388430226,
+      "maximum": 1.5597611737181885,
+      "p05": 0.8861633551656599,
+      "p95": 1.1661025723932374
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0108930190738086,
+      "minimum": 0.6005198158833951,
+      "maximum": 1.5327096566641112,
+      "p05": 0.874415098978747,
+      "p95": 1.1285915936188504
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.008768114372751,
+      "minimum": 0.8271589715680313,
+      "maximum": 1.1250702250932536,
+      "p05": 0.9066944674111573,
+      "p95": 1.046560657541075
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0016321586253878,
+      "minimum": 0.8883044953189554,
+      "maximum": 1.1366743756376512,
+      "p05": 0.9408099527811112,
+      "p95": 1.083909819540513
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.996265608656089,
+      "minimum": 0.8867499573455736,
+      "maximum": 1.2729920526322402,
+      "p05": 0.9264164709071921,
+      "p95": 1.0695840076484533
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0023041719167982,
+      "minimum": 0.7859027758965828,
+      "maximum": 1.5863070007024664,
+      "p05": 0.9182487217480497,
+      "p95": 1.0884822294552536
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9864881958493295,
+      "minimum": 0.7453168672353353,
+      "maximum": 1.4980475914224096,
+      "p05": 0.9039294339967827,
+      "p95": 1.0985712612861458
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 1.0007314480237952,
+      "minimum": 0.619874572198739,
+      "maximum": 1.3754719733375818,
+      "p05": 0.8646015180783428,
+      "p95": 1.0601586346773189
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 1.0028804793508588,
+      "minimum": 0.5930263228777392,
+      "maximum": 1.1562120222512957,
+      "p05": 0.8126251263822318,
+      "p95": 1.0962267067758817
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 1.0002339574212424,
+      "minimum": 0.6993309511204454,
+      "maximum": 1.3357900040389266,
+      "p05": 0.8305755277062162,
+      "p95": 1.161552380011298
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.9960676984733489,
+      "minimum": 0.7495542024117418,
+      "maximum": 1.2351203746993789,
+      "p05": 0.920021519895312,
+      "p95": 1.1548633020414396
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9860866499758811,
+      "minimum": 0.7135512817019422,
+      "maximum": 1.1235720163034117,
+      "p05": 0.8788227344088506,
+      "p95": 1.0895263187725892
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9983817240095629,
+      "minimum": 0.6754738158588828,
+      "maximum": 1.1511488979958,
+      "p05": 0.9089176865841201,
+      "p95": 1.1206824085841518
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 1.0034180730120958,
+      "minimum": 0.7019820953053508,
+      "maximum": 1.134722008478989,
+      "p05": 0.922890006250909,
+      "p95": 1.0926414915374132
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0020805838106321,
+      "minimum": 0.7120902214407496,
+      "maximum": 1.1834786571002696,
+      "p05": 0.8691178218358423,
+      "p95": 1.0938038195509558
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9985724410982899,
+      "minimum": 0.7240739367713438,
+      "maximum": 1.3349547160580768,
+      "p05": 0.882025205487157,
+      "p95": 1.1816969437286877
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.989141784601964,
+      "minimum": 0.8579247047448365,
+      "maximum": 1.5523814451502156,
+      "p05": 0.9246876110519663,
+      "p95": 1.219091438963742
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9803886248029263,
+      "minimum": 0.7449524929210034,
+      "maximum": 1.9524876526877453,
+      "p05": 0.8706490234221179,
+      "p95": 1.0556180705187757
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9828124363457194,
+      "minimum": 0.6347607633234632,
+      "maximum": 1.2607281061745885,
+      "p05": 0.8700780879138812,
+      "p95": 1.116812662600636
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9872426319793903,
+      "minimum": 0.7473564097285533,
+      "maximum": 1.1294263118654508,
+      "p05": 0.854376229475025,
+      "p95": 1.055144307535901
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 1.0028185993442407,
+      "minimum": 0.5034434618817123,
+      "maximum": 1.8396911877163091,
+      "p05": 0.9100678453198182,
+      "p95": 1.1498706173284607
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9939775863598723,
+      "minimum": 0.7910417834172223,
+      "maximum": 1.5108457953783379,
+      "p05": 0.8922012491033119,
+      "p95": 1.1675868751976453
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9854900968168093,
+      "minimum": 0.7345323976282576,
+      "maximum": 1.3460517405316161,
+      "p05": 0.7818964462603037,
+      "p95": 1.1918186199225682
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9952470275879419,
+      "minimum": 0.8762638192842638,
+      "maximum": 1.2685919049002583,
+      "p05": 0.9156853332168234,
+      "p95": 1.1429349943574494
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.9960724262743845,
+      "minimum": 0.6723769463263373,
+      "maximum": 1.22272229572517,
+      "p05": 0.8889311804228364,
+      "p95": 1.0941040059477203
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9970109058875055,
+      "minimum": 0.6640495391919049,
+      "maximum": 1.329437175013393,
+      "p05": 0.8855885199356249,
+      "p95": 1.1447560610820666
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9968155420895839,
+      "minimum": 0.6971778376021441,
+      "maximum": 1.1885412534152775,
+      "p05": 0.8338031591373241,
+      "p95": 1.1129289147468777
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9920594662290555,
+      "minimum": 0.7878693363839555,
+      "maximum": 1.341597390078175,
+      "p05": 0.8978074816749567,
+      "p95": 1.1889424377265458
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.012530246784883,
+      "minimum": 0.5625641885413853,
+      "maximum": 1.7010804702457556,
+      "p05": 0.9212035050550312,
+      "p95": 1.0991801984321024
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9825315035965416,
+      "minimum": 0.38063270017600404,
+      "maximum": 1.1022443272181992,
+      "p05": 0.7384001337977273,
+      "p95": 1.053520959079113
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0021572041733307,
+      "minimum": 0.6832072756638691,
+      "maximum": 1.3883650068316682,
+      "p05": 0.6950078740504446,
+      "p95": 1.0733590904524375
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9947395888584286,
+      "minimum": 0.22865223277306332,
+      "maximum": 1.1081198690203873,
+      "p05": 0.40222614882187624,
+      "p95": 1.0857044961522326
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9993015471732187,
+      "minimum": 0.7688024850404679,
+      "maximum": 1.4754976165936615,
+      "p05": 0.8109107666089188,
+      "p95": 1.1230605162134428
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9927521463284432,
+      "minimum": 0.8265972008179471,
+      "maximum": 1.3952921371730567,
+      "p05": 0.8561807589543766,
+      "p95": 1.080222622133826
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 1.0023460544782656,
+      "minimum": 0.660023951660722,
+      "maximum": 1.1808021467795249,
+      "p05": 0.8812474767717957,
+      "p95": 1.103112173360347
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9999975855730957,
+      "minimum": 0.6356011053998225,
+      "maximum": 1.2475711603794124,
+      "p05": 0.7748839721574383,
+      "p95": 1.1197709641830802
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.989988835048436,
+      "minimum": 0.7344033044915522,
+      "maximum": 1.3749060055774958,
+      "p05": 0.8396068187337551,
+      "p95": 1.1411699989594961
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.983830956209868,
+      "minimum": 0.559525279858078,
+      "maximum": 1.2179683758516748,
+      "p05": 0.7641067258674717,
+      "p95": 1.0615348741980248
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 1.0055509008112589,
+      "minimum": 0.6372074258439728,
+      "maximum": 1.1740176376705227,
+      "p05": 0.8328421891573694,
+      "p95": 1.087382299796997
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 1.0004509385918123,
+      "minimum": 0.7351516454430984,
+      "maximum": 1.4354770556917096,
+      "p05": 0.885410365111718,
+      "p95": 1.3002589149021961
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.999398047738866,
+      "minimum": 0.6121539600119652,
+      "maximum": 1.3807835569716824,
+      "p05": 0.8459513448165115,
+      "p95": 1.1976843603956593
+    }
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9945221763982823,
+      "minimum": 0.6112981157802254,
+      "maximum": 2.2527565951522965,
+      "p05": 0.8577046810022548,
+      "p95": 1.1693042507166092
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0081640814742032,
+      "minimum": 0.9395532388959065,
+      "maximum": 1.4975329494578942,
+      "p05": 0.9459593260301004,
+      "p95": 1.091367604830965
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9895400059757427,
+      "minimum": 0.5075348219529899,
+      "maximum": 1.4159044979405526,
+      "p05": 0.7851095307885797,
+      "p95": 1.1080319047383784
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0028162947301045,
+      "minimum": 0.7367206926283493,
+      "maximum": 1.341144517433047,
+      "p05": 0.9118826436881592,
+      "p95": 1.1271862635945968
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9874138933841223,
+      "minimum": 0.49920600874793575,
+      "maximum": 1.3460405986125052,
+      "p05": 0.9102691640170072,
+      "p95": 1.078766506758115
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9837857823073319,
+      "minimum": 0.5141601650076226,
+      "maximum": 1.2796535473664736,
+      "p05": 0.6304319795707702,
+      "p95": 1.1129469563057335
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9802624563899991,
+      "minimum": 0.5599176881721685,
+      "maximum": 1.7584371855003553,
+      "p05": 0.7711091195238767,
+      "p95": 1.1401310481845501
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9933469205825505,
+      "minimum": 0.47294161057205214,
+      "maximum": 1.098066458826206,
+      "p05": 0.720182727903876,
+      "p95": 1.0578771967284117
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 1.0029672749106089,
+      "minimum": 0.7816889173616655,
+      "maximum": 1.1080471479891274,
+      "p05": 0.9571320529842267,
+      "p95": 1.0945082487525637
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 1.0003020261216964,
+      "minimum": 0.7283088467514749,
+      "maximum": 1.3844376968575784,
+      "p05": 0.921368895769708,
+      "p95": 1.0852520902305665
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 1.0052879276871705,
+      "minimum": 0.6632164881494392,
+      "maximum": 1.1211964643195877,
+      "p05": 0.9568865451794897,
+      "p95": 1.081835060045026
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 1.0145888108394527,
+      "minimum": 0.6871500349987918,
+      "maximum": 1.5942042733302229,
+      "p05": 0.9543110335590878,
+      "p95": 1.0859705166641054
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 1.0128230351827476,
+      "minimum": 0.8381777491345859,
+      "maximum": 1.6737209781474947,
+      "p05": 0.941761923673069,
+      "p95": 1.157210446776656
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 1.0099407464144439,
+      "minimum": 0.5743683893122716,
+      "maximum": 1.4432653141172178,
+      "p05": 0.9473664389505669,
+      "p95": 1.119639397231298
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "deferred",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 1.002021046043731,
+      "minimum": 0.4721107270690876,
+      "maximum": 1.8131701783624914,
+      "p05": 0.9459486028350327,
+      "p95": 1.07497855138915
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0167230846013842,
+      "minimum": 0.7196299859004599,
+      "maximum": 2.101234177062238,
+      "p05": 0.8406491355019009,
+      "p95": 1.4709978241598363
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0110752411984802,
+      "minimum": 0.6516950622570835,
+      "maximum": 1.291556190726916,
+      "p05": 0.8336029602534861,
+      "p95": 1.197095314990446
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0019199490784918,
+      "minimum": 0.709190904144789,
+      "maximum": 1.7762897132264004,
+      "p05": 0.8924126797962574,
+      "p95": 1.1501968274514554
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9990463726664248,
+      "minimum": 0.9280046069210003,
+      "maximum": 1.837903068457493,
+      "p05": 0.928305854633366,
+      "p95": 1.1555657879189554
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0039394292014046,
+      "minimum": 0.6544097451619368,
+      "maximum": 1.7509281754554809,
+      "p05": 0.8711896219168356,
+      "p95": 1.1822251290158092
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 1.006950799895401,
+      "minimum": 0.7561822418660891,
+      "maximum": 1.9009385965229924,
+      "p05": 0.9055628261707831,
+      "p95": 1.1946020216450994
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 1.0026438502395913,
+      "minimum": 0.8027634002737497,
+      "maximum": 1.7964121831795665,
+      "p05": 0.8769843668728169,
+      "p95": 1.078652293646214
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9925285150926397,
+      "minimum": 0.9127523012085639,
+      "maximum": 1.216929111271206,
+      "p05": 0.9274017130794082,
+      "p95": 1.1567184518043818
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9960315083277187,
+      "minimum": 0.6434530033319138,
+      "maximum": 1.6530157996961383,
+      "p05": 0.8860779381226527,
+      "p95": 1.0804792937566183
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9941010102222043,
+      "minimum": 0.7723098315107311,
+      "maximum": 1.552842541145196,
+      "p05": 0.9174482829954652,
+      "p95": 1.103916016987479
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.9946864410958829,
+      "minimum": 0.8574010305804617,
+      "maximum": 1.293515061384635,
+      "p05": 0.9006502600885055,
+      "p95": 1.1572676869182368
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 0.9997937612791692,
+      "minimum": 0.7144744966236698,
+      "maximum": 1.1485950098196012,
+      "p05": 0.8514670243983057,
+      "p95": 1.064657468956547
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9922354769895332,
+      "minimum": 0.7434378881451008,
+      "maximum": 2.72362136398506,
+      "p05": 0.8381957259599182,
+      "p95": 1.9616891449062275
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "32",
+    "path": "ready",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 1.001345364662399,
+      "minimum": 0.8163461789793767,
+      "maximum": 1.7110052461082919,
+      "p05": 0.9060402705589027,
+      "p95": 1.217417306650351
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9913925175549169,
+      "minimum": 0.8730837173270286,
+      "maximum": 1.1461725763527673,
+      "p05": 0.8913229396046989,
+      "p95": 1.1078575652618898
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9906963602107334,
+      "minimum": 0.8258471060814965,
+      "maximum": 1.5593370989477306,
+      "p05": 0.9111535470108398,
+      "p95": 1.1118244696226562
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.991864550927816,
+      "minimum": 0.7166800393432462,
+      "maximum": 1.6497606823046267,
+      "p05": 0.8879930181858404,
+      "p95": 1.2616706929490042
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9933258144846062,
+      "minimum": 0.9085257395249213,
+      "maximum": 1.2112827145935334,
+      "p05": 0.9235590997070504,
+      "p95": 1.0869166343996957
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9861829026167972,
+      "minimum": 0.6856454100171936,
+      "maximum": 1.325381435289436,
+      "p05": 0.8304128837611414,
+      "p95": 1.141464226039946
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9930536709380158,
+      "minimum": 0.6965651888739862,
+      "maximum": 1.4613935478029831,
+      "p05": 0.9210076101111639,
+      "p95": 1.2244063353107164
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 1.0020766353041193,
+      "minimum": 0.7455047304834801,
+      "maximum": 1.1516579566479208,
+      "p05": 0.8930428196696679,
+      "p95": 1.0712832382055906
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9887854498279687,
+      "minimum": 0.8690235213369794,
+      "maximum": 1.131663314055821,
+      "p05": 0.9128268332009534,
+      "p95": 1.062408630460184
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.9991285617090395,
+      "minimum": 0.8807300055235968,
+      "maximum": 1.1428773602262081,
+      "p05": 0.9022877224027352,
+      "p95": 1.1245332125063658
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9986427370421258,
+      "minimum": 0.6991755986375637,
+      "maximum": 1.199911502232711,
+      "p05": 0.8718047027577702,
+      "p95": 1.067904912949098
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 1.0087661364279246,
+      "minimum": 0.7464675316281637,
+      "maximum": 1.2434849982409997,
+      "p05": 0.8904045544356554,
+      "p95": 1.1078145119242424
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 1.0009310750399987,
+      "minimum": 0.9087923936074999,
+      "maximum": 1.118564056629774,
+      "p05": 0.9600152337019418,
+      "p95": 1.0925944065525637
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 1.0085159702122688,
+      "minimum": 0.7481014062144288,
+      "maximum": 1.150434502671799,
+      "p05": 0.9013545061176865,
+      "p95": 1.1337322503395053
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "deferred",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9854777647208204,
+      "minimum": 0.6636245514478012,
+      "maximum": 1.1321780218448825,
+      "p05": 0.9254206807269599,
+      "p95": 1.0581071500231525
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9974946901445958,
+      "minimum": 0.5700686039264962,
+      "maximum": 1.7701270318262532,
+      "p05": 0.840913642831558,
+      "p95": 1.559341353156144
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0011415460924686,
+      "minimum": 0.5292870365590129,
+      "maximum": 1.5596784212883374,
+      "p05": 0.8303850116378818,
+      "p95": 1.3280909232913622
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0062910282651554,
+      "minimum": 0.7172093860289339,
+      "maximum": 1.503117006028269,
+      "p05": 0.907530054057004,
+      "p95": 1.2851320752141489
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9761934027873698,
+      "minimum": 0.7195468313598993,
+      "maximum": 4.9589661945621835,
+      "p05": 0.8572756045629792,
+      "p95": 1.3785567938133059
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0154844692904532,
+      "minimum": 0.877296034083797,
+      "maximum": 2.1143200962695547,
+      "p05": 0.9057203469460514,
+      "p95": 1.7161196035846047
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9946096547935699,
+      "minimum": 0.7446807554361017,
+      "maximum": 2.2342799383288656,
+      "p05": 0.8466767825652937,
+      "p95": 1.0767118021178437
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 1.0018516659429737,
+      "minimum": 0.630298643580278,
+      "maximum": 2.1418574414244036,
+      "p05": 0.9346872723860632,
+      "p95": 1.1425711543598638
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9910115998562835,
+      "minimum": 0.684836784409257,
+      "maximum": 1.6727750838002475,
+      "p05": 0.8854270897707172,
+      "p95": 1.1466149357917512
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 0.985198663810428,
+      "minimum": 0.7226363438070775,
+      "maximum": 1.0983978697413026,
+      "p05": 0.8973520422495156,
+      "p95": 1.0543868910894405
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9987429610199752,
+      "minimum": 0.27893986107750346,
+      "maximum": 1.2189402049627318,
+      "p05": 0.8727067700864576,
+      "p95": 1.0772303542007367
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.999072849114309,
+      "minimum": 0.7438856207037732,
+      "maximum": 1.1057715553791474,
+      "p05": 0.8578185004204393,
+      "p95": 1.0393930999073964
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 1.0062997406591552,
+      "minimum": 0.40383717444427286,
+      "maximum": 1.679364536299671,
+      "p05": 0.9069541768004477,
+      "p95": 1.2199935194093672
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 0.9908951173568983,
+      "minimum": 0.4636031216929603,
+      "maximum": 1.9933418894180341,
+      "p05": 0.735711905629536,
+      "p95": 1.4874737793398516
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "legacy",
+    "q": "8",
+    "path": "ready",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 1.0029307242142715,
+      "minimum": 0.8390180862726844,
+      "maximum": 2.05820562900641,
+      "p05": 0.9058946237155547,
+      "p95": 1.2534466567140414
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.000134843108055,
+      "minimum": 0.8737799181168392,
+      "maximum": 1.4228905728985488,
+      "p05": 0.9016636836495088,
+      "p95": 1.1468423813802757
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9971662566120418,
+      "minimum": 0.649456928115644,
+      "maximum": 1.1204946280154064,
+      "p05": 0.7830967717520912,
+      "p95": 1.0531157153504656
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9912917410915238,
+      "minimum": 0.8763947225316103,
+      "maximum": 1.1818485379969437,
+      "p05": 0.9042872318655133,
+      "p95": 1.1341647550079543
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.991800232251431,
+      "minimum": 0.8366219429473996,
+      "maximum": 1.52262263021582,
+      "p05": 0.9159824771862238,
+      "p95": 1.0746509606973942
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0093125714846747,
+      "minimum": 0.8749270066442936,
+      "maximum": 1.3834328243760412,
+      "p05": 0.8935355771112048,
+      "p95": 1.1389151921153564
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9853456183614684,
+      "minimum": 0.9383811258284679,
+      "maximum": 1.0958657542977581,
+      "p05": 0.944192857930823,
+      "p95": 1.068730644090543
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 1.0001890156053745,
+      "minimum": 0.8170590314907361,
+      "maximum": 1.4516181603174276,
+      "p05": 0.9101302338958915,
+      "p95": 1.1676909916979459
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 1.0021232104311184,
+      "minimum": 0.9323844695889297,
+      "maximum": 1.1446251521766957,
+      "p05": 0.9670443034120024,
+      "p95": 1.0498710458732867
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 1.0040415645981557,
+      "minimum": 0.862026383508885,
+      "maximum": 1.1855835346313839,
+      "p05": 0.9272969574297456,
+      "p95": 1.084384454773472
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9933200268427697,
+      "minimum": 0.7114281658410503,
+      "maximum": 1.2871613087662754,
+      "p05": 0.9357588267007395,
+      "p95": 1.0865563938066367
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 1.0041987329267799,
+      "minimum": 0.7977219600650699,
+      "maximum": 1.4859468521525263,
+      "p05": 0.873106799097962,
+      "p95": 1.0922920225961197
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 1.0037497104915627,
+      "minimum": 0.8659484289577593,
+      "maximum": 1.2187116913756517,
+      "p05": 0.9650225214454093,
+      "p95": 1.1358549964843265
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 1.0023668865765085,
+      "minimum": 0.9097793360290795,
+      "maximum": 1.30027110111823,
+      "p05": 0.9675815426685687,
+      "p95": 1.0927491160890122
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "deferred",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9931117334862947,
+      "minimum": 0.6124803550271994,
+      "maximum": 1.1994020015781623,
+      "p05": 0.8382264790227827,
+      "p95": 1.1753489469734841
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0020610405263088,
+      "minimum": 0.8192864867384904,
+      "maximum": 1.2883430086166148,
+      "p05": 0.8797274441381794,
+      "p95": 1.117980488391648
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9887478064396996,
+      "minimum": 0.7064961905220832,
+      "maximum": 1.6835633875752853,
+      "p05": 0.8945136149082344,
+      "p95": 1.0844743882472097
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0027027093063055,
+      "minimum": 0.5083583456384223,
+      "maximum": 1.3302341080307614,
+      "p05": 0.8386779963050318,
+      "p95": 1.138739772296501
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9889649666117855,
+      "minimum": 0.8378519251197533,
+      "maximum": 1.3690171713844195,
+      "p05": 0.9350050657848461,
+      "p95": 1.085286428188775
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0064936536939646,
+      "minimum": 0.8245622080764073,
+      "maximum": 1.1662149805424487,
+      "p05": 0.9443259915157942,
+      "p95": 1.0740246239521005
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9963751607165605,
+      "minimum": 0.8727372093796396,
+      "maximum": 1.1072648469759534,
+      "p05": 0.892758569793192,
+      "p95": 1.0705136090817253
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9980186784917693,
+      "minimum": 0.6758345943151858,
+      "maximum": 1.0858932415490459,
+      "p05": 0.9219200916368375,
+      "p95": 1.066539446303059
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 1.0002119490699597,
+      "minimum": 0.8456674562369546,
+      "maximum": 1.0849186838703966,
+      "p05": 0.9366062073963117,
+      "p95": 1.0559544706635042
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 1.0016246511107425,
+      "minimum": 0.7327458048064063,
+      "maximum": 1.1727034601204906,
+      "p05": 0.8603423874793323,
+      "p95": 1.0850474737712712
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.994280854157195,
+      "minimum": 0.8101077527449015,
+      "maximum": 1.1731208819799948,
+      "p05": 0.8823407697003693,
+      "p95": 1.1337782771632452
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 0.998643864406548,
+      "minimum": 0.685380785885946,
+      "maximum": 1.1530354763819686,
+      "p05": 0.8962791651932824,
+      "p95": 1.1175798485106387
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 1.0060261266204988,
+      "minimum": 0.8158980184492949,
+      "maximum": 1.198444154345252,
+      "p05": 0.8725153449881701,
+      "p95": 1.1002207026598039
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 1.0018576786517563,
+      "minimum": 0.8471007813374912,
+      "maximum": 1.5360921032915438,
+      "p05": 0.8916375861937997,
+      "p95": 1.1270409772146355
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "32",
+    "path": "ready",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9956474630472467,
+      "minimum": 0.8652950464504026,
+      "maximum": 1.4060466739570487,
+      "p05": 0.8902826045381768,
+      "p95": 1.0930913371750666
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9974245604366394,
+      "minimum": 0.7359870006062478,
+      "maximum": 1.1113589292062243,
+      "p05": 0.8760774692944913,
+      "p95": 1.0499942550176073
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9997646202815261,
+      "minimum": 0.8370096558390914,
+      "maximum": 1.181273816004355,
+      "p05": 0.9251287910643027,
+      "p95": 1.0737506938702057
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.969996913768929,
+      "minimum": 0.7765316731958398,
+      "maximum": 1.2439149311491609,
+      "p05": 0.8255394234080341,
+      "p95": 1.0837733780973158
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9852419191523087,
+      "minimum": 0.8436081821321232,
+      "maximum": 1.8650781151345146,
+      "p05": 0.8696407923546854,
+      "p95": 1.2790879462174385
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9867080644155424,
+      "minimum": 0.7791008787405078,
+      "maximum": 1.1008286167323673,
+      "p05": 0.880058365329898,
+      "p95": 1.0738944087653501
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.995031278596261,
+      "minimum": 0.7518081296932436,
+      "maximum": 1.1937829436791896,
+      "p05": 0.9201743068769815,
+      "p95": 1.0639753691431562
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.9934821199142613,
+      "minimum": 0.6574872975419108,
+      "maximum": 1.227885341222075,
+      "p05": 0.7995162262357417,
+      "p95": 1.0514971302533103
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 1.0031468000168444,
+      "minimum": 0.5970872152242475,
+      "maximum": 1.2158280115536495,
+      "p05": 0.9186491833548747,
+      "p95": 1.0937728837273786
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 1.0018021916931152,
+      "minimum": 0.7829275757885817,
+      "maximum": 1.132001760930396,
+      "p05": 0.9394751209566445,
+      "p95": 1.067280970268585
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 0.9987444637683687,
+      "minimum": 0.747553144629267,
+      "maximum": 1.287762960410348,
+      "p05": 0.9171970318648831,
+      "p95": 1.212122292024441
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 1.0025857230277233,
+      "minimum": 0.8679336608950269,
+      "maximum": 1.1885797485680873,
+      "p05": 0.9344047054862631,
+      "p95": 1.0716370194413916
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 1.0017936571837653,
+      "minimum": 0.8602359582090041,
+      "maximum": 1.4088786493347367,
+      "p05": 0.9277533221253361,
+      "p95": 1.1206263144838753
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 1.0065227383171051,
+      "minimum": 0.8788569176723903,
+      "maximum": 1.3223332325024464,
+      "p05": 0.9045685187878107,
+      "p95": 1.16459234256227
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "deferred",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 0.9945222412550196,
+      "minimum": 0.8148527962366144,
+      "maximum": 1.2606381458619114,
+      "p05": 0.905618105488047,
+      "p95": 1.1607063658772603
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "BFS_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9948319914001904,
+      "minimum": 0.8635967838207929,
+      "maximum": 1.3800343260979304,
+      "p05": 0.881441900426063,
+      "p95": 1.2375912305315848
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "TABLE_DEPLOYED",
+    "mirror_ratio": {
+      "median": 1.0049406678317019,
+      "minimum": 0.837338731065038,
+      "maximum": 2.0568189168460833,
+      "p05": 0.9231306638368146,
+      "p95": 1.1821739221388146
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "LAST_DEPLOYED",
+    "mirror_ratio": {
+      "median": 0.9919727348957669,
+      "minimum": 0.6251277016194181,
+      "maximum": 1.1452591282671771,
+      "p05": 0.9273200972168207,
+      "p95": 1.1060156931698975
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "PUSH_MATCHED",
+    "mirror_ratio": {
+      "median": 1.0016820521529888,
+      "minimum": 0.784936783505824,
+      "maximum": 1.1877004899383576,
+      "p05": 0.8675510412954583,
+      "p95": 1.0547864555694584
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "TABLE_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9885164070461239,
+      "minimum": 0.7307383832527793,
+      "maximum": 1.308498731213848,
+      "p05": 0.8892356287540538,
+      "p95": 1.1363898755152289
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "LAST_MATCHED",
+    "mirror_ratio": {
+      "median": 0.9825388102380528,
+      "minimum": 0.6617351435390115,
+      "maximum": 1.1478694362919117,
+      "p05": 0.8775651573726044,
+      "p95": 1.096733241365329
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "OLD_P2",
+    "mirror_ratio": {
+      "median": 0.993388156619187,
+      "minimum": 0.8903201817276521,
+      "maximum": 1.232471227454171,
+      "p05": 0.9482773609474165,
+      "p95": 1.068688341408908
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "RIE",
+    "mirror_ratio": {
+      "median": 0.9886227932726884,
+      "minimum": 0.8445932293588599,
+      "maximum": 2.0203485872405165,
+      "p05": 0.8791750111209855,
+      "p95": 1.046694287959622
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "RIE_TABLE",
+    "mirror_ratio": {
+      "median": 1.0007720663300539,
+      "minimum": 0.5489742816621439,
+      "maximum": 1.1687148296595762,
+      "p05": 0.8259664665612921,
+      "p95": 1.0571435815854981
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_COUNT",
+    "mirror_ratio": {
+      "median": 1.0070223512327678,
+      "minimum": 0.6819684024628896,
+      "maximum": 1.2163918577796875,
+      "p05": 0.942509385210859,
+      "p95": 1.10289477626932
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_CLOSURE",
+    "mirror_ratio": {
+      "median": 1.0117063262911439,
+      "minimum": 0.7465279333627339,
+      "maximum": 1.1543247476505396,
+      "p05": 0.8674778579801319,
+      "p95": 1.1044935744149784
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_RADIUS",
+    "mirror_ratio": {
+      "median": 1.0113834934299415,
+      "minimum": 0.814480210809135,
+      "maximum": 1.2905730428266258,
+      "p05": 0.9339785489487613,
+      "p95": 1.1269337580606085
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "DG_FRONTIER",
+    "mirror_ratio": {
+      "median": 1.0027549407876788,
+      "minimum": 0.7520577981501416,
+      "maximum": 1.5369891880501207,
+      "p05": 0.8466490990459734,
+      "p95": 1.165305615216825
+    }
+  },
+  {
+    "graph": "oneway_dense",
+    "schedule": "unique",
+    "q": "8",
+    "path": "ready",
+    "mode": "EXACT_REUSE",
+    "mirror_ratio": {
+      "median": 1.0006472218383942,
+      "minimum": 0.8938965591008573,
+      "maximum": 1.227441072502457,
+      "p05": 0.9231937923431895,
+      "p95": 1.0915357902148126
+    }
+  }
+]

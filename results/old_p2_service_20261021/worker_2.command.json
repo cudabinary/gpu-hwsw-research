@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/old_p2_service_20261021/worker",
+    "worker",
+    "2",
+    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/results/old_p2_service_20261021/service_2.csv"
+  ],
+  "returncode": 0,
+  "seconds": 0.37962555200002157
+}

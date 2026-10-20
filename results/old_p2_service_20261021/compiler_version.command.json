@@ -1,0 +1,8 @@
+{
+  "argv": [
+    "g++",
+    "--version"
+  ],
+  "returncode": 0,
+  "seconds": 0.008720418999985213
+}

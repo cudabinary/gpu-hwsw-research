@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "arrays": 336,
+  "elements": 1376256,
+  "distinct_graph_sources": 64,
+  "independent_python_oracle": true
+}

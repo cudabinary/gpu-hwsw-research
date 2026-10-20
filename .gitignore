@@ -12,3 +12,4 @@ __pycache__/
 *.zip
 .library*/
 gpu_approval*.json
+/DELIVERY_STATUS.json

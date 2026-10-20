@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-10-20T20:47:50.2653608Z",
+  "authentication_method": "Git Credential Manager; credential captured only in process memory and never logged",
+  "authenticated": true,
+  "login": "cudabinary",
+  "repository": "cudabinary/gpu-hwsw-research",
+  "private": true,
+  "push_permission": true,
+  "archived": false,
+  "github_cli_installed": false,
+  "read_only_ls_remote_exit": 0,
+  "remote_refs_before_checkpoint": []
+}

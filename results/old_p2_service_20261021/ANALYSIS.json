@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "trials": 672,
+  "arrays": 14112,
+  "distance_elements": 57802752,
+  "primary_blocks_per_comparison": 21,
+  "sessions": 3,
+  "mirror_sweeps_independent": false,
+  "comparisons": 192,
+  "prior_results_pooled": false,
+  "api_adapter_performance": "NOT_MEASURED",
+  "gpu_api_compatibility": "NOT_VERIFIED",
+  "new_algorithm_or_novelty_claim": false
+}

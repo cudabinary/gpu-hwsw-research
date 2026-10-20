@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "raw_trials": 672,
+  "complete_mirrored_blocks": 84,
+  "full_arrays": 14112,
+  "distance_elements": 57802752,
+  "all_timing_boundaries_valid": true,
+  "complete_fixed_matrix": true,
+  "exact_mirror_orders": true,
+  "source_binary_protocol_pins_unchanged": true,
+  "vendor_files": 37,
+  "original_matching_files": 37,
+  "main_tracked_files": 219,
+  "protected_snapshots_equal": true,
+  "benchmark_reruns": 0,
+  "gpu_runs": 0,
+  "audit_script_sha256": "8fe0ed2e2b8b09d9b595b868f0b8f123b8dbbc5d08a1684dcac3c22b9c09844c"
+}

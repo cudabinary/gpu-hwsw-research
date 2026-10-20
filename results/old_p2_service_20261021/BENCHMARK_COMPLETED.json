@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "seconds": 3.1655235290527344,
+  "workers": [
+    {
+      "status": "PASS",
+      "session": 0,
+      "trials": 224,
+      "arrays": 4704,
+      "rss_peak_kib": 20052
+    },
+    {
+      "status": "PASS",
+      "session": 1,
+      "trials": 224,
+      "arrays": 4704,
+      "rss_peak_kib": 20052
+    },
+    {
+      "status": "PASS",
+      "session": 2,
+      "trials": 224,
+      "arrays": 4704,
+      "rss_peak_kib": 20052
+    }
+  ],
+  "processes": 3,
+  "rounds": 7,
+  "trials": 672,
+  "arrays": 14112,
+  "vendor_files_verified": 37,
+  "protected_main_and_original_unchanged": true,
+  "gpu_runs": 0
+}

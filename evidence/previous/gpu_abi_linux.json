@@ -1,0 +1,8 @@
+{
+  "command": [
+    "build/abi_linux"
+  ],
+  "exit_code": 0,
+  "seconds": 0.00644230842590332,
+  "GPU_kernels": 0
+}

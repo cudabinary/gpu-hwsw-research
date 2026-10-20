@@ -1,0 +1,13 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Icuda",
+    "build/abi.cpp",
+    "-o",
+    "build/abi_linux"
+  ],
+  "exit_code": 0,
+  "seconds": 0.5124268531799316,
+  "GPU_kernels": 0
+}

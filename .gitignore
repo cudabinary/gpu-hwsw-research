@@ -1,0 +1,14 @@
+/build/
+/logs/
+/outputs/
+__pycache__/
+*.pyc
+*.nsys-rep
+*.ncu-rep
+*.sqlite
+.env
+*.pem
+*.key
+*.zip
+.library*/
+gpu_approval*.json

@@ -1,0 +1,15 @@
+{
+  "login": "cudabinary",
+  "repository": "cudabinary/gpu-hwsw-research",
+  "private": true,
+  "default_branch": "main",
+  "permissions": {
+    "admin": true,
+    "maintain": true,
+    "push": true,
+    "triage": true,
+    "pull": true
+  },
+  "size_KiB": 0,
+  "archived": false
+}

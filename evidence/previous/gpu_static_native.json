@@ -1,0 +1,17 @@
+{
+  "command": [
+    "x86_64-w64-mingw32-g++",
+    "-std=c++17",
+    "-O2",
+    "-static",
+    "-Icuda",
+    "-Ifrozen/consumer",
+    "-I/usr/local/cuda-13.3/include",
+    "cuda/owner.cpp",
+    "-o",
+    "build/rcc_owner.exe"
+  ],
+  "exit_code": 0,
+  "seconds": 10.705253839492798,
+  "GPU_kernels": 0
+}

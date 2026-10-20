@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "processes": 12,
+  "completed_BFS": 36,
+  "cancelled_requests": 12,
+  "seconds": 14.90700000000652,
+  "min_free_MiB": 6878,
+  "max_temp_C": 44,
+  "max_device_payload_bytes": 1163820,
+  "kernel_launches": 232,
+  "samples": 40
+}

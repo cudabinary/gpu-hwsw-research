@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/usr/local/cuda-13.3/bin/nvcc",
+    "-std=c++17",
+    "-O2",
+    "-arch=sm_89",
+    "-Icuda",
+    "--cubin",
+    "-Xptxas=-v",
+    "cuda/kernels.cu",
+    "-o",
+    "build/rcc_kernels.cubin"
+  ],
+  "exit_code": 0,
+  "seconds": 0.39025092124938965,
+  "GPU_kernels": 0
+}

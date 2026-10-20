@@ -1,0 +1,69 @@
+{
+  "cpu_correctness": {
+    "status": "PASS",
+    "graphs_small": 576,
+    "comparisons": 240415,
+    "assertions": 988173,
+    "fixture_requests": 15147
+  },
+  "python": {
+    "status": "PASS",
+    "arrays": 1836,
+    "elements": 4915788,
+    "unique_graph_sources": 90
+  },
+  "bridge": {
+    "fields_compared": 26730,
+    "differences": [],
+    "status": "MATCH"
+  },
+  "archive_arrays": 864,
+  "gpu": {
+    "status": "PASS",
+    "processes": 12,
+    "completed_BFS": 36,
+    "cancelled_requests": 12,
+    "seconds": 14.90700000000652,
+    "min_free_MiB": 6878,
+    "max_temp_C": 44,
+    "max_device_payload_bytes": 1163820,
+    "kernel_launches": 232,
+    "samples": 40
+  },
+  "benchmark": {
+    "status": "PASS",
+    "seconds": 25.661295175552368,
+    "worker_pids": [
+      659,
+      674,
+      689
+    ],
+    "processes": 3,
+    "rounds": 7
+  },
+  "preservation_files": 197,
+  "rss_peak_kib": [
+    22844,
+    22880,
+    23024
+  ],
+  "local_zip_only": true,
+  "strong_service_baseline_limit": {
+    "status": "LIMITATION_CONFIRMED",
+    "consumer_controls": [
+      "OLD_P0",
+      "OLD_P2",
+      "PUSH_N",
+      "DO_N",
+      "DO_RIE",
+      "PUSH_WCC",
+      "LAST_RESULT_REUSE"
+    ],
+    "corrected_comparison_rows": 3638,
+    "new_benchmark_processes": 0,
+    "original_P2_is_LJ_resident_winner": true,
+    "DO_RIE_over_OLD_P2": 1.0505319981969394,
+    "service_original_P0_P2_not_measured": true,
+    "reason": "Initial service gate enumerated only new modes and omitted the original P2. No remeasurement after the fixed 3-process/7-round budget. Universal strongest end-to-end winner remains UNKNOWN."
+  }
+}

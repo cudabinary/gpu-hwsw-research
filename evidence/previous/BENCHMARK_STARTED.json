@@ -1,0 +1,29 @@
+{
+  "start": 1792525277.075184,
+  "pins": {
+    "src/experiment.cpp": "982f3b079b70a6b74adfeb8cfc143908ed9612de9e08f1e53193a0570e5b1c8d",
+    "include/adapter.hpp": "7f5c3232504ad765f14b256da70e189dd7bdf67c4044fbf9ce1af9dd1e72ef9b",
+    "frozen/bridge/probe.cpp": "877ed9d5b90a88433ece821b35b80e7970e2d1dbfc77951f7194d74303d94bff",
+    "frozen/bridge/stop_bridge.hpp": "6c3c71130c3990262645cf138f78ce42d5226752c3a962815979e118c6a9a740",
+    "frozen/consumer/consumers.cpp": "789f91b3634baf2c4b9b7a24691801604571ca237822acd1b1c231654d552bc1",
+    "frozen/consumer/consumers.hpp": "aff547d9b30b070eefe21013f4d5ed1a1102e32d8e436848cc9bc472fe001464",
+    "frozen/consumer/independent_builder.hpp": "409a4f38e9b72f0997951aa5c694d36c3d57ee65c9a94bd2b46619cc0205ecf4",
+    "frozen/rcc/baselines.hpp": "dfa24f03545df23516e77e903cffc960b3db266330dff2a98a987d49d2596a8e",
+    "frozen/rcc/rcc.hpp": "c88aac4579b93aab2b01fdd54ac415437b76e7c99c3df8ee3b271de5508c545f",
+    "fixtures/cases.txt": "7ddef7b46af8ab21f53d180709ab44415dcbccb623e80e2a2ce272ba650405bd",
+    "fixtures/chain4096.edges": "1901fe40eccd9e6ff5813a35a86651d58fb512f33a7c7b6a774ca614f3f774e0",
+    "fixtures/dense_layers.edges": "e8478fcdeb36caaa1ea005d1c3aaf5143eeef6e368e5339053f4b732aa968294",
+    "fixtures/google_sampled_1024.edges": "aaccfd6e1c691f27d41611306141cee06ad700c9aca95e7243e2399cad15f2df",
+    "fixtures/livejournal_sampled_4096.edges": "b22d4c73b798da0b3ca6e2fb9a97eb07b6d613728c4ff5e100dfef6817fe8c7f",
+    "fixtures/lj_permuted.edges": "7b63fcc3cecc752be8893d2e23c6592a14d329c1dcae61fc636cbbcd6464c636",
+    "fixtures/manifest.json": "31d53a3b7853a339e12e80da94cf102cac3f22a2638c087df20778dbb990dc1b",
+    "fixtures/road_sampled_64.edges": "b1511de681d0b97c206c326523cd1e866cf59ec1df305daf0b6fedf66bcaba73",
+    "fixtures/scc4_d32.edges": "97760d61d5f920c94baec8d8c42a406aed91ad44dddb7607839c8c277b46b23f",
+    "fixtures/scc8_hubs.edges": "df63dc4bf48dd1f0b1d7d2c3984e31d50843e1d6fc9877f78bb60ca63368a1f8",
+    "fixtures/sparse_synthetic_4096.edges": "53cef5c1d1756ffbc0582f9dfb3502e6fd26b3d08a47a64880a78f9f3b85d4ef",
+    "config/PROTOCOL.json": "eabc11a6ccd4292ebd1de3df296acbab898be9d7efd1bb34870f7007a3cde76e",
+    "build/experiment": "bf234e6ba48cb579f3f66bd6147a5bcadf1c153a02c9f97e3f96c44c8f9bdfad"
+  },
+  "rounds": 7,
+  "processes": 3
+}

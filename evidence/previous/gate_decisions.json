@@ -1,0 +1,326 @@
+[
+  {
+    "graph": "chain4096",
+    "mode": "DO_N",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "chain4096",
+    "mode": "DO_RIE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "chain4096",
+    "mode": "PUSH_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "chain4096",
+    "mode": "PUSH_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "chain4096",
+    "mode": "DO_RIE_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "chain4096",
+    "mode": "DO_RIE_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "dense_layers",
+    "mode": "DO_N",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "dense_layers",
+    "mode": "DO_RIE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "dense_layers",
+    "mode": "PUSH_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "dense_layers",
+    "mode": "PUSH_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "dense_layers",
+    "mode": "DO_RIE_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "dense_layers",
+    "mode": "DO_RIE_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "google_sampled_1024",
+    "mode": "DO_N",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "google_sampled_1024",
+    "mode": "DO_RIE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "google_sampled_1024",
+    "mode": "PUSH_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "google_sampled_1024",
+    "mode": "PUSH_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "google_sampled_1024",
+    "mode": "DO_RIE_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "google_sampled_1024",
+    "mode": "DO_RIE_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "mode": "DO_N",
+    "eligible": true,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "mode": "DO_RIE",
+    "eligible": true,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "mode": "PUSH_RCC_LAST",
+    "eligible": true,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "mode": "PUSH_RCC_TABLE",
+    "eligible": true,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "mode": "DO_RIE_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "livejournal_sampled_4096",
+    "mode": "DO_RIE_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "lj_permuted",
+    "mode": "DO_N",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "lj_permuted",
+    "mode": "DO_RIE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "lj_permuted",
+    "mode": "PUSH_RCC_LAST",
+    "eligible": true,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "lj_permuted",
+    "mode": "PUSH_RCC_TABLE",
+    "eligible": true,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "lj_permuted",
+    "mode": "DO_RIE_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "lj_permuted",
+    "mode": "DO_RIE_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "road_sampled_64",
+    "mode": "DO_N",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "road_sampled_64",
+    "mode": "DO_RIE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "road_sampled_64",
+    "mode": "PUSH_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "road_sampled_64",
+    "mode": "PUSH_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "road_sampled_64",
+    "mode": "DO_RIE_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "road_sampled_64",
+    "mode": "DO_RIE_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "scc4_d32",
+    "mode": "DO_N",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "scc4_d32",
+    "mode": "DO_RIE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "scc4_d32",
+    "mode": "PUSH_RCC_LAST",
+    "eligible": true,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "scc4_d32",
+    "mode": "PUSH_RCC_TABLE",
+    "eligible": true,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "scc4_d32",
+    "mode": "DO_RIE_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "scc4_d32",
+    "mode": "DO_RIE_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "scc8_hubs",
+    "mode": "DO_N",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "scc8_hubs",
+    "mode": "DO_RIE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "scc8_hubs",
+    "mode": "PUSH_RCC_LAST",
+    "eligible": true,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "scc8_hubs",
+    "mode": "PUSH_RCC_TABLE",
+    "eligible": true,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "scc8_hubs",
+    "mode": "DO_RIE_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "scc8_hubs",
+    "mode": "DO_RIE_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "sparse_synthetic_4096",
+    "mode": "DO_N",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "sparse_synthetic_4096",
+    "mode": "DO_RIE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "sparse_synthetic_4096",
+    "mode": "PUSH_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "sparse_synthetic_4096",
+    "mode": "PUSH_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate"
+  },
+  {
+    "graph": "sparse_synthetic_4096",
+    "mode": "DO_RIE_RCC_LAST",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  },
+  {
+    "graph": "sparse_synthetic_4096",
+    "mode": "DO_RIE_RCC_TABLE",
+    "eligible": false,
+    "reason": "fixed original cold q32 timing gate; incremental time and work vs DO_RIE"
+  }
+]

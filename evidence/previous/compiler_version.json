@@ -1,0 +1,9 @@
+{
+  "command": [
+    "g++",
+    "--version"
+  ],
+  "seconds": 0.00859832763671875,
+  "exit_code": 0,
+  "status": "PASS"
+}

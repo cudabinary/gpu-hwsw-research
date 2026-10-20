@@ -1,0 +1,14 @@
+{
+  "archive": "PRE_SPLIT_RESEARCH.zip",
+  "bytes": 1350781528,
+  "sha256": "e043c998b3cf106c4edec2430617509ded8e7d785d71dbfe11debc6837d708bd",
+  "files": 10270,
+  "crc": "PASS",
+  "excluded_transfer_helpers": [
+    "TCSC_RCC_RIE_CPU_STATIC_20261021\\.library_helpers\\__pycache__\\library_file_transfer.cpython-312.pyc",
+    "TCSC_RCC_RIE_CPU_STATIC_20261021\\.library_helpers\\__pycache__\\library_hosted_apps.cpython-312.pyc",
+    "TCSC_RCC_RIE_CPU_STATIC_20261021\\.library_helpers\\library_download.py",
+    "TCSC_RCC_RIE_CPU_STATIC_20261021\\.library_helpers\\library_file_transfer.py",
+    "TCSC_RCC_RIE_CPU_STATIC_20261021\\.library_helpers\\library_hosted_apps.py"
+  ]
+}

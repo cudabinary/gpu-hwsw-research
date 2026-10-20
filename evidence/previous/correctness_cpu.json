@@ -1,0 +1,9 @@
+{
+  "command": [
+    "build/experiment",
+    "test"
+  ],
+  "seconds": 2.030076503753662,
+  "exit_code": 0,
+  "status": "PASS"
+}

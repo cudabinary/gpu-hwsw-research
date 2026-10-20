@@ -1,5 +1,7 @@
 # RCC 신규성 감사 상태
 
+최신 전달 패키지 감사: `research/SCOPE_DISTANCE_NOVELTY_AUDIT.md` 및 `research/SCOPE_DISTANCE_AUDIT_RESULTS.md`. RCC-Scope와 DistanceGuard의 정확한 추가 기전·조건부 합성 witness는 재현했으나 실제 파생 입력의 강한 전체 서비스 우위·학술적 최초성·독립 논문 기여는 미확립이다. ALT/PLL/DO-BFS/GAP/O'Reach/SlimSell 1차 출처를 대조했다. 기본 통합 없음. 아래의 미개봉 기술은 이전 OLD_P2 체크포인트 당시 상태다.
+
 이번 작업은 모듈화·호환성·연구 환경 관리이며 신규 알고리즘 기여가 아니다. 기존 Direction-Optimizing BFS, RIE 종료, RCC reachability 상한, TABLE/LAST 캐시를 보존한다.
 
 현재 증거는 일부 CPU 비용 감소와 정확한 종료 인증의 구현이다. 2026-10-21 OLD_P2 동일 service 비교 누락을 고정 조건에서 보완했지만 original ready P2 대비 RCC 우위는 성립하지 않았다. SCC/WCC 및 도달성 인덱스/기존 방문 결과 재사용과의 구분, 공개 강한 구현, 다양한 실제 그래프, cold/warm 비용 및 통계적 불확실성 비교가 더 필요하다.

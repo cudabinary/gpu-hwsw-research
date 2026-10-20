@@ -1,0 +1,9 @@
+# Preserve received evidence bytes and the new audit's raw receipts across clones.
+intake/rcc_scope_distance_20261021/** -text
+results/scope_distance_audit_20261021/** -text
+results/run_1792529945966284667/** -text
+research/scope_distance_audit.cpp text eol=lf
+research/SCOPE_DISTANCE_PROTOCOL.json text eol=lf
+tools/intake_scope_distance.py text eol=lf
+tools/audit_scope_distance.py text eol=lf
+tools/analyze_scope_distance.py text eol=lf

@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-10-20T21:09:23.0932093Z",
+  "authenticated": true,
+  "login": "cudabinary",
+  "repository": "cudabinary/gpu-hwsw-research",
+  "private": true,
+  "push_permission": true,
+  "archived": false,
+  "method": "Git Credential Manager in-memory credential; secret never logged",
+  "remote_refs_before_push": [
+    "94a041c0bf300cd684ec1402244470dac499e55e\trefs/heads/main",
+    "1a79b1048cc639c3c23f1000373c3ed6e10bbf7c\trefs/heads/research/rcc"
+  ]
+}

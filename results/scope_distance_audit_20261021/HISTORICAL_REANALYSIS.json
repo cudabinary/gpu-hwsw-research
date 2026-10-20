@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "guard_raw_rows": 4032,
+  "guard_paired_summaries_verified": 120,
+  "scope_raw_rows": 13464,
+  "scope_timing_summaries_verified": 792,
+  "historical_timings_not_pooled_with_local": true,
+  "provided_posthoc_best_baseline_not_an_online_policy": true
+}

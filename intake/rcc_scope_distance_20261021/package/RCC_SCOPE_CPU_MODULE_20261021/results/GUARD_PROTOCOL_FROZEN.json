@@ -1,0 +1,20 @@
+{
+  "stage": "2_distance_filter",
+  "created_after_scope_negative_real_findings": true,
+  "sources_and_fixtures": "same frozen stage1; no new inputs selected",
+  "sessions": 3,
+  "rounds": 7,
+  "q": 32,
+  "GPU": 0,
+  "sanitizer": 0,
+  "bounds": [
+    "closure only",
+    "old source distance + level + 1",
+    "max(old distance[current frontier])+1"
+  ],
+  "safety": "temporary radius is NEVER an exhaustive reachable-count bound; only skips pull probes for the current level",
+  "source_sha256": {
+    "include/distance_guard.hpp": "99e07fb0b4f48576288ba094dc14014d89c19f2c4089cbba8ec09e89610330dc",
+    "src/distance_probe.cpp": "7c9218167f2ded276749a72ac15e3b5bf156bf0931c9ba4195c5645fc6e5801d"
+  }
+}

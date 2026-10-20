@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "timing_rows": 26880,
+  "full_array_checks": 564480,
+  "conditions": 40,
+  "modes": 16,
+  "blocks_per_condition": 21,
+  "sessions": 3,
+  "comparison_rows": 6960,
+  "exact_mirror_order": true,
+  "no_outliers_removed": true,
+  "new_GPU_runs": 0,
+  "default_RCC_integrated": false,
+  "candidate_API_compatibility": "NOT_IMPLEMENTED_NOT_VERIFIED",
+  "existing_API_compatibility": "PASS",
+  "strict_scope_transient_memory_upper_bound": false,
+  "notes": "payload_upper_bytes omits transient old+new closure publication and allocator metadata; RSS separately measured. New service starts first policy query from cold history, not historical external fixed A."
+}

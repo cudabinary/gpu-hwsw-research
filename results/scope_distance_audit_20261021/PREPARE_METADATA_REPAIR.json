@@ -1,0 +1,8 @@
+{
+  "stage": "prepare metadata finalization",
+  "failure": "Linux git cannot resolve the Windows absolute .git worktree pointer",
+  "correctness_and_api_tests": "PASS before metadata failure",
+  "repair": "Read refs via the existing main/.git object database, without altering MAIN or Git configuration",
+  "benchmark_started_before_repair": false,
+  "tests_repeated_for_repair": 0
+}

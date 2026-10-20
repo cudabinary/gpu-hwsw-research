@@ -1,0 +1,138 @@
+{
+  "module": "RCC-Scope v0.1",
+  "cpu_only": true,
+  "gpu_runs": 0,
+  "sanitizer_runs": 0,
+  "timing_sessions": 3,
+  "warm_rounds_per_process": 7,
+  "warm_q": [
+    8,
+    32
+  ],
+  "cold_rounds_per_process": 3,
+  "cold_q": [
+    32
+  ],
+  "legacy_sources": "prior already-seen schedules plus deliberately targeted synthetic cases",
+  "unique_sources": "seed 938201+case-index, 33 without replacement fixed before timing; not unseen graphs",
+  "same_source_reuse": "immediately repeated source uses existing exact output for ALL modes",
+  "scope_policy": "alpha=15 beta=24 unchanged; scoped variant replaces n and exact global-indegree sum with domain statistics",
+  "output": "full dense distance[n] including -1; per-query copy included, oracle check/file logging outside timed boundary",
+  "resident_reverse": "graph/reverse prepared outside timed boundary; workspace+certificate/WCC allocation/updates/destruction inside",
+  "cold_reverse": "graph resident; reverse construction when needed + queries inside; input IO and graph parsing outside",
+  "memory": "array payload capacities, not RSS/allocator headers or GPU VRAM",
+  "negative_controls": [
+    "road",
+    "google",
+    "livejournal",
+    "chain",
+    "external_incoming"
+  ],
+  "environment": {
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0"
+  },
+  "modes": [
+    "PUSH_N",
+    "PUSH_RCC_TABLE",
+    "DO_RIE",
+    "DO_RIE_RCC_TABLE",
+    "DO_COMPACT",
+    "DO_CLOSURE_COUNT",
+    "DO_SCOPE_GLOBAL",
+    "DO_SCOPE_LOCAL",
+    "DO_SCOPE_COMPACT",
+    "DO_WCC_LOCAL",
+    "PUSH_WCC"
+  ],
+  "fixture_inputs": [
+    {
+      "name": "road_sampled_64",
+      "n": 64,
+      "file": "road_sampled_64.edges",
+      "sha256": "b1511de681d0b97c206c326523cd1e866cf59ec1df305daf0b6fedf66bcaba73",
+      "type": "prior_derived_real"
+    },
+    {
+      "name": "google_sampled_1024",
+      "n": 1024,
+      "file": "google_sampled_1024.edges",
+      "sha256": "aaccfd6e1c691f27d41611306141cee06ad700c9aca95e7243e2399cad15f2df",
+      "type": "prior_derived_real"
+    },
+    {
+      "name": "livejournal_sampled_4096",
+      "n": 4096,
+      "file": "livejournal_sampled_4096.edges",
+      "sha256": "b22d4c73b798da0b3ca6e2fb9a97eb07b6d613728c4ff5e100dfef6817fe8c7f",
+      "type": "prior_derived_real"
+    },
+    {
+      "name": "dense_layers",
+      "n": 481,
+      "file": "dense_layers.edges",
+      "sha256": "e8478fcdeb36caaa1ea005d1c3aaf5143eeef6e368e5339053f4b732aa968294",
+      "type": "synthetic"
+    },
+    {
+      "name": "sparse_synthetic_4096",
+      "n": 4096,
+      "file": "sparse_synthetic_4096.edges",
+      "sha256": "53cef5c1d1756ffbc0582f9dfb3502e6fd26b3d08a47a64880a78f9f3b85d4ef",
+      "type": "synthetic"
+    },
+    {
+      "name": "scc4_d32",
+      "n": 4096,
+      "file": "scc4_d32.edges",
+      "sha256": "97760d61d5f920c94baec8d8c42a406aed91ad44dddb7607839c8c277b46b23f",
+      "type": "synthetic"
+    },
+    {
+      "name": "chain4096",
+      "n": 4096,
+      "file": "chain4096.edges",
+      "sha256": "1901fe40eccd9e6ff5813a35a86651d58fb512f33a7c7b6a774ca614f3f774e0",
+      "type": "synthetic"
+    },
+    {
+      "name": "scc8_hubs",
+      "n": 2048,
+      "file": "scc8_hubs.edges",
+      "sha256": "df63dc4bf48dd1f0b1d7d2c3984e31d50843e1d6fc9877f78bb60ca63368a1f8",
+      "type": "synthetic"
+    },
+    {
+      "name": "lj_permuted",
+      "n": 4096,
+      "file": "lj_permuted.edges",
+      "sha256": "7b63fcc3cecc752be8893d2e23c6592a14d329c1dcae61fc636cbbcd6464c636",
+      "type": "prior_derived_real"
+    },
+    {
+      "name": "oneway_rooms",
+      "n": 2048,
+      "file": "oneway_rooms.edges",
+      "sha256": "f3f89432e14ccd50e7046898d27f14870e733021b7e85a8d9dac906a0182401e",
+      "type": "synthetic"
+    },
+    {
+      "name": "oneway_dense",
+      "n": 1024,
+      "file": "oneway_dense.edges",
+      "sha256": "1c8f4898e422dfeca74109710fd47ecf0b276597b179ba6ef0fce15878ed90fe",
+      "type": "synthetic"
+    },
+    {
+      "name": "external_incoming",
+      "n": 2048,
+      "file": "external_incoming.edges",
+      "sha256": "1c6e69afe55f8864a0af9d3bca4ad48595b4ec77d0a0f6b1f90b5a86526bcc2c",
+      "type": "synthetic"
+    }
+  ],
+  "schedule_hashes": {
+    "legacy": "8df607440553e308d1ee123b5959658e820c7ca5b3d4e5474fc8df7c9ce660b8",
+    "unique": "266473cb315bc2f15088ae0275737108523c64de78b0f32800c23d17ba87bf73"
+  }
+}

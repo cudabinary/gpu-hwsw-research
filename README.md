@@ -6,6 +6,8 @@ MAIN은 강한 SW 기준선 이후 남는 GPU 구조적 병목을 연구한다. 
 
 2026-10-21 RCC 후속 체크포인트: `research/OLD_P2_SERVICE_RESULTS.md`에 원본 OLD_P2의 동일 owned-output 서비스 비교를 보완했다. 원본 LJ에서는 reverse가 이미 준비된 P2에 대한 RCC의 우위가 성립하지 않으며 조건별 결론을 보존한다. 새 API 어댑터의 성능이나 새 알고리즘 기여로 해석하지 않는다.
 
+전달 확장 독립 감사는 `research/SCOPE_DISTANCE_AUDIT_RESULTS.md`와 `research/SCOPE_DISTANCE_NOVELTY_AUDIT.md`다. 원본 ZIP/92개 manifest 파일의 무결성, 재빌드 정확성, 실제 추가 probe 감소를 확인했다. 16개 policy의 전체 owned-output 서비스에서 실제 파생 입력의 강한 우위는 확보하지 못했다. 한정 합성 ready 양성과 cold/unique 부정 결과를 함께 보존한다. 기본 RCC·공통 API·MAIN은 변경하지 않았고 후보 API plugin을 배포하지 않았다.
+
 - 공통 계약: `api/rcc/v1.hpp` (1.0.0)
 - 원본 복사본: `vendor/rcc_20261021/` (SHA 고정)
 - 이전 결과: `evidence/previous/`

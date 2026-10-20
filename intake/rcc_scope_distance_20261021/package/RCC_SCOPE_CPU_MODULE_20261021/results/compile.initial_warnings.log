@@ -1,0 +1,24 @@
+In file included from src/scope_probe.cpp:1:
+include/closure_scope.hpp: In function 'rcc_scope::Work rcc_scope::direction(const independent::Graph&, const independent::Reverse&, independent::U, consumer::Workspace&, Domain, Options, std::vector<unsigned int>&, independent::L)':
+include/closure_scope.hpp:67:17: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   67 |                 if constexpr(Diagnose)++st.edges;U v=g.col()[e];if(d[v]<0)discover(v);}}
+      |                 ^~
+include/closure_scope.hpp:67:50: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   67 |                 if constexpr(Diagnose)++st.edges;U v=g.col()[e];if(d[v]<0)discover(v);}}
+      |                                                  ^
+include/closure_scope.hpp: In constructor 'rcc_scope::WeakComponents::WeakComponents(std::shared_ptr<const independent::Graph>)':
+include/closure_scope.hpp:156:13: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+  156 |             if(sz[a]<sz[b])std::swap(a,b);id_[b]=a;sz[a]+=sz[b];}
+      |             ^~
+include/closure_scope.hpp:156:43: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  156 |             if(sz[a]<sz[b])std::swap(a,b);id_[b]=a;sz[a]+=sz[b];}
+      |                                           ^~~
+src/scope_probe.cpp: In lambda function:
+src/scope_probe.cpp:63:9: error: this 'for' clause does not guard... [-Werror=misleading-indentation]
+   63 |         for(U i=0;i<8;++i)sources.push_back(i<g->n()?i:gen()%g->n());std::vector<std::vector<int>>want;for(U s:sources)want.push_back(reference(*g,s));
+      |         ^~~
+src/scope_probe.cpp:63:70: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+   63 |         for(U i=0;i<8;++i)sources.push_back(i<g->n()?i:gen()%g->n());std::vector<std::vector<int>>want;for(U s:sources)want.push_back(reference(*g,s));
+      |                                                                      ^~~
+cc1plus: all warnings being treated as errors
+make: *** [Makefile:7: build/scope_probe] Error 1

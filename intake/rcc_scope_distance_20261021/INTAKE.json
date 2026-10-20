@@ -1,0 +1,42 @@
+{
+  "source_bytes": 2528431,
+  "source_sha256": "c1ba7f6c6d595f84081dceb66052d76344a6685b902ccccde7e6e7c9f0a51d7c",
+  "copied_archive_sha256": "c1ba7f6c6d595f84081dceb66052d76344a6685b902ccccde7e6e7c9f0a51d7c",
+  "document_instructions_executed": false,
+  "zip_crc": "PASS",
+  "path_checks": "PASS",
+  "entries": 93,
+  "uncompressed_bytes": 20889149,
+  "manifest_files": 92,
+  "manifest_bytes_sha256": "PASS",
+  "manifest_complete": true,
+  "upstream_comparison": {
+    "include/stop_bridge.hpp": {
+      "repository_file": "frozen/bridge/stop_bridge.hpp",
+      "identical": true
+    },
+    "vendor/consumer/frozen/independent_builder.hpp": {
+      "repository_file": "frozen/consumer/independent_builder.hpp",
+      "identical": true
+    },
+    "vendor/consumer/include/consumers.hpp": {
+      "repository_file": "frozen/consumer/consumers.hpp",
+      "identical": true
+    },
+    "vendor/consumer/src/consumers.cpp": {
+      "repository_file": "frozen/consumer/consumers.cpp",
+      "identical": true
+    }
+  },
+  "shared_fixtures": {
+    "chain4096.edges": true,
+    "dense_layers.edges": true,
+    "google_sampled_1024.edges": true,
+    "livejournal_sampled_4096.edges": true,
+    "lj_permuted.edges": true,
+    "road_sampled_64.edges": true,
+    "scc4_d32.edges": true,
+    "scc8_hubs.edges": true,
+    "sparse_synthetic_4096.edges": true
+  }
+}

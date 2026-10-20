@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "file": "intake/rcc_scope_distance_20261021/package/RCC_SCOPE_CPU_MODULE_20261021/results/arrays.jsonl",
+      "arrays": 1056,
+      "elements": 2571096
+    },
+    {
+      "file": "intake/rcc_scope_distance_20261021/package/RCC_SCOPE_CPU_MODULE_20261021/results/guard_arrays.jsonl",
+      "arrays": 768,
+      "elements": 1869888
+    },
+    {
+      "file": "results/scope_distance_audit_20261021/provided/arrays.jsonl",
+      "arrays": 1056,
+      "elements": 2571096
+    },
+    {
+      "file": "results/scope_distance_audit_20261021/provided/guard_arrays.jsonl",
+      "arrays": 768,
+      "elements": 1869888
+    },
+    {
+      "file": "results/scope_distance_audit_20261021/matched/arrays.jsonl",
+      "arrays": 1536,
+      "elements": 3739776
+    }
+  ],
+  "distinct_graph_source_oracles": 86,
+  "graph_files": 12
+}

@@ -1,0 +1,53 @@
+{
+  "scope_cpp": {
+    "status": "PASS",
+    "graphs": 4736,
+    "mode_query_comparisons": 416768,
+    "closure_edge_assertions": 65195,
+    "assertions": 969325,
+    "gpu_runs": 0,
+    "sanitizer_runs": 0
+  },
+  "distance_cpp": {
+    "status": "PASS",
+    "graphs": 640,
+    "mode_query_comparisons": 51200,
+    "assertions": 64003,
+    "GPU": 0
+  },
+  "scope_fixtures": {
+    "status": "PASS",
+    "fixture_requests": 8712,
+    "exported_arrays": 1056,
+    "checks": 8712
+  },
+  "distance_fixtures": {
+    "status": "PASS",
+    "fixture_comparisons": 6336,
+    "exported_arrays": 768
+  },
+  "scope_python": {
+    "status": "PASS",
+    "arrays": 1056,
+    "array_elements": 2571096,
+    "independent_graph_source_oracles": 86,
+    "graph_files": 12,
+    "implementation": "Python deque and supplied raw .edges files",
+    "gpu_runs": 0
+  },
+  "distance_python": {
+    "status": "PASS",
+    "arrays": 768,
+    "array_elements": 1869888,
+    "independent_graph_source_oracles": 86,
+    "directed_graphs_exhausted": 512,
+    "triangle_inequalities": 7824,
+    "closure_checks": 7824,
+    "frontier_bound_edge_checks": 12360,
+    "negative_rule_counterexamples": 4,
+    "GPU": 0,
+    "sanitizer": 0
+  },
+  "timing_rows_scope": 13464,
+  "timing_rows_distance": 4032
+}

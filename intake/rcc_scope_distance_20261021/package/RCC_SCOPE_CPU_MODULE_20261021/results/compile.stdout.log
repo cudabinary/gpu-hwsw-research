@@ -1,0 +1,4 @@
+make: Entering directory '/mnt/data/RCC_SCOPE_CPU_MODULE_20261021'
+mkdir -p build
+g++ -Iinclude -Ivendor/consumer/include -Ivendor/consumer/frozen -std=c++17 -O3 -Wall -Wextra -Werror -pedantic src/scope_probe.cpp vendor/consumer/src/consumers.cpp -o build/scope_probe
+make: Leaving directory '/mnt/data/RCC_SCOPE_CPU_MODULE_20261021'

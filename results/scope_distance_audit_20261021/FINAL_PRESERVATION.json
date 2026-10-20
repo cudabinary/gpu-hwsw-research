@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "source_input_binary_pins": true,
+  "intake_manifest_files": 92,
+  "vendor_files": 37,
+  "MAIN_snapshot_unchanged": true,
+  "original_matching_files": 37,
+  "old_P2_checkpoint_commit": "1a79b1048cc639c3c23f1000373c3ed6e10bbf7c",
+  "old_P2_artifacts": 60,
+  "default_API_source_unchanged": true,
+  "existing_CPU_API_regression": "PASS",
+  "candidate_API": "NOT_IMPLEMENTED_NOT_VERIFIED",
+  "new_GPU_runs": 0,
+  "paid_resources": 0
+}

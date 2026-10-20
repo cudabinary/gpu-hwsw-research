@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "selected_prior_files": 16,
+  "paths": [
+    "vendor/consumer/frozen/independent_builder.hpp",
+    "vendor/consumer/include/consumers.hpp",
+    "vendor/consumer/src/consumers.cpp",
+    "include/stop_bridge.hpp",
+    "fixtures/dense_layers.edges",
+    "fixtures/google_sampled_1024.edges",
+    "fixtures/manifest.json",
+    "fixtures/lj_permuted.edges",
+    "fixtures/road_sampled_64.edges",
+    "fixtures/scc8_hubs.edges",
+    "fixtures/sparse_synthetic_4096.edges",
+    "fixtures/chain4096.edges",
+    "fixtures/scc4_d32.edges",
+    "fixtures/cases_original.txt",
+    "fixtures/cases_holdout.txt",
+    "fixtures/livejournal_sampled_4096.edges"
+  ]
+}

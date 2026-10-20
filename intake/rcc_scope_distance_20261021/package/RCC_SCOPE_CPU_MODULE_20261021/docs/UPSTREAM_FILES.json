@@ -1,0 +1,82 @@
+[
+  {
+    "path": "vendor/consumer/frozen/independent_builder.hpp",
+    "sha256": "409a4f38e9b72f0997951aa5c694d36c3d57ee65c9a94bd2b46619cc0205ecf4",
+    "status": "unchanged_prior_source"
+  },
+  {
+    "path": "vendor/consumer/include/consumers.hpp",
+    "sha256": "aff547d9b30b070eefe21013f4d5ed1a1102e32d8e436848cc9bc472fe001464",
+    "status": "unchanged_prior_source"
+  },
+  {
+    "path": "vendor/consumer/src/consumers.cpp",
+    "sha256": "789f91b3634baf2c4b9b7a24691801604571ca237822acd1b1c231654d552bc1",
+    "status": "unchanged_prior_source"
+  },
+  {
+    "path": "include/stop_bridge.hpp",
+    "sha256": "6c3c71130c3990262645cf138f78ce42d5226752c3a962815979e118c6a9a740",
+    "status": "unchanged_prior_source"
+  },
+  {
+    "path": "fixtures/dense_layers.edges",
+    "sha256": "e8478fcdeb36caaa1ea005d1c3aaf5143eeef6e368e5339053f4b732aa968294",
+    "status": "unchanged_prior_input"
+  },
+  {
+    "path": "fixtures/google_sampled_1024.edges",
+    "sha256": "aaccfd6e1c691f27d41611306141cee06ad700c9aca95e7243e2399cad15f2df",
+    "status": "unchanged_prior_input"
+  },
+  {
+    "path": "fixtures/manifest.json",
+    "sha256": "b409971c65111a12b6ba47296402fd9fa363cf036d4e929de2021afa8cf9597d",
+    "status": "unchanged_prior_input"
+  },
+  {
+    "path": "fixtures/lj_permuted.edges",
+    "sha256": "7b63fcc3cecc752be8893d2e23c6592a14d329c1dcae61fc636cbbcd6464c636",
+    "status": "unchanged_prior_input"
+  },
+  {
+    "path": "fixtures/road_sampled_64.edges",
+    "sha256": "b1511de681d0b97c206c326523cd1e866cf59ec1df305daf0b6fedf66bcaba73",
+    "status": "unchanged_prior_input"
+  },
+  {
+    "path": "fixtures/scc8_hubs.edges",
+    "sha256": "df63dc4bf48dd1f0b1d7d2c3984e31d50843e1d6fc9877f78bb60ca63368a1f8",
+    "status": "unchanged_prior_input"
+  },
+  {
+    "path": "fixtures/sparse_synthetic_4096.edges",
+    "sha256": "53cef5c1d1756ffbc0582f9dfb3502e6fd26b3d08a47a64880a78f9f3b85d4ef",
+    "status": "unchanged_prior_input"
+  },
+  {
+    "path": "fixtures/chain4096.edges",
+    "sha256": "1901fe40eccd9e6ff5813a35a86651d58fb512f33a7c7b6a774ca614f3f774e0",
+    "status": "unchanged_prior_input"
+  },
+  {
+    "path": "fixtures/scc4_d32.edges",
+    "sha256": "97760d61d5f920c94baec8d8c42a406aed91ad44dddb7607839c8c277b46b23f",
+    "status": "unchanged_prior_input"
+  },
+  {
+    "path": "fixtures/cases_original.txt",
+    "sha256": "4388f8dc816a8ef858773472062b8ec07d5f7cddf2395e48099bb8d1f84f23aa",
+    "status": "unchanged_prior_input"
+  },
+  {
+    "path": "fixtures/cases_holdout.txt",
+    "sha256": "c6b437ba3bb791ecd8612a2cb798f0b9287e2c9816e8d98ef13e6f6639c9f086",
+    "status": "unchanged_prior_input"
+  },
+  {
+    "path": "fixtures/livejournal_sampled_4096.edges",
+    "sha256": "b22d4c73b798da0b3ca6e2fb9a97eb07b6d613728c4ff5e100dfef6817fe8c7f",
+    "status": "unchanged_prior_input"
+  }
+]

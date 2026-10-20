@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "graphs": 512,
+  "closure_checks": 7824,
+  "triangle_checks": 7824,
+  "frontier_edge_checks": 12360,
+  "negative_rules_falsified": 4
+}

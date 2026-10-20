@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "g++",
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-pthread",
+    "-I/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/intake/rcc_scope_distance_20261021/package/RCC_SCOPE_CPU_MODULE_20261021/include",
+    "-Ivendor/rcc_20261021/frozen/consumer",
+    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/intake/rcc_scope_distance_20261021/package/RCC_SCOPE_CPU_MODULE_20261021/src/distance_probe.cpp",
+    "vendor/rcc_20261021/frozen/consumer/consumers.cpp",
+    "-o",
+    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/scope_distance_audit_20261021/distance_probe"
+  ],
+  "returncode": 0,
+  "seconds": 4.951861325999998
+}

@@ -1,0 +1,8 @@
+{
+  "argv": [
+    "python3",
+    "tools/verify.py"
+  ],
+  "returncode": 0,
+  "seconds": 21.646949401999997
+}

@@ -1,0 +1,16 @@
+{
+  "cpu_model": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "logical_cpu_count": 5,
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "flags": "-std=c++17 -O3 -Wall -Wextra -Werror -pedantic",
+  "affinity_pinning": false,
+  "performance_governor_control": false,
+  "GPU": 0,
+  "Nsight": 0,
+  "sanitizer": 0,
+  "remote_PC_actions": 0,
+  "installations": 0,
+  "external_uploads": 0,
+  "limitation": "Shared container; timing variation is preserved; three processes are not independent machines or graph datasets."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "arrays": 768,
+  "array_elements": 1869888,
+  "independent_graph_source_oracles": 86,
+  "directed_graphs_exhausted": 512,
+  "triangle_inequalities": 7824,
+  "closure_checks": 7824,
+  "frontier_bound_edge_checks": 12360,
+  "negative_rule_counterexamples": 4,
+  "GPU": 0,
+  "sanitizer": 0
+}

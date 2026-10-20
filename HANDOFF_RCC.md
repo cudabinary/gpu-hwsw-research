@@ -28,7 +28,9 @@
 
 ## 최우선 후속 과제
 
-2026-10-21 갱신: 아래 미실행 계획은 `research/OLD_P2_SERVICE_RESULTS.md`와 `results/old_p2_service_20261021/`에서 완료했다. 고정3프로세스×7라운드, 반대 순서 sweep의 672 trials/14,112 전체 배열 PASS. original ready P2 대비 RCC/P2 q8=1.3045, q32=1.0667이므로 보편적 RCC 우위를 선언하지 않는다. 기존 원문 계획/자료는 역사적 맥락으로 보존하며 자동 재실행하지 않는다. 먼저 이 결과의 commit/Push를 보고하고, 전달된 RCC-Scope·DistanceGuard ZIP의 독립 감사로 진행한다. 이 체크포인트에서 ZIP은 미개봉·미실행이다.
+현재 최신 감사: `research/SCOPE_DISTANCE_AUDIT_RESULTS.md`, `research/SCOPE_DISTANCE_NOVELTY_AUDIT.md`. 아래 OLD_P2 완료 체크포인트 이후 사용자 명시 지시로 전달 ZIP을 개봉·검증·독립 재빌드했다. 원본/추출본은 intake에 그대로 보존한다. 신규 기전은 맞지만 실제 파생 CPU 입력의 강한 서비스 우위 미확보, 기본 RCC 통합 없음, 후보 API plugin 미구현이다. 유일한 전체 gate 양성은 합성 oneway_dense/legacy/q32/ready이며 cold/unique에서 깨진다. 자동 추가 실험·GPU·병합 지시로 해석하지 않는다. 현재 API1.0.0 기존 세 모듈 실제 교체는 재검증 PASS다.
+
+이전 OLD_P2 체크포인트 `1a79b1048cc639c3c23f1000373c3ed6e10bbf7c`: 아래 미실행 계획은 `research/OLD_P2_SERVICE_RESULTS.md`와 `results/old_p2_service_20261021/`에서 완료했다. 고정3프로세스×7라운드, 반대 순서 sweep의 672 trials/14,112 전체 배열 PASS. original ready P2 대비 RCC/P2 q8=1.3045, q32=1.0667이므로 보편적 RCC 우위를 선언하지 않는다. 기존 원문 계획/자료는 역사적 맥락으로 보존하며 자동 재실행하지 않는다. 그 체크포인트에서 ZIP은 아직 미개봉·미실행이었다.
 
 분리 시점의 미실행 계획: 새 알고리즘 전에 원본 OLD_P2와 동일 owned-output 계약의 cold/deferred/ready service 비교를 보완한다. LJ original+relabel, q8/q32, Push+EARLY_N/Push+RCC TABLE/OLD_P2를 고정 짝 비교한다. 세부 최소안은 보존된 SERVICE_BASELINE_GAP 문서에 있다. 기존 기록과 다른 측정 경계를 섞지 않는다. 최초 분리 작업에서는 그 성능 실험을 실행하지 않았다.
 

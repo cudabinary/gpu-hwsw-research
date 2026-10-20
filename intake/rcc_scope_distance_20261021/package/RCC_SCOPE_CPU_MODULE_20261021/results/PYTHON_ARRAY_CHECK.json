@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "arrays": 1056,
+  "array_elements": 2571096,
+  "independent_graph_source_oracles": 86,
+  "graph_files": 12,
+  "implementation": "Python deque and supplied raw .edges files",
+  "gpu_runs": 0
+}

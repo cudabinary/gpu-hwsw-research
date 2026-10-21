@@ -1,0 +1,9 @@
+{"kind":"TARGETED_GRAPH","name":"zero_indegree_source","arrays":4,"positive_indegree":2,"source_bound":3}
+{"kind":"TARGETED_GRAPH","name":"positive_indegree_source","arrays":4,"positive_indegree":2,"source_bound":2}
+{"kind":"TARGETED_GRAPH","name":"duplicates","arrays":4,"positive_indegree":2,"source_bound":3}
+{"kind":"TARGETED_GRAPH","name":"unreachable_positive_scc","arrays":4,"positive_indegree":4,"source_bound":5}
+{"kind":"TARGETED_GRAPH","name":"edgeless","arrays":4,"positive_indegree":0,"source_bound":1}
+{"kind":"TARGETED_GRAPH","name":"isolated_zero_indegree_vertices","arrays":4,"positive_indegree":2,"source_bound":3}
+{"kind":"TARGETED_GRAPH","name":"self_loop","arrays":4,"positive_indegree":1,"source_bound":1}
+{"kind":"TARGETED_GRAPH","name":"directed_sink_source","arrays":4,"positive_indegree":2,"source_bound":2}
+{"kind":"SUMMARY","status":"CPU_TARGETED_PASS","full_arrays":32,"equal_stop_checks":8,"identity_boundaries":16,"negative_or_boundary_checks":14,"metadata_bytes":48,"driver_loaded":false,"GPU_launches":0}

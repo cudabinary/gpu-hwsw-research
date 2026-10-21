@@ -1,0 +1,25 @@
+{
+  "status": "CPU_TARGETED_AND_PRE_DRIVER_GATE_PASS",
+  "targeted": {
+    "kind": "SUMMARY",
+    "status": "CPU_TARGETED_PASS",
+    "full_arrays": 32,
+    "equal_stop_checks": 8,
+    "identity_boundaries": 16,
+    "negative_or_boundary_checks": 14,
+    "metadata_bytes": 48,
+    "driver_loaded": false,
+    "GPU_launches": 0
+  },
+  "targeted_graphs": 8,
+  "new_control_distance_arrays": 32,
+  "CLI_pre_driver_CPU_arrays": 3,
+  "pre_driver_gate_rejections": 1,
+  "GPU_queries": 0,
+  "GPU_execution": 0,
+  "old_402_suite_repeated": false,
+  "sanitizer_runs": 0,
+  "seconds_for_execution_audit_only": 0.125,
+  "GPU_correctness": "UNMEASURED",
+  "GPU_performance": "UNMEASURED"
+}

@@ -1,0 +1,14 @@
+{
+  "frozen_owner_sha256": "3a5f18e0e395d29c4755cfba80f2ed20754e6d2534de90b231a9b3a872bafea6",
+  "new_owner_sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+  "changed_diff_lines": 47,
+  "unchanged_copies": {
+    "src/abi.hpp": "c26b38275459058ee06492e7185bc89d64c24d6eac5711495b3eb879d306eca2",
+    "src/native_driver.hpp": "3148d43366669872c8936a3197796aa64df47a543a68982b8438567241e72a1e",
+    "src/kernels.cu": "c4caf5d05cd105ee90e219f1153647bf770793de1d75d16679c3bb40b9cbbcef",
+    "include/independent_builder.hpp": "409a4f38e9b72f0997951aa5c694d36c3d57ee65c9a94bd2b46619cc0205ecf4",
+    "build/rcc_kernels.cubin": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836"
+  },
+  "GPU_calls": 0,
+  "old_source_or_results_modified": false
+}

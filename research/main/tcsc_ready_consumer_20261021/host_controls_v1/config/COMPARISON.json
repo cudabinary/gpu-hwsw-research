@@ -1,0 +1,125 @@
+{
+  "schema": "ready-consumer-host-controls-v1",
+  "status": "CPU_AND_STATIC_PREPARED_GPU_UNMEASURED",
+  "dispatch_ready": false,
+  "environment": "HOLD_ENVIRONMENT",
+  "modes": {
+    "0": "Push + EARLY_N",
+    "6": "Push + degree statistics",
+    "7": "Lean Push + static incoming bound",
+    "8": "Stats Push + static incoming bound + frontier-zero",
+    "4": "Direction + frontier-zero",
+    "5": "Direction + frontier-zero + RIE"
+  },
+  "paired_blocks": [
+    [
+      0,
+      6,
+      7,
+      8,
+      4,
+      5
+    ],
+    [
+      5,
+      4,
+      8,
+      7,
+      6,
+      0
+    ],
+    [
+      7,
+      8,
+      4,
+      5,
+      0,
+      6
+    ]
+  ],
+  "fixtures": [
+    {
+      "path": "../fixtures/livejournal_sampled_4096.edges",
+      "n": 4096,
+      "version": 1002
+    },
+    {
+      "path": "../fixtures/google_sampled_1024.edges",
+      "n": 1024,
+      "version": 1001
+    }
+  ],
+  "sources": [
+    0,
+    17,
+    34,
+    51,
+    68,
+    85,
+    102,
+    119,
+    136,
+    153,
+    170,
+    187,
+    204,
+    221,
+    238,
+    255,
+    272,
+    289,
+    306,
+    323,
+    340,
+    357,
+    374,
+    391,
+    408,
+    425,
+    442,
+    459,
+    476,
+    493,
+    510,
+    527
+  ],
+  "q_prefixes": [
+    1,
+    2,
+    8,
+    32
+  ],
+  "alpha": 15,
+  "beta": 24,
+  "future_maximum": {
+    "functional_workers": 6,
+    "timing_workers": 36,
+    "total_workers": 42,
+    "BFS_arrays": 1170,
+    "init_only_cancellations": 6
+  },
+  "primary_comparisons": [
+    "5/7",
+    "5/8"
+  ],
+  "secondary": [
+    "6/0",
+    "7/0",
+    "5/4"
+  ],
+  "finite_exploratory_gate": "If retained after review: LJ q32 ratio <0.95 against BOTH modes7 and8 in every fixed block; not final statistical or preparation evidence",
+  "measured_query_boundary": "distance initialization, events, per-level safe synchronization/control copies, full D2H and owned publication",
+  "static_setup_boundary": "common once-per-owner O(n) scan; scalar graph metadata; outside ready batch and separately recorded as subset of setup time",
+  "output_fields_added": [
+    "visit_bound",
+    "remaining_in_known",
+    "static_bound_setup_ms"
+  ],
+  "GPU_safety_contract": "Original guard/PID/VRAM/temperature/watchdog prerequisites unchanged; no ready baseline or dispatcher prepared by this version",
+  "new_version_execution_gate_set": false,
+  "new_GPU_queries_or_execution": 0,
+  "single_open_GPU_question": "Does ready Direction beat both lean static-bound Push and equal-stop Push at the full owned-distance boundary?",
+  "GPU_correctness": "UNMEASURED",
+  "GPU_performance": "UNMEASURED",
+  "preparation_service_or_HW_contribution": "UNMEASURED"
+}

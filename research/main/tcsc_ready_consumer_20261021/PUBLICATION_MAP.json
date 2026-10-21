@@ -283,6 +283,181 @@
       "bytes": 439041
     },
     {
+      "path": "host_controls_v1/README.md",
+      "raw_sha256": "79e77485d6bc4d1ddba4472ba058e5eec8fefd2f4cb1f961018cfab4ef7d30d8",
+      "published_sha256": "79e77485d6bc4d1ddba4472ba058e5eec8fefd2f4cb1f961018cfab4ef7d30d8",
+      "sanitized": false,
+      "bytes": 4688
+    },
+    {
+      "path": "host_controls_v1/REPRODUCE.md",
+      "raw_sha256": "c99fd2641ea0eb497f521a98f9883a5a97766e673f3b44857a26c39a01ca397c",
+      "published_sha256": "c99fd2641ea0eb497f521a98f9883a5a97766e673f3b44857a26c39a01ca397c",
+      "sanitized": false,
+      "bytes": 2014
+    },
+    {
+      "path": "host_controls_v1/SHA256SUMS",
+      "raw_sha256": "75e4f53b9ca59e6f576afc777afddfd59c1c9afd9c9e0f48b9b9be2959ffe61d",
+      "published_sha256": "75e4f53b9ca59e6f576afc777afddfd59c1c9afd9c9e0f48b9b9be2959ffe61d",
+      "sanitized": false,
+      "bytes": 2338
+    },
+    {
+      "path": "host_controls_v1/audit/COMPILE.json",
+      "raw_sha256": "f7f70cc5c26cc7167744fc74640245cf42541bf6c9d3496ad12b07a3bc170cbc",
+      "published_sha256": "c9b48312eaf50f4c1e2dd52d2123cc14f164506f11a0305cf0f6be2ceea471d3",
+      "sanitized": true,
+      "bytes": 738
+    },
+    {
+      "path": "host_controls_v1/audit/CPU_TARGETED_RESULT.json",
+      "raw_sha256": "acbf6e193a1f8e2eb5bed0d34722288994724a95d46a57a1606e969942701351",
+      "published_sha256": "d80aa6cc20c77e56d668a0cd2434d84a0dc24d8091ec2cd7b130f8071ca07196",
+      "sanitized": true,
+      "bytes": 676
+    },
+    {
+      "path": "host_controls_v1/audit/HOST_ONLY_DIFF.patch",
+      "raw_sha256": "456163f3afeeafae9982f0ab31198be8d7c34214138b3178a1840ab540724e98",
+      "published_sha256": "456163f3afeeafae9982f0ab31198be8d7c34214138b3178a1840ab540724e98",
+      "sanitized": false,
+      "bytes": 12310
+    },
+    {
+      "path": "host_controls_v1/audit/SOURCE_PROVENANCE.json",
+      "raw_sha256": "0725e29d7c4fa6c7c75b5cd1ab25b41a4467fa251dfd1432d4d7521c93da5538",
+      "published_sha256": "ec59bf020c2c6ee62b3147318cb0ca4dc53a367ad5c5d00e5d81cf159eef300b",
+      "sanitized": true,
+      "bytes": 782
+    },
+    {
+      "path": "host_controls_v1/audit/compile.stderr.log",
+      "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitized": false,
+      "bytes": 0
+    },
+    {
+      "path": "host_controls_v1/audit/compile.stdout.log",
+      "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitized": false,
+      "bytes": 0
+    },
+    {
+      "path": "host_controls_v1/audit/gate.stderr.log",
+      "raw_sha256": "6f9051f6a3648967b9177449d61229e56f2ff857d3e63679b6de316899dc3e2f",
+      "published_sha256": "6f9051f6a3648967b9177449d61229e56f2ff857d3e63679b6de316899dc3e2f",
+      "sanitized": false,
+      "bytes": 88
+    },
+    {
+      "path": "host_controls_v1/audit/gate.stdout.log",
+      "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitized": false,
+      "bytes": 0
+    },
+    {
+      "path": "host_controls_v1/audit/targeted.stderr.log",
+      "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitized": false,
+      "bytes": 0
+    },
+    {
+      "path": "host_controls_v1/audit/targeted.stdout.jsonl",
+      "raw_sha256": "0b164bdb31270c20fe519ea692b93175247f57b26114c11f73e1dc66ef66fd1d",
+      "published_sha256": "0b164bdb31270c20fe519ea692b93175247f57b26114c11f73e1dc66ef66fd1d",
+      "sanitized": false,
+      "bytes": 1047
+    },
+    {
+      "path": "host_controls_v1/config/COMPARISON.json",
+      "raw_sha256": "26d51fb05c0b5e2ccefea958bcd10df74c820354fb56de5382ffd0d33041b670",
+      "published_sha256": "6cdefbc8ed950e94a70738c386543e88cdf9c715158a0c754979ed2118c6334e",
+      "sanitized": true,
+      "bytes": 2631
+    },
+    {
+      "path": "host_controls_v1/config/PINS.json",
+      "raw_sha256": "d181a933e2f0b9b153ed91c6ae70cd68a1de4c5a4f67da316086348d89ad80f1",
+      "published_sha256": "a93b8e72e2cedafee8a55f12a9101e6c7f28035975473313a431fc328da4732d",
+      "sanitized": true,
+      "bytes": 2905
+    },
+    {
+      "path": "host_controls_v1/include/independent_builder.hpp",
+      "raw_sha256": "409a4f38e9b72f0997951aa5c694d36c3d57ee65c9a94bd2b46619cc0205ecf4",
+      "published_sha256": "409a4f38e9b72f0997951aa5c694d36c3d57ee65c9a94bd2b46619cc0205ecf4",
+      "sanitized": false,
+      "bytes": 11391
+    },
+    {
+      "path": "host_controls_v1/src/abi.hpp",
+      "raw_sha256": "c26b38275459058ee06492e7185bc89d64c24d6eac5711495b3eb879d306eca2",
+      "published_sha256": "c26b38275459058ee06492e7185bc89d64c24d6eac5711495b3eb879d306eca2",
+      "sanitized": false,
+      "bytes": 456
+    },
+    {
+      "path": "host_controls_v1/src/host_controls.hpp",
+      "raw_sha256": "2e80d026b25e559c2d7003d67fdb7da933a597be2d5aae08dde9ae979b51d185",
+      "published_sha256": "2e80d026b25e559c2d7003d67fdb7da933a597be2d5aae08dde9ae979b51d185",
+      "sanitized": false,
+      "bytes": 2539
+    },
+    {
+      "path": "host_controls_v1/src/kernels.cu",
+      "raw_sha256": "c4caf5d05cd105ee90e219f1153647bf770793de1d75d16679c3bb40b9cbbcef",
+      "published_sha256": "c4caf5d05cd105ee90e219f1153647bf770793de1d75d16679c3bb40b9cbbcef",
+      "sanitized": false,
+      "bytes": 1498
+    },
+    {
+      "path": "host_controls_v1/src/native_driver.hpp",
+      "raw_sha256": "3148d43366669872c8936a3197796aa64df47a543a68982b8438567241e72a1e",
+      "published_sha256": "3148d43366669872c8936a3197796aa64df47a543a68982b8438567241e72a1e",
+      "sanitized": false,
+      "bytes": 7394
+    },
+    {
+      "path": "host_controls_v1/src/owner_controls_v1.cpp",
+      "raw_sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "published_sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "sanitized": false,
+      "bytes": 13926
+    },
+    {
+      "path": "host_controls_v1/src/targeted_tests.inc",
+      "raw_sha256": "5795034d279c9e7c940aa5a3f2588f54af9660a015f548013e37e0c9199bfad7",
+      "published_sha256": "5795034d279c9e7c940aa5a3f2588f54af9660a015f548013e37e0c9199bfad7",
+      "sanitized": false,
+      "bytes": 5605
+    },
+    {
+      "path": "host_controls_v1/tools/compile_static.py",
+      "raw_sha256": "6843a9e2c9becc0c9490b19a7b968054369299383c43c889600a686f7cd3a267",
+      "published_sha256": "6843a9e2c9becc0c9490b19a7b968054369299383c43c889600a686f7cd3a267",
+      "sanitized": false,
+      "bytes": 1319
+    },
+    {
+      "path": "host_controls_v1/tools/prepare_sources.py",
+      "raw_sha256": "2b770ee05f5cc3bce4d9920103ede3e2ab83d536b102071b28bf10f74911c476",
+      "published_sha256": "2b770ee05f5cc3bce4d9920103ede3e2ab83d536b102071b28bf10f74911c476",
+      "sanitized": false,
+      "bytes": 6012
+    },
+    {
+      "path": "host_controls_v1/tools/run_targeted_cpu.py",
+      "raw_sha256": "1c41eb1998bc611db362985b50eec192f5b230c516412b3b3cd5eaf139549df0",
+      "published_sha256": "1c41eb1998bc611db362985b50eec192f5b230c516412b3b3cd5eaf139549df0",
+      "sanitized": false,
+      "bytes": 1911
+    },
+    {
       "path": "include/consumers.cpp",
       "raw_sha256": "789f91b3634baf2c4b9b7a24691801604571ca237822acd1b1c231654d552bc1",
       "published_sha256": "789f91b3634baf2c4b9b7a24691801604571ca237822acd1b1c231654d552bc1",
@@ -591,5 +766,5 @@
       "bytes": 1495
     }
   ],
-  "latest_update_scope": "Offline consumer attribution, elementary static-bound equivalence and non-dispatchable control proposal; no owner/kernel or GPU change"
+  "latest_update_scope": "Separate host controls v1; targeted CPU and static host compile/link; GPU HOLD remains"
 }

@@ -1,0 +1,229 @@
+{
+  "contract": "ISOLATION_UNVERIFIED",
+  "strict_preservation_pins": {
+    "tools/freeze_gpu_baseline.ps1": "abe0b6f4d53dd741c0ba90d707d8d7995011a3fb60afaf895cecd3637008eaee",
+    "tools/module_guard.ps1": "fa03eb9d664e4fb8d5bc1542e39c0f8aaf46a2505ef72a7537518a60b61fe40e",
+    "tools/process_guard.cpp": "1c81a7236cecb8e3cc18c1efbcfc40e258349ea8a68a495bede3442b3060fe71",
+    "tools/run_one_session.py": "7a5690faf93e1278896e5dbaee6e26ec0240fe0ba7219325e9b48097d6b333c8",
+    "tools/run_gpu_round.py": "8e5f00561ec082fb51fdafb4776d28035f5c9da161d63b519927e3b5e42bbcbb",
+    "audit/GPU_SESSION_RESULT.json": "4dd6331ab81cf0d49325fe4c897a2783551d087e771b7f4675d7009e174f7d0f"
+  },
+  "warmup": 0,
+  "automatic_payload_or_GPU_retries": 0,
+  "start_free_MiB": 2048,
+  "run_free_MiB": 1536,
+  "temperature_limit_exclusive_C": 78,
+  "device_workspace_cap_bytes": 33554432,
+  "telemetry_freshness_ms": 3000,
+  "telemetry_command_timeout_seconds": 2,
+  "preflight_samples": 3,
+  "unowned_compute_engine_limit_percent": 0.001,
+  "maximum_nvidia_smi_samples": 1200,
+  "background_3D_abrupt_threshold": "Stop if foreign 3D engine exceeds max(20%, baseline+15 percentage points)",
+  "stop_on_new_nonowned_GPU_PID": true,
+  "known_research_process_name_pattern": "(?i)(owner_controls|round_owner|rcc_owner|wfa|tcsc|fp4|amax|benchmark|bench|compactor|python(?:w)?(?:[0-9.]*)?\\.exe|pytorch|tensorflow|nsys|ncu\\.exe)",
+  "stop_on_foreign_pure_compute_context": true,
+  "protected_process_memory_module_queries": false,
+  "Windows_security_permissions_driver_clock_changes": false,
+  "external_CUDA_absence": "UNKNOWN",
+  "WSL_context_visibility": "UNKNOWN",
+  "enforced_GPU_exclusivity": false,
+  "background_PID_treatment": "Observed preexisting background, unverified; not a trusted no-compute allowlist",
+  "engine_observation": "Installed Windows GPU Engine counters, NVIDIA DXGI LUID; no process module or memory inspection",
+  "schema": "approved-two-session-repeat-v1",
+  "explicit_user_authorized": true,
+  "approval_reference": "<LOCAL_APPROVAL_REFERENCE>",
+  "session_order": [
+    "S2",
+    "S3"
+  ],
+  "sessions": {
+    "S2": {
+      "cases": [
+        {
+          "phase": "SMOKE",
+          "fixture": "gpu_micro7.edges",
+          "n": 7,
+          "mode": 5,
+          "q": 3
+        },
+        {
+          "phase": "SMOKE",
+          "fixture": "gpu_micro7.edges",
+          "n": 7,
+          "mode": 7,
+          "q": 3
+        },
+        {
+          "phase": "EXPLORATORY_TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 5,
+          "q": 32,
+          "block": 0
+        },
+        {
+          "phase": "EXPLORATORY_TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 7,
+          "q": 32,
+          "block": 0
+        },
+        {
+          "phase": "EXPLORATORY_TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 7,
+          "q": 32,
+          "block": 1
+        },
+        {
+          "phase": "EXPLORATORY_TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 5,
+          "q": 32,
+          "block": 1
+        }
+      ],
+      "maximum_full_BFS_arrays": 134,
+      "maximum_CUDA_workers": 6,
+      "maximum_init_only_cancellations": 2
+    },
+    "S3": {
+      "cases": [
+        {
+          "phase": "SMOKE",
+          "fixture": "gpu_micro7.edges",
+          "n": 7,
+          "mode": 7,
+          "q": 3
+        },
+        {
+          "phase": "SMOKE",
+          "fixture": "gpu_micro7.edges",
+          "n": 7,
+          "mode": 5,
+          "q": 3
+        },
+        {
+          "phase": "EXPLORATORY_TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 7,
+          "q": 32,
+          "block": 0
+        },
+        {
+          "phase": "EXPLORATORY_TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 5,
+          "q": 32,
+          "block": 0
+        },
+        {
+          "phase": "EXPLORATORY_TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 5,
+          "q": 32,
+          "block": 1
+        },
+        {
+          "phase": "EXPLORATORY_TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 7,
+          "q": 32,
+          "block": 1
+        }
+      ],
+      "maximum_full_BFS_arrays": 134,
+      "maximum_CUDA_workers": 6,
+      "maximum_init_only_cancellations": 2
+    }
+  },
+  "maximum_CUDA_workers": 12,
+  "maximum_full_BFS_arrays": 268,
+  "maximum_init_only_cancellations": 4,
+  "campaign_wall_cap_seconds": 600,
+  "session_wall_cap_seconds": 180,
+  "session_gap_seconds": 60,
+  "child_watchdog_seconds": 20,
+  "expected_driver_version": "610.88",
+  "raw_output_total_cap_bytes": 134217728,
+  "raw_output_session_cap_bytes": 67108864,
+  "q_prefixes": [
+    1,
+    2,
+    8,
+    32
+  ],
+  "q_sources": [
+    0,
+    17,
+    34,
+    51,
+    68,
+    85,
+    102,
+    119,
+    136,
+    153,
+    170,
+    187,
+    204,
+    221,
+    238,
+    255,
+    272,
+    289,
+    306,
+    323,
+    340,
+    357,
+    374,
+    391,
+    408,
+    425,
+    442,
+    459,
+    476,
+    493,
+    510,
+    527
+  ],
+  "alpha": 15,
+  "beta": 24,
+  "measurement_boundary": "Ready resident CSR/reverse. Query init, safe level synchronization, full D2H and owned output inside; CPU reverse, native setup and H2D outside and recorded.",
+  "success_interpretation": "Four new q32 ratios <0.95 is a consistent prospective exploratory signal only. Retain both historical ratios, including adverse result; no confidence interval or isolated/HW/preparation claim.",
+  "no_scope_expansion": true,
+  "prior_round_preservation": {
+    "config/PLAN.json": "2d864a70f5bf881564d3984562e1ad3ff845fc96538f6a52c4924b391f460e86",
+    "tools/run_exploratory.py": "ab8cc2902da9123f0176fcf3e0f304756688e1a553537c2d4ec68e0412906ad3",
+    "results/EXPLORATORY_SESSION/RECEIPT.json": "b5e61fde7ae6b5a5f813eca6266ccc2bfef4e6546cf90ce7c0a20fa87f716d1e",
+    "audit/GITHUB_CHECKPOINT.json": "f653a2dac079a9f3bb439a01f463f77dec92496551511ee339b76ee798ea3152"
+  },
+  "pins": {
+    "build/owner_controls_v1.exe": "fae72a0eb71507315058b90f6753fbe913e2c7ac914142037317d1ee852d44e7",
+    "build/rcc_kernels.cubin": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836",
+    "build/adapter_luid.exe": "f213e1a0ab3802afa159caec32bed547786ab53d4da1516b7b42be6ca87036d5",
+    "src/owner_controls_v1.cpp": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+    "src/host_controls.hpp": "2e80d026b25e559c2d7003d67fdb7da933a597be2d5aae08dde9ae979b51d185",
+    "src/targeted_tests.inc": "5795034d279c9e7c940aa5a3f2588f54af9660a015f548013e37e0c9199bfad7",
+    "src/abi.hpp": "c26b38275459058ee06492e7185bc89d64c24d6eac5711495b3eb879d306eca2",
+    "src/native_driver.hpp": "3148d43366669872c8936a3197796aa64df47a543a68982b8438567241e72a1e",
+    "src/kernels.cu": "c4caf5d05cd105ee90e219f1153647bf770793de1d75d16679c3bb40b9cbbcef",
+    "include/independent_builder.hpp": "409a4f38e9b72f0997951aa5c694d36c3d57ee65c9a94bd2b46619cc0205ecf4",
+    "fixtures/gpu_micro7.edges": "c7c0d0bfcd676b5ab4ebf40cd0cea58d4f3127f2155c4398ca5e4515c837a376",
+    "fixtures/livejournal_sampled_4096.edges": "b22d4c73b798da0b3ca6e2fb9a97eb07b6d613728c4ff5e100dfef6817fe8c7f",
+    "tools/child_watchdog.py": "8b8aad8f5481b07e88110329516d5776600edfd3c02421680c89248cac5d19f4",
+    "tools/watchdog_support.py": "f75282b543cf4b59ac6737a64958fd5515eb3cf9db8e6100d4765b174ec5921c",
+    "tools/engine_guard.ps1": "16805d8df1de59f01a4226899c21131bc83a91a75f97902bc53da71225ec1369",
+    "tools/adapter_luid.cpp": "f4233dde74f30adcaa2824f0d00942436c1ca34627b5a52f2f4436256a37030a",
+    "tools/session_runner.py": "1e66bf125bc9661c710d957b8e8dd0353a89dcb3b62b7b572727970bdef02664",
+    "tools/run_campaign.py": "5ce486c96ccf64026d479151fba86a01f6273a56ae8d0ae2c150eefccc6c5efa"
+  }
+}

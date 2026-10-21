@@ -1,0 +1,47 @@
+[
+  {
+    "session": "S1",
+    "started_utc": "2026-10-21T05:37:16.701847+00:00",
+    "worker_mode_sequence": [
+      7,
+      8,
+      5,
+      7,
+      8,
+      5,
+      5,
+      8,
+      7
+    ],
+    "smoke_workers": 3,
+    "unverified_isolation_contract": "ISOLATION_UNVERIFIED"
+  },
+  {
+    "session": "S2",
+    "started_utc": "2026-10-21T06:31:15.154506+00:00",
+    "worker_mode_sequence": [
+      5,
+      7,
+      5,
+      7,
+      7,
+      5
+    ],
+    "smoke_workers": 2,
+    "unverified_isolation_contract": "ISOLATION_UNVERIFIED"
+  },
+  {
+    "session": "S3",
+    "started_utc": "2026-10-21T06:32:26.899800+00:00",
+    "worker_mode_sequence": [
+      7,
+      5,
+      7,
+      5,
+      5,
+      7
+    ],
+    "smoke_workers": 2,
+    "unverified_isolation_contract": "ISOLATION_UNVERIFIED"
+  }
+]

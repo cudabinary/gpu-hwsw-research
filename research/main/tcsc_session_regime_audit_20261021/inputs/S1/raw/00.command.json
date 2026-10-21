@@ -1,0 +1,21 @@
+{
+  "case": {
+    "phase": "SMOKE",
+    "fixture": "gpu_micro7.edges",
+    "n": 7,
+    "mode": 7,
+    "q": 3,
+    "block": -1
+  },
+  "command": [
+    "<USER_HOME>\\Documents\\Codex\\2026-10-20\\task\\MAIN_TCSC_EXPLORATORY_CONSUMER_20261021\\build\\owner_controls_v1.exe",
+    "--execute",
+    "<USER_HOME>\\Documents\\Codex\\2026-10-20\\task\\MAIN_TCSC_EXPLORATORY_CONSUMER_20261021\\fixtures\\gpu_micro7.edges",
+    "7",
+    "7",
+    "3"
+  ],
+  "contract": "ISOLATION_UNVERIFIED",
+  "fresh_child_only_permits": true,
+  "preexisting_TCSC_variables_inherited": false
+}

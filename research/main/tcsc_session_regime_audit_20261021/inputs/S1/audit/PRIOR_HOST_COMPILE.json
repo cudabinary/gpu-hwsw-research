@@ -1,0 +1,28 @@
+{
+  "status": "STATIC_HOST_COMPILE_LINK_PASS",
+  "argv": [
+    "wsl.exe",
+    "-d",
+    "Ubuntu",
+    "--",
+    "x86_64-w64-mingw32-g++",
+    "-std=c++17",
+    "-O2",
+    "-static",
+    "-I<USER_HOME>/Documents/Codex/2026-10-20/task/MAIN_TCSC_READY_CONSUMER_ROUND_20261021/host_controls_v1/src",
+    "-I<USER_HOME>/Documents/Codex/2026-10-20/task/MAIN_TCSC_READY_CONSUMER_ROUND_20261021/host_controls_v1/include",
+    "-I/usr/local/cuda-13.3/include",
+    "<USER_HOME>/Documents/Codex/2026-10-20/task/MAIN_TCSC_READY_CONSUMER_ROUND_20261021/host_controls_v1/src/owner_controls_v1.cpp",
+    "-o",
+    "<USER_HOME>/Documents/Codex/2026-10-20/task/MAIN_TCSC_READY_CONSUMER_ROUND_20261021/host_controls_v1/build/owner_controls_v1.exe"
+  ],
+  "exit_code": 0,
+  "seconds": 13.421000000002095,
+  "GPU_calls": 0,
+  "new_CUDA_compilation": false,
+  "existing_cubin_used": true,
+  "new_execution_permit_set": false,
+  "GPU_owner_path_compiled": true,
+  "runtime_gate_is_checked_before_driver_init": true,
+  "binary_sha256": "fae72a0eb71507315058b90f6753fbe913e2c7ac914142037317d1ee852d44e7"
+}

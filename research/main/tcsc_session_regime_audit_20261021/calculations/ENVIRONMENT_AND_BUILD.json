@@ -1,0 +1,57 @@
+{
+  "environment": [
+    {
+      "session_group": "S1",
+      "explicit_child_assignments_from_source": {
+        "TCSC_GPU_APPROVED_TOKEN": "'HUMAN_APPROVED_FINITE_PLAN'",
+        "TCSC_HOST_CONTROLS_V1_APPROVED": "'NEW_REVIEWED_FINITE_PLAN'",
+        "TCSC_CUBIN": "str(P / 'build/rcc_kernels.cubin')",
+        "TCSC_READY": "str(ready)",
+        "TCSC_ACK": "str(ack)",
+        "TCSC_DISTANCE_OUT": "str(output)",
+        "CUDA_CACHE_DISABLE": "'1'"
+      },
+      "full_historical_inherited_environment": "UNKNOWN_NOT_RECORDED",
+      "explicit_cwd": "ABSENT_IN_POPEN; INHERITED_CWD_UNKNOWN"
+    },
+    {
+      "session_group": "S23",
+      "explicit_child_assignments_from_source": {
+        "TCSC_GPU_APPROVED_TOKEN": "'HUMAN_APPROVED_FINITE_PLAN'",
+        "TCSC_HOST_CONTROLS_V1_APPROVED": "'NEW_REVIEWED_FINITE_PLAN'",
+        "TCSC_CUBIN": "str(P / 'build/rcc_kernels.cubin')",
+        "TCSC_READY": "str(ready)",
+        "TCSC_ACK": "str(ack)",
+        "TCSC_DISTANCE_OUT": "str(output)",
+        "CUDA_CACHE_DISABLE": "'1'"
+      },
+      "full_historical_inherited_environment": "UNKNOWN_NOT_RECORDED",
+      "explicit_cwd": "ABSENT_IN_POPEN; INHERITED_CWD_UNKNOWN"
+    }
+  ],
+  "host_compile_argv": [
+    "wsl.exe",
+    "-d",
+    "Ubuntu",
+    "--",
+    "x86_64-w64-mingw32-g++",
+    "-std=c++17",
+    "-O2",
+    "-static",
+    "-I<USER_HOME>/Documents/Codex/2026-10-20/task/MAIN_TCSC_READY_CONSUMER_ROUND_20261021/host_controls_v1/src",
+    "-I<USER_HOME>/Documents/Codex/2026-10-20/task/MAIN_TCSC_READY_CONSUMER_ROUND_20261021/host_controls_v1/include",
+    "-I/usr/local/cuda-13.3/include",
+    "<USER_HOME>/Documents/Codex/2026-10-20/task/MAIN_TCSC_READY_CONSUMER_ROUND_20261021/host_controls_v1/src/owner_controls_v1.cpp",
+    "-o",
+    "<USER_HOME>/Documents/Codex/2026-10-20/task/MAIN_TCSC_READY_CONSUMER_ROUND_20261021/host_controls_v1/build/owner_controls_v1.exe"
+  ],
+  "host_compile_exit": 0,
+  "host_build_output_matches_both_sessions": true,
+  "compiler_version": "UNKNOWN_NOT_RECORDED_IN_RECEIPT",
+  "original_CUDA_compile_flags": "UNKNOWN_IN_INSPECTED_SESSION_RECORDS; same existing cubin bytes",
+  "new_compilations_in_S2_S3": false,
+  "warmup_declared_both": 0,
+  "CUDA_CACHE_DISABLE_explicit_both": "1; recorded source assignment, no child environment echo",
+  "device_cache_residency_or_flush": "UNKNOWN_NOT_RECORDED",
+  "driver_cache_and_clock_causes": "UNKNOWN; no causal inference from current-state inspection"
+}

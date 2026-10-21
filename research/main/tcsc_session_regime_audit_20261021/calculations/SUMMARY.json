@@ -1,0 +1,37 @@
+{
+  "status": "CPU_RECORD_AUDIT_COMPLETE",
+  "new_GPU_queries_or_dispatches": 0,
+  "new_CPU_benchmarks_or_accuracy_runs": 0,
+  "new_compilations": 0,
+  "original_files_modified": false,
+  "scope": "Same byte-pinned ready consumer, differing execution designs and unverified regimes",
+  "same_binary_source_inputs": true,
+  "same_reported_work_and_output_hashes": true,
+  "same_normalized_commands_per_mode": true,
+  "same_explicit_environment_assignment_source": true,
+  "full_environment_and_working_directory": "UNKNOWN",
+  "algorithm_improvement": "NO_CODE_CHANGE",
+  "Direction_absolute_new_over_old_range": [
+    0.5220620379222053,
+    0.5635192544881459
+  ],
+  "Push_absolute_new_over_old_range": [
+    0.8019436673047393,
+    0.9973990050162046
+  ],
+  "Direction_query_wall_lower_count_of_128": 128,
+  "unexplained_clock_cache_host_or_foreign_activity_cause": "UNKNOWN",
+  "recommendation": "CHECK_MEASUREMENT_REGIME_BEFORE_PREPARATION_INCLUSIVE_EVALUATION",
+  "experimentally_identified_Hardware_or_preparation_cause": false,
+  "S1_ratios_retained": [
+    0.8757567470918614,
+    1.0544144664863861
+  ],
+  "S2_S3_ratios_retained": [
+    0.5782395016270351,
+    0.5957323509323841,
+    0.5701140500897082,
+    0.6024112222257274
+  ],
+  "telemetry_samples_reparsed_no_new_query": 90
+}

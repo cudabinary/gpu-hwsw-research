@@ -1,0 +1,28 @@
+{
+  "status": "APPROVED_TWO_SESSIONS_PASS",
+  "completed_utc": "2026-10-21T06:32:37.529835+00:00",
+  "contract": "ISOLATION_UNVERIFIED",
+  "whole_campaign_wall_seconds_including_gap": 82.38999999998487,
+  "CUDA_workers": 12,
+  "GPU_BFS_arrays": 268,
+  "init_only_cancellations": 4,
+  "sessions": [
+    {
+      "session": "S2",
+      "receipt_sha256": "63cc0c3ef78b82d7d97f52ab8deeb3cb43f3028dd7dd49abce1efb1c724e0db5",
+      "workers": 6,
+      "BFS": 134,
+      "init_only_cancellations": 2
+    },
+    {
+      "session": "S3",
+      "receipt_sha256": "0f676d8a0f629f1f12a0e039f16abcf839f212052d4a14f7b6a91739c26011ae",
+      "workers": 6,
+      "BFS": 134,
+      "init_only_cancellations": 2
+    }
+  ],
+  "raw_result_bytes": 8987550,
+  "automatic_retries": 0,
+  "scope_expanded": false
+}

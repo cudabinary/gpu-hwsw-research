@@ -1,0 +1,91 @@
+session,sample,utc,owned_PID,sample_elapsed_s,temperature_C,free_MiB,reported_utilization_percent,performance_state,graphics_clock,sm_clock,mem_clock,clock_reasons_gpu_idle,query_or_kernel_timestamp_alignment
+S1,0,2026-10-21T05:37:17.009930+00:00,,0.29699999999138527,40,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S1,1,2026-10-21T05:37:21.781652+00:00,,5.077999999979511,40,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S1,2,2026-10-21T05:37:22.154128+00:00,,5.452999999979511,40,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S1,3,2026-10-21T05:37:22.525222+00:00,,5.812999999994645,40,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S1,4,2026-10-21T05:37:22.909378+00:00,,6.202999999979511,40,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S1,5,2026-10-21T05:37:23.194899+00:00,45664,6.48499999998603,40,6935,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S1,6,2026-10-21T05:37:23.433911+00:00,,6.73499999998603,40,6946,14,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,7,2026-10-21T05:37:23.622938+00:00,,6.921999999991385,40,6946,14,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,8,2026-10-21T05:37:23.812909+00:00,39520,7.10999999998603,42,6839,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,9,2026-10-21T05:37:24.060742+00:00,,7.35999999998603,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,10,2026-10-21T05:37:24.237668+00:00,,7.530999999988126,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,11,2026-10-21T05:37:24.429426+00:00,56644,7.7189999999827705,42,6839,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,12,2026-10-21T05:37:24.656823+00:00,,7.952999999979511,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,13,2026-10-21T05:37:24.821769+00:00,,8.10999999998603,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,14,2026-10-21T05:37:25.021993+00:00,70496,8.312999999994645,42,6839,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,15,2026-10-21T05:37:25.247152+00:00,70496,8.546999999991385,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,16,2026-10-21T05:37:25.477736+00:00,,8.765999999974156,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,17,2026-10-21T05:37:25.657855+00:00,,8.952999999979511,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,18,2026-10-21T05:37:25.866943+00:00,63644,9.155999999988126,42,6839,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S1,19,2026-10-21T05:37:26.122995+00:00,63644,9.421999999991385,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S1,20,2026-10-21T05:37:26.370524+00:00,,9.655999999988126,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,21,2026-10-21T05:37:26.550065+00:00,,9.84399999998277,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,22,2026-10-21T05:37:26.744191+00:00,21184,10.030999999988126,42,6839,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,23,2026-10-21T05:37:26.971538+00:00,21184,10.265999999974156,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,24,2026-10-21T05:37:27.206861+00:00,,10.5,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,25,2026-10-21T05:37:27.380754+00:00,,10.671999999991385,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,26,2026-10-21T05:37:27.577569+00:00,62488,10.875,42,6839,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,27,2026-10-21T05:37:27.809905+00:00,62488,11.10999999998603,42,6946,6,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,28,2026-10-21T05:37:28.031979+00:00,,11.327999999979511,42,6946,6,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,29,2026-10-21T05:37:28.222003+00:00,,11.515999999974156,42,6946,6,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,30,2026-10-21T05:37:28.418482+00:00,20968,11.71899999998277,42,6839,6,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,31,2026-10-21T05:37:28.641600+00:00,20968,11.937999999994645,42,6946,6,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,32,2026-10-21T05:37:28.870679+00:00,,12.171999999991385,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,33,2026-10-21T05:37:29.057274+00:00,,12.34399999998277,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,34,2026-10-21T05:37:29.267978+00:00,16316,12.562999999994645,42,6839,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,35,2026-10-21T05:37:29.486888+00:00,16316,12.780999999988126,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S1,36,2026-10-21T05:37:29.713335+00:00,,13.0,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,0,2026-10-21T06:31:15.484037+00:00,,0.32800000000861473,40,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S2,1,2026-10-21T06:31:19.758596+00:00,,4.594000000011874,40,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S2,2,2026-10-21T06:31:20.135283+00:00,,4.969000000011874,40,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S2,3,2026-10-21T06:31:20.520882+00:00,,5.360000000015134,40,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S2,4,2026-10-21T06:31:20.926790+00:00,,5.76600000000326,40,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S2,5,2026-10-21T06:31:21.237120+00:00,74568,6.078000000008615,40,6839,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S2,6,2026-10-21T06:31:21.486684+00:00,74568,6.328000000008615,41,6946,0,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,7,2026-10-21T06:31:21.733718+00:00,,6.578000000008615,41,6946,0,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,8,2026-10-21T06:31:21.915259+00:00,,6.75,42,6946,0,P0,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S2,9,2026-10-21T06:31:22.132282+00:00,10628,6.969000000011874,42,6839,0,P0,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S2,10,2026-10-21T06:31:22.366291+00:00,,7.203000000008615,42,6946,0,P0,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S2,11,2026-10-21T06:31:22.547070+00:00,,7.39100000000326,42,6946,0,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,12,2026-10-21T06:31:22.746658+00:00,69896,7.594000000011874,42,6839,0,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,13,2026-10-21T06:31:22.980621+00:00,69896,7.828000000008615,42,6946,6,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,14,2026-10-21T06:31:23.199064+00:00,,8.047000000020489,42,6946,6,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,15,2026-10-21T06:31:23.391570+00:00,,8.235000000015134,42,6946,6,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,16,2026-10-21T06:31:23.611218+00:00,69488,8.453000000008615,42,6839,6,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,17,2026-10-21T06:31:23.839242+00:00,69488,8.672000000020489,42,6946,6,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,18,2026-10-21T06:31:24.061189+00:00,,8.90700000000652,42,6946,0,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,19,2026-10-21T06:31:24.246391+00:00,,9.094000000011874,42,6946,0,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,20,2026-10-21T06:31:24.462637+00:00,37808,9.297000000020489,42,6839,0,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,21,2026-10-21T06:31:24.701863+00:00,37808,9.547000000020489,42,6946,0,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,22,2026-10-21T06:31:24.941441+00:00,,9.78200000000652,42,6946,0,P0,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S2,23,2026-10-21T06:31:25.125684+00:00,,9.969000000011874,42,6946,0,P0,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S2,24,2026-10-21T06:31:25.349347+00:00,63452,10.187999999994645,42,6839,0,P0,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S2,25,2026-10-21T06:31:25.608875+00:00,63452,10.453000000008615,42,6946,6,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S2,26,2026-10-21T06:31:25.847932+00:00,,10.687999999994645,42,6946,6,P0,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,0,2026-10-21T06:32:27.179487+00:00,,0.28099999998812564,41,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S3,1,2026-10-21T06:32:31.420014+00:00,,4.530999999988126,41,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S3,2,2026-10-21T06:32:31.794558+00:00,,4.905999999988126,41,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S3,3,2026-10-21T06:32:32.173770+00:00,,5.280999999988126,41,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S3,4,2026-10-21T06:32:32.541725+00:00,,5.639999999984866,41,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S3,5,2026-10-21T06:32:32.753252+00:00,16552,5.85899999999674,41,6839,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S3,6,2026-10-21T06:32:32.990969+00:00,,6.092999999993481,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,7,2026-10-21T06:32:33.178122+00:00,,6.280999999988126,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,8,2026-10-21T06:32:33.395691+00:00,33976,6.5,42,6839,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,9,2026-10-21T06:32:33.629185+00:00,,6.73399999999674,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,10,2026-10-21T06:32:33.815212+00:00,,6.921999999991385,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,11,2026-10-21T06:32:34.015466+00:00,75384,7.125,42,6839,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S3,12,2026-10-21T06:32:34.243038+00:00,75384,7.342999999993481,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing
+S3,13,2026-10-21T06:32:34.474275+00:00,,7.577999999979511,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,14,2026-10-21T06:32:34.651694+00:00,,7.75,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,15,2026-10-21T06:32:34.848278+00:00,65348,7.952999999979511,42,6839,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,16,2026-10-21T06:32:35.077125+00:00,65348,8.187000000005355,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,17,2026-10-21T06:32:35.306822+00:00,,8.405999999988126,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,18,2026-10-21T06:32:35.486942+00:00,,8.59299999999348,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,19,2026-10-21T06:32:35.699967+00:00,11780,8.812000000005355,42,6839,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,20,2026-10-21T06:32:35.929360+00:00,11780,9.030999999988126,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,21,2026-10-21T06:32:36.164079+00:00,,9.264999999984866,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,22,2026-10-21T06:32:36.346590+00:00,,9.452999999979511,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,23,2026-10-21T06:32:36.558762+00:00,65544,9.671999999991385,42,6839,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,24,2026-10-21T06:32:36.794509+00:00,65544,9.905999999988126,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Not Active,UNKNOWN; context-owner sample is not per-request timing
+S3,25,2026-10-21T06:32:37.011365+00:00,,10.125,42,6946,0,P8,210 MHz,210 MHz,405 MHz,Active,UNKNOWN; context-owner sample is not per-request timing

@@ -1,0 +1,11 @@
+{
+  "scope": "Bounded CPU-only comparison of existing session records",
+  "new_GPU_queries_or_dispatches": 0,
+  "new_CPU_benchmarks_or_accuracy_runs": 0,
+  "new_compilations": 0,
+  "source_files_hashed_and_preserved": 249,
+  "recommendation": "Check measurement regime before preparation-inclusive evaluation",
+  "sensitive_raw_paths": "Retained only in private raw capsule; sanitize Git text derivatives",
+  "expected_main_parent": "dd8ee313e0a843e245c632c485194841fe3c63d1",
+  "RCC_or_strict_changes": false
+}

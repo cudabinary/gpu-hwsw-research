@@ -1,0 +1,21 @@
+{
+  "case": {
+    "phase": "EXPLORATORY_TIMING",
+    "fixture": "livejournal_sampled_4096.edges",
+    "n": 4096,
+    "mode": 7,
+    "q": 32,
+    "block": 1
+  },
+  "command": [
+    "<USER_HOME>\\Documents\\Codex\\2026-10-20\\task\\MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021\\build\\owner_controls_v1.exe",
+    "--execute",
+    "<USER_HOME>\\Documents\\Codex\\2026-10-20\\task\\MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021\\fixtures\\livejournal_sampled_4096.edges",
+    "4096",
+    "7",
+    "32"
+  ],
+  "contract": "ISOLATION_UNVERIFIED",
+  "fresh_child_only_permits": true,
+  "preexisting_TCSC_variables_inherited": false
+}

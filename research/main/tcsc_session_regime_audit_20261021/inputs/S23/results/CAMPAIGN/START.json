@@ -1,0 +1,9 @@
+{
+  "started_utc": "2026-10-21T06:31:15.147506+00:00",
+  "contract": "ISOLATION_UNVERIFIED",
+  "wall_cap_seconds": 600,
+  "plan_sha256": "cbb1459e2540e0ed8598bc681647a93e27d8c4003a9d15c98167e859944d12a4",
+  "worker_cap": 12,
+  "BFS_cap": 268,
+  "cancel_cap": 4
+}

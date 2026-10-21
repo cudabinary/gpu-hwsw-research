@@ -1,0 +1,292 @@
+{
+  "scope": "SOURCE_READING_ONLY",
+  "anchors": [
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "auto load_start",
+      "matches": [
+        {
+          "line": 131,
+          "text": "auto load_start=Clock::now();auto g=independent::Graph::load(argv[2],n,n==4096?1002:n==1024?1001:7001);"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "auto build_start",
+      "matches": [
+        {
+          "line": 133,
+          "text": "auto build_start=Clock::now();auto account=std::make_shared<independent::Account>(32ULL<<20);independent::Builder builder(g,account);builder.finish();auto reverse=builder.take();double build_ms=milliseconds(build_start);"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "auto reference_start",
+      "matches": [
+        {
+          "line": 134,
+          "text": "auto reference_start=Clock::now();std::vector<std::vector<int>>expected;std::vector<Replay>work;"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "auto setup_start",
+      "matches": [
+        {
+          "line": 141,
+          "text": "auto setup_start=Clock::now();native::init();"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "cudaMemcpy(row,g_->row()",
+      "matches": [
+        {
+          "line": 42,
+          "text": "ck(cudaMemcpy(row,g_->row().data(),8ULL*(d_.n+1),cudaMemcpyHostToDevice));"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "cudaMemcpy(row,r_->row()",
+      "matches": [
+        {
+          "line": 47,
+          "text": "ck(cudaMemcpy(row,r_->row(),8ULL*(d_.n+1),cudaMemcpyHostToDevice));if(d_.m)ck(cudaMemcpy(src,r_->source(),4ULL*d_.m,cudaMemcpyHostToDevice));"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "auto bound_start",
+      "matches": [
+        {
+          "line": 38,
+          "text": "auto bound_start=Clock::now();incoming_bound_=host_control::IncomingBound::prepare(*g_,*r_);bound_setup_ms_=milliseconds(bound_start);"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "Answer query(",
+      "matches": [
+        {
+          "line": 56,
+          "text": "Answer query(U source,U maxlevels=128){"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "require(!failed_",
+      "matches": [
+        {
+          "line": 57,
+          "text": "require(!failed_&&source<d_.n&&epoch_<~L(0),\"owner/source/epoch\");"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "reader identity",
+      "matches": [
+        {
+          "line": 58,
+          "text": "require(!r_||(r_->graph_ptr().get()==g_.get()&&r_->graph().version()==d_.graph_version),\"reader identity\");"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "auto start=Clock::now()",
+      "matches": [
+        {
+          "line": 59,
+          "text": "Answer a;auto start=Clock::now();unsigned before=native::launched;cudaEvent_t begin{},end{};"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "native::launch(\"r_init\"",
+      "matches": [
+        {
+          "line": 65,
+          "text": "native::launch(\"r_init\",(d_.n+127)/128,128,stream_,d_,source);"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "cudaMemsetAsync(d_.counter",
+      "matches": [
+        {
+          "line": 74,
+          "text": "ck(cudaMemsetAsync(d_.counter,0,sizeof(Counter),stream_));"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "cudaMemsetAsync(d_.bitmap",
+      "matches": [
+        {
+          "line": 79,
+          "text": "ck(cudaMemsetAsync(d_.bitmap,0,8ULL*((d_.n+63)/64),stream_));"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "Counter c{}",
+      "matches": [
+        {
+          "line": 84,
+          "text": "Counter c{};U error=0;ck(cudaMemcpy(&c,d_.counter,sizeof(c),cudaMemcpyDeviceToHost));ck(cudaMemcpy(&error,d_.error,4,cudaMemcpyDeviceToHost));"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "std::swap(d_.front",
+      "matches": [
+        {
+          "line": 87,
+          "text": "a.seen+=U(c.found);count=U(c.found);std::swap(d_.front,d_.next);++a.levels;reserve();"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "cudaEventRecord(end",
+      "matches": [
+        {
+          "line": 89,
+          "text": "ck(cudaEventRecord(end,stream_));ck(cudaEventSynchronize(end));"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "auto out=std::make_shared",
+      "matches": [
+        {
+          "line": 92,
+          "text": "auto copy=Clock::now();auto out=std::make_shared<std::vector<int>>(d_.n);ck(cudaMemcpy(out->data(),d_.distance,4ULL*d_.n,cudaMemcpyDeviceToHost));a.copy_ms=milliseconds(copy);"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "a.distance=out",
+      "matches": [
+        {
+          "line": 94,
+          "text": "a.publish_ms=milliseconds(pub);a.distance=out;a.complete=true;a.remaining=remaining;a.kernels=native::launched-before;a.wall_ms=milliseconds(start);return a;"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "auto batch_start",
+      "matches": [
+        {
+          "line": 145,
+          "text": "auto batch_start=Clock::now();for(U source:sources){auto a=owner.query(source);require(a.complete&&a.distance,\"missing owned output\");prefix.push_back(milliseconds(batch_start));answers.push_back(std::move(a));}"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "auto validation_start",
+      "matches": [
+        {
+          "line": 148,
+          "text": "auto validation_start=Clock::now();for(U i=0;i<q;++i){const auto&a=answers[i];require(*a.distance==expected[i],\"GPU full distance mismatch\");require(a.seen==work[i].seen&&a.levels==work[i].levels&&a.reason==work[i].reason,\"GPU/replay trajectory mismatch\");}"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "std::ofstream output",
+      "matches": [
+        {
+          "line": 151,
+          "text": "{std::ofstream output(output_path,std::ios::binary|std::ios::trunc);require(bool(output),\"output capture open\");for(const auto&a:answers)output.write(reinterpret_cast<const char*>(a.distance->data()),4ULL*g->n());require(bool(output),\"output capture write\");}"
+        }
+      ]
+    },
+    {
+      "path": "src/owner_controls_v1.cpp",
+      "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+      "pattern": "owner.close()",
+      "matches": [
+        {
+          "line": 154,
+          "text": "owner.close();}native::shutdown();std::cerr<<\"CONTEXT_RELEASED_SYNC_OK kernels=\"<<native::launched<<\"\\n\";return 0;"
+        }
+      ]
+    },
+    {
+      "path": "src/native_driver.hpp",
+      "sha256": "3148d43366669872c8936a3197796aa64df47a543a68982b8438567241e72a1e",
+      "pattern": "cuModuleLoadData",
+      "matches": [
+        {
+          "line": 28,
+          "text": "check(DRV(cuModuleLoadData,&module,image.data()));"
+        }
+      ]
+    },
+    {
+      "path": "src/native_driver.hpp",
+      "sha256": "3148d43366669872c8936a3197796aa64df47a543a68982b8438567241e72a1e",
+      "pattern": "static std::map<std::string,CUfunction>",
+      "matches": [
+        {
+          "line": 36,
+          "text": "static std::map<std::string,CUfunction> functions;auto it=functions.find(name);if(it==functions.end()){CUfunction f{};check(DRV(cuModuleGetFunction,&f,module,name));it=functions.emplace(name,f).first;}"
+        }
+      ]
+    },
+    {
+      "path": "src/native_driver.hpp",
+      "sha256": "3148d43366669872c8936a3197796aa64df47a543a68982b8438567241e72a1e",
+      "pattern": "cuModuleGetFunction",
+      "matches": [
+        {
+          "line": 36,
+          "text": "static std::map<std::string,CUfunction> functions;auto it=functions.find(name);if(it==functions.end()){CUfunction f{};check(DRV(cuModuleGetFunction,&f,module,name));it=functions.emplace(name,f).first;}"
+        }
+      ]
+    }
+  ],
+  "GPU_queries": 0
+}

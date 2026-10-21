@@ -1,0 +1,59 @@
+{
+  "scope": "BOUNDED_CPU_ARITHMETIC_ON_EXISTING_RECORDS",
+  "new_GPU_queries_or_runs": 0,
+  "new_BFS_or_correctness_runs": 0,
+  "timing_workers_read": 6,
+  "requests_read": 192,
+  "separate_measurement_sessions": 1,
+  "order_blocks": 2,
+  "confidence_intervals": "NOT_COMPUTED_INSUFFICIENT_SESSION_REPLICATION",
+  "causal_order_effect": "UNKNOWN",
+  "all_96_same_source_mode_order_work_checks_equal": true,
+  "largest_order_differences_retained": [
+    {
+      "mode": 7,
+      "total_B_minus_A_ms": -4.392300000000002,
+      "largest_absolute_difference_query": 21,
+      "source": 357,
+      "largest_difference_ms": -0.386099999999999,
+      "other_31_queries_difference_ms": -4.006200000000003,
+      "no_request_removed": true,
+      "cause": "UNKNOWN"
+    },
+    {
+      "mode": 8,
+      "total_B_minus_A_ms": 0.0373999999999981,
+      "largest_absolute_difference_query": 12,
+      "source": 204,
+      "largest_difference_ms": 0.034600000000001074,
+      "other_31_queries_difference_ms": 0.002799999999997027,
+      "no_request_removed": true,
+      "cause": "UNKNOWN"
+    },
+    {
+      "mode": 5,
+      "total_B_minus_A_ms": -0.3846999999999987,
+      "largest_absolute_difference_query": 23,
+      "source": 391,
+      "largest_difference_ms": -0.085700000000001,
+      "other_31_queries_difference_ms": -0.2989999999999977,
+      "no_request_removed": true,
+      "cause": "UNKNOWN"
+    }
+  ],
+  "sequential_vs_concurrent_preparation_total_cost": "UNKNOWN_NOT_MEASURED",
+  "strongest_lean_question": "Does ready Direction reproduce a q32 advantage over mode7 while reporting its q1/q2/q8 cost?",
+  "strict_and_raw_inputs_preserved": true,
+  "input_sha256": {
+    "results/EXPLORATORY_SESSION/03.stdout.log": "0a686149c6b126881fb3ac03e794dd850b9b5ba4546b9a05f158e51141056b63",
+    "results/EXPLORATORY_SESSION/04.stdout.log": "b2433c9e34b13f921e964bc4ee19e2a3a1442b629eabe93c7fff3dd4c4a9fd01",
+    "results/EXPLORATORY_SESSION/05.stdout.log": "01e2c17933b92036ae62e2ded87aa8bb4e1473477d598466eaa1578ef1645d1c",
+    "results/EXPLORATORY_SESSION/06.stdout.log": "583437cf84235be9c20cd593fe0ad06609cfde74d76db8419b6957c2dfdf2296",
+    "results/EXPLORATORY_SESSION/07.stdout.log": "ee6027dfd838f52df7233450d1bae0c03a0866f5684518c2140f600603a84337",
+    "results/EXPLORATORY_SESSION/08.stdout.log": "951edba875f7bacb4431db3a036b4afb29aa34eb1a247ae5258b6b9a2257b6e2",
+    "results/EXPLORATORY_SESSION/RECEIPT.json": "b5e61fde7ae6b5a5f813eca6266ccc2bfef4e6546cf90ce7c0a20fa87f716d1e",
+    "config/PLAN.json": "2d864a70f5bf881564d3984562e1ad3ff845fc96538f6a52c4924b391f460e86",
+    "src/owner_controls_v1.cpp": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+    "src/native_driver.hpp": "3148d43366669872c8936a3197796aa64df47a543a68982b8438567241e72a1e"
+  }
+}

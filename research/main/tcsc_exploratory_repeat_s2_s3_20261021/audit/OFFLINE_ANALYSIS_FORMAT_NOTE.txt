@@ -1,0 +1,9 @@
+The first offline CSV aggregation stopped with:
+ValueError: dict contains fields not in fieldnames: 'block'
+
+Smoke cases have no timing block, while timing cases do. The corrected derived
+worker table assigns block=-1 to smoke rows. Complete output is written to
+results/analysis_complete/. Partial files in results/analysis/ are preserved.
+No source/kernel/input/raw measurement was changed. No GPU run was repeated.
+This was a CPU report-format error after both GPU sessions had completed PASS,
+not a CUDA, correctness, watchdog or environment error.

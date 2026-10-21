@@ -1,0 +1,11 @@
+{
+  "source_owner_binary_sha256": "fae72a0eb71507315058b90f6753fbe913e2c7ac914142037317d1ee852d44e7",
+  "kernel_cubin_sha256": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836",
+  "no_compilation_or_kernel_change": true,
+  "maximum_workers": 12,
+  "maximum_BFS": 268,
+  "maximum_cancels": 4,
+  "campaign_wall_cap_seconds": 600,
+  "measurement_boundary": "Ready resident CSR/reverse. Query init, safe level synchronization, full D2H and owned output inside; CPU reverse, native setup and H2D outside and recorded.",
+  "GPU_queries_so_far": 0
+}

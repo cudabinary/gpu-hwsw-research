@@ -1,0 +1,21 @@
+{
+  "case": {
+    "phase": "EXPLORATORY_TIMING",
+    "fixture": "livejournal_sampled_4096.edges",
+    "n": 4096,
+    "mode": 5,
+    "q": 32,
+    "block": 0
+  },
+  "command": [
+    "<ROUND_ROOT>\\build\\owner_controls_v1.exe",
+    "--execute",
+    "<ROUND_ROOT>\\fixtures\\livejournal_sampled_4096.edges",
+    "4096",
+    "5",
+    "32"
+  ],
+  "contract": "ISOLATION_UNVERIFIED",
+  "fresh_child_only_permits": true,
+  "preexisting_TCSC_variables_inherited": false
+}

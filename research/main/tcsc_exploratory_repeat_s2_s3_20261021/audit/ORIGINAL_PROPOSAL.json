@@ -1,0 +1,209 @@
+{
+  "status": "PROPOSED_NOT_APPROVED_NOT_EXECUTED",
+  "execution_authorized": false,
+  "dispatch_ready": false,
+  "question": "Reproducibility of ready Direction5 versus strongest tested lean Push7 q32, with all short-prefix costs retained",
+  "sessions": [
+    {
+      "name": "S2",
+      "cases": [
+        {
+          "phase": "SMOKE",
+          "fixture": "gpu_micro7.edges",
+          "n": 7,
+          "mode": 5,
+          "q": 3
+        },
+        {
+          "phase": "SMOKE",
+          "fixture": "gpu_micro7.edges",
+          "n": 7,
+          "mode": 7,
+          "q": 3
+        },
+        {
+          "phase": "TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 5,
+          "q": 32,
+          "block": 0
+        },
+        {
+          "phase": "TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 7,
+          "q": 32,
+          "block": 0
+        },
+        {
+          "phase": "TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 7,
+          "q": 32,
+          "block": 1
+        },
+        {
+          "phase": "TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 5,
+          "q": 32,
+          "block": 1
+        }
+      ],
+      "worker_cap": 6,
+      "session_wall_cap_seconds": 180,
+      "maximum_management_observations": 1200
+    },
+    {
+      "name": "S3",
+      "cases": [
+        {
+          "phase": "SMOKE",
+          "fixture": "gpu_micro7.edges",
+          "n": 7,
+          "mode": 7,
+          "q": 3
+        },
+        {
+          "phase": "SMOKE",
+          "fixture": "gpu_micro7.edges",
+          "n": 7,
+          "mode": 5,
+          "q": 3
+        },
+        {
+          "phase": "TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 7,
+          "q": 32,
+          "block": 0
+        },
+        {
+          "phase": "TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 5,
+          "q": 32,
+          "block": 0
+        },
+        {
+          "phase": "TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 5,
+          "q": 32,
+          "block": 1
+        },
+        {
+          "phase": "TIMING",
+          "fixture": "livejournal_sampled_4096.edges",
+          "n": 4096,
+          "mode": 7,
+          "q": 32,
+          "block": 1
+        }
+      ],
+      "worker_cap": 6,
+      "session_wall_cap_seconds": 180,
+      "maximum_management_observations": 1200
+    }
+  ],
+  "NEW_CUDA_workers_max": 12,
+  "NEW_BFS_arrays_max": 268,
+  "NEW_init_only_cancellations_max": 4,
+  "NEW_total_query_calls_max": 272,
+  "completed_old_session_reclassified_as_new": false,
+  "separation_no_research_GPU_dispatch_seconds": 60,
+  "whole_enabled_session_wall_cap_seconds": 360,
+  "child_wall_window_cap_seconds": 240,
+  "estimated_enabled_wall_seconds": [
+    16,
+    50
+  ],
+  "estimated_wall_including_spacing_seconds": [
+    76,
+    110
+  ],
+  "estimates_are_unmeasured": true,
+  "minimum_free_start_MiB": 2048,
+  "minimum_free_run_MiB": 1536,
+  "temperature_exclusive_limit_C": 78,
+  "workspace_request_cap_bytes": 33554432,
+  "observed_old_LJ_device_payload_bytes": 501580,
+  "extra_driver_context_background_bytes": "UNKNOWN",
+  "child_watchdog_seconds": 20,
+  "telemetry_freshness_ms": 3000,
+  "warmup": 0,
+  "automatic_retries": 0,
+  "Nsight_Systems_processes": 0,
+  "Nsight_Compute_processes": 0,
+  "sanitizer_processes": 0,
+  "new_kernels_or_datasets": false,
+  "new_compilation_planned": false,
+  "measurement_contract": "MUST_BE_REAPPROVED; exploratory implies ISOLATION_UNVERIFIED, not strict isolation",
+  "external_CUDA_absence_and_WSL_coverage": "UNKNOWN unless a newly validated observation contract establishes more",
+  "existing_pins": {
+    "build/owner_controls_v1.exe": "fae72a0eb71507315058b90f6753fbe913e2c7ac914142037317d1ee852d44e7",
+    "build/rcc_kernels.cubin": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836",
+    "build/adapter_luid.exe": "f213e1a0ab3802afa159caec32bed547786ab53d4da1516b7b42be6ca87036d5",
+    "src/owner_controls_v1.cpp": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+    "src/host_controls.hpp": "2e80d026b25e559c2d7003d67fdb7da933a597be2d5aae08dde9ae979b51d185",
+    "src/targeted_tests.inc": "5795034d279c9e7c940aa5a3f2588f54af9660a015f548013e37e0c9199bfad7",
+    "src/abi.hpp": "c26b38275459058ee06492e7185bc89d64c24d6eac5711495b3eb879d306eca2",
+    "src/native_driver.hpp": "3148d43366669872c8936a3197796aa64df47a543a68982b8438567241e72a1e",
+    "src/kernels.cu": "c4caf5d05cd105ee90e219f1153647bf770793de1d75d16679c3bb40b9cbbcef",
+    "include/independent_builder.hpp": "409a4f38e9b72f0997951aa5c694d36c3d57ee65c9a94bd2b46619cc0205ecf4",
+    "fixtures/gpu_micro7.edges": "c7c0d0bfcd676b5ab4ebf40cd0cea58d4f3127f2155c4398ca5e4515c837a376",
+    "fixtures/livejournal_sampled_4096.edges": "b22d4c73b798da0b3ca6e2fb9a97eb07b6d613728c4ff5e100dfef6817fe8c7f"
+  },
+  "q_prefixes": [
+    1,
+    2,
+    8,
+    32
+  ],
+  "sources": [
+    0,
+    17,
+    34,
+    51,
+    68,
+    85,
+    102,
+    119,
+    136,
+    153,
+    170,
+    187,
+    204,
+    221,
+    238,
+    255,
+    272,
+    289,
+    306,
+    323,
+    340,
+    357,
+    374,
+    391,
+    408,
+    425,
+    442,
+    459,
+    476,
+    493,
+    510,
+    527
+  ],
+  "primary_ratio": "Direction5 owned q32 prefix / Push7 owned q32 prefix, within each block",
+  "confidence_intervals": "NONE_PLANNED_INSUFFICIENT_REPLICATION_FOR_FINAL_CLAIMS",
+  "interpretation": "All four prospective ratios <0.95 is a consistent exploratory signal for review only; retain two historical ratios separately including adverse result. Any prospective sign reversal remains unresolved. No selection or adaptive extra runs.",
+  "automatic_builder_concurrency_or_HW_expansion": false,
+  "GPU_queries_or_execution_by_this_followup": 0
+}

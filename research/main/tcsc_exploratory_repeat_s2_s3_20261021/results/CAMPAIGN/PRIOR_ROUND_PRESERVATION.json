@@ -1,0 +1,9 @@
+{
+  "unchanged": {
+    "config/PLAN.json": true,
+    "tools/run_exploratory.py": true,
+    "results/EXPLORATORY_SESSION/RECEIPT.json": true,
+    "audit/GITHUB_CHECKPOINT.json": true
+  },
+  "old_results_modified": false
+}

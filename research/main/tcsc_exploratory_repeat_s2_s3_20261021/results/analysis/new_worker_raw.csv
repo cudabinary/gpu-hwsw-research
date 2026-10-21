@@ -1,0 +1,3 @@
+session,worker,phase,fixture,n,mode,q,kind,status,batch_ms,device_payload_bytes,static_bound_setup_ms,context_setup_transfer_ms,cpu_reverse_build_ms,graph_load_ms,cpu_reference_and_work_replay_ms,post_batch_validation_ms,cancel_tests,work_count_kind,worker_window_seconds,actual_kernel_launch_submissions_including_cancel
+S2,0,SMOKE,gpu_micro7.edges,7,5,3,BATCH,PASS,0.7451,312,0.0001,200.9329,0.0043,0.1968,0.0121,0.0003,1,CODE_RECONSTRUCTION_NOT_GPU_MEMORY_TRAFFIC,0.8120000000053551,24
+S2,1,SMOKE,gpu_micro7.edges,7,7,3,BATCH,PASS,0.574,312,0.0001,208.894,0.0031,0.1942,0.0072,0.0002,1,CODE_RECONSTRUCTION_NOT_GPU_MEMORY_TRAFFIC,0.45300000000861473,14

@@ -1,0 +1,3 @@
+session,workers,BFS,init_cancels,session_wall_to_context_release_seconds,CUDA_worker_wall_upper_bound_seconds,Python_reference_preparation_seconds,telemetry_samples,max_temperature_C,min_free_MiB,initial_context_entries,unreadable_names,contract,context_end
+S2,6,134,2,10.703000000008615,3.9839999999967404,0.0470000000204891,27,42,6839,32,2,ISOLATION_UNVERIFIED,CONTEXT_RELEASE_MARKER_AND_PID_ABSENCE_CONFIRMED
+S3,6,134,2,10.125,3.5310000000172295,0.062000000005355105,26,42,6839,32,2,ISOLATION_UNVERIFIED,CONTEXT_RELEASE_MARKER_AND_PID_ABSENCE_CONFIRMED

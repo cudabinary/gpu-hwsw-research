@@ -1,0 +1,110 @@
+--- frozen/run_exploratory.py
++++ repeat/session_runner.py
+@@ -16,23 +16,22 @@
+ def save(path,obj):path.write_text(json.dumps(obj,indent=2),encoding='utf-8')
+ def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+ def utc():return dt.datetime.now(dt.timezone.utc).isoformat()
+-def main():
+-    parser=argparse.ArgumentParser();parser.add_argument('--exploratory-isolation-unverified',action='store_true',required=True);parser.parse_args()
+-    plan=load(P/'config/PLAN.json')
++def run_session(session_name,campaign_deadline):
++    base=load(P/'config/PLAN.json');plan={**base,**base['sessions'][session_name]}
+     assert plan['contract']=='ISOLATION_UNVERIFIED' and plan['explicit_user_authorized']
+-    assert len(plan['cases'])==9 and plan['maximum_full_BFS_arrays']==201
++    assert len(plan['cases'])==6 and plan['maximum_full_BFS_arrays']==134
+     assert plan['warmup']==plan['automatic_payload_or_GPU_retries']==0
+     assert sha(P/'config/PLAN.json')==(P/'audit/PLAN_SHA256.txt').read_text().split()[0]
+     for rel,digest in plan['pins'].items():assert sha(P/rel)==digest,rel
+     strict=P.parent/'MAIN_TCSC_READY_CONSUMER_ROUND_20261021'
+     for rel,digest in plan['strict_preservation_pins'].items():assert sha(strict/rel)==digest,rel
+-    R=P/'results/EXPLORATORY_SESSION';R.mkdir(exist_ok=False)
++    R=P/'results'/session_name;R.mkdir(exist_ok=False)
+     kernel=ctypes.WinDLL('kernel32',use_last_error=True)
+     kernel.CreateFileW.argtypes=[W.LPCWSTR,W.DWORD,W.DWORD,ctypes.c_void_p,W.DWORD,W.DWORD,W.HANDLE];kernel.CreateFileW.restype=W.HANDLE
+     kernel.CloseHandle.argtypes=[W.HANDLE]
+     lock=kernel.CreateFileW(str(R/'SESSION.lock'),0xC0000000,0,None,4,0x80,None)
+     if lock==ctypes.c_void_p(-1).value:raise RuntimeError('SESSION_LOCK_UNAVAILABLE')
+-    start=time.monotonic();save(R/'SESSION_START.json',{'started_utc':utc(),'contract':'ISOLATION_UNVERIFIED','plan_sha256':sha(P/'config/PLAN.json'),'one_session_only':True})
++    start=time.monotonic();session_deadline=min(start+180,campaign_deadline);save(R/'SESSION_START.json',{'started_utc':utc(),'contract':'ISOLATION_UNVERIFIED','plan_sha256':sha(P/'config/PLAN.json'),'one_session_only':True})
+     active=None;engine=None;engine_handles=[];watchdogs=[];samples=[];completed=[];launched=[]
+     baseline_pids=set();baseline_3d={};retired={};retired_disappeared=set();context_state='NO_CUDA_WORKER_CREATED';worker_seconds=0.0
+     stop_path=R/'engine.stop';cache={};oracle_started=time.monotonic()
+@@ -49,7 +48,17 @@
+                     if distance[v]<0:distance[v]=distance[u]+1;queue.append(v)
+             cache[(fixture,source)]=struct.pack('<'+'i'*n,*distance)
+     oracle_seconds=time.monotonic()-oracle_started
++    def quota(reserve=0):
++        used=0
++        for f in R.rglob('*'):
++            try:
++                if f.is_file():used+=f.stat().st_size
++            except FileNotFoundError:
++                if f.suffix!='.tmp':raise
++        if used+reserve>64*1024*1024-1024*1024:raise RuntimeError('RAW_STORAGE_BUDGET')
+     def observe(owned=None,preflight=False,initializing=False):
++        if time.monotonic()>=session_deadline:raise RuntimeError('SESSION_OR_CAMPAIGN_DEADLINE')
++        quota(512*1024)
+         if len(samples)>=plan['maximum_nvidia_smi_samples']:raise RuntimeError('TELEMETRY_SAMPLE_CAP')
+         if engine is not None and engine.poll() is not None:raise RuntimeError('ENGINE_MONITOR_EXITED')
+         q=subprocess.run([SMI,'-q','-x'],capture_output=True,timeout=2,creationflags=HIDDEN)
+@@ -103,6 +112,11 @@
+         (R/'dxgi.stdout.jsonl').write_bytes(dxgi.stdout);(R/'dxgi.stderr.log').write_bytes(dxgi.stderr)
+         if dxgi.returncode:raise RuntimeError('NVIDIA_DXGI_MAPPING_UNAVAILABLE')
+         adapter=json.loads(dxgi.stdout);baseline=observe(preflight=True,initializing=True)
++        if baseline['driver_version']!=base['expected_driver_version']:raise RuntimeError('DRIVER_VERSION_CHANGED')
++        if session_name=='S3':
++            earlier=load(P/'results/S2/TELEMETRY.json')[0]
++            if {x['pid'] for x in earlier['processes']}!={x['pid'] for x in baseline['processes']}:raise RuntimeError('BACKGROUND_PID_SET_CHANGED_BETWEEN_SESSIONS')
++            if any(earlier[k]!=baseline[k] for k in ('name','model','driver_version')):raise RuntimeError('DEVICE_CHANGED_BETWEEN_SESSIONS')
+         baseline_pids={x['pid'] for x in baseline['processes']}
+         out=open(R/'engine.stdout.log','w');err=open(R/'engine.stderr.log','w');engine_handles=[out,err]
+         engine=subprocess.Popen([str(PS),'-NoProfile','-File',str(P/'tools/engine_guard.ps1'),'-StatusPath',str(R/'engine.status.json'),'-RawPath',str(R/'engine.raw.jsonl'),'-StopPath',str(stop_path),'-AdapterLuid',adapter['luid']],stdout=out,stderr=err,creationflags=HIDDEN)
+@@ -115,9 +129,9 @@
+         # New PIDs even during startup stop instead of expanding that set.
+         save(R/'EXPLORATORY_BACKGROUND.json',{'contract':'ISOLATION_UNVERIFIED','sampled_PIDs':sorted(baseline_pids),'trusted_no_compute_allowlist':False,'unreadable_fields':'UNKNOWN','3D_baseline':baseline_3d})
+         for index,case in enumerate(plan['cases']):
+-            if time.monotonic()-start+30>600:raise RuntimeError('ONE_SESSION_DEADLINE')
+-            if case['phase']=='EXPLORATORY_TIMING' and (len(completed)<3 or any(x['case']['phase']!='SMOKE' for x in completed[:3])):raise RuntimeError('SMOKE_GATE_NOT_COMPLETE')
+-            observe(preflight=True)
++            if time.monotonic()+30>session_deadline:raise RuntimeError('ONE_SESSION_DEADLINE')
++            if case['phase']=='EXPLORATORY_TIMING' and (len(completed)<2 or any(x['case']['phase']!='SMOKE' for x in completed[:2])):raise RuntimeError('SMOKE_GATE_NOT_COMPLETE')
++            observe(preflight=True);quota(4*case['n']*case['q']+512*1024)
+             ready=R/f'{index:02d}.ready';ack=R/f'{index:02d}.ack';output=R/f'{index:02d}.distances.bin'
+             command=[str(P/'build/owner_controls_v1.exe'),'--execute',str(P/'fixtures'/case['fixture']),str(case['n']),str(case['mode']),str(case['q'])]
+             env={k:v for k,v in os.environ.items() if not k.startswith('TCSC_')}
+@@ -136,7 +150,7 @@
+                 try:
+                     while child.poll() is None:
+                         obs=observe(owned=child.pid)
+-                        if time.monotonic()-start>=600:raise RuntimeError('ONE_SESSION_DEADLINE')
++                        if time.monotonic()>=session_deadline:raise RuntimeError('ONE_SESSION_DEADLINE')
+                         if watchdog.poll() is not None and (child.poll() is None or load(watchdog_path)['status']!='CHILD_EXITED'):raise RuntimeError('INDEPENDENT_WATCHDOG_FAILURE')
+                         if ready.exists() and not acknowledged and watchdog_path.exists() and load(watchdog_path)['status']=='WATCHING':
+                             if int(ready.read_text())!=child.pid:raise RuntimeError('OWNED_READY_PID_MISMATCH')
+@@ -163,9 +177,9 @@
+                 if raw[4*case['n']*query:4*case['n']*(query+1)]!=cache[(case['fixture'],source)]:raise RuntimeError('INDEPENDENT_PYTHON_GPU_DISTANCE_MISMATCH')
+             completed.append({'index':index,'case':case,'results':rows,'worker_wall_upper_bound_seconds':time.monotonic()-began,'distance_sha256':sha(output),'Python_full_array_check':'PASS'})
+             active=None;save(R/'PROGRESS.json',{'contract':'ISOLATION_UNVERIFIED','completed':len(completed),'BFS':sum(x['case']['q'] for x in completed),'context':context_state})
+-            print('EXPLORATORY_PASS',len(completed),'/9',flush=True)
++            print(session_name+'_PASS',len(completed),'/6',flush=True)
+         save(R/'RECEIPT.json',{'status':'EXPLORATORY_CORRECTNESS_PASS','contract':'ISOLATION_UNVERIFIED','completed_utc':utc(),
+-          'processes':len(completed),'BFS':sum(x['case']['q'] for x in completed),'init_only_cancellations':3,
++          'processes':len(completed),'BFS':sum(x['case']['q'] for x in completed),'init_only_cancellations':2,'session_name':session_name,
+           'whole_session_seconds':time.monotonic()-start,'CUDA_worker_wall_upper_bound_seconds':worker_seconds,
+           'Python_reference_preparation_seconds':oracle_seconds,'completed':completed,'telemetry_samples':len(samples),
+           'protected_process_module_memory_queries':0,'security_or_driver_changes':0,'profiler_runs':0,'retries':0,
+@@ -175,7 +189,7 @@
+         if active is not None and active.poll() is None:active.kill();active.wait(timeout=3)
+         save(R/'STOP.json',{'status':'STOPPED_NO_RETRY','contract':'ISOLATION_UNVERIFIED','reason':str(exc),
+           'context':context_state,'launched':launched,'completed':completed,'seconds':time.monotonic()-start,'traceback':traceback.format_exc()})
+-        print('EXPLORATORY_STOP',str(exc),flush=True);raise
++        print(session_name+'_STOP',str(exc),flush=True);raise
+     finally:
+         save(R/'TELEMETRY.json',samples);stop_path.touch()
+         if engine is not None:
+@@ -188,4 +202,4 @@
+         kernel.CloseHandle(lock)
+         unchanged={rel:sha(strict/rel)==digest for rel,digest in plan['strict_preservation_pins'].items()}
+         save(R/'STRICT_PRESERVATION_CHECK.json',{'unchanged':unchanged,'all_preserved':all(unchanged.values())})
+-if __name__=='__main__':main()
++# Called only by the single approved campaign coordinator.

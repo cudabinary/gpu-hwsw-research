@@ -1,0 +1,9 @@
+# Fixed GPU correctness fixture: duplicates, self loop, disconnected pair, sink.
+0 1
+0 1
+1 1
+1 2
+2 3
+3 0
+4 5
+5 4

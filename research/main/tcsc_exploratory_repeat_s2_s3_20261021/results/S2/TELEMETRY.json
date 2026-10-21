@@ -1,0 +1,6076 @@
+[
+  {
+    "utc": "2026-10-21T06:31:15.484037+00:00",
+    "elapsed_s": 0.32800000000861473,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 40,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false
+  },
+  {
+    "utc": "2026-10-21T06:31:19.758596+00:00",
+    "elapsed_s": 4.594000000011874,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 40,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:19.5321501Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564279537,
+      "all_counters": 442,
+      "positive": [],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:20.135283+00:00",
+    "elapsed_s": 4.969000000011874,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 40,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:19.5321501Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564279537,
+      "all_counters": 442,
+      "positive": [],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:20.520882+00:00",
+    "elapsed_s": 5.360000000015134,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 40,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:19.5321501Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564279537,
+      "all_counters": 442,
+      "positive": [],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:20.926790+00:00",
+    "elapsed_s": 5.76600000000326,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 40,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:20.6126107Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564280612,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.0016859059792774206,
+          "instance": "pid_66640_luid_0x00000000_0x0000c82d_phys_0_eng_0_engtype_3d"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:21.237120+00:00",
+    "elapsed_s": 6.078000000008615,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6839,
+    "temperature_C": 40,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 74568,
+        "type": "C",
+        "name": "<ROUND_ROOT>\\build\\owner_controls_v1.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": 74568,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:20.6126107Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564280612,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.0016859059792774206,
+          "instance": "pid_66640_luid_0x00000000_0x0000c82d_phys_0_eng_0_engtype_3d"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:21.486684+00:00",
+    "elapsed_s": 6.328000000008615,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 41,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": 74568,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:20.6126107Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564280612,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.0016859059792774206,
+          "instance": "pid_66640_luid_0x00000000_0x0000c82d_phys_0_eng_0_engtype_3d"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:21.733718+00:00",
+    "elapsed_s": 6.578000000008615,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 41,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:21.6557728Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564281655,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.9629595446883481,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        },
+        {
+          "value": 0.0021415104414268943,
+          "instance": "pid_66640_luid_0x00000000_0x0000c82d_phys_0_eng_0_engtype_3d"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:21.915259+00:00",
+    "elapsed_s": 6.75,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:21.6557728Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564281655,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.9629595446883481,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        },
+        {
+          "value": 0.0021415104414268943,
+          "instance": "pid_66640_luid_0x00000000_0x0000c82d_phys_0_eng_0_engtype_3d"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:22.132282+00:00",
+    "elapsed_s": 6.969000000011874,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6839,
+    "temperature_C": 42,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 10628,
+        "type": "C",
+        "name": "<ROUND_ROOT>\\build\\owner_controls_v1.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": 10628,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:21.6557728Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564281655,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.9629595446883481,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        },
+        {
+          "value": 0.0021415104414268943,
+          "instance": "pid_66640_luid_0x00000000_0x0000c82d_phys_0_eng_0_engtype_3d"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:22.366291+00:00",
+    "elapsed_s": 7.203000000008615,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:21.6557728Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564281655,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.9629595446883481,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        },
+        {
+          "value": 0.0021415104414268943,
+          "instance": "pid_66640_luid_0x00000000_0x0000c82d_phys_0_eng_0_engtype_3d"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:22.547070+00:00",
+    "elapsed_s": 7.39100000000326,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:21.6557728Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564281655,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.9629595446883481,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        },
+        {
+          "value": 0.0021415104414268943,
+          "instance": "pid_66640_luid_0x00000000_0x0000c82d_phys_0_eng_0_engtype_3d"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:22.746658+00:00",
+    "elapsed_s": 7.594000000011874,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6839,
+    "temperature_C": 42,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69896,
+        "type": "C",
+        "name": "<ROUND_ROOT>\\build\\owner_controls_v1.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": 69896,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:22.6902252Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564282690,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 1.1010807995280905,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:22.980621+00:00",
+    "elapsed_s": 7.828000000008615,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 6,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": 69896,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:22.6902252Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564282690,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 1.1010807995280905,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:23.199064+00:00",
+    "elapsed_s": 8.047000000020489,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 6,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:22.6902252Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564282690,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 1.1010807995280905,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:23.391570+00:00",
+    "elapsed_s": 8.235000000015134,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 6,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:22.6902252Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564282690,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 1.1010807995280905,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:23.611218+00:00",
+    "elapsed_s": 8.453000000008615,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6839,
+    "temperature_C": 42,
+    "utilization_percent": 6,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69488,
+        "type": "C",
+        "name": "<ROUND_ROOT>\\build\\owner_controls_v1.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": 69488,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:22.6902252Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564282690,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 1.1010807995280905,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:23.839242+00:00",
+    "elapsed_s": 8.672000000020489,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 6,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": 69488,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:23.7187468Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564283718,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.8128194437050476,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:24.061189+00:00",
+    "elapsed_s": 8.90700000000652,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:23.7187468Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564283718,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.8128194437050476,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:24.246391+00:00",
+    "elapsed_s": 9.094000000011874,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:23.7187468Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564283718,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.8128194437050476,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:24.462637+00:00",
+    "elapsed_s": 9.297000000020489,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6839,
+    "temperature_C": 42,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37808,
+        "type": "C",
+        "name": "<ROUND_ROOT>\\build\\owner_controls_v1.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": 37808,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:23.7187468Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564283718,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.8128194437050476,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:24.701863+00:00",
+    "elapsed_s": 9.547000000020489,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": 37808,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:23.7187468Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564283718,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.8128194437050476,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:24.941441+00:00",
+    "elapsed_s": 9.78200000000652,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:24.7482461Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564284748,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.6406945614669469,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:25.125684+00:00",
+    "elapsed_s": 9.969000000011874,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:24.7482461Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564284748,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.6406945614669469,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:25.349347+00:00",
+    "elapsed_s": 10.187999999994645,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6839,
+    "temperature_C": 42,
+    "utilization_percent": 0,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63452,
+        "type": "C",
+        "name": "<ROUND_ROOT>\\build\\owner_controls_v1.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": 63452,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:24.7482461Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564284748,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.6406945614669469,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:25.608875+00:00",
+    "elapsed_s": 10.453000000008615,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 6,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": 63452,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:24.7482461Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564284748,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.6406945614669469,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  },
+  {
+    "utc": "2026-10-21T06:31:25.847932+00:00",
+    "elapsed_s": 10.687999999994645,
+    "contract": "ISOLATION_UNVERIFIED",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver_version": "610.88",
+    "model": "WDDM",
+    "free_MiB": 6946,
+    "temperature_C": 42,
+    "utilization_percent": 6,
+    "processes": [
+      {
+        "pid": 1944,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 15860,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2610.35011.0_x64__8wekyb3d8bbwe\\M365Copilot.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16116,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ShellHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16132,
+        "type": "C+G",
+        "name": "C:\\Windows\\explorer.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 16460,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19520,
+        "type": "C+G",
+        "name": "C:\\Program Files\\LGHUB\\system_tray\\lghub_system_tray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 19680,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 20496,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 23676,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25280,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\LINE\\bin\\current\\LINE.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 25568,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 27868,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 29476,
+        "type": "C+G",
+        "name": "",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32056,
+        "type": "C+G",
+        "name": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 32364,
+        "type": "C+G",
+        "name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33028,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 33344,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 34756,
+        "type": "C+G",
+        "name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 36400,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\slack\\app-4.52.178\\slack.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 37228,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\Discord\\app-1.0.9261\\Discord.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 39276,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40192,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcApp.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 40688,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2609.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcTray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 44776,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Adobe\\Adobe Creative Cloud\\ACC\\Creative Cloud UI Helper.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 62628,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 63592,
+        "type": "C+G",
+        "name": "C:\\Program Files\\Riot Vanguard\\vgtray.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66024,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66640,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\ChatGPT.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 66700,
+        "type": "C+G",
+        "name": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 68456,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 69880,
+        "type": "C+G",
+        "name": "<USER_HOME>\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "used_memory": "N/A"
+      },
+      {
+        "pid": 76612,
+        "type": "C+G",
+        "name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "used_memory": "N/A"
+      }
+    ],
+    "owned_PID": null,
+    "external_CUDA_absence": "UNKNOWN",
+    "WSL_context_visibility": "UNKNOWN",
+    "enforced_exclusivity": false,
+    "engine": {
+      "utc": "2026-10-21T06:31:25.7765896Z",
+      "adapter_luid": "0x00000000_0x0000c82d",
+      "status": "OK",
+      "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+      "epoch_ms": 1792564285776,
+      "all_counters": 442,
+      "positive": [
+        {
+          "value": 0.6574661137572984,
+          "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy"
+        }
+      ],
+      "compute_counters": 0
+    }
+  }
+]

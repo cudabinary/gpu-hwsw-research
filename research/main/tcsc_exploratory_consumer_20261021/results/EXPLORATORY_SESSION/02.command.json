@@ -1,0 +1,21 @@
+{
+  "case": {
+    "phase": "SMOKE",
+    "fixture": "gpu_micro7.edges",
+    "n": 7,
+    "mode": 5,
+    "q": 3,
+    "block": -1
+  },
+  "command": [
+    "<ROUND_ROOT>\\build\\owner_controls_v1.exe",
+    "--execute",
+    "<ROUND_ROOT>\\fixtures\\gpu_micro7.edges",
+    "7",
+    "5",
+    "3"
+  ],
+  "contract": "ISOLATION_UNVERIFIED",
+  "fresh_child_only_permits": true,
+  "preexisting_TCSC_variables_inherited": false
+}

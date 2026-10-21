@@ -1,0 +1,15 @@
+{
+  "status": "OK",
+  "utc": "2026-10-21T05:37:28.8271382Z",
+  "adapter_luid": "0x00000000_0x0000c82d",
+  "compute_counters": 0,
+  "positive": [
+    {
+      "instance": "pid_4_luid_0x00000000_0x0000c82d_phys_0_eng_9_engtype_copy",
+      "value": 0.8664041821242278
+    }
+  ],
+  "scope": "ALL_NVIDIA_PID_RESOLVED_ENGINES_SHARED_3D_INCLUDED",
+  "all_counters": 442,
+  "epoch_ms": 1792561048827
+}

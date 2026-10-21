@@ -1,0 +1,11 @@
+{
+  "unchanged": {
+    "tools/freeze_gpu_baseline.ps1": true,
+    "tools/module_guard.ps1": true,
+    "tools/process_guard.cpp": true,
+    "tools/run_one_session.py": true,
+    "tools/run_gpu_round.py": true,
+    "audit/GPU_SESSION_RESULT.json": true
+  },
+  "all_preserved": true
+}

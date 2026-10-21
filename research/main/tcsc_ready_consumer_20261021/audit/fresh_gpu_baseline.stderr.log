@@ -1,0 +1,6 @@
+module access unavailable PID 29476Exception: <ROUND_ROOT>\tools\freeze_gpu_baseline.ps1:36
+Line |
+  36 |  … ASTEXITCODE -ne 0){throw "Native module inventory rejected: $native"}
+     |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Native module inventory rejected:
+     | {"status":"OK","checked":[{"pid":15860,"creation_filetime":134368418499651601,"modules":222},{"pid":16116,"creation_filetime":134368417457014050,"modules":82},{"pid":16132,"creation_filetime":134368417457056909,"modules":398},{"pid":16460,"creation_filetime":134368417459105770,"modules":100},{"pid":19520,"creation_filetime":134368418121870367,"modules":115},{"pid":19680,"creation_filetime":134368417482785394,"modules":208},{"pid":20496,"creation_filetime":134368417482727748,"modules":191},{"pid":23676,"creation_filetime":134368418238610609,"modules":67},{"pid":25280,"creation_filetime":134369767957974559,"modules":196},{"pid":25568,"creation_filetime":134368417511029442,"modules":67},{"pid":27868,"creation_filetime":134368417581880405,"modules":161}

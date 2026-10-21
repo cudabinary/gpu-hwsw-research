@@ -1,0 +1,50 @@
+{
+  "status": "SCHEMA_PRESENCE_ONLY_CHECK",
+  "source_facts_sha256": "a2962321e06e8521eac3ad03babde64dd7853dc8a67f53dbfd1d260797d962d1",
+  "columns": {
+    "gpu.csv": [
+      "pair",
+      "calls",
+      "full",
+      "partial",
+      "errors",
+      "capacity_fail",
+      "max_h",
+      "max_live",
+      "end_h",
+      "reclaimed",
+      "words",
+      "copy_slots",
+      "roots",
+      "barriers",
+      "clear_cycles",
+      "mark_cycles",
+      "rank_cycles",
+      "compact_cycles",
+      "remap_cycles"
+    ],
+    "gpu.events.csv": [
+      "pair",
+      "event",
+      "score",
+      "h",
+      "live",
+      "prefix"
+    ],
+    "gpu.status.csv": [
+      "pair",
+      "seen",
+      "reason",
+      "gpu_distance",
+      "steps",
+      "dense_h",
+      "blocks",
+      "gpu_finished",
+      "worker"
+    ]
+  },
+  "simultaneous_donor_liveness_and_ownership_at_capacity_failure": "UNKNOWN",
+  "critical_path_fallback_timestamps": "UNKNOWN",
+  "wfa_capacity_or_progress_reaudit_repeated": false,
+  "WFA_GPU_runs": 0
+}

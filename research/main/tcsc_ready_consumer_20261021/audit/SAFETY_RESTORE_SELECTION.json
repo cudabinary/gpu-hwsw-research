@@ -1,0 +1,79 @@
+[
+  {
+    "root_id": "WIN_TASK",
+    "relative_path": "TCSC_RCC_RIE_CPU_STATIC_20261021/audit/GPU_GUARD_PROVENANCE.json",
+    "location_id": "LOC-6713d1dd-03c1-5141-a5a0-570c8e843ecf",
+    "sha256": "98978e53de01c7ff2a9f8c59497f373a75fa89c0f5081947f160f456ab69f5f9",
+    "bytes": 2422
+  },
+  {
+    "root_id": "WIN_TASK",
+    "relative_path": "TCSC_RCC_RIE_CPU_STATIC_20261021/build/process_guard.exe",
+    "location_id": "LOC-5570526b-9380-5ca2-ad2c-b6d5b7856d3d",
+    "sha256": "5638dbb52eac9d0edc144fde395bc4e829fc2e99b62d58a5d2b3e7177b33a399",
+    "bytes": 2525958
+  },
+  {
+    "root_id": "WIN_TASK",
+    "relative_path": "TCSC_RCC_RIE_CPU_STATIC_20261021/config/GPU_FIXED_BASELINE.json",
+    "location_id": "LOC-27b745f9-741d-5678-ae89-3a16256c753d",
+    "sha256": "06ab687745404266ebeecd2718c85de2d8cd54309fa31982d09993aab4956d13",
+    "bytes": 8516
+  },
+  {
+    "root_id": "WIN_TASK",
+    "relative_path": "TCSC_RCC_RIE_CPU_STATIC_20261021/tools/adapter_luid.cpp",
+    "location_id": "LOC-5baba177-5431-5ad0-b1f2-ec120bf6b380",
+    "sha256": "f4233dde74f30adcaa2824f0d00942436c1ca34627b5a52f2f4436256a37030a",
+    "bytes": 786
+  },
+  {
+    "root_id": "WIN_TASK",
+    "relative_path": "TCSC_RCC_RIE_CPU_STATIC_20261021/tools/counter_diagnostic.ps1",
+    "location_id": "LOC-e232acd2-f702-5451-af54-03499f46e153",
+    "sha256": "d86dbc454995229b4e3a1b01acf6c0027ecc054d602ec952a22fca2d367ea4ab",
+    "bytes": 1184
+  },
+  {
+    "root_id": "WIN_TASK",
+    "relative_path": "TCSC_RCC_RIE_CPU_STATIC_20261021/tools/engine_guard.ps1",
+    "location_id": "LOC-ec8bd306-235f-5b9a-9c60-b0671a5cd30d",
+    "sha256": "16805d8df1de59f01a4226899c21131bc83a91a75f97902bc53da71225ec1369",
+    "bytes": 1684
+  },
+  {
+    "root_id": "WIN_TASK",
+    "relative_path": "TCSC_RCC_RIE_CPU_STATIC_20261021/tools/freeze_gpu_baseline.ps1",
+    "location_id": "LOC-d5f67f63-793b-5512-8892-0955db7bda7d",
+    "sha256": "1159eedd80289dd5ea1d050de0f2d8e04db77153e18dfe2b4f3d23c13f768166",
+    "bytes": 2706
+  },
+  {
+    "root_id": "WIN_TASK",
+    "relative_path": "TCSC_RCC_RIE_CPU_STATIC_20261021/tools/gpu_pilot.py",
+    "location_id": "LOC-67c269b4-2b4a-5bdc-87b6-4ad6a0939167",
+    "sha256": "e3c402b1671d7ce6831f958df2d69d8941c95155c17774d731645393216384a0",
+    "bytes": 9027
+  },
+  {
+    "root_id": "WIN_TASK",
+    "relative_path": "TCSC_RCC_RIE_CPU_STATIC_20261021/tools/gpu_readonly_preflight.ps1",
+    "location_id": "LOC-5cf0a8b2-7d8f-5171-8212-7fb1c852fcb8",
+    "sha256": "6563bd41c7d3a50983637054c192c1072ea5bf52814aaaaadfe9cfc6b81ddde5",
+    "bytes": 3362
+  },
+  {
+    "root_id": "WIN_TASK",
+    "relative_path": "TCSC_RCC_RIE_CPU_STATIC_20261021/tools/module_guard.ps1",
+    "location_id": "LOC-0554fa21-b098-5bfc-807b-e82e6c32a2bf",
+    "sha256": "fa03eb9d664e4fb8d5bc1542e39c0f8aaf46a2505ef72a7537518a60b61fe40e",
+    "bytes": 2376
+  },
+  {
+    "root_id": "WIN_TASK",
+    "relative_path": "TCSC_RCC_RIE_CPU_STATIC_20261021/tools/process_guard.cpp",
+    "location_id": "LOC-bc9ef40c-720e-5161-a8b2-9534711534c8",
+    "sha256": "1c81a7236cecb8e3cc18c1efbcfc40e258349ea8a68a495bede3442b3060fe71",
+    "bytes": 1701
+  }
+]

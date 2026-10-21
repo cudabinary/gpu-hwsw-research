@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "x86_64-w64-mingw32-g++",
+    "-std=c++17",
+    "-O2",
+    "-static",
+    "-Isrc",
+    "-Iinclude",
+    "-I/usr/local/cuda-13.3/include",
+    "src/owner.cpp",
+    "-o",
+    "build/round_owner.exe"
+  ],
+  "exit_code": 0,
+  "seconds": 9.066146081,
+  "gpu_calls": 0,
+  "binary_sha256": "f6b3c3e2456a5b4be4ca3198b1673d448d7ba0cca6303fda2218701d0795cab3"
+}

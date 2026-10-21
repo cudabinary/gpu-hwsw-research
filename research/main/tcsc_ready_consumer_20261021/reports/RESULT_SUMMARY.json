@@ -1,0 +1,26 @@
+{
+  "status": "BLOCKED_BEFORE_CUDA",
+  "recommendation": "CONTINUE_DISCRIMINATING_MEASUREMENT_AFTER_OPERATIONAL_UNBLOCK",
+  "research_direction_changed": false,
+  "new_CPU_full_arrays_PASS": 402,
+  "new_CPU_negative_argument_tests_PASS": 4,
+  "new_GPU_CUDA_workers": 0,
+  "new_GPU_BFS": 0,
+  "new_GPU_cancellations": 0,
+  "GPU_builder_attempts": 0,
+  "Nsight_processes": 0,
+  "new_GPU_performance": "UNKNOWN",
+  "strong_SW_residual": "UNKNOWN",
+  "HW_necessity": "UNESTABLISHED",
+  "stop_target": {
+    "pid": 29476,
+    "process": "LogonUI.exe",
+    "operation": "OpenProcess(PROCESS_QUERY_INFORMATION|PROCESS_VM_READ) for native module inventory",
+    "last_error_code": "NOT_EMITTED_BY_FROZEN_GUARD"
+  },
+  "safe_policy_relaxed": false,
+  "unrelated_processes_terminated": 0,
+  "package_installs": 0,
+  "native_binary_sha256": "f6b3c3e2456a5b4be4ca3198b1673d448d7ba0cca6303fda2218701d0795cab3",
+  "unchanged_cubin_sha256": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836"
+}

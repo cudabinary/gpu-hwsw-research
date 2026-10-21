@@ -1,0 +1,13 @@
+{
+  "source": "existing MAIN build/static/rcc_kernels.cubin",
+  "copied_bytes_unchanged": true,
+  "current_static_cubin_sha256": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836",
+  "historical_pilot_cubin_sha256": "ef333a157b97e2d388892d58e331f312418c8a322aec1902f8e19ed173f6f78f",
+  "same_as_historical_pilot_binary": false,
+  "kernel_source_sha256": "c4caf5d05cd105ee90e219f1153647bf770793de1d75d16679c3bb40b9cbbcef",
+  "current_cubin_GPU_runtime_validation": "NOT_RUN",
+  "ABI_sizes_from_CPU": {
+    "View": 112,
+    "Counter": 24
+  }
+}

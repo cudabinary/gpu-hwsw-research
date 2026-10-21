@@ -1,0 +1,440 @@
+{
+  "authorized_by_latest_user": true,
+  "processes": 42,
+  "completed_BFS_max": 1170,
+  "cancellations_max": 6,
+  "total_request_invocations": 1176,
+  "retry": 0,
+  "warmup": 0,
+  "watchdog_seconds": 20,
+  "dispatch_seconds": 900,
+  "gpu_session_max_seconds": 1800,
+  "workspace_bytes_max": 33554432,
+  "start_free_MiB_min": 2048,
+  "run_free_MiB_min": 1536,
+  "temperature_C_exclusive_max": 78,
+  "telemetry_staleness_ms_max": 3000,
+  "modes": {
+    "0": "PUSH_EARLY_N",
+    "2": "DO_EARLY_N",
+    "3": "DO_EARLY_N_RIE",
+    "4": "DO_EARLY_N_FRONTIER_ZERO",
+    "5": "DO_EARLY_N_FRONTIER_ZERO_RIE",
+    "6": "PUSH_STATS_EARLY_N"
+  },
+  "primary_comparison": [
+    5,
+    0
+  ],
+  "alpha": 15,
+  "beta": 24,
+  "sources_q32": [
+    0,
+    17,
+    34,
+    51,
+    68,
+    85,
+    102,
+    119,
+    136,
+    153,
+    170,
+    187,
+    204,
+    221,
+    238,
+    255,
+    272,
+    289,
+    306,
+    323,
+    340,
+    357,
+    374,
+    391,
+    408,
+    425,
+    442,
+    459,
+    476,
+    493,
+    510,
+    527
+  ],
+  "q_prefixes": [
+    1,
+    2,
+    8,
+    32
+  ],
+  "primary_gate": "LJ mode5/mode0 q32 owned-ready prefix ratio <0.95 in ALL three paired blocks; exploratory finite gate, not a confidence interval",
+  "builder_GPU_attempts": 0,
+  "Nsight_processes": 0,
+  "new_CUDA_kernels": 0,
+  "RCC_queries": 0,
+  "same_resident_reverse_for_push": true,
+  "timing_boundary": "Initialized resident immutable graph+reverse; each query includes initialization, safety checks, host synchronization, D2H and owned output. CPU references, work reconstruction, validation and file/log output outside batch.",
+  "work_kind": "CPU code-exact reconstruction cross-checked against actual GPU seen/levels/reason; not hardware transactions",
+  "arrival_trace": "NONE; fixed-batch amortization only",
+  "cases": [
+    {
+      "phase": "FUNCTIONAL",
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "mode": 0,
+      "q": 3,
+      "block": -1
+    },
+    {
+      "phase": "FUNCTIONAL",
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "mode": 2,
+      "q": 3,
+      "block": -1
+    },
+    {
+      "phase": "FUNCTIONAL",
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "mode": 3,
+      "q": 3,
+      "block": -1
+    },
+    {
+      "phase": "FUNCTIONAL",
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "mode": 4,
+      "q": 3,
+      "block": -1
+    },
+    {
+      "phase": "FUNCTIONAL",
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "mode": 5,
+      "q": 3,
+      "block": -1
+    },
+    {
+      "phase": "FUNCTIONAL",
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "mode": 6,
+      "q": 3,
+      "block": -1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 0,
+      "q": 32,
+      "block": 0
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 2,
+      "q": 32,
+      "block": 0
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 3,
+      "q": 32,
+      "block": 0
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 4,
+      "q": 32,
+      "block": 0
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 5,
+      "q": 32,
+      "block": 0
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 6,
+      "q": 32,
+      "block": 0
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 0,
+      "q": 32,
+      "block": 0
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 2,
+      "q": 32,
+      "block": 0
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 3,
+      "q": 32,
+      "block": 0
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 4,
+      "q": 32,
+      "block": 0
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 5,
+      "q": 32,
+      "block": 0
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 6,
+      "q": 32,
+      "block": 0
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 6,
+      "q": 32,
+      "block": 1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 5,
+      "q": 32,
+      "block": 1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 4,
+      "q": 32,
+      "block": 1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 3,
+      "q": 32,
+      "block": 1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 2,
+      "q": 32,
+      "block": 1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 0,
+      "q": 32,
+      "block": 1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 6,
+      "q": 32,
+      "block": 1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 5,
+      "q": 32,
+      "block": 1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 4,
+      "q": 32,
+      "block": 1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 3,
+      "q": 32,
+      "block": 1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 2,
+      "q": 32,
+      "block": 1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 0,
+      "q": 32,
+      "block": 1
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 3,
+      "q": 32,
+      "block": 2
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 4,
+      "q": 32,
+      "block": 2
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 5,
+      "q": 32,
+      "block": 2
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 6,
+      "q": 32,
+      "block": 2
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 0,
+      "q": 32,
+      "block": 2
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 2,
+      "q": 32,
+      "block": 2
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 3,
+      "q": 32,
+      "block": 2
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 4,
+      "q": 32,
+      "block": 2
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 5,
+      "q": 32,
+      "block": 2
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 6,
+      "q": 32,
+      "block": 2
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 0,
+      "q": 32,
+      "block": 2
+    },
+    {
+      "phase": "READY_TIMING",
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 2,
+      "q": 32,
+      "block": 2
+    }
+  ],
+  "kernel_upper_bounds": [
+    {
+      "fixture": "livejournal_sampled_4096.edges",
+      "max_processed_levels_bound": 9,
+      "per_process_kernel_launch_upper_bound": 432,
+      "kind": "CPU graph arithmetic, not measured duration"
+    },
+    {
+      "fixture": "google_sampled_1024.edges",
+      "max_processed_levels_bound": 17,
+      "per_process_kernel_launch_upper_bound": 604,
+      "kind": "CPU graph arithmetic, not measured duration"
+    }
+  ],
+  "helper_process_accounting": {
+    "CUDA_workers_max": 42,
+    "independent_CPU_watchdogs_max": 42,
+    "continuous_CPU_guard_processes": 3,
+    "adapter_query_processes": 1,
+    "module_inventory_and_nvidia_smi_queries": "finite while dispatch active, separate telemetry role; actual counts in raw logs"
+  },
+  "failure": "Stop on exact-output mismatch, CUDA error, OOM, unknown GPU PID, competing work, guard error/staleness, watchdog, temperature or VRAM boundary. No retry or rule relaxation."
+}

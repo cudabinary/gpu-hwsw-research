@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "GPU_calls": 0,
+  "only_disposable_owned_children": true,
+  "cases": [
+    {
+      "test": "normal",
+      "pass": true,
+      "state": {
+        "status": "CHILD_EXITED",
+        "child": 22476,
+        "parent": 66984,
+        "deadline_tick_ms": 195874750
+      },
+      "child_exit_code": 0
+    },
+    {
+      "test": "timeout",
+      "pass": true,
+      "state": {
+        "status": "DEADLINE_CHILD_TERMINATED",
+        "child": 66416,
+        "parent": 66984,
+        "deadline_tick_ms": 195872159
+      },
+      "child_exit_code": 124
+    }
+  ]
+}

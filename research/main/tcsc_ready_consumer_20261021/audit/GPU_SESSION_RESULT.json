@@ -1,0 +1,7 @@
+{
+  "status": "STOPPED_NO_RETRY",
+  "reason": "fresh_gpu_baseline_FAILED_EXIT_1",
+  "wall_seconds": 9.562999999994645,
+  "resume_GPU_automatically": false,
+  "CUDA_worker_execution_status": "Inspect GPU_ROUND/STOP.json; none if round directory absent"
+}

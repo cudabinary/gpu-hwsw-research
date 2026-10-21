@@ -1,0 +1,269 @@
+{
+  "status": "PASS",
+  "new_cpu_distance_arrays": 402,
+  "gpu_calls": 0,
+  "cases": [
+    {
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "mode": 0,
+      "q": 3,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 3,
+        "mode": 0,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "mode": 2,
+      "q": 3,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 3,
+        "mode": 2,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "mode": 3,
+      "q": 3,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 3,
+        "mode": 3,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "mode": 4,
+      "q": 3,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 3,
+        "mode": 4,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "mode": 5,
+      "q": 3,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 3,
+        "mode": 5,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "mode": 6,
+      "q": 3,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 3,
+        "mode": 6,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 0,
+      "q": 32,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 32,
+        "mode": 0,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 2,
+      "q": 32,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 32,
+        "mode": 2,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 3,
+      "q": 32,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 32,
+        "mode": 3,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 4,
+      "q": 32,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 32,
+        "mode": 4,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 5,
+      "q": 32,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 32,
+        "mode": 5,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "mode": 6,
+      "q": 32,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 32,
+        "mode": 6,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 0,
+      "q": 32,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 32,
+        "mode": 0,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 2,
+      "q": 32,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 32,
+        "mode": 2,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 3,
+      "q": 32,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 32,
+        "mode": 3,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 4,
+      "q": 32,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 32,
+        "mode": 4,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 5,
+      "q": 32,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 32,
+        "mode": 5,
+        "no_driver_loaded": true
+      }
+    },
+    {
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "mode": 6,
+      "q": 32,
+      "exit_code": 0,
+      "result": {
+        "status": "CPU_ONLY_PASS",
+        "arrays": 32,
+        "mode": 6,
+        "no_driver_loaded": true
+      }
+    }
+  ],
+  "negative": [
+    {
+      "mode": 1,
+      "q": 3,
+      "rejected": true
+    },
+    {
+      "mode": 7,
+      "q": 3,
+      "rejected": true
+    },
+    {
+      "mode": 0,
+      "q": 4,
+      "rejected": true
+    },
+    {
+      "mode": 0,
+      "q": 0,
+      "rejected": true
+    }
+  ],
+  "abi": {
+    "View": 112,
+    "Counter": 24,
+    "row": 32,
+    "counter": 96
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "scope": "OFFLINE_DERIVATIVE_OF_ONE_NATIVE_READ_ONLY_DIAGNOSTIC",
+  "start_utc": "2026-10-21T04:28:45.905175+00:00",
+  "end_utc": "2026-10-21T04:28:46.141718+00:00",
+  "driver_version": "610.88",
+  "nvml_version": "13.610.88",
+  "device_name": "NVIDIA GeForce RTX 4060 Ti",
+  "driver_model": "WDDM",
+  "NVML_count_return_code": 7,
+  "NVML_reported_entries": 32,
+  "nvidia_smi_exit_codes": {
+    "native_smi_compute": 0,
+    "native_smi_driver": 0
+  },
+  "nvidia_smi_rows": 32,
+  "unreadable_names": 2,
+  "memory_values_NA": 32,
+  "raw_result_sha256": "ab23bbd96c65c6031f1adff0ac0f95c166364eb296a01990b5bcec588ff3f479",
+  "CUDA_attribution_and_coverage": "UNKNOWN",
+  "isolation_proved": false,
+  "guard_modified": false,
+  "GPU_benchmark_resumed": false,
+  "CUDA_workers": 0,
+  "GPU_BFS": 0
+}

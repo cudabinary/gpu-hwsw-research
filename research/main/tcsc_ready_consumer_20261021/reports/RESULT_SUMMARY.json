@@ -22,5 +22,9 @@
   "unrelated_processes_terminated": 0,
   "package_installs": 0,
   "native_binary_sha256": "f6b3c3e2456a5b4be4ca3198b1673d448d7ba0cca6303fda2218701d0795cab3",
-  "unchanged_cubin_sha256": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836"
+  "unchanged_cubin_sha256": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836",
+  "read_only_native_diagnostic": "audit/NATIVE_NVML_DIAGNOSTIC_SUMMARY.json",
+  "measurement_isolation_proved": false,
+  "benchmark_resume_allowed": false,
+  "WFA_restore": "reports/WFA_MINIMAL_RESTORE_HANDOFF.md"
 }

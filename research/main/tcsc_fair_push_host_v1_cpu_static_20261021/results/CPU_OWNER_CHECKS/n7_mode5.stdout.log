@@ -1,0 +1,1 @@
+{"status":"CPU_ONLY_PASS","arrays":3,"mode":5,"cpu_reverse_build_ms":0.0033,"cpu_static_bound_ms":0,"algorithm_preparation_ms":0.0034,"preparation_payload_bytes":96,"preparation_peak_bytes":208,"preparation_allocation_calls":4,"metadata_bytes":0,"reverse_present":true,"projected_device_payload_bytes":312,"driver_loaded":false,"GPU_launches":0}

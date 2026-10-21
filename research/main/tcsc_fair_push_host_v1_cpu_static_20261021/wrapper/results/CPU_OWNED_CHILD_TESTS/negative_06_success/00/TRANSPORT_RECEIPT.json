@@ -1,0 +1,35 @@
+{
+  "kind": "OWNED_CPU_CHILD_NO_CUDA",
+  "case": "success",
+  "success": false,
+  "actual_GPU_queries_or_dispatches": 0,
+  "post_exit_memory_coverage": "UNKNOWN",
+  "reason": "OWNED_HOST_BUDGET",
+  "owned_process_exited": true,
+  "child_returncode": 1,
+  "watchdog_returncode": 0,
+  "owned_memory_samples": [
+    {
+      "coordinator": {
+        "private_commit_bytes": 12640256,
+        "peak_private_commit_bytes": 12640256,
+        "working_set_bytes": 21368832,
+        "peak_working_set_bytes": 21368832
+      },
+      "child": {
+        "private_commit_bytes": 466944,
+        "peak_private_commit_bytes": 466944,
+        "working_set_bytes": 3203072,
+        "peak_working_set_bytes": 3203072
+      },
+      "watchdog": {
+        "private_commit_bytes": 380928,
+        "peak_private_commit_bytes": 380928,
+        "working_set_bytes": 2580480,
+        "peak_working_set_bytes": 2580480
+      }
+    }
+  ],
+  "retirement_scope": "OWNED_OS_PROCESS_ONLY_CUDA_RETIREMENT_UNVERIFIED",
+  "raw_files_preserved": true
+}

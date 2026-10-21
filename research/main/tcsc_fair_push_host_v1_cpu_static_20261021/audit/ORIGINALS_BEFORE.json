@@ -1,0 +1,74 @@
+[
+  {
+    "original_project": "MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021",
+    "source": "src/owner_controls_v1.cpp",
+    "copy": "src/owner_fair_v1.cpp",
+    "sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b"
+  },
+  {
+    "original_project": "MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021",
+    "source": "src/host_controls.hpp",
+    "copy": "src/host_controls.hpp",
+    "sha256": "2e80d026b25e559c2d7003d67fdb7da933a597be2d5aae08dde9ae979b51d185"
+  },
+  {
+    "original_project": "MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021",
+    "source": "src/native_driver.hpp",
+    "copy": "src/native_driver.hpp",
+    "sha256": "3148d43366669872c8936a3197796aa64df47a543a68982b8438567241e72a1e"
+  },
+  {
+    "original_project": "MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021",
+    "source": "src/abi.hpp",
+    "copy": "src/abi.hpp",
+    "sha256": "c26b38275459058ee06492e7185bc89d64c24d6eac5711495b3eb879d306eca2"
+  },
+  {
+    "original_project": "MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021",
+    "source": "src/kernels.cu",
+    "copy": "src/kernels.cu",
+    "sha256": "c4caf5d05cd105ee90e219f1153647bf770793de1d75d16679c3bb40b9cbbcef"
+  },
+  {
+    "original_project": "MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021",
+    "source": "include/independent_builder.hpp",
+    "copy": "include/independent_builder.hpp",
+    "sha256": "409a4f38e9b72f0997951aa5c694d36c3d57ee65c9a94bd2b46619cc0205ecf4"
+  },
+  {
+    "original_project": "MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021",
+    "source": "build/rcc_kernels.cubin",
+    "copy": "build/rcc_kernels.cubin",
+    "sha256": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836"
+  },
+  {
+    "original_project": "MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021",
+    "source": "fixtures/gpu_micro7.edges",
+    "copy": "fixtures/gpu_micro7.edges",
+    "sha256": "c7c0d0bfcd676b5ab4ebf40cd0cea58d4f3127f2155c4398ca5e4515c837a376"
+  },
+  {
+    "original_project": "MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021",
+    "source": "fixtures/livejournal_sampled_4096.edges",
+    "copy": "fixtures/livejournal_sampled_4096.edges",
+    "sha256": "b22d4c73b798da0b3ca6e2fb9a97eb07b6d613728c4ff5e100dfef6817fe8c7f"
+  },
+  {
+    "original_project": "MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021",
+    "source": "tools/child_watchdog.py",
+    "copy": "tools/child_watchdog.py",
+    "sha256": "8b8aad8f5481b07e88110329516d5776600edfd3c02421680c89248cac5d19f4"
+  },
+  {
+    "original_project": "MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021",
+    "source": "tools/watchdog_support.py",
+    "copy": "tools/watchdog_support.py",
+    "sha256": "f75282b543cf4b59ac6737a64958fd5515eb3cf9db8e6100d4765b174ec5921c"
+  },
+  {
+    "original_project": "MAIN_TCSC_EXPLORATORY_REPEAT_S2_S3_20261021",
+    "source": "tools/engine_guard.ps1",
+    "copy": "tools/engine_guard.ps1",
+    "sha256": "16805d8df1de59f01a4226899c21131bc83a91a75f97902bc53da71225ec1369"
+  }
+]

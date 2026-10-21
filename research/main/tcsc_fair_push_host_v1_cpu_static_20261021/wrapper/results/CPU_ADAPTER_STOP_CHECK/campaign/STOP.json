@@ -1,0 +1,13 @@
+{
+  "status": "CPU_CHILD_STOP_NO_FOLLOWUP",
+  "reason": "CPU_PARENT_CANCELLED",
+  "simulated_workers_started": 3,
+  "workers_validated": 2,
+  "cleanup": {
+    "kind": "CPU_PROCESS_ONLY_NO_CUDA_CONTEXT",
+    "owned_context_retirement_confirmed": true,
+    "cleanup_ms": "NOT_SEPARATELY_TIMED"
+  },
+  "resume_allowed": false,
+  "actual_GPU_dispatches": 0
+}

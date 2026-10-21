@@ -1,0 +1,32 @@
+{
+  "kind": "OWNED_CPU_CHILD_NO_CUDA",
+  "case": "success",
+  "success": true,
+  "actual_GPU_queries_or_dispatches": 0,
+  "post_exit_memory_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+  "post_exit_owned_memory": {
+    "coordinator": {
+      "private_commit_bytes": 10477568,
+      "peak_private_commit_bytes": 10477568,
+      "working_set_bytes": 19492864,
+      "peak_working_set_bytes": 19492864
+    },
+    "child": {
+      "private_commit_bytes": 77824,
+      "peak_private_commit_bytes": 8859648,
+      "working_set_bytes": 32768,
+      "peak_working_set_bytes": 17719296
+    },
+    "watchdog": {
+      "private_commit_bytes": 77824,
+      "peak_private_commit_bytes": 10084352,
+      "working_set_bytes": 32768,
+      "peak_working_set_bytes": 17178624
+    }
+  },
+  "post_exit_private_peak_sum_bytes": 29421568,
+  "sampled_peak_private_commit_sum_bytes": 29421568,
+  "sample_count": 11,
+  "owned_process_exited": true,
+  "raw_files_preserved": true
+}

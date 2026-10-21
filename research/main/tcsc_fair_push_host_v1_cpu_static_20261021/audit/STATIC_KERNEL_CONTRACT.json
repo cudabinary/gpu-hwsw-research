@@ -1,0 +1,9 @@
+{
+  "kernel_source_and_cubin_unchanged": true,
+  "View_ABI_unchanged": true,
+  "native_driver_copy_unchanged": true,
+  "Push_mode7_degree_stats_argument": 0,
+  "Push_reverse_row_source_bitmap": "NULL; neither r_init nor r_push(stats=0) accesses these pointers in unchanged source",
+  "GPU_validation": "NOT_EXECUTED_UNKNOWN",
+  "GPU_queries_or_dispatches": 0
+}

@@ -1,0 +1,135 @@
+{
+  "schema": "tcsc-fixed-owner-host-boundary-design-v1",
+  "status": "CPU_MOCK_ONLY_LIVE_UNBOUND",
+  "execution_authorized": false,
+  "runtime_wrapper_implemented": true,
+  "contract": "ISOLATION_UNVERIFIED",
+  "binary_sha256": "ee0985a51bfbf36ffdf1da8a91f158e905bfad1f8d2a43fadec289bf9de8cf08",
+  "cubin_sha256": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836",
+  "source_owner_sha256": "47f17c0804ff1671ba2bcc7a68a6d9422d75a30ef73ab811975ccf14e59c7fcf",
+  "input_sha256": "b22d4c73b798da0b3ca6e2fb9a97eb07b6d613728c4ff5e100dfef6817fe8c7f",
+  "micro_input_sha256": "c7c0d0bfcd676b5ab4ebf40cd0cea58d4f3127f2155c4398ca5e4515c837a376",
+  "target_GPU": "Existing local RTX 4060 Ti; no current device query",
+  "target_fixture": "livejournal_sampled_4096.edges",
+  "vertices": 4096,
+  "edges": 48292,
+  "target_q": 32,
+  "source_rule": "17*i for i=0..31",
+  "required_smoke_per_arm": [
+    {
+      "mode": 7,
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "q": 3
+    },
+    {
+      "mode": 5,
+      "fixture": "gpu_micro7.edges",
+      "n": 7,
+      "q": 3
+    }
+  ],
+  "smoke_sources": [
+    0,
+    1,
+    4
+  ],
+  "optional_extra_smoke": 0,
+  "warmups": 0,
+  "automatic_retries": 0,
+  "arm_target_modes": [
+    7,
+    5,
+    5,
+    7
+  ],
+  "pair_orders": [
+    [
+      7,
+      5
+    ],
+    [
+      5,
+      7
+    ]
+  ],
+  "arm_structure": "fresh common monitor/reference setup, required smoke7, required smoke5, one fresh q32 target, validation/retirement/cleanup",
+  "maximum_simultaneous_CUDA_workers": 1,
+  "maximum_CUDA_workers": 12,
+  "maximum_full_BFS_arrays": 152,
+  "maximum_init_only_cancellations": 8,
+  "campaign_wall_cap_seconds_including_gaps": 600,
+  "arm_wall_cap_seconds_including_cleanup": 90,
+  "gap_seconds_after_every_completed_arm": 0,
+  "child_watchdog_seconds": 20,
+  "maximum_management_samples_per_arm": 120,
+  "maximum_management_samples_campaign": 480,
+  "maximum_raw_output_bytes_campaign": 134217728,
+  "memory_per_arm": {
+    "device_application_cap_bytes": 33554432,
+    "CPU_builder_account_cap_bytes": 33554432,
+    "proposed_owned_host_group_conservative_peak_budget_bytes": 1073741824,
+    "host_group_budget_enforcement_implemented": false,
+    "payload_includes": [
+      "original CSR",
+      "complete reverse",
+      "frontiers",
+      "distance",
+      "counters/error",
+      "bitmap"
+    ],
+    "unaccounted_driver_OS_shared_physical_footprint": "UNKNOWN",
+    "complete_total_physical_memory_equality": "NOT_ESTABLISHED",
+    "projected_device_application_payload_bytes_by_mode": {
+      "7": 275124,
+      "5": 501580
+    },
+    "CPU_metadata_or_final_reverse_bytes_by_mode": {
+      "7": 512,
+      "5": 225944
+    }
+  },
+  "safety": {
+    "start_free_MiB": 2048,
+    "run_free_MiB": 1536,
+    "temperature_limit_exclusive_C": 78,
+    "telemetry_freshness_ms": 3000,
+    "telemetry_command_timeout_seconds": 2,
+    "required_full_array_Cplusplus_and_Python": true,
+    "required_init_only_cancel_checks": true,
+    "required_PID_ACK_watchdog_context_retirement": true,
+    "stop_on_observable_foreign_research_CUDA": true,
+    "protected_or_foreign_process_module_memory_queries": false,
+    "OS_security_clock_driver_changes": false,
+    "enforced_isolation": false
+  },
+  "monitor_call_contract": "Same function, conditions and sleep protocol for every arm. Actual counts and call durations recorded, never padded/skipped to force identical counts.",
+  "host_timestamp_clock": "time.perf_counter_ns; UTC metadata separately",
+  "existing_GPU_interval_field": "stream_interval_ms; event bracket, not kernel busy time",
+  "host_minus_event_is_pure_host_time": false,
+  "driver_ready_is_resident_CSR_ready": false,
+  "external_result_delivery": "all q32 distance arrays after batch validation and file close, then parent validation",
+  "external_cold_q1_q2_q8_time": "UNKNOWN_UNSUPPORTED_BY_UNCHANGED_BINARY",
+  "warm_owner_prefix_q": [
+    1,
+    2,
+    8,
+    32
+  ],
+  "warm_prefix_is_external_online_service": false,
+  "CPU_checks_in_primary_arm_cold": true,
+  "required_smoke_and_logging_in_primary_arm_cold": true,
+  "CPU_reverse_and_mixed_native_setup_in_target_cold": true,
+  "all_target_modes_receive_complete_reverse": false,
+  "claims_forbidden": [
+    "S1 physical root cause",
+    "stable isolated speedup",
+    "strongest deployment baseline",
+    "parallel preparation advantage",
+    "GPU builder performance",
+    "new HW necessity"
+  ],
+  "gpu_adapter_implemented": false,
+  "fair_host_variant": "FAIR_PUSH_V1_CPU_STATIC_GPU_UNVERIFIED",
+  "CPU_protocol_fixture_only": true
+}

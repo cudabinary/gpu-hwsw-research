@@ -1,0 +1,44 @@
+{
+  "kind": "SYNTHETIC_NO_BFS_EXECUTION",
+  "mode": 7,
+  "q": 32,
+  "guards": {
+    "Cplusplus_full_array": true,
+    "Python_full_array": false,
+    "PID_ACK": true,
+    "watchdog": true,
+    "telemetry": true,
+    "context_release_marker": true,
+    "owned_PID_absent": true
+  },
+  "init_only_cancel_tests": 0,
+  "metrics": {
+    "kind": "SYNTHETIC_NOT_GPU_TIMING",
+    "graph_load_ms": 2,
+    "cpu_reverse_build_ms": 0,
+    "static_bound_setup_ms": 0,
+    "cpu_static_bound_ms": 0.1,
+    "algorithm_preparation_ms": 0.1,
+    "cpu_reference_and_work_replay_ms": 5,
+    "context_setup_transfer_ms": 20,
+    "H2D_only_ms": "UNKNOWN",
+    "allocation_only_ms": "UNKNOWN",
+    "owned_ready_prefix_ms": {
+      "1": 0.5,
+      "2": 1.0,
+      "8": 4.0,
+      "32": 16.0
+    },
+    "sum_stream_interval_ms_not_busy": 14,
+    "sum_output_allocation_D2H_ms": 1,
+    "post_batch_validation_ms": 0.1
+  },
+  "memory": {
+    "device_requested_bytes": 275124,
+    "builder_account_peak_bytes": 512,
+    "owned_host_peak_upper_bound_bytes": 100000000,
+    "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY",
+    "driver_physical_bytes": "UNKNOWN",
+    "kind": "SYNTHETIC"
+  }
+}

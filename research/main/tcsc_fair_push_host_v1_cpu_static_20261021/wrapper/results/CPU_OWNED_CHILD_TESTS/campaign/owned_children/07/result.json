@@ -1,0 +1,14 @@
+{
+  "payload": {
+    "kind": "CPU_CHILD_PROTOCOL_NOT_BFS",
+    "mode": 5,
+    "q": 3,
+    "logical_slots": [
+      0,
+      1,
+      2
+    ],
+    "simulated_init_cancel": 1
+  },
+  "sha256": "59ee8809e056523cd738506854085b7281c594ac74a3e1df6dac0a5ea2eaee70"
+}

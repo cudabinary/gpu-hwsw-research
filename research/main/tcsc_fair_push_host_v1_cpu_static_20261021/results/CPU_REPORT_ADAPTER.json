@@ -1,0 +1,75 @@
+{
+  "status": "CPU_REPORT_ADAPTER_PASS",
+  "bound_saved_CPU_reports": [
+    {
+      "kind": "REAL_COMPILED_CPU_OWNER_NOT_GPU",
+      "mode": 7,
+      "q": 3,
+      "metrics": {
+        "algorithm_preparation_ms": 0.0019,
+        "cpu_reverse_build_ms": 0,
+        "cpu_static_bound_ms": 0.0018
+      },
+      "CPU_preparation_account_live_bytes": 8,
+      "CPU_preparation_account_peak_bytes": 8,
+      "projected_device_bytes_NOT_MEASURED": 208,
+      "GPU_event_ms": "UNKNOWN_NOT_EXECUTED",
+      "native_alloc_and_H2D_ms": "UNKNOWN_NOT_EXECUTED",
+      "GPU_driver_physical_peak": "UNKNOWN",
+      "CPU_output_hash": "74a73e555230b47341d5dceca9773c9055ab4a64b5d3db9032a67191aaf86253"
+    },
+    {
+      "kind": "REAL_COMPILED_CPU_OWNER_NOT_GPU",
+      "mode": 5,
+      "q": 3,
+      "metrics": {
+        "algorithm_preparation_ms": 0.0034,
+        "cpu_reverse_build_ms": 0.0033,
+        "cpu_static_bound_ms": 0
+      },
+      "CPU_preparation_account_live_bytes": 96,
+      "CPU_preparation_account_peak_bytes": 208,
+      "projected_device_bytes_NOT_MEASURED": 312,
+      "GPU_event_ms": "UNKNOWN_NOT_EXECUTED",
+      "native_alloc_and_H2D_ms": "UNKNOWN_NOT_EXECUTED",
+      "GPU_driver_physical_peak": "UNKNOWN",
+      "CPU_output_hash": "74a73e555230b47341d5dceca9773c9055ab4a64b5d3db9032a67191aaf86253"
+    },
+    {
+      "kind": "REAL_COMPILED_CPU_OWNER_NOT_GPU",
+      "mode": 7,
+      "q": 32,
+      "metrics": {
+        "algorithm_preparation_ms": 0.05,
+        "cpu_reverse_build_ms": 0,
+        "cpu_static_bound_ms": 0.05
+      },
+      "CPU_preparation_account_live_bytes": 512,
+      "CPU_preparation_account_peak_bytes": 512,
+      "projected_device_bytes_NOT_MEASURED": 275124,
+      "GPU_event_ms": "UNKNOWN_NOT_EXECUTED",
+      "native_alloc_and_H2D_ms": "UNKNOWN_NOT_EXECUTED",
+      "GPU_driver_physical_peak": "UNKNOWN",
+      "CPU_output_hash": "d2f8bdeeb63fd471b70f6bfad043322b54388b6c8c7d3c930e716367cef07d09"
+    },
+    {
+      "kind": "REAL_COMPILED_CPU_OWNER_NOT_GPU",
+      "mode": 5,
+      "q": 32,
+      "metrics": {
+        "algorithm_preparation_ms": 0.2368,
+        "cpu_reverse_build_ms": 0.2368,
+        "cpu_static_bound_ms": 0
+      },
+      "CPU_preparation_account_live_bytes": 225944,
+      "CPU_preparation_account_peak_bytes": 291480,
+      "projected_device_bytes_NOT_MEASURED": 501580,
+      "GPU_event_ms": "UNKNOWN_NOT_EXECUTED",
+      "native_alloc_and_H2D_ms": "UNKNOWN_NOT_EXECUTED",
+      "GPU_driver_physical_peak": "UNKNOWN",
+      "CPU_output_hash": "d2f8bdeeb63fd471b70f6bfad043322b54388b6c8c7d3c930e716367cef07d09"
+    }
+  ],
+  "negative_checks": 8,
+  "new_GPU_queries_or_dispatches": 0
+}

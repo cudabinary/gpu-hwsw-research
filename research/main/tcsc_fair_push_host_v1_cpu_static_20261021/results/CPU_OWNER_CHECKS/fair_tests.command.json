@@ -1,0 +1,9 @@
+{
+  "command": [
+    "<ROUND_ROOT>\\build\\owner_fair_v1.exe",
+    "--fair-tests"
+  ],
+  "action_class": "CPU_ONLY",
+  "GPU_permits_inherited": false,
+  "timeout_seconds": 120
+}

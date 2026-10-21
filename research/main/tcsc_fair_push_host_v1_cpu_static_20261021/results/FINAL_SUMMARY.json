@@ -1,0 +1,39 @@
+{
+  "status": "FAIR_PUSH_HOST_CPU_STATIC_AND_CPU_ADAPTER_PASS",
+  "host_compile": "PASS",
+  "new_host_binary_sha256": "ee0985a51bfbf36ffdf1da8a91f158e905bfad1f8d2a43fadec289bf9de8cf08",
+  "new_host_source_sha256": "47f17c0804ff1671ba2bcc7a68a6d9422d75a30ef73ab811975ccf14e59c7fcf",
+  "unchanged_cubin_sha256": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836",
+  "Cplusplus_unit_full_arrays": 3294,
+  "Cplusplus_fixture_arrays": 70,
+  "independent_Python_fixture_arrays_same70_not_additional": 70,
+  "bound_equivalence_checks": 1647,
+  "metadata_negative_and_lifetime_checks": 10,
+  "final_CPU_mock_cases": 24,
+  "real_CPU_owned_protocol_checks": 9,
+  "real_adapter_stop_checks": 3,
+  "CPU_protocol_processes_including_preflight": 23,
+  "CPU_protocol_watchdogs_including_preflight": 23,
+  "new_GPU_queries_or_dispatches": 0,
+  "new_CUDA_compilations": 0,
+  "new_installs": 0,
+  "kernel_ABI_source_and_cubin_unchanged": true,
+  "original_owner_binary_and_strict_pins_unchanged": true,
+  "GPU_fair_baseline_performance": "UNKNOWN_NOT_EXECUTED",
+  "GPU_PID_engine_and_context_monitoring": "NOT_EXECUTED_UNKNOWN",
+  "projected_LJ_device_bytes_by_mode": {
+    "7": 275124,
+    "5": 501580
+  },
+  "actual_LJ_CPU_preparation_final_bytes_by_mode": {
+    "7": 512,
+    "5": 225944
+  },
+  "actual_LJ_CPU_preparation_peak_bytes_by_mode": {
+    "7": 512,
+    "5": 291480
+  },
+  "GPU_driver_OS_physical_peak": "UNKNOWN",
+  "live_GPU_bridge": "UNBOUND; CPU-only transport connected",
+  "research_direction_changed": false
+}

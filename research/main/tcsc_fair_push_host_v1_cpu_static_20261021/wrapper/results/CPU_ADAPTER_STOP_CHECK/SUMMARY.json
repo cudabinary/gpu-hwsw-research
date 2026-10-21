@@ -1,0 +1,10 @@
+{
+  "status": "CPU_ADAPTER_STOP_CHECK_PASS",
+  "actual_CPU_fixture_processes": 3,
+  "actual_GPU_queries_or_dispatches": 0,
+  "checks": [
+    "real_cancel_no_fourth_dispatch",
+    "failed_worker_included_in_cleanup_ledger",
+    "unconfirmed_own_exit_not_claimed_confirmed"
+  ]
+}

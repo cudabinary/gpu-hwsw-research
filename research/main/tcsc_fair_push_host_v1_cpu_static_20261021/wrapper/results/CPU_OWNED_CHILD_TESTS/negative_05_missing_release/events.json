@@ -1,0 +1,398 @@
+[
+  {
+    "host_ns": 211560828172000,
+    "event": "POPEN_RETURN"
+  },
+  {
+    "host_ns": 211560833524500,
+    "event": "OBSERVE_ENTER",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560833547200,
+    "event": "MEMORY_SAMPLE",
+    "device_requested_bytes": 0,
+    "builder_account_peak_bytes": 0,
+    "owned_host_peak_upper_bound_bytes": 13500416,
+    "actual_OS_sample": {
+      "coordinator": {
+        "private_commit_bytes": 12640256,
+        "peak_private_commit_bytes": 12640256,
+        "working_set_bytes": 21368832,
+        "peak_working_set_bytes": 21368832
+      },
+      "child": {
+        "private_commit_bytes": 471040,
+        "peak_private_commit_bytes": 471040,
+        "working_set_bytes": 3203072,
+        "peak_working_set_bytes": 3203072
+      },
+      "watchdog": {
+        "private_commit_bytes": 389120,
+        "peak_private_commit_bytes": 389120,
+        "working_set_bytes": 2600960,
+        "peak_working_set_bytes": 2600960
+      }
+    },
+    "coverage": "SAMPLED_TO_THIS_POINT_NOT_DRIVER_MEMORY"
+  },
+  {
+    "host_ns": 211560833548200,
+    "event": "OBSERVE_EXIT",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560844094400,
+    "event": "OBSERVE_ENTER",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560844175100,
+    "event": "MEMORY_SAMPLE",
+    "device_requested_bytes": 0,
+    "builder_account_peak_bytes": 0,
+    "owned_host_peak_upper_bound_bytes": 13578240,
+    "actual_OS_sample": {
+      "coordinator": {
+        "private_commit_bytes": 12640256,
+        "peak_private_commit_bytes": 12640256,
+        "working_set_bytes": 21368832,
+        "peak_working_set_bytes": 21368832
+      },
+      "child": {
+        "private_commit_bytes": 471040,
+        "peak_private_commit_bytes": 471040,
+        "working_set_bytes": 3203072,
+        "peak_working_set_bytes": 3203072
+      },
+      "watchdog": {
+        "private_commit_bytes": 466944,
+        "peak_private_commit_bytes": 466944,
+        "working_set_bytes": 3198976,
+        "peak_working_set_bytes": 3198976
+      }
+    },
+    "coverage": "SAMPLED_TO_THIS_POINT_NOT_DRIVER_MEMORY"
+  },
+  {
+    "host_ns": 211560844176600,
+    "event": "OBSERVE_EXIT",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560854599000,
+    "event": "OBSERVE_ENTER",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560854626800,
+    "event": "MEMORY_SAMPLE",
+    "device_requested_bytes": 0,
+    "builder_account_peak_bytes": 0,
+    "owned_host_peak_upper_bound_bytes": 21409792,
+    "actual_OS_sample": {
+      "coordinator": {
+        "private_commit_bytes": 12640256,
+        "peak_private_commit_bytes": 12640256,
+        "working_set_bytes": 21368832,
+        "peak_working_set_bytes": 21368832
+      },
+      "child": {
+        "private_commit_bytes": 4423680,
+        "peak_private_commit_bytes": 4431872,
+        "working_set_bytes": 9973760,
+        "peak_working_set_bytes": 9973760
+      },
+      "watchdog": {
+        "private_commit_bytes": 4337664,
+        "peak_private_commit_bytes": 4337664,
+        "working_set_bytes": 9510912,
+        "peak_working_set_bytes": 9510912
+      }
+    },
+    "coverage": "SAMPLED_TO_THIS_POINT_NOT_DRIVER_MEMORY"
+  },
+  {
+    "host_ns": 211560854627900,
+    "event": "OBSERVE_EXIT",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560865109000,
+    "event": "OBSERVE_ENTER",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560865134500,
+    "event": "MEMORY_SAMPLE",
+    "device_requested_bytes": 0,
+    "builder_account_peak_bytes": 0,
+    "owned_host_peak_upper_bound_bytes": 24444928,
+    "actual_OS_sample": {
+      "coordinator": {
+        "private_commit_bytes": 12640256,
+        "peak_private_commit_bytes": 12640256,
+        "working_set_bytes": 21368832,
+        "peak_working_set_bytes": 21368832
+      },
+      "child": {
+        "private_commit_bytes": 6033408,
+        "peak_private_commit_bytes": 6033408,
+        "working_set_bytes": 11390976,
+        "peak_working_set_bytes": 11390976
+      },
+      "watchdog": {
+        "private_commit_bytes": 5763072,
+        "peak_private_commit_bytes": 5771264,
+        "working_set_bytes": 10973184,
+        "peak_working_set_bytes": 10973184
+      }
+    },
+    "coverage": "SAMPLED_TO_THIS_POINT_NOT_DRIVER_MEMORY"
+  },
+  {
+    "host_ns": 211560865135600,
+    "event": "OBSERVE_EXIT",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560875646600,
+    "event": "OBSERVE_ENTER",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560875670000,
+    "event": "MEMORY_SAMPLE",
+    "device_requested_bytes": 0,
+    "builder_account_peak_bytes": 0,
+    "owned_host_peak_upper_bound_bytes": 25440256,
+    "actual_OS_sample": {
+      "coordinator": {
+        "private_commit_bytes": 12640256,
+        "peak_private_commit_bytes": 12640256,
+        "working_set_bytes": 21368832,
+        "peak_working_set_bytes": 21368832
+      },
+      "child": {
+        "private_commit_bytes": 6508544,
+        "peak_private_commit_bytes": 6508544,
+        "working_set_bytes": 12689408,
+        "peak_working_set_bytes": 12689408
+      },
+      "watchdog": {
+        "private_commit_bytes": 6291456,
+        "peak_private_commit_bytes": 6291456,
+        "working_set_bytes": 12222464,
+        "peak_working_set_bytes": 12222464
+      }
+    },
+    "coverage": "SAMPLED_TO_THIS_POINT_NOT_DRIVER_MEMORY"
+  },
+  {
+    "host_ns": 211560875670900,
+    "event": "OBSERVE_EXIT",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560886126200,
+    "event": "OBSERVE_ENTER",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560886151300,
+    "event": "MEMORY_SAMPLE",
+    "device_requested_bytes": 0,
+    "builder_account_peak_bytes": 0,
+    "owned_host_peak_upper_bound_bytes": 28610560,
+    "actual_OS_sample": {
+      "coordinator": {
+        "private_commit_bytes": 12640256,
+        "peak_private_commit_bytes": 12640256,
+        "working_set_bytes": 21368832,
+        "peak_working_set_bytes": 21368832
+      },
+      "child": {
+        "private_commit_bytes": 8056832,
+        "peak_private_commit_bytes": 8056832,
+        "working_set_bytes": 14004224,
+        "peak_working_set_bytes": 14004224
+      },
+      "watchdog": {
+        "private_commit_bytes": 7913472,
+        "peak_private_commit_bytes": 7913472,
+        "working_set_bytes": 13602816,
+        "peak_working_set_bytes": 13602816
+      }
+    },
+    "coverage": "SAMPLED_TO_THIS_POINT_NOT_DRIVER_MEMORY"
+  },
+  {
+    "host_ns": 211560886152200,
+    "event": "OBSERVE_EXIT",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560896640100,
+    "event": "OBSERVE_ENTER",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560896668400,
+    "event": "MEMORY_SAMPLE",
+    "device_requested_bytes": 0,
+    "builder_account_peak_bytes": 0,
+    "owned_host_peak_upper_bound_bytes": 29827072,
+    "actual_OS_sample": {
+      "coordinator": {
+        "private_commit_bytes": 12640256,
+        "peak_private_commit_bytes": 12640256,
+        "working_set_bytes": 21368832,
+        "peak_working_set_bytes": 21368832
+      },
+      "child": {
+        "private_commit_bytes": 8687616,
+        "peak_private_commit_bytes": 8687616,
+        "working_set_bytes": 17133568,
+        "peak_working_set_bytes": 17133568
+      },
+      "watchdog": {
+        "private_commit_bytes": 8499200,
+        "peak_private_commit_bytes": 8499200,
+        "working_set_bytes": 16089088,
+        "peak_working_set_bytes": 16089088
+      }
+    },
+    "coverage": "SAMPLED_TO_THIS_POINT_NOT_DRIVER_MEMORY"
+  },
+  {
+    "host_ns": 211560896669500,
+    "event": "OBSERVE_EXIT",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560907148000,
+    "event": "OBSERVE_ENTER",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560907179200,
+    "event": "MEMORY_SAMPLE",
+    "device_requested_bytes": 0,
+    "builder_account_peak_bytes": 0,
+    "owned_host_peak_upper_bound_bytes": 31363072,
+    "actual_OS_sample": {
+      "coordinator": {
+        "private_commit_bytes": 12640256,
+        "peak_private_commit_bytes": 12640256,
+        "working_set_bytes": 21368832,
+        "peak_working_set_bytes": 21368832
+      },
+      "child": {
+        "private_commit_bytes": 8933376,
+        "peak_private_commit_bytes": 8933376,
+        "working_set_bytes": 17776640,
+        "peak_working_set_bytes": 17776640
+      },
+      "watchdog": {
+        "private_commit_bytes": 9789440,
+        "peak_private_commit_bytes": 9789440,
+        "working_set_bytes": 16773120,
+        "peak_working_set_bytes": 16773120
+      }
+    },
+    "coverage": "SAMPLED_TO_THIS_POINT_NOT_DRIVER_MEMORY"
+  },
+  {
+    "host_ns": 211560907180300,
+    "event": "OBSERVE_EXIT",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560917655500,
+    "event": "OBSERVE_ENTER",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560917684000,
+    "event": "MEMORY_SAMPLE",
+    "device_requested_bytes": 0,
+    "builder_account_peak_bytes": 0,
+    "owned_host_peak_upper_bound_bytes": 31387648,
+    "actual_OS_sample": {
+      "coordinator": {
+        "private_commit_bytes": 12640256,
+        "peak_private_commit_bytes": 12640256,
+        "working_set_bytes": 21368832,
+        "peak_working_set_bytes": 21368832
+      },
+      "child": {
+        "private_commit_bytes": 8933376,
+        "peak_private_commit_bytes": 8933376,
+        "working_set_bytes": 17776640,
+        "peak_working_set_bytes": 17776640
+      },
+      "watchdog": {
+        "private_commit_bytes": 9814016,
+        "peak_private_commit_bytes": 9814016,
+        "working_set_bytes": 16936960,
+        "peak_working_set_bytes": 16936960
+      }
+    },
+    "coverage": "SAMPLED_TO_THIS_POINT_NOT_DRIVER_MEMORY"
+  },
+  {
+    "host_ns": 211560917685000,
+    "event": "OBSERVE_EXIT",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560927331900,
+    "event": "READY_OBSERVED"
+  },
+  {
+    "host_ns": 211560927828000,
+    "event": "ACK_WRITTEN"
+  },
+  {
+    "host_ns": 211560938084700,
+    "event": "OBSERVE_ENTER",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560938115500,
+    "event": "MEMORY_SAMPLE",
+    "device_requested_bytes": 0,
+    "builder_account_peak_bytes": 0,
+    "owned_host_peak_upper_bound_bytes": 31387648,
+    "actual_OS_sample": {
+      "coordinator": {
+        "private_commit_bytes": 12640256,
+        "peak_private_commit_bytes": 12640256,
+        "working_set_bytes": 21368832,
+        "peak_working_set_bytes": 21368832
+      },
+      "child": {
+        "private_commit_bytes": 8933376,
+        "peak_private_commit_bytes": 8933376,
+        "working_set_bytes": 17801216,
+        "peak_working_set_bytes": 17801216
+      },
+      "watchdog": {
+        "private_commit_bytes": 9814016,
+        "peak_private_commit_bytes": 9814016,
+        "working_set_bytes": 16936960,
+        "peak_working_set_bytes": 16936960
+      }
+    },
+    "coverage": "SAMPLED_TO_THIS_POINT_NOT_DRIVER_MEMORY"
+  },
+  {
+    "host_ns": 211560938116500,
+    "event": "OBSERVE_EXIT",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  },
+  {
+    "host_ns": 211560948667100,
+    "event": "CHILD_EXIT_OBSERVED"
+  }
+]

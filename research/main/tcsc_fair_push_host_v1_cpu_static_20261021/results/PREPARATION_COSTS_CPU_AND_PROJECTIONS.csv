@@ -1,0 +1,5 @@
+fixture,n,q,mode,cpu_reverse_build_ms,cpu_static_bound_ms,algorithm_preparation_ms,preparation_payload_bytes,preparation_peak_bytes,preparation_allocation_calls,projected_device_payload_bytes,classification
+gpu_micro7.edges,7,3,7,0,0.0018,0.0019,8,8,1,208,CPU_measured_account_and_one_shot_time; device_bytes_static_NOT_GPU_peak
+gpu_micro7.edges,7,3,5,0.0033,0,0.0034,96,208,4,312,CPU_measured_account_and_one_shot_time; device_bytes_static_NOT_GPU_peak
+livejournal_sampled_4096.edges,4096,32,7,0,0.05,0.05,512,512,1,275124,CPU_measured_account_and_one_shot_time; device_bytes_static_NOT_GPU_peak
+livejournal_sampled_4096.edges,4096,32,5,0.2368,0,0.2368,225944,291480,4,501580,CPU_measured_account_and_one_shot_time; device_bytes_static_NOT_GPU_peak

@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "<ROUND_ROOT>\\wrapper\\src\\cpu_child_fixture.py",
+    "--directory",
+    "<ROUND_ROOT>\\wrapper\\results\\CPU_OWNED_CHILD_TESTS\\negative_05_missing_release\\00",
+    "--case",
+    "missing_release",
+    "--mode",
+    "7",
+    "--q",
+    "3"
+  ],
+  "GPU_permits_inherited": false
+}

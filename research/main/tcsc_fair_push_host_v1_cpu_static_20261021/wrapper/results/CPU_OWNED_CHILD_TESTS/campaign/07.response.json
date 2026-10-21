@@ -1,0 +1,32 @@
+{
+  "kind": "CPU_OWNED_CHILD_NOT_GPU_OR_BFS",
+  "mode": 5,
+  "q": 3,
+  "guards": {
+    "CPU_fixture_shape": true,
+    "CPU_fixture_checksum": true,
+    "PID_ACK": true,
+    "watchdog": true,
+    "CPU_process_observations": true,
+    "CPU_release_marker": true,
+    "owned_process_exited": true
+  },
+  "init_only_cancel_tests": 1,
+  "metrics": {
+    "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+    "cpu_reverse_build_ms": 0,
+    "static_bound_setup_ms": 0,
+    "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+    "cpu_reference_and_work_replay_ms": 0,
+    "post_batch_validation_ms": 0,
+    "H2D_only_ms": "UNKNOWN",
+    "allocation_only_ms": "UNKNOWN"
+  },
+  "memory": {
+    "kind": "OWNED_CPU_COUNTERS",
+    "sampled_private_peak_sum_bytes": 29110272,
+    "post_exit_peak_private_sum_bytes": 30654464,
+    "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+    "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+  }
+}

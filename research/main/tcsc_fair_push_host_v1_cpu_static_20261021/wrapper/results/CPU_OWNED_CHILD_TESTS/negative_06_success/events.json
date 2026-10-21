@@ -1,0 +1,11 @@
+[
+  {
+    "host_ns": 211560972001100,
+    "event": "POPEN_RETURN"
+  },
+  {
+    "host_ns": 211560977697200,
+    "event": "OBSERVE_ENTER",
+    "observation_kind": "CPU_OWNED_PROCESS_ONLY"
+  }
+]

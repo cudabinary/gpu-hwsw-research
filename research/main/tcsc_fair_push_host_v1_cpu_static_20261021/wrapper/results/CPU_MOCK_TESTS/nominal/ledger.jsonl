@@ -1,0 +1,148 @@
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 0, "event": "ARM_BEGIN", "arm": 0, "target_mode": 7}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 10000000, "event": "MOCK_REFERENCE_PREPARATION", "arm": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 20000000, "event": "MOCK_MONITOR_PREFLIGHT", "arm": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 20000000, "event": "WORKER_BEGIN", "arm": 0, "index": 0, "role": "REQUIRED_SMOKE", "mode": 7, "q": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 20000000, "event": "OBSERVE_ENTER", "arm": 0, "index": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 21000000, "event": "OBSERVE_EXIT", "arm": 0, "index": 0}
+{"kind": "SYNTHETIC", "host_ns": 21000000, "event": "MEMORY_SAMPLE", "arm": 0, "index": 0, "device_requested_bytes": 312, "builder_account_peak_bytes": 500000, "owned_host_peak_upper_bound_bytes": 100000000, "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY", "driver_physical_bytes": "UNKNOWN"}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 22000000, "event": "POPEN_RETURN", "arm": 0, "index": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 32000000, "event": "READY_OBSERVED", "arm": 0, "index": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 33000000, "event": "ACK_WRITTEN", "arm": 0, "index": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 83000000, "event": "CHILD_EXIT_OBSERVED", "arm": 0, "index": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 86000000, "event": "RETIREMENT_CONFIRMED", "arm": 0, "index": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 90000000, "event": "OUTPUT_VALIDATED", "arm": 0, "index": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 90000000, "event": "WORKER_BEGIN", "arm": 0, "index": 1, "role": "REQUIRED_SMOKE", "mode": 5, "q": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 90000000, "event": "OBSERVE_ENTER", "arm": 0, "index": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 91000000, "event": "OBSERVE_EXIT", "arm": 0, "index": 1}
+{"kind": "SYNTHETIC", "host_ns": 91000000, "event": "MEMORY_SAMPLE", "arm": 0, "index": 1, "device_requested_bytes": 312, "builder_account_peak_bytes": 500000, "owned_host_peak_upper_bound_bytes": 100000000, "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY", "driver_physical_bytes": "UNKNOWN"}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 92000000, "event": "POPEN_RETURN", "arm": 0, "index": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 102000000, "event": "READY_OBSERVED", "arm": 0, "index": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 103000000, "event": "ACK_WRITTEN", "arm": 0, "index": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 153000000, "event": "CHILD_EXIT_OBSERVED", "arm": 0, "index": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 156000000, "event": "RETIREMENT_CONFIRMED", "arm": 0, "index": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 160000000, "event": "OUTPUT_VALIDATED", "arm": 0, "index": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 160000000, "event": "SMOKE_GATE_COMPLETE", "arm": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 160000000, "event": "WORKER_BEGIN", "arm": 0, "index": 2, "role": "TARGET_Q32", "mode": 7, "q": 32}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 160000000, "event": "OBSERVE_ENTER", "arm": 0, "index": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 161000000, "event": "OBSERVE_EXIT", "arm": 0, "index": 2}
+{"kind": "SYNTHETIC", "host_ns": 161000000, "event": "MEMORY_SAMPLE", "arm": 0, "index": 2, "device_requested_bytes": 501580, "builder_account_peak_bytes": 500000, "owned_host_peak_upper_bound_bytes": 100000000, "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY", "driver_physical_bytes": "UNKNOWN"}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 162000000, "event": "POPEN_RETURN", "arm": 0, "index": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 172000000, "event": "READY_OBSERVED", "arm": 0, "index": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 173000000, "event": "ACK_WRITTEN", "arm": 0, "index": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 223000000, "event": "CHILD_EXIT_OBSERVED", "arm": 0, "index": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 226000000, "event": "RETIREMENT_CONFIRMED", "arm": 0, "index": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 230000000, "event": "OUTPUT_VALIDATED", "arm": 0, "index": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 233000000, "event": "MOCK_CLEANUP", "arm": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 233000000, "event": "ARM_COMPLETE", "arm": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60233000000, "event": "GAP_COMPLETE", "arm": 0}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60233000000, "event": "ARM_BEGIN", "arm": 1, "target_mode": 5}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60243000000, "event": "MOCK_REFERENCE_PREPARATION", "arm": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60253000000, "event": "MOCK_MONITOR_PREFLIGHT", "arm": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60253000000, "event": "WORKER_BEGIN", "arm": 1, "index": 3, "role": "REQUIRED_SMOKE", "mode": 7, "q": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60253000000, "event": "OBSERVE_ENTER", "arm": 1, "index": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60254000000, "event": "OBSERVE_EXIT", "arm": 1, "index": 3}
+{"kind": "SYNTHETIC", "host_ns": 60254000000, "event": "MEMORY_SAMPLE", "arm": 1, "index": 3, "device_requested_bytes": 312, "builder_account_peak_bytes": 500000, "owned_host_peak_upper_bound_bytes": 100000000, "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY", "driver_physical_bytes": "UNKNOWN"}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60255000000, "event": "POPEN_RETURN", "arm": 1, "index": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60265000000, "event": "READY_OBSERVED", "arm": 1, "index": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60266000000, "event": "ACK_WRITTEN", "arm": 1, "index": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60316000000, "event": "CHILD_EXIT_OBSERVED", "arm": 1, "index": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60319000000, "event": "RETIREMENT_CONFIRMED", "arm": 1, "index": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60323000000, "event": "OUTPUT_VALIDATED", "arm": 1, "index": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60323000000, "event": "WORKER_BEGIN", "arm": 1, "index": 4, "role": "REQUIRED_SMOKE", "mode": 5, "q": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60323000000, "event": "OBSERVE_ENTER", "arm": 1, "index": 4}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60324000000, "event": "OBSERVE_EXIT", "arm": 1, "index": 4}
+{"kind": "SYNTHETIC", "host_ns": 60324000000, "event": "MEMORY_SAMPLE", "arm": 1, "index": 4, "device_requested_bytes": 312, "builder_account_peak_bytes": 500000, "owned_host_peak_upper_bound_bytes": 100000000, "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY", "driver_physical_bytes": "UNKNOWN"}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60325000000, "event": "POPEN_RETURN", "arm": 1, "index": 4}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60335000000, "event": "READY_OBSERVED", "arm": 1, "index": 4}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60336000000, "event": "ACK_WRITTEN", "arm": 1, "index": 4}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60386000000, "event": "CHILD_EXIT_OBSERVED", "arm": 1, "index": 4}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60389000000, "event": "RETIREMENT_CONFIRMED", "arm": 1, "index": 4}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60393000000, "event": "OUTPUT_VALIDATED", "arm": 1, "index": 4}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60393000000, "event": "SMOKE_GATE_COMPLETE", "arm": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60393000000, "event": "WORKER_BEGIN", "arm": 1, "index": 5, "role": "TARGET_Q32", "mode": 5, "q": 32}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60393000000, "event": "OBSERVE_ENTER", "arm": 1, "index": 5}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60394000000, "event": "OBSERVE_EXIT", "arm": 1, "index": 5}
+{"kind": "SYNTHETIC", "host_ns": 60394000000, "event": "MEMORY_SAMPLE", "arm": 1, "index": 5, "device_requested_bytes": 501580, "builder_account_peak_bytes": 500000, "owned_host_peak_upper_bound_bytes": 100000000, "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY", "driver_physical_bytes": "UNKNOWN"}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60395000000, "event": "POPEN_RETURN", "arm": 1, "index": 5}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60405000000, "event": "READY_OBSERVED", "arm": 1, "index": 5}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60406000000, "event": "ACK_WRITTEN", "arm": 1, "index": 5}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60456000000, "event": "CHILD_EXIT_OBSERVED", "arm": 1, "index": 5}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60459000000, "event": "RETIREMENT_CONFIRMED", "arm": 1, "index": 5}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60463000000, "event": "OUTPUT_VALIDATED", "arm": 1, "index": 5}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60466000000, "event": "MOCK_CLEANUP", "arm": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 60466000000, "event": "ARM_COMPLETE", "arm": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120466000000, "event": "GAP_COMPLETE", "arm": 1}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120466000000, "event": "ARM_BEGIN", "arm": 2, "target_mode": 5}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120476000000, "event": "MOCK_REFERENCE_PREPARATION", "arm": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120486000000, "event": "MOCK_MONITOR_PREFLIGHT", "arm": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120486000000, "event": "WORKER_BEGIN", "arm": 2, "index": 6, "role": "REQUIRED_SMOKE", "mode": 7, "q": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120486000000, "event": "OBSERVE_ENTER", "arm": 2, "index": 6}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120487000000, "event": "OBSERVE_EXIT", "arm": 2, "index": 6}
+{"kind": "SYNTHETIC", "host_ns": 120487000000, "event": "MEMORY_SAMPLE", "arm": 2, "index": 6, "device_requested_bytes": 312, "builder_account_peak_bytes": 500000, "owned_host_peak_upper_bound_bytes": 100000000, "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY", "driver_physical_bytes": "UNKNOWN"}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120488000000, "event": "POPEN_RETURN", "arm": 2, "index": 6}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120498000000, "event": "READY_OBSERVED", "arm": 2, "index": 6}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120499000000, "event": "ACK_WRITTEN", "arm": 2, "index": 6}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120549000000, "event": "CHILD_EXIT_OBSERVED", "arm": 2, "index": 6}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120552000000, "event": "RETIREMENT_CONFIRMED", "arm": 2, "index": 6}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120556000000, "event": "OUTPUT_VALIDATED", "arm": 2, "index": 6}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120556000000, "event": "WORKER_BEGIN", "arm": 2, "index": 7, "role": "REQUIRED_SMOKE", "mode": 5, "q": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120556000000, "event": "OBSERVE_ENTER", "arm": 2, "index": 7}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120557000000, "event": "OBSERVE_EXIT", "arm": 2, "index": 7}
+{"kind": "SYNTHETIC", "host_ns": 120557000000, "event": "MEMORY_SAMPLE", "arm": 2, "index": 7, "device_requested_bytes": 312, "builder_account_peak_bytes": 500000, "owned_host_peak_upper_bound_bytes": 100000000, "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY", "driver_physical_bytes": "UNKNOWN"}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120558000000, "event": "POPEN_RETURN", "arm": 2, "index": 7}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120568000000, "event": "READY_OBSERVED", "arm": 2, "index": 7}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120569000000, "event": "ACK_WRITTEN", "arm": 2, "index": 7}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120619000000, "event": "CHILD_EXIT_OBSERVED", "arm": 2, "index": 7}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120622000000, "event": "RETIREMENT_CONFIRMED", "arm": 2, "index": 7}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120626000000, "event": "OUTPUT_VALIDATED", "arm": 2, "index": 7}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120626000000, "event": "SMOKE_GATE_COMPLETE", "arm": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120626000000, "event": "WORKER_BEGIN", "arm": 2, "index": 8, "role": "TARGET_Q32", "mode": 5, "q": 32}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120626000000, "event": "OBSERVE_ENTER", "arm": 2, "index": 8}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120627000000, "event": "OBSERVE_EXIT", "arm": 2, "index": 8}
+{"kind": "SYNTHETIC", "host_ns": 120627000000, "event": "MEMORY_SAMPLE", "arm": 2, "index": 8, "device_requested_bytes": 501580, "builder_account_peak_bytes": 500000, "owned_host_peak_upper_bound_bytes": 100000000, "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY", "driver_physical_bytes": "UNKNOWN"}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120628000000, "event": "POPEN_RETURN", "arm": 2, "index": 8}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120638000000, "event": "READY_OBSERVED", "arm": 2, "index": 8}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120639000000, "event": "ACK_WRITTEN", "arm": 2, "index": 8}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120689000000, "event": "CHILD_EXIT_OBSERVED", "arm": 2, "index": 8}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120692000000, "event": "RETIREMENT_CONFIRMED", "arm": 2, "index": 8}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120696000000, "event": "OUTPUT_VALIDATED", "arm": 2, "index": 8}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120699000000, "event": "MOCK_CLEANUP", "arm": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 120699000000, "event": "ARM_COMPLETE", "arm": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180699000000, "event": "GAP_COMPLETE", "arm": 2}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180699000000, "event": "ARM_BEGIN", "arm": 3, "target_mode": 7}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180709000000, "event": "MOCK_REFERENCE_PREPARATION", "arm": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180719000000, "event": "MOCK_MONITOR_PREFLIGHT", "arm": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180719000000, "event": "WORKER_BEGIN", "arm": 3, "index": 9, "role": "REQUIRED_SMOKE", "mode": 7, "q": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180719000000, "event": "OBSERVE_ENTER", "arm": 3, "index": 9}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180720000000, "event": "OBSERVE_EXIT", "arm": 3, "index": 9}
+{"kind": "SYNTHETIC", "host_ns": 180720000000, "event": "MEMORY_SAMPLE", "arm": 3, "index": 9, "device_requested_bytes": 312, "builder_account_peak_bytes": 500000, "owned_host_peak_upper_bound_bytes": 100000000, "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY", "driver_physical_bytes": "UNKNOWN"}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180721000000, "event": "POPEN_RETURN", "arm": 3, "index": 9}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180731000000, "event": "READY_OBSERVED", "arm": 3, "index": 9}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180732000000, "event": "ACK_WRITTEN", "arm": 3, "index": 9}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180782000000, "event": "CHILD_EXIT_OBSERVED", "arm": 3, "index": 9}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180785000000, "event": "RETIREMENT_CONFIRMED", "arm": 3, "index": 9}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180789000000, "event": "OUTPUT_VALIDATED", "arm": 3, "index": 9}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180789000000, "event": "WORKER_BEGIN", "arm": 3, "index": 10, "role": "REQUIRED_SMOKE", "mode": 5, "q": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180789000000, "event": "OBSERVE_ENTER", "arm": 3, "index": 10}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180790000000, "event": "OBSERVE_EXIT", "arm": 3, "index": 10}
+{"kind": "SYNTHETIC", "host_ns": 180790000000, "event": "MEMORY_SAMPLE", "arm": 3, "index": 10, "device_requested_bytes": 312, "builder_account_peak_bytes": 500000, "owned_host_peak_upper_bound_bytes": 100000000, "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY", "driver_physical_bytes": "UNKNOWN"}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180791000000, "event": "POPEN_RETURN", "arm": 3, "index": 10}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180801000000, "event": "READY_OBSERVED", "arm": 3, "index": 10}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180802000000, "event": "ACK_WRITTEN", "arm": 3, "index": 10}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180852000000, "event": "CHILD_EXIT_OBSERVED", "arm": 3, "index": 10}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180855000000, "event": "RETIREMENT_CONFIRMED", "arm": 3, "index": 10}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180859000000, "event": "OUTPUT_VALIDATED", "arm": 3, "index": 10}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180859000000, "event": "SMOKE_GATE_COMPLETE", "arm": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180859000000, "event": "WORKER_BEGIN", "arm": 3, "index": 11, "role": "TARGET_Q32", "mode": 7, "q": 32}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180859000000, "event": "OBSERVE_ENTER", "arm": 3, "index": 11}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180860000000, "event": "OBSERVE_EXIT", "arm": 3, "index": 11}
+{"kind": "SYNTHETIC", "host_ns": 180860000000, "event": "MEMORY_SAMPLE", "arm": 3, "index": 11, "device_requested_bytes": 501580, "builder_account_peak_bytes": 500000, "owned_host_peak_upper_bound_bytes": 100000000, "actual_OS_peak": "UNKNOWN_MOCK_NO_OS_QUERY", "driver_physical_bytes": "UNKNOWN"}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180861000000, "event": "POPEN_RETURN", "arm": 3, "index": 11}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180871000000, "event": "READY_OBSERVED", "arm": 3, "index": 11}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180872000000, "event": "ACK_WRITTEN", "arm": 3, "index": 11}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180922000000, "event": "CHILD_EXIT_OBSERVED", "arm": 3, "index": 11}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180925000000, "event": "RETIREMENT_CONFIRMED", "arm": 3, "index": 11}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180929000000, "event": "OUTPUT_VALIDATED", "arm": 3, "index": 11}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180932000000, "event": "MOCK_CLEANUP", "arm": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180932000000, "event": "ARM_COMPLETE", "arm": 3}
+{"kind": "CPU_MOCK_NOT_GPU", "host_ns": 180932000000, "event": "CAMPAIGN_COMPLETE"}

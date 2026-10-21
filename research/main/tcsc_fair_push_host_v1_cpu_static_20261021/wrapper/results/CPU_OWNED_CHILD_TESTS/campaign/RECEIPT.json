@@ -1,0 +1,410 @@
+{
+  "status": "CPU_CHILD_COMPLETE_NOT_GPU_PASS",
+  "arms": [
+    {
+      "arm": 0,
+      "mode": 7,
+      "host_cold_arm_ns": 555091900,
+      "mandatory_arm_setup_and_checks": {
+        "kind": "CPU_FIXTURE_NO_BFS_OR_GPU_CHECKS",
+        "reference_check_ms": 0,
+        "monitor_preflight_ms": 0
+      },
+      "cleanup": {
+        "kind": "CPU_PROCESS_ONLY_NO_CUDA_CONTEXT",
+        "owned_context_retirement_confirmed": true,
+        "cleanup_ms": "NOT_SEPARATELY_TIMED"
+      },
+      "required_smoke_envelopes_ns": 321222400,
+      "target_process_envelope_ns": 190688600,
+      "algorithm_preparation_CPU_reverse_ms": 0,
+      "algorithm_preparation_static_metadata_ms_inside_native_setup": 0,
+      "mixed_native_setup_ACK_alloc_H2D_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+      "target_CPU_reference_replay_ms": 0,
+      "target_post_batch_validation_ms": 0,
+      "target_experiment_check_ms": 0,
+      "cost_components_overlap_not_additive": true
+    },
+    {
+      "arm": 1,
+      "mode": 5,
+      "host_cold_arm_ns": 730438300,
+      "mandatory_arm_setup_and_checks": {
+        "kind": "CPU_FIXTURE_NO_BFS_OR_GPU_CHECKS",
+        "reference_check_ms": 0,
+        "monitor_preflight_ms": 0
+      },
+      "cleanup": {
+        "kind": "CPU_PROCESS_ONLY_NO_CUDA_CONTEXT",
+        "owned_context_retirement_confirmed": true,
+        "cleanup_ms": "NOT_SEPARATELY_TIMED"
+      },
+      "required_smoke_envelopes_ns": 400477700,
+      "target_process_envelope_ns": 231994400,
+      "algorithm_preparation_CPU_reverse_ms": 0,
+      "algorithm_preparation_static_metadata_ms_inside_native_setup": 0,
+      "mixed_native_setup_ACK_alloc_H2D_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+      "target_CPU_reference_replay_ms": 0,
+      "target_post_batch_validation_ms": 0,
+      "target_experiment_check_ms": 0,
+      "cost_components_overlap_not_additive": true
+    },
+    {
+      "arm": 2,
+      "mode": 5,
+      "host_cold_arm_ns": 852653200,
+      "mandatory_arm_setup_and_checks": {
+        "kind": "CPU_FIXTURE_NO_BFS_OR_GPU_CHECKS",
+        "reference_check_ms": 0,
+        "monitor_preflight_ms": 0
+      },
+      "cleanup": {
+        "kind": "CPU_PROCESS_ONLY_NO_CUDA_CONTEXT",
+        "owned_context_retirement_confirmed": true,
+        "cleanup_ms": "NOT_SEPARATELY_TIMED"
+      },
+      "required_smoke_envelopes_ns": 462494200,
+      "target_process_envelope_ns": 254495200,
+      "algorithm_preparation_CPU_reverse_ms": 0,
+      "algorithm_preparation_static_metadata_ms_inside_native_setup": 0,
+      "mixed_native_setup_ACK_alloc_H2D_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+      "target_CPU_reference_replay_ms": 0,
+      "target_post_batch_validation_ms": 0,
+      "target_experiment_check_ms": 0,
+      "cost_components_overlap_not_additive": true
+    },
+    {
+      "arm": 3,
+      "mode": 7,
+      "host_cold_arm_ns": 1043897700,
+      "mandatory_arm_setup_and_checks": {
+        "kind": "CPU_FIXTURE_NO_BFS_OR_GPU_CHECKS",
+        "reference_check_ms": 0,
+        "monitor_preflight_ms": 0
+      },
+      "cleanup": {
+        "kind": "CPU_PROCESS_ONLY_NO_CUDA_CONTEXT",
+        "owned_context_retirement_confirmed": true,
+        "cleanup_ms": "NOT_SEPARATELY_TIMED"
+      },
+      "required_smoke_envelopes_ns": 549543600,
+      "target_process_envelope_ns": 316861700,
+      "algorithm_preparation_CPU_reverse_ms": 0,
+      "algorithm_preparation_static_metadata_ms_inside_native_setup": 0,
+      "mixed_native_setup_ACK_alloc_H2D_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+      "target_CPU_reference_replay_ms": 0,
+      "target_post_batch_validation_ms": 0,
+      "target_experiment_check_ms": 0,
+      "cost_components_overlap_not_additive": true
+    }
+  ],
+  "workers": [
+    {
+      "arm": 0,
+      "role": "REQUIRED_SMOKE",
+      "mode": 7,
+      "q": 3,
+      "host_target_envelope_ns": 149839800,
+      "existing_child_metrics": {
+        "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+        "cpu_reverse_build_ms": 0,
+        "static_bound_setup_ms": 0,
+        "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+        "cpu_reference_and_work_replay_ms": 0,
+        "post_batch_validation_ms": 0,
+        "H2D_only_ms": "UNKNOWN",
+        "allocation_only_ms": "UNKNOWN"
+      },
+      "memory": {
+        "kind": "OWNED_CPU_COUNTERS",
+        "sampled_private_peak_sum_bytes": 30658560,
+        "post_exit_peak_private_sum_bytes": 30658560,
+        "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+        "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+      },
+      "sample_kind": "CPU_CHILD_NOT_GPU_MEASUREMENT"
+    },
+    {
+      "arm": 0,
+      "role": "REQUIRED_SMOKE",
+      "mode": 5,
+      "q": 3,
+      "host_target_envelope_ns": 171382600,
+      "existing_child_metrics": {
+        "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+        "cpu_reverse_build_ms": 0,
+        "static_bound_setup_ms": 0,
+        "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+        "cpu_reference_and_work_replay_ms": 0,
+        "post_batch_validation_ms": 0,
+        "H2D_only_ms": "UNKNOWN",
+        "allocation_only_ms": "UNKNOWN"
+      },
+      "memory": {
+        "kind": "OWNED_CPU_COUNTERS",
+        "sampled_private_peak_sum_bytes": 30593024,
+        "post_exit_peak_private_sum_bytes": 30593024,
+        "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+        "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+      },
+      "sample_kind": "CPU_CHILD_NOT_GPU_MEASUREMENT"
+    },
+    {
+      "arm": 0,
+      "role": "TARGET_Q32",
+      "mode": 7,
+      "q": 32,
+      "host_target_envelope_ns": 190688600,
+      "existing_child_metrics": {
+        "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+        "cpu_reverse_build_ms": 0,
+        "static_bound_setup_ms": 0,
+        "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+        "cpu_reference_and_work_replay_ms": 0,
+        "post_batch_validation_ms": 0,
+        "H2D_only_ms": "UNKNOWN",
+        "allocation_only_ms": "UNKNOWN"
+      },
+      "memory": {
+        "kind": "OWNED_CPU_COUNTERS",
+        "sampled_private_peak_sum_bytes": 30355456,
+        "post_exit_peak_private_sum_bytes": 30355456,
+        "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+        "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+      },
+      "sample_kind": "CPU_CHILD_NOT_GPU_MEASUREMENT"
+    },
+    {
+      "arm": 1,
+      "role": "REQUIRED_SMOKE",
+      "mode": 7,
+      "q": 3,
+      "host_target_envelope_ns": 201935900,
+      "existing_child_metrics": {
+        "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+        "cpu_reverse_build_ms": 0,
+        "static_bound_setup_ms": 0,
+        "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+        "cpu_reference_and_work_replay_ms": 0,
+        "post_batch_validation_ms": 0,
+        "H2D_only_ms": "UNKNOWN",
+        "allocation_only_ms": "UNKNOWN"
+      },
+      "memory": {
+        "kind": "OWNED_CPU_COUNTERS",
+        "sampled_private_peak_sum_bytes": 28835840,
+        "post_exit_peak_private_sum_bytes": 30167040,
+        "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+        "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+      },
+      "sample_kind": "CPU_CHILD_NOT_GPU_MEASUREMENT"
+    },
+    {
+      "arm": 1,
+      "role": "REQUIRED_SMOKE",
+      "mode": 5,
+      "q": 3,
+      "host_target_envelope_ns": 198541800,
+      "existing_child_metrics": {
+        "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+        "cpu_reverse_build_ms": 0,
+        "static_bound_setup_ms": 0,
+        "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+        "cpu_reference_and_work_replay_ms": 0,
+        "post_batch_validation_ms": 0,
+        "H2D_only_ms": "UNKNOWN",
+        "allocation_only_ms": "UNKNOWN"
+      },
+      "memory": {
+        "kind": "OWNED_CPU_COUNTERS",
+        "sampled_private_peak_sum_bytes": 30343168,
+        "post_exit_peak_private_sum_bytes": 30343168,
+        "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+        "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+      },
+      "sample_kind": "CPU_CHILD_NOT_GPU_MEASUREMENT"
+    },
+    {
+      "arm": 1,
+      "role": "TARGET_Q32",
+      "mode": 5,
+      "q": 32,
+      "host_target_envelope_ns": 231994400,
+      "existing_child_metrics": {
+        "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+        "cpu_reverse_build_ms": 0,
+        "static_bound_setup_ms": 0,
+        "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+        "cpu_reference_and_work_replay_ms": 0,
+        "post_batch_validation_ms": 0,
+        "H2D_only_ms": "UNKNOWN",
+        "allocation_only_ms": "UNKNOWN"
+      },
+      "memory": {
+        "kind": "OWNED_CPU_COUNTERS",
+        "sampled_private_peak_sum_bytes": 30298112,
+        "post_exit_peak_private_sum_bytes": 30298112,
+        "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+        "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+      },
+      "sample_kind": "CPU_CHILD_NOT_GPU_MEASUREMENT"
+    },
+    {
+      "arm": 2,
+      "role": "REQUIRED_SMOKE",
+      "mode": 7,
+      "q": 3,
+      "host_target_envelope_ns": 232847300,
+      "existing_child_metrics": {
+        "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+        "cpu_reverse_build_ms": 0,
+        "static_bound_setup_ms": 0,
+        "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+        "cpu_reference_and_work_replay_ms": 0,
+        "post_batch_validation_ms": 0,
+        "H2D_only_ms": "UNKNOWN",
+        "allocation_only_ms": "UNKNOWN"
+      },
+      "memory": {
+        "kind": "OWNED_CPU_COUNTERS",
+        "sampled_private_peak_sum_bytes": 28758016,
+        "post_exit_peak_private_sum_bytes": 30674944,
+        "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+        "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+      },
+      "sample_kind": "CPU_CHILD_NOT_GPU_MEASUREMENT"
+    },
+    {
+      "arm": 2,
+      "role": "REQUIRED_SMOKE",
+      "mode": 5,
+      "q": 3,
+      "host_target_envelope_ns": 229646900,
+      "existing_child_metrics": {
+        "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+        "cpu_reverse_build_ms": 0,
+        "static_bound_setup_ms": 0,
+        "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+        "cpu_reference_and_work_replay_ms": 0,
+        "post_batch_validation_ms": 0,
+        "H2D_only_ms": "UNKNOWN",
+        "allocation_only_ms": "UNKNOWN"
+      },
+      "memory": {
+        "kind": "OWNED_CPU_COUNTERS",
+        "sampled_private_peak_sum_bytes": 29110272,
+        "post_exit_peak_private_sum_bytes": 30654464,
+        "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+        "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+      },
+      "sample_kind": "CPU_CHILD_NOT_GPU_MEASUREMENT"
+    },
+    {
+      "arm": 2,
+      "role": "TARGET_Q32",
+      "mode": 5,
+      "q": 32,
+      "host_target_envelope_ns": 254495200,
+      "existing_child_metrics": {
+        "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+        "cpu_reverse_build_ms": 0,
+        "static_bound_setup_ms": 0,
+        "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+        "cpu_reference_and_work_replay_ms": 0,
+        "post_batch_validation_ms": 0,
+        "H2D_only_ms": "UNKNOWN",
+        "allocation_only_ms": "UNKNOWN"
+      },
+      "memory": {
+        "kind": "OWNED_CPU_COUNTERS",
+        "sampled_private_peak_sum_bytes": 29011968,
+        "post_exit_peak_private_sum_bytes": 30384128,
+        "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+        "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+      },
+      "sample_kind": "CPU_CHILD_NOT_GPU_MEASUREMENT"
+    },
+    {
+      "arm": 3,
+      "role": "REQUIRED_SMOKE",
+      "mode": 7,
+      "q": 3,
+      "host_target_envelope_ns": 259505900,
+      "existing_child_metrics": {
+        "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+        "cpu_reverse_build_ms": 0,
+        "static_bound_setup_ms": 0,
+        "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+        "cpu_reference_and_work_replay_ms": 0,
+        "post_batch_validation_ms": 0,
+        "H2D_only_ms": "UNKNOWN",
+        "allocation_only_ms": "UNKNOWN"
+      },
+      "memory": {
+        "kind": "OWNED_CPU_COUNTERS",
+        "sampled_private_peak_sum_bytes": 30593024,
+        "post_exit_peak_private_sum_bytes": 30593024,
+        "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+        "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+      },
+      "sample_kind": "CPU_CHILD_NOT_GPU_MEASUREMENT"
+    },
+    {
+      "arm": 3,
+      "role": "REQUIRED_SMOKE",
+      "mode": 5,
+      "q": 3,
+      "host_target_envelope_ns": 290037700,
+      "existing_child_metrics": {
+        "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+        "cpu_reverse_build_ms": 0,
+        "static_bound_setup_ms": 0,
+        "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+        "cpu_reference_and_work_replay_ms": 0,
+        "post_batch_validation_ms": 0,
+        "H2D_only_ms": "UNKNOWN",
+        "allocation_only_ms": "UNKNOWN"
+      },
+      "memory": {
+        "kind": "OWNED_CPU_COUNTERS",
+        "sampled_private_peak_sum_bytes": 30363648,
+        "post_exit_peak_private_sum_bytes": 30363648,
+        "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+        "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+      },
+      "sample_kind": "CPU_CHILD_NOT_GPU_MEASUREMENT"
+    },
+    {
+      "arm": 3,
+      "role": "TARGET_Q32",
+      "mode": 7,
+      "q": 32,
+      "host_target_envelope_ns": 316861700,
+      "existing_child_metrics": {
+        "kind": "CPU_PROTOCOL_FIXTURE_NO_ALGORITHM_NOT_GPU",
+        "cpu_reverse_build_ms": 0,
+        "static_bound_setup_ms": 0,
+        "context_setup_transfer_ms": "UNKNOWN_NOT_APPLICABLE_CPU_FIXTURE",
+        "cpu_reference_and_work_replay_ms": 0,
+        "post_batch_validation_ms": 0,
+        "H2D_only_ms": "UNKNOWN",
+        "allocation_only_ms": "UNKNOWN"
+      },
+      "memory": {
+        "kind": "OWNED_CPU_COUNTERS",
+        "sampled_private_peak_sum_bytes": 30433280,
+        "post_exit_peak_private_sum_bytes": 30433280,
+        "lifetime_peak_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+        "OS_driver_physical_bytes": "UNKNOWN_NOT_MEASURED"
+      },
+      "sample_kind": "CPU_CHILD_NOT_GPU_MEASUREMENT"
+    }
+  ],
+  "simulated_workers": 12,
+  "simulated_BFS": 152,
+  "simulated_init_only_cancels": 8,
+  "actual_GPU_dispatches": 0,
+  "fair_no_reverse_Push_cold_baseline": "FAIR_HOST_PATH_IMPLEMENTED_CPU_ONLY_GPU_UNVERIFIED",
+  "internal_H2D_allocation_split": "UNKNOWN",
+  "OS_driver_physical_peak": "UNKNOWN"
+}

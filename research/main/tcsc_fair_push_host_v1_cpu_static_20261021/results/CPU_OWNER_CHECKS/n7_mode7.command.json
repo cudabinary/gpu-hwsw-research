@@ -1,0 +1,13 @@
+{
+  "command": [
+    "<ROUND_ROOT>\\build\\owner_fair_v1.exe",
+    "--cpu-check",
+    "<ROUND_ROOT>\\fixtures\\gpu_micro7.edges",
+    "7",
+    "7",
+    "3"
+  ],
+  "action_class": "CPU_ONLY",
+  "GPU_permits_inherited": false,
+  "timeout_seconds": 120
+}

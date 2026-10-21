@@ -1,0 +1,13 @@
+{
+  "status": "CPU_MOCK_STOP_NO_FOLLOWUP",
+  "reason": "SYNTHETIC_ERROR",
+  "simulated_workers_started": 2,
+  "workers_validated": 1,
+  "cleanup": {
+    "kind": "SYNTHETIC_NOT_MEASURED",
+    "owned_context_retirement_confirmed": true,
+    "cleanup_ms": 3
+  },
+  "resume_allowed": false,
+  "actual_GPU_dispatches": 0
+}

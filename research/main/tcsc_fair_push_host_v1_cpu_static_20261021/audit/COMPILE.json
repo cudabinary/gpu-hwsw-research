@@ -1,0 +1,25 @@
+{
+  "status": "STATIC_HOST_COMPILE_LINK_PASS",
+  "argv": [
+    "wsl.exe",
+    "-d",
+    "Ubuntu",
+    "--",
+    "x86_64-w64-mingw32-g++",
+    "-std=c++17",
+    "-O2",
+    "-static",
+    "-I<ROUND_ROOT>/src",
+    "-I<ROUND_ROOT>/include",
+    "-I/usr/local/cuda-13.3/include",
+    "<ROUND_ROOT>/src/owner_fair_v1.cpp",
+    "-o",
+    "<ROUND_ROOT>/build/owner_fair_v1.exe"
+  ],
+  "exit_code": 0,
+  "timeout_seconds": 180,
+  "started_utc": "2026-10-21T07:56:16.249780+00:00",
+  "new_CUDA_compilation": false,
+  "new_GPU_queries_or_dispatches": 0,
+  "binary_sha256": "ee0985a51bfbf36ffdf1da8a91f158e905bfad1f8d2a43fadec289bf9de8cf08"
+}

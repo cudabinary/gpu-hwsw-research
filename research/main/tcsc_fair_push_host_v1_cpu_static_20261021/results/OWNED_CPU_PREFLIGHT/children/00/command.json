@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "<ROUND_ROOT>\\wrapper\\src\\cpu_child_fixture.py",
+    "--directory",
+    "MAIN_TCSC_FAIR_PUSH_HOST_V1_CPU_STATIC_20261021\\results\\OWNED_CPU_PREFLIGHT\\children\\00",
+    "--case",
+    "success",
+    "--mode",
+    "7",
+    "--q",
+    "3"
+  ],
+  "GPU_permits_inherited": false
+}

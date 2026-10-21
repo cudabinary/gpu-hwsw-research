@@ -1,0 +1,23 @@
+{
+  "status": "CPU_OWNED_CHILD_TESTS_PASS",
+  "checks": [
+    "real_CPU_children_connected_through_coordinator",
+    "post_exit_owned_process_peak_counters_available",
+    "real_CPU_nonzero_rejected_and_owned_process_retired",
+    "real_CPU_hang_rejected_and_owned_process_retired",
+    "real_CPU_cancel_rejected_and_owned_process_retired",
+    "real_CPU_bad_ready_rejected_and_owned_process_retired",
+    "real_CPU_bad_output_rejected_and_owned_process_retired",
+    "real_CPU_missing_release_rejected_and_owned_process_retired",
+    "real_CPU_success_rejected_and_owned_process_retired"
+  ],
+  "check_count": 9,
+  "CPU_fixture_processes": 19,
+  "independent_watchdog_processes": 19,
+  "actual_GPU_queries_or_dispatches": 0,
+  "actual_GPU_accuracy_or_sanitizer_tests": 0,
+  "GPU_PID_or_engine_monitor_validation": "NOT_EXECUTED_UNKNOWN",
+  "OS_memory_scope": "coordinator + its CPU child + its watchdog only",
+  "driver_physical_peak": "UNKNOWN",
+  "CPU_fixture_payloads_are_not_BFS": true
+}

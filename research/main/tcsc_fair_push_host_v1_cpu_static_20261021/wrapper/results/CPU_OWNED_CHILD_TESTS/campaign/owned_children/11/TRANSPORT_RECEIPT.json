@@ -1,0 +1,77 @@
+{
+  "kind": "OWNED_CPU_CHILD_NO_CUDA",
+  "case": "success",
+  "success": true,
+  "actual_GPU_queries_or_dispatches": 0,
+  "post_exit_memory_coverage": "OWNED_PROCESS_PEAK_COUNTERS_AVAILABLE",
+  "post_exit_owned_memory": {
+    "coordinator": {
+      "private_commit_bytes": 11587584,
+      "peak_private_commit_bytes": 11587584,
+      "working_set_bytes": 20832256,
+      "peak_working_set_bytes": 20832256
+    },
+    "child": {
+      "private_commit_bytes": 77824,
+      "peak_private_commit_bytes": 8675328,
+      "working_set_bytes": 32768,
+      "peak_working_set_bytes": 17559552
+    },
+    "watchdog": {
+      "private_commit_bytes": 77824,
+      "peak_private_commit_bytes": 10170368,
+      "working_set_bytes": 32768,
+      "peak_working_set_bytes": 17297408
+    }
+  },
+  "post_exit_private_peak_sum_bytes": 30433280,
+  "sampled_peak_private_commit_sum_bytes": 30433280,
+  "sample_count": 2,
+  "owned_process_exited": true,
+  "child_returncode": 0,
+  "watchdog_returncode": 0,
+  "owned_memory_samples": [
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20832256,
+        "peak_working_set_bytes": 20832256
+      },
+      "child": {
+        "private_commit_bytes": 6127616,
+        "peak_private_commit_bytes": 6127616,
+        "working_set_bytes": 12144640,
+        "peak_working_set_bytes": 12144640
+      },
+      "watchdog": {
+        "private_commit_bytes": 4210688,
+        "peak_private_commit_bytes": 4210688,
+        "working_set_bytes": 8462336,
+        "peak_working_set_bytes": 8462336
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20832256,
+        "peak_working_set_bytes": 20832256
+      },
+      "child": {
+        "private_commit_bytes": 8675328,
+        "peak_private_commit_bytes": 8675328,
+        "working_set_bytes": 17534976,
+        "peak_working_set_bytes": 17534976
+      },
+      "watchdog": {
+        "private_commit_bytes": 10170368,
+        "peak_private_commit_bytes": 10170368,
+        "working_set_bytes": 17289216,
+        "peak_working_set_bytes": 17289216
+      }
+    }
+  ],
+  "retirement_scope": "OWNED_OS_PROCESS_ONLY_CUDA_RETIREMENT_UNVERIFIED",
+  "raw_files_preserved": true
+}

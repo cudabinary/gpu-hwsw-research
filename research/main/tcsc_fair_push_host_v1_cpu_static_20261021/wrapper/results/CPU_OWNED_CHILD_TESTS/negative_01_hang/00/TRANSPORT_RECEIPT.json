@@ -1,0 +1,915 @@
+{
+  "kind": "OWNED_CPU_CHILD_NO_CUDA",
+  "case": "hang",
+  "success": false,
+  "actual_GPU_queries_or_dispatches": 0,
+  "post_exit_memory_coverage": "UNKNOWN",
+  "reason": "CPU_CHILD_OR_WATCHDOG_FAILURE_DEADLINE_CHILD_TERMINATED",
+  "owned_process_exited": true,
+  "child_returncode": 124,
+  "watchdog_returncode": 1,
+  "owned_memory_samples": [
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20967424,
+        "peak_working_set_bytes": 20967424
+      },
+      "child": {
+        "private_commit_bytes": 466944,
+        "peak_private_commit_bytes": 466944,
+        "working_set_bytes": 3203072,
+        "peak_working_set_bytes": 3203072
+      },
+      "watchdog": {
+        "private_commit_bytes": 380928,
+        "peak_private_commit_bytes": 380928,
+        "working_set_bytes": 2572288,
+        "peak_working_set_bytes": 2572288
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20967424,
+        "peak_working_set_bytes": 20967424
+      },
+      "child": {
+        "private_commit_bytes": 565248,
+        "peak_private_commit_bytes": 569344,
+        "working_set_bytes": 3747840,
+        "peak_working_set_bytes": 3747840
+      },
+      "watchdog": {
+        "private_commit_bytes": 462848,
+        "peak_private_commit_bytes": 462848,
+        "working_set_bytes": 3203072,
+        "peak_working_set_bytes": 3203072
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20967424,
+        "peak_working_set_bytes": 20967424
+      },
+      "child": {
+        "private_commit_bytes": 4427776,
+        "peak_private_commit_bytes": 4427776,
+        "working_set_bytes": 10027008,
+        "peak_working_set_bytes": 10027008
+      },
+      "watchdog": {
+        "private_commit_bytes": 4173824,
+        "peak_private_commit_bytes": 4173824,
+        "working_set_bytes": 8257536,
+        "peak_working_set_bytes": 8257536
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20967424,
+        "peak_working_set_bytes": 20967424
+      },
+      "child": {
+        "private_commit_bytes": 5996544,
+        "peak_private_commit_bytes": 5996544,
+        "working_set_bytes": 11386880,
+        "peak_working_set_bytes": 11386880
+      },
+      "watchdog": {
+        "private_commit_bytes": 5734400,
+        "peak_private_commit_bytes": 5734400,
+        "working_set_bytes": 10764288,
+        "peak_working_set_bytes": 10764288
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20967424,
+        "peak_working_set_bytes": 20967424
+      },
+      "child": {
+        "private_commit_bytes": 6303744,
+        "peak_private_commit_bytes": 6303744,
+        "working_set_bytes": 12472320,
+        "peak_working_set_bytes": 12472320
+      },
+      "watchdog": {
+        "private_commit_bytes": 6258688,
+        "peak_private_commit_bytes": 6258688,
+        "working_set_bytes": 12009472,
+        "peak_working_set_bytes": 12009472
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20967424,
+        "peak_working_set_bytes": 20967424
+      },
+      "child": {
+        "private_commit_bytes": 7819264,
+        "peak_private_commit_bytes": 7819264,
+        "working_set_bytes": 13774848,
+        "peak_working_set_bytes": 13774848
+      },
+      "watchdog": {
+        "private_commit_bytes": 7806976,
+        "peak_private_commit_bytes": 7806976,
+        "working_set_bytes": 13139968,
+        "peak_working_set_bytes": 13139968
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20967424,
+        "peak_working_set_bytes": 20967424
+      },
+      "child": {
+        "private_commit_bytes": 8462336,
+        "peak_private_commit_bytes": 8462336,
+        "working_set_bytes": 16912384,
+        "peak_working_set_bytes": 16912384
+      },
+      "watchdog": {
+        "private_commit_bytes": 8339456,
+        "peak_private_commit_bytes": 8339456,
+        "working_set_bytes": 15208448,
+        "peak_working_set_bytes": 15208448
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20967424,
+        "peak_working_set_bytes": 20967424
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17506304,
+        "peak_working_set_bytes": 17506304
+      },
+      "watchdog": {
+        "private_commit_bytes": 8724480,
+        "peak_private_commit_bytes": 8724480,
+        "working_set_bytes": 16650240,
+        "peak_working_set_bytes": 16650240
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20967424,
+        "peak_working_set_bytes": 20967424
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20967424,
+        "peak_working_set_bytes": 20967424
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20967424,
+        "peak_working_set_bytes": 20967424
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20967424,
+        "peak_working_set_bytes": 20967424
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20971520,
+        "peak_working_set_bytes": 20971520
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20971520,
+        "peak_working_set_bytes": 20971520
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20971520,
+        "peak_working_set_bytes": 20971520
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20971520,
+        "peak_working_set_bytes": 20971520
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20971520,
+        "peak_working_set_bytes": 20971520
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20971520,
+        "peak_working_set_bytes": 20971520
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20979712,
+        "peak_working_set_bytes": 20979712
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20979712,
+        "peak_working_set_bytes": 20979712
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20979712,
+        "peak_working_set_bytes": 20979712
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20979712,
+        "peak_working_set_bytes": 20979712
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20979712,
+        "peak_working_set_bytes": 20979712
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20983808,
+        "peak_working_set_bytes": 20983808
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20987904,
+        "peak_working_set_bytes": 20987904
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20987904,
+        "peak_working_set_bytes": 20987904
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20992000,
+        "peak_working_set_bytes": 20992000
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20992000,
+        "peak_working_set_bytes": 20992000
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20996096,
+        "peak_working_set_bytes": 20996096
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 20996096,
+        "peak_working_set_bytes": 20996096
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21000192,
+        "peak_working_set_bytes": 21000192
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21000192,
+        "peak_working_set_bytes": 21000192
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21000192,
+        "peak_working_set_bytes": 21000192
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21004288,
+        "peak_working_set_bytes": 21004288
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21004288,
+        "peak_working_set_bytes": 21004288
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21008384,
+        "peak_working_set_bytes": 21008384
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21008384,
+        "peak_working_set_bytes": 21008384
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21008384,
+        "peak_working_set_bytes": 21008384
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21012480,
+        "peak_working_set_bytes": 21012480
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21016576,
+        "peak_working_set_bytes": 21016576
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21016576,
+        "peak_working_set_bytes": 21016576
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21016576,
+        "peak_working_set_bytes": 21016576
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21016576,
+        "peak_working_set_bytes": 21016576
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21024768,
+        "peak_working_set_bytes": 21024768
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    },
+    {
+      "coordinator": {
+        "private_commit_bytes": 11587584,
+        "peak_private_commit_bytes": 11587584,
+        "working_set_bytes": 21028864,
+        "peak_working_set_bytes": 21028864
+      },
+      "child": {
+        "private_commit_bytes": 8646656,
+        "peak_private_commit_bytes": 8646656,
+        "working_set_bytes": 17514496,
+        "peak_working_set_bytes": 17514496
+      },
+      "watchdog": {
+        "private_commit_bytes": 9859072,
+        "peak_private_commit_bytes": 9859072,
+        "working_set_bytes": 16994304,
+        "peak_working_set_bytes": 16994304
+      }
+    }
+  ],
+  "retirement_scope": "OWNED_OS_PROCESS_ONLY_CUDA_RETIREMENT_UNVERIFIED",
+  "raw_files_preserved": true
+}

@@ -1,0 +1,3081 @@
+{
+  "raw_files_in_private_delivery_ZIP": true,
+  "B2_checkpoint_this_round": false,
+  "files": [
+    {
+      "path": "audit/COMPILE.json",
+      "bytes": 1051,
+      "sha256": "b4b1010389470572b32c206da420a173b8147fd6fd18888e68168754b99a45f2"
+    },
+    {
+      "path": "audit/compile.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "audit/compile.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "audit/ORIGINALS_AFTER.json",
+      "bytes": 3247,
+      "sha256": "00cec8ccbebbd8e3608fe8330fca519b86dbc973a0e43b9ddcc88756130c5ded"
+    },
+    {
+      "path": "audit/ORIGINALS_BEFORE.json",
+      "bytes": 2971,
+      "sha256": "16caf4c2cb74969e43c0092d9a1b91c1d3fcc52498e76820e7d5bbd94384d913"
+    },
+    {
+      "path": "audit/OWNER_DIFF.patch",
+      "bytes": 12707,
+      "sha256": "8ec3a08a9bc6dc0e60bb188221ea868adb1ef85c5316d8d15f7c02bc02907890"
+    },
+    {
+      "path": "audit/STATIC_KERNEL_CONTRACT.json",
+      "bytes": 368,
+      "sha256": "71cdfb8264d9855b12d4270a31605c61c2457915603099aac0acc17d7cb687d1"
+    },
+    {
+      "path": "build/owner_fair_v1.exe",
+      "bytes": 2700123,
+      "sha256": "ee0985a51bfbf36ffdf1da8a91f158e905bfad1f8d2a43fadec289bf9de8cf08"
+    },
+    {
+      "path": "build/rcc_kernels.cubin",
+      "bytes": 13032,
+      "sha256": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836"
+    },
+    {
+      "path": "fixtures/gpu_micro7.edges",
+      "bytes": 113,
+      "sha256": "c7c0d0bfcd676b5ab4ebf40cd0cea58d4f3127f2155c4398ca5e4515c837a376"
+    },
+    {
+      "path": "fixtures/livejournal_sampled_4096.edges",
+      "bytes": 439041,
+      "sha256": "b22d4c73b798da0b3ca6e2fb9a97eb07b6d613728c4ff5e100dfef6817fe8c7f"
+    },
+    {
+      "path": "GPU_PILOT_APPROVAL_REQUEST.md",
+      "bytes": 4173,
+      "sha256": "fee692838a20a2a751af41e4cc6a1e6d4d2c0c9a406b3c46c728a22f069f2150"
+    },
+    {
+      "path": "include/fair_preparation.hpp",
+      "bytes": 3568,
+      "sha256": "a78c516be25e0371e3943ae939f60b0fd6566e37aff0c70afeb7ef1a5d8855f8"
+    },
+    {
+      "path": "include/independent_builder.hpp",
+      "bytes": 11391,
+      "sha256": "409a4f38e9b72f0997951aa5c694d36c3d57ee65c9a94bd2b46619cc0205ecf4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2665,
+      "sha256": "cb1503cbaa6e61fb1a210b5034144b3f97f1f4768d7322fabe824153b910f58b"
+    },
+    {
+      "path": "reports/BASELINE_CORRECTION.md",
+      "bytes": 6308,
+      "sha256": "8277bf7e29c90b1a54b13f880924b31408c7f13663c9e14b34d2b32dcf5abe4d"
+    },
+    {
+      "path": "reports/VALIDATION_AND_LIMITS.md",
+      "bytes": 4317,
+      "sha256": "54f76fd2367026fe43d91e2f9426a4213320efbe8d930d1b156b263f93ec51ad"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 2843,
+      "sha256": "f913260f7d7d029011c5d90571e5fc2f6436d35b1d181b38d0811b76c5e3fe8d"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/abi.command.json",
+      "bytes": 280,
+      "sha256": "bf5b0653f8523d01d5d3ecb5e2c534e427a2137b02021dccacbb339ec5fae812"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/abi.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/abi.stdout.log",
+      "bytes": 49,
+      "sha256": "9fdb80b7951b782d2083e49394bd295d8f69c5de230659e21de2d2575ad28773"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/fair_tests.command.json",
+      "bytes": 287,
+      "sha256": "276d37a1f77c164ee8e9e6f64381393a4af436a397d1ebc5b58421643a74849e"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/fair_tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/fair_tests.stdout.log",
+      "bytes": 174,
+      "sha256": "e71ba29e725788b6d47d79d97799517dfe8a306b61b4b14a3df34b687ab5aba5"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n4096_mode5.command.json",
+      "bytes": 485,
+      "sha256": "7df2e5059a421db8f58b56bfbe3008eba61714f4fd2c21dc6054a2e71059798b"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n4096_mode5.distances.bin",
+      "bytes": 524288,
+      "sha256": "d2f8bdeeb63fd471b70f6bfad043322b54388b6c8c7d3c930e716367cef07d09"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n4096_mode5.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n4096_mode5.stdout.log",
+      "bytes": 358,
+      "sha256": "b18b9903f7990f74e4c65a82d07b4c1369d24acc4afe91b8957ef7fc042b181a"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n4096_mode7.command.json",
+      "bytes": 485,
+      "sha256": "7110efb9cf00264e72297df19cfd0a9ef84842e01571ae56bc30818c87a5bb35"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n4096_mode7.distances.bin",
+      "bytes": 524288,
+      "sha256": "d2f8bdeeb63fd471b70f6bfad043322b54388b6c8c7d3c930e716367cef07d09"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n4096_mode7.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n4096_mode7.stdout.log",
+      "bytes": 351,
+      "sha256": "c844017b9ef0d211810f1f63bb32e62d33339ad1bec617fe4259878d5ecf70f5"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n7_mode5.command.json",
+      "bytes": 467,
+      "sha256": "70a341d631b5b469bdf9db767a842af2c79aa595b4fb34aa00e944380124af20"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n7_mode5.distances.bin",
+      "bytes": 84,
+      "sha256": "74a73e555230b47341d5dceca9773c9055ab4a64b5d3db9032a67191aaf86253"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n7_mode5.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n7_mode5.stdout.log",
+      "bytes": 347,
+      "sha256": "f1eebe71382dabe47d9ca0073869d1945ffcc1d408e5d0494d39a6295afb268b"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n7_mode7.command.json",
+      "bytes": 467,
+      "sha256": "6ba58810b41375210047c1cd86ecf0ac472fb437eda160cfecb15130df1c8254"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n7_mode7.distances.bin",
+      "bytes": 84,
+      "sha256": "74a73e555230b47341d5dceca9773c9055ab4a64b5d3db9032a67191aaf86253"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n7_mode7.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/n7_mode7.stdout.log",
+      "bytes": 345,
+      "sha256": "ceba8601d4f02672599c7d921d0367e9f17953a6ecd18849135177147e76d987"
+    },
+    {
+      "path": "results/CPU_OWNER_CHECKS/SUMMARY.json",
+      "bytes": 3602,
+      "sha256": "31bd7489f3e8843246d9a73fb6a56e4b4fdc99eccbf04932f164f0e935613b2a"
+    },
+    {
+      "path": "results/CPU_REPORT_ADAPTER.json",
+      "bytes": 2721,
+      "sha256": "a581a4a486bcac75cc0d5e78fc6c3f7d8685dae447b7c42cb3ba5651e018e14d"
+    },
+    {
+      "path": "results/FINAL_SUMMARY.json",
+      "bytes": 1564,
+      "sha256": "a36997d19ffcbdc2f44274f7df439d3b5a0d17b9707c01d97d32880cc00a6640"
+    },
+    {
+      "path": "results/OWNED_CPU_PREFLIGHT/children/00/ack",
+      "bytes": 4,
+      "sha256": "7fe5e0f74493ef58742323132115b1bbe1a97f89b5e530ddc4c1a4f8eac59edf"
+    },
+    {
+      "path": "results/OWNED_CPU_PREFLIGHT/children/00/command.json",
+      "bytes": 532,
+      "sha256": "7fdf55e84e7228777bf53f89e29a75792f2594381dabcd12f5c91a7479c53567"
+    },
+    {
+      "path": "results/OWNED_CPU_PREFLIGHT/children/00/ready",
+      "bytes": 4,
+      "sha256": "7fe5e0f74493ef58742323132115b1bbe1a97f89b5e530ddc4c1a4f8eac59edf"
+    },
+    {
+      "path": "results/OWNED_CPU_PREFLIGHT/children/00/result.json",
+      "bytes": 204,
+      "sha256": "cb8987a7efda0cd6d3856faec91cf49c27298a42b996de8e65140a16831430c0"
+    },
+    {
+      "path": "results/OWNED_CPU_PREFLIGHT/children/00/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "results/OWNED_CPU_PREFLIGHT/children/00/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/OWNED_CPU_PREFLIGHT/children/00/TRANSPORT_RECEIPT.json",
+      "bytes": 994,
+      "sha256": "a729cf17860f89cb422c48547b15dde7237754732ce7f9ca807e77ad3ad81982"
+    },
+    {
+      "path": "results/OWNED_CPU_PREFLIGHT/children/00/watchdog.json",
+      "bytes": 89,
+      "sha256": "154c926a147e248b1954c229a8bf44ece371aafa98b7ced97a1dc1b15d3fcaab"
+    },
+    {
+      "path": "results/OWNED_CPU_PREFLIGHT/events.json",
+      "bytes": 13259,
+      "sha256": "fbdb01bd5d5dcf513e7b0bd7a90cbc374fd2e753cba6a07f20b53478f1f2985f"
+    },
+    {
+      "path": "results/PREPARATION_COSTS_CPU_AND_PROJECTIONS.csv",
+      "bytes": 755,
+      "sha256": "97fdb52c304c801be774a2670f94c7bc67183125ba448930733832f6c665a6b3"
+    },
+    {
+      "path": "src/abi.hpp",
+      "bytes": 456,
+      "sha256": "c26b38275459058ee06492e7185bc89d64c24d6eac5711495b3eb879d306eca2"
+    },
+    {
+      "path": "src/fair_tests.inc",
+      "bytes": 4369,
+      "sha256": "b3de1b4e92584084986acf9269ae8ae10364ef81fb29111ff97cb71cb0dd1500"
+    },
+    {
+      "path": "src/host_controls.hpp",
+      "bytes": 2539,
+      "sha256": "2e80d026b25e559c2d7003d67fdb7da933a597be2d5aae08dde9ae979b51d185"
+    },
+    {
+      "path": "src/kernels.cu",
+      "bytes": 1498,
+      "sha256": "c4caf5d05cd105ee90e219f1153647bf770793de1d75d16679c3bb40b9cbbcef"
+    },
+    {
+      "path": "src/native_driver.hpp",
+      "bytes": 7394,
+      "sha256": "3148d43366669872c8936a3197796aa64df47a543a68982b8438567241e72a1e"
+    },
+    {
+      "path": "src/owner_fair_v1.cpp",
+      "bytes": 15022,
+      "sha256": "47f17c0804ff1671ba2bcc7a68a6d9422d75a30ef73ab811975ccf14e59c7fcf"
+    },
+    {
+      "path": "tools/child_watchdog.py",
+      "bytes": 2116,
+      "sha256": "8b8aad8f5481b07e88110329516d5776600edfd3c02421680c89248cac5d19f4"
+    },
+    {
+      "path": "tools/compile_host.py",
+      "bytes": 1509,
+      "sha256": "6d0ae83dcafe7cc95b4e9517eed82e9073aca658456a83c6736e20796e61ea4c"
+    },
+    {
+      "path": "tools/engine_guard.ps1",
+      "bytes": 1684,
+      "sha256": "16805d8df1de59f01a4226899c21131bc83a91a75f97902bc53da71225ec1369"
+    },
+    {
+      "path": "tools/run_cpu_checks.py",
+      "bytes": 3534,
+      "sha256": "069e01f7ecba472c4e25662514809959dfd92dabeaae87435610c57e64fe91cb"
+    },
+    {
+      "path": "tools/watchdog_support.py",
+      "bytes": 1020,
+      "sha256": "f75282b543cf4b59ac6737a64958fd5515eb3cf9db8e6100d4765b174ec5921c"
+    },
+    {
+      "path": "wrapper/config/PLAN_CPU_ONLY.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/00.response.json",
+      "bytes": 993,
+      "sha256": "10b18b4a898ab93a71c550a367cee77ad42de296cd2152ffc72c9511b62ca4b5"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/01.response.json",
+      "bytes": 993,
+      "sha256": "b7e1d1c625042832a557d8fdbe86c767adb5ca51efcd6d23752bd4503440e09f"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/ledger.jsonl",
+      "bytes": 18853,
+      "sha256": "6e2735e964db6ee8a24c9d37b3f80ee26b861578ce9f9165e022ffb7860fcd54"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/00/ack",
+      "bytes": 5,
+      "sha256": "b36ad6e168f78f9b51b3359da12c4d5bd4cc14fc6cb63e20dff5445de4433317"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/00/command.json",
+      "bytes": 627,
+      "sha256": "8ff927e9d4cef280db8b58934aa36fc0d487ff18ea83624944ec03ad99a15e37"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/00/ready",
+      "bytes": 5,
+      "sha256": "b36ad6e168f78f9b51b3359da12c4d5bd4cc14fc6cb63e20dff5445de4433317"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/00/result.json",
+      "bytes": 204,
+      "sha256": "cb8987a7efda0cd6d3856faec91cf49c27298a42b996de8e65140a16831430c0"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/00/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/00/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/00/TRANSPORT_RECEIPT.json",
+      "bytes": 4914,
+      "sha256": "9f735a6460f5a8ff7a31da73b91e5a0ceea8e0f510d952f09fe8b181131e450b"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/00/watchdog.json",
+      "bytes": 90,
+      "sha256": "a3fd48b3a1e14a95a91e9f7333319a4c11fff62f4725f7cef44865e9b5e76ce8"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/01/ack",
+      "bytes": 5,
+      "sha256": "aa972f7f993823c9d1a45fdac45673a004ba7e6e03aba0237c2a0043b755b3c9"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/01/command.json",
+      "bytes": 627,
+      "sha256": "c31b7a2b51de976439693a1723d96ed873549ea22bad7a03c12cf31bdfa07e6f"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/01/ready",
+      "bytes": 5,
+      "sha256": "aa972f7f993823c9d1a45fdac45673a004ba7e6e03aba0237c2a0043b755b3c9"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/01/result.json",
+      "bytes": 204,
+      "sha256": "6d93b36dee0f0b95b9dc2c66e2b96dd35911221283c0d61371d71359c6b0b7fd"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/01/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/01/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/01/TRANSPORT_RECEIPT.json",
+      "bytes": 4286,
+      "sha256": "fca903809166e9b84f80a6ff3b3698c736a096f1faa88b84e5521260c6fbdc39"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/01/watchdog.json",
+      "bytes": 90,
+      "sha256": "f5caebb26ef91ef2bd2248baae160a7cafa5bfdd76eed123d1c5494033bc0f45"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/02/ack",
+      "bytes": 5,
+      "sha256": "0cbd77e28e50af392ef6cc764f7f11401ff91b65b20f600d13bd7695f2791824"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/02/command.json",
+      "bytes": 627,
+      "sha256": "2177f10f850fd6b8e3d986273e3d619791024b02ed5ffac86f1afec87e588b49"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/02/ready",
+      "bytes": 5,
+      "sha256": "0cbd77e28e50af392ef6cc764f7f11401ff91b65b20f600d13bd7695f2791824"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/02/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/02/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/02/TRANSPORT_RECEIPT.json",
+      "bytes": 2942,
+      "sha256": "79d334d4d4597a82e7230d8657a351198efefbffdd0c61b89a1a3758c1295a00"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/owned_children/02/watchdog.json",
+      "bytes": 90,
+      "sha256": "3d8e7b894ae23be1f6f144cc8d777b689a3634be99b234a1e9e342b1e4b0c899"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/PLAN_USED.json",
+      "bytes": 4702,
+      "sha256": "da4a0b10cd19943f86cd80f53746003f54c815db6d3b89026263e63d248d059a"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/campaign/STOP.json",
+      "bytes": 366,
+      "sha256": "ae74cffcec1b9ca21ff807399172195e437c29e1096e11fe10fb8e94c1a041a6"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/SUMMARY.json",
+      "bytes": 286,
+      "sha256": "a59b105a79b575817f444b69aa697bf6dfb65a2b7a3901d30b8820651533f456"
+    },
+    {
+      "path": "wrapper/results/CPU_ADAPTER_STOP_CHECK/unconfirmed/00/TRANSPORT_RECEIPT.json",
+      "bytes": 31,
+      "sha256": "f5dfc87de41f8006e5e22125a101c7dca76a7c8ada273c57bf93d9cfd41ec058"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/arm_deadline/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/arm_deadline/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/arm_deadline/ledger.jsonl",
+      "bytes": 3593,
+      "sha256": "1c3c8792be416f27a1387291f50774a710ab25b5c57c52f3cf614ed4bcca1aa5"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/arm_deadline/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/arm_deadline/STOP.json",
+      "bytes": 326,
+      "sha256": "ab829d3bd842829f7f0ffddaa2abda31f3395c18bdeea74af6935c29851584b9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/builder_budget/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/builder_budget/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/builder_budget/ledger.jsonl",
+      "bytes": 3496,
+      "sha256": "bf1f1349036b5d55075dda3b3a49b7e2925ef35e6ff79d11706502f2bc69e5ec"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/builder_budget/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/builder_budget/STOP.json",
+      "bytes": 366,
+      "sha256": "7a650dd9042e860494c882c5ffffff04a71bae42641d531189a40d199224ee4a"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/campaign_deadline/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/campaign_deadline/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/campaign_deadline/ledger.jsonl",
+      "bytes": 3594,
+      "sha256": "bac93a12d9ad1d116d51ea64e1fed4c44b0001cf0c7b48df969c88d60f9273d8"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/campaign_deadline/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/campaign_deadline/STOP.json",
+      "bytes": 331,
+      "sha256": "ad396e0b97cdb9b75618b4f0451d999526b920c1f63982969ea89a9d4e0f7dd5"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/cancel/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/cancel/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/cancel/ledger.jsonl",
+      "bytes": 3908,
+      "sha256": "f401e5b99bd860911f08799fee67c81986c188228351f3b0fad7835115140e12"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/cancel/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/cancel/STOP.json",
+      "bytes": 330,
+      "sha256": "1b744e191d36325810b7f23e9ff04d65ceec986bccbfbb4a78ab04c0c71ec806"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/cleanup/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/cleanup/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/cleanup/02.response.json",
+      "bytes": 1201,
+      "sha256": "e766bacd88b85ee0e72c3f60b14cddd35b8167ea2da4a725bbac7c01410f4d24"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/cleanup/ledger.jsonl",
+      "bytes": 4105,
+      "sha256": "61a57a36c9ac331fc012386a95f1f8582a534f1070b795cc091d18596c988198"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/cleanup/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/cleanup/STOP.json",
+      "bytes": 339,
+      "sha256": "5e75661e7261fa9602effae5a58835a0673b78aa5a51bc831e6abb060c233b59"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/clock/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/clock/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/clock/ledger.jsonl",
+      "bytes": 3491,
+      "sha256": "8f719b79bdbad2de6f3418d2fabf6d72d13a4cc84b46509be2e90240cc7a2772"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/clock/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/clock/STOP.json",
+      "bytes": 337,
+      "sha256": "fac1e6dd1edbab37f8c04fcc02b77629f115d55a58b939afaed3fdaba99b56cf"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/device_budget/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/device_budget/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/device_budget/ledger.jsonl",
+      "bytes": 3493,
+      "sha256": "44c941bd05d665742e7c3368a8e5e96ecb3b9db37a59007476f9ce824244bfed"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/device_budget/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/device_budget/STOP.json",
+      "bytes": 362,
+      "sha256": "ff667ec313fe1c7b6a7b360d6083b5f6d7f786515c921ec3c07692ea16dcfa32"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/error/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/error/ledger.jsonl",
+      "bytes": 2567,
+      "sha256": "cb87f2bc7975054531fa8e1b67f56d919eded55c84457fbc61304f372fd30ed9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/error/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/error/STOP.json",
+      "bytes": 329,
+      "sha256": "5808b00bc88bad941d85e72c9e8c76c8765c3cb0dbfc27042f1269861e298118"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/existing_original/original.txt",
+      "bytes": 23,
+      "sha256": "af1882c255452d0798c7b6f8168bebc8ab56abc26d8ec181797fee818b0dad21"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/guard/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/guard/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/guard/02.response.json",
+      "bytes": 1202,
+      "sha256": "a9c59843eae86bbd24954b5b1972bcb66ea93f3cc3415d94e347257e13206203"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/guard/ledger.jsonl",
+      "bytes": 4105,
+      "sha256": "61a57a36c9ac331fc012386a95f1f8582a534f1070b795cc091d18596c988198"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/guard/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/guard/STOP.json",
+      "bytes": 335,
+      "sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/host_budget/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/host_budget/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/host_budget/ledger.jsonl",
+      "bytes": 3492,
+      "sha256": "14ca7c9b6569f7876bbb9fe83838d967e04f9670da8b218dd4354ee7258c6f38"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/host_budget/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/host_budget/STOP.json",
+      "bytes": 373,
+      "sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/interrupt/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/interrupt/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/interrupt/ledger.jsonl",
+      "bytes": 3911,
+      "sha256": "6590682d9f494f03a026bec937514d027d2a407a9a1b4eebafd0739de2a6dc3c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/interrupt/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/interrupt/STOP.json",
+      "bytes": 333,
+      "sha256": "52dd0340a1113b355cf9cb9220482a5f9e5cd0cae87dbebc8038371d30980fd5"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/memory_unknown/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/memory_unknown/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/memory_unknown/ledger.jsonl",
+      "bytes": 3486,
+      "sha256": "76e7371ed0e4015e8c26940d1aa297c0a493b287f517d252dfbdba2b112dfb6f"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/memory_unknown/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/memory_unknown/STOP.json",
+      "bytes": 373,
+      "sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/mismatch/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/mismatch/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/mismatch/02.response.json",
+      "bytes": 1202,
+      "sha256": "7c979b94881d57436766130e45c776cb155c9210bc7ff2e9d4a4a3aef85567db"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/mismatch/ledger.jsonl",
+      "bytes": 4105,
+      "sha256": "61a57a36c9ac331fc012386a95f1f8582a534f1070b795cc091d18596c988198"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/mismatch/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/mismatch/STOP.json",
+      "bytes": 335,
+      "sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/missing_cancel/00.response.json",
+      "bytes": 1195,
+      "sha256": "3770dc43160c2b1cf54597c043e86489c1307636b654c8e4b7e4ad5777fbf436"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/missing_cancel/ledger.jsonl",
+      "bytes": 1524,
+      "sha256": "13dc07c19a863c33092456bc8d624afdc614573fc8d6e3060706b32b636c2b9c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/missing_cancel/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/missing_cancel/STOP.json",
+      "bytes": 329,
+      "sha256": "069ea98941eb56ea5b0c460637a54944cddb135abd65a8e78f95a97af85a776c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/02.response.json",
+      "bytes": 1201,
+      "sha256": "e766bacd88b85ee0e72c3f60b14cddd35b8167ea2da4a725bbac7c01410f4d24"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/03.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/04.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/05.response.json",
+      "bytes": 1204,
+      "sha256": "7c9fd7d36254604a8fbefb18903481b08ba661808a6a5c8e853bf1d712b48fdb"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/06.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/07.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/08.response.json",
+      "bytes": 1204,
+      "sha256": "7c9fd7d36254604a8fbefb18903481b08ba661808a6a5c8e853bf1d712b48fdb"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/09.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/10.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/11.response.json",
+      "bytes": 1201,
+      "sha256": "e766bacd88b85ee0e72c3f60b14cddd35b8167ea2da4a725bbac7c01410f4d24"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/ledger.jsonl",
+      "bytes": 17859,
+      "sha256": "b0841da8661d9f17c33ef42560c3d53abdd79878cd7bf7860a05fd1eec5f8e34"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/nominal/RECEIPT.json",
+      "bytes": 18311,
+      "sha256": "011f19a39b3ba2538fbb2d28377f18b27f12bf3af171ad7fa980cee85ae9518a"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/retirement/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/retirement/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/retirement/02.response.json",
+      "bytes": 1202,
+      "sha256": "548624c90102175beee89256ede9391171c5bab88e508fa33d1aedfedc00fd40"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/retirement/ledger.jsonl",
+      "bytes": 4105,
+      "sha256": "61a57a36c9ac331fc012386a95f1f8582a534f1070b795cc091d18596c988198"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/retirement/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/retirement/STOP.json",
+      "bytes": 336,
+      "sha256": "b64b3390e551c10ffc9be893a7e31f3ce249dcbbba605e20e47cfcd60849d8f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/sample_budget/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/sample_budget/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/sample_budget/ledger.jsonl",
+      "bytes": 15173,
+      "sha256": "c309187f8be0292817a2536762adcd57a52e888f4dd8a0336ec54b6409d92bd6"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/sample_budget/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/sample_budget/STOP.json",
+      "bytes": 332,
+      "sha256": "34ed2f09a888a6e7de5df1e372429854051c7608b0b6f1e4e1e2029aa9db72eb"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/storage_budget/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/storage_budget/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/storage_budget/ledger.jsonl",
+      "bytes": 3613,
+      "sha256": "40501320eb3ce0c439f944fbf1ced8ccde6edaa7e9bcaf6b76d201379241ef5c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/storage_budget/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/storage_budget/STOP.json",
+      "bytes": 332,
+      "sha256": "5425e2c9c4a7a1b2e864da4131990909c2ae8742acb8989041ef3b22452ec75c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/TEST_RESULTS.json",
+      "bytes": 1727,
+      "sha256": "b32138569900db1a3bc2e75f3db8e26af84fb5948a74bb7cad4ef85907febf4b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/watchdog/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/watchdog/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/watchdog/ledger.jsonl",
+      "bytes": 3593,
+      "sha256": "e0b14bbad43e4638324162ca27a0d3270787e3076d14b352bb9e035c4f62c869"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/watchdog/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/watchdog/STOP.json",
+      "bytes": 328,
+      "sha256": "6a65c48d68f4cee137588ddb20b335dc6780170b56cd317a53547ef92b1898a1"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/wrong_order/00.response.json",
+      "bytes": 1195,
+      "sha256": "12bde568630379d2f37adcd8a1dc3ff76b83e117c3f210c783a07f65cf0b90a9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/wrong_order/01.response.json",
+      "bytes": 1197,
+      "sha256": "8262def795015e56aa0ae3b4ba8b641c8ea346d7a2989406e9590831e224b89b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/wrong_order/ledger.jsonl",
+      "bytes": 3797,
+      "sha256": "a932d088be1f49ae52708a4393a16e03e45f349ff53e9040312603ccd8ff381b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/wrong_order/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_COST_SCHEMA_FINAL/wrong_order/STOP.json",
+      "bytes": 335,
+      "sha256": "b95d0078ff80ab811a353eaf3ad9320155a9bb05ee4f91072111379782d98481"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/arm_deadline/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/arm_deadline/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/arm_deadline/ledger.jsonl",
+      "bytes": 3604,
+      "sha256": "712362ede7e2e8833ab990f638183c653f96853b050a426e76fe51734d330b59"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/arm_deadline/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/arm_deadline/STOP.json",
+      "bytes": 326,
+      "sha256": "ab829d3bd842829f7f0ffddaa2abda31f3395c18bdeea74af6935c29851584b9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/builder_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/builder_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/builder_budget/ledger.jsonl",
+      "bytes": 3504,
+      "sha256": "87da5c18c8c50e89be1550f995bd682751a89cfd236e90a7ad9cbfec98877886"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/builder_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/builder_budget/STOP.json",
+      "bytes": 366,
+      "sha256": "7a650dd9042e860494c882c5ffffff04a71bae42641d531189a40d199224ee4a"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/campaign_deadline/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/campaign_deadline/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/campaign_deadline/ledger.jsonl",
+      "bytes": 3605,
+      "sha256": "4a0b2c31c7c02fca8b6167cca4ea93af7d448b295f8da9a3cc5664500fb0a0bb"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/campaign_deadline/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/campaign_deadline/STOP.json",
+      "bytes": 331,
+      "sha256": "ad396e0b97cdb9b75618b4f0451d999526b920c1f63982969ea89a9d4e0f7dd5"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/cancel/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/cancel/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/cancel/ledger.jsonl",
+      "bytes": 3919,
+      "sha256": "f94a49180b09492ef083fdb4d3939385656ffe02b53a9d0c2e0d472d11f666c9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/cancel/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/cancel/STOP.json",
+      "bytes": 330,
+      "sha256": "1b744e191d36325810b7f23e9ff04d65ceec986bccbfbb4a78ab04c0c71ec806"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/cleanup/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/cleanup/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/cleanup/02.response.json",
+      "bytes": 1139,
+      "sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/cleanup/ledger.jsonl",
+      "bytes": 4116,
+      "sha256": "561861648c180624df5c339ec9abd738d62469dc2e7f482534a873180a3d1fac"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/cleanup/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/cleanup/STOP.json",
+      "bytes": 339,
+      "sha256": "5e75661e7261fa9602effae5a58835a0673b78aa5a51bc831e6abb060c233b59"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/clock/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/clock/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/clock/ledger.jsonl",
+      "bytes": 3502,
+      "sha256": "791cb77b2e5a459f953982a0cb75ab744bf6fedf4ce23227782c92f508b9825e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/clock/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/clock/STOP.json",
+      "bytes": 337,
+      "sha256": "fac1e6dd1edbab37f8c04fcc02b77629f115d55a58b939afaed3fdaba99b56cf"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/device_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/device_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/device_budget/ledger.jsonl",
+      "bytes": 3504,
+      "sha256": "9c88b81a08743924507ddd03cb99643c7e7b993ee12f3a8ea114b2a3f21c02db"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/device_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/device_budget/STOP.json",
+      "bytes": 362,
+      "sha256": "ff667ec313fe1c7b6a7b360d6083b5f6d7f786515c921ec3c07692ea16dcfa32"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/error/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/error/ledger.jsonl",
+      "bytes": 2575,
+      "sha256": "902d046754cf2c5c7c579ec37ac12e7cb9f6609298cafa531f7954908efc324c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/error/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/error/STOP.json",
+      "bytes": 329,
+      "sha256": "5808b00bc88bad941d85e72c9e8c76c8765c3cb0dbfc27042f1269861e298118"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/existing_original/original.txt",
+      "bytes": 23,
+      "sha256": "af1882c255452d0798c7b6f8168bebc8ab56abc26d8ec181797fee818b0dad21"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/guard/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/guard/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/guard/02.response.json",
+      "bytes": 1140,
+      "sha256": "6ebdcc7bd464ac5875f37cea7f500922e567e1bcc3bd939693fad69c80d9643c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/guard/ledger.jsonl",
+      "bytes": 4116,
+      "sha256": "561861648c180624df5c339ec9abd738d62469dc2e7f482534a873180a3d1fac"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/guard/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/guard/STOP.json",
+      "bytes": 335,
+      "sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/host_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/host_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/host_budget/ledger.jsonl",
+      "bytes": 3503,
+      "sha256": "c53e6e01198212ac82ec5c43703cf811a804224fd044509a29febfbd1fedd0d3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/host_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/host_budget/STOP.json",
+      "bytes": 373,
+      "sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/interrupt/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/interrupt/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/interrupt/ledger.jsonl",
+      "bytes": 3922,
+      "sha256": "7868593cededd073646d2c17f02406acd17ab7a20152d882ac3628941d913943"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/interrupt/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/interrupt/STOP.json",
+      "bytes": 333,
+      "sha256": "52dd0340a1113b355cf9cb9220482a5f9e5cd0cae87dbebc8038371d30980fd5"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/memory_unknown/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/memory_unknown/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/memory_unknown/ledger.jsonl",
+      "bytes": 3497,
+      "sha256": "4b4550e1709da504e042a3c255505889c612ea06341ae658e6dda228c2c12b67"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/memory_unknown/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/memory_unknown/STOP.json",
+      "bytes": 373,
+      "sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/mismatch/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/mismatch/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/mismatch/02.response.json",
+      "bytes": 1140,
+      "sha256": "2308b08b2906301f3bf488b94560145762b0fe37a595f6ed2c2a6583e56c1c33"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/mismatch/ledger.jsonl",
+      "bytes": 4116,
+      "sha256": "561861648c180624df5c339ec9abd738d62469dc2e7f482534a873180a3d1fac"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/mismatch/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/mismatch/STOP.json",
+      "bytes": 335,
+      "sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/missing_cancel/00.response.json",
+      "bytes": 1135,
+      "sha256": "f103d6e071c4002e97cc289af60368538e2cfbc4222f1fc7f6aef14317362b16"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/missing_cancel/ledger.jsonl",
+      "bytes": 1529,
+      "sha256": "6cdcd815b020b1851a69564b42c6e0c381b8efe040e3fe5ef8258b920aa7d9ee"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/missing_cancel/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/missing_cancel/STOP.json",
+      "bytes": 329,
+      "sha256": "069ea98941eb56ea5b0c460637a54944cddb135abd65a8e78f95a97af85a776c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/02.response.json",
+      "bytes": 1139,
+      "sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/03.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/04.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/05.response.json",
+      "bytes": 1139,
+      "sha256": "b998316b2ab0e2e28759a2c2176d9d9cde1b0aa1eea76f21ad2d0393dca0c2f5"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/06.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/07.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/08.response.json",
+      "bytes": 1139,
+      "sha256": "b998316b2ab0e2e28759a2c2176d9d9cde1b0aa1eea76f21ad2d0393dca0c2f5"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/09.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/10.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/11.response.json",
+      "bytes": 1139,
+      "sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/ledger.jsonl",
+      "bytes": 17897,
+      "sha256": "e16857ad3178e007ed2074ddce9137fb9b410a5a4fc1fb3834219de0d345fc16"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/nominal/RECEIPT.json",
+      "bytes": 17397,
+      "sha256": "d87e417798ac78a38269dde9503fd4dfbe31ecf80a5c55060b45a43fa7ee34d5"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/retirement/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/retirement/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/retirement/02.response.json",
+      "bytes": 1140,
+      "sha256": "27feb735281b711faba433e67c056f4dda0713712ba283f9e95a8715d8e7b4ad"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/retirement/ledger.jsonl",
+      "bytes": 4116,
+      "sha256": "561861648c180624df5c339ec9abd738d62469dc2e7f482534a873180a3d1fac"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/retirement/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/retirement/STOP.json",
+      "bytes": 336,
+      "sha256": "b64b3390e551c10ffc9be893a7e31f3ce249dcbbba605e20e47cfcd60849d8f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/sample_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/sample_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/sample_budget/ledger.jsonl",
+      "bytes": 15184,
+      "sha256": "c7c780ad58aa905694ea3a4a26a7025017bee1f73b25287535740d023f3de510"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/sample_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/sample_budget/STOP.json",
+      "bytes": 332,
+      "sha256": "34ed2f09a888a6e7de5df1e372429854051c7608b0b6f1e4e1e2029aa9db72eb"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/storage_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/storage_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/storage_budget/ledger.jsonl",
+      "bytes": 3624,
+      "sha256": "9012604fd034c8f311d8f10ed009128c83fbd369d421a34299e0b8b7869f8fda"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/storage_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/storage_budget/STOP.json",
+      "bytes": 332,
+      "sha256": "5425e2c9c4a7a1b2e864da4131990909c2ae8742acb8989041ef3b22452ec75c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/TEST_RESULTS.json",
+      "bytes": 1727,
+      "sha256": "b32138569900db1a3bc2e75f3db8e26af84fb5948a74bb7cad4ef85907febf4b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/watchdog/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/watchdog/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/watchdog/ledger.jsonl",
+      "bytes": 3604,
+      "sha256": "b06dc2eacacf4727372c919e6a89fabadac86522b726dd319c93f9eb0a4ddbdd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/watchdog/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/watchdog/STOP.json",
+      "bytes": 328,
+      "sha256": "6a65c48d68f4cee137588ddb20b335dc6780170b56cd317a53547ef92b1898a1"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/wrong_order/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/wrong_order/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/wrong_order/ledger.jsonl",
+      "bytes": 3808,
+      "sha256": "0e8079fdb1b12f8f537b780fc4cd4515e54fc003fc38c2c1c49551dcebf935bf"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/wrong_order/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS/wrong_order/STOP.json",
+      "bytes": 335,
+      "sha256": "b95d0078ff80ab811a353eaf3ad9320155a9bb05ee4f91072111379782d98481"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/arm_deadline/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/arm_deadline/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/arm_deadline/ledger.jsonl",
+      "bytes": 3593,
+      "sha256": "1c3c8792be416f27a1387291f50774a710ab25b5c57c52f3cf614ed4bcca1aa5"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/arm_deadline/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/arm_deadline/STOP.json",
+      "bytes": 326,
+      "sha256": "ab829d3bd842829f7f0ffddaa2abda31f3395c18bdeea74af6935c29851584b9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/builder_budget/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/builder_budget/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/builder_budget/ledger.jsonl",
+      "bytes": 3496,
+      "sha256": "bf1f1349036b5d55075dda3b3a49b7e2925ef35e6ff79d11706502f2bc69e5ec"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/builder_budget/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/builder_budget/STOP.json",
+      "bytes": 366,
+      "sha256": "7a650dd9042e860494c882c5ffffff04a71bae42641d531189a40d199224ee4a"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/campaign_deadline/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/campaign_deadline/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/campaign_deadline/ledger.jsonl",
+      "bytes": 3594,
+      "sha256": "bac93a12d9ad1d116d51ea64e1fed4c44b0001cf0c7b48df969c88d60f9273d8"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/campaign_deadline/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/campaign_deadline/STOP.json",
+      "bytes": 331,
+      "sha256": "ad396e0b97cdb9b75618b4f0451d999526b920c1f63982969ea89a9d4e0f7dd5"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/cancel/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/cancel/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/cancel/ledger.jsonl",
+      "bytes": 3908,
+      "sha256": "f401e5b99bd860911f08799fee67c81986c188228351f3b0fad7835115140e12"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/cancel/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/cancel/STOP.json",
+      "bytes": 330,
+      "sha256": "1b744e191d36325810b7f23e9ff04d65ceec986bccbfbb4a78ab04c0c71ec806"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/cleanup/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/cleanup/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/cleanup/02.response.json",
+      "bytes": 1136,
+      "sha256": "9cf73cb54c2a71b2394c8a2e75c54e06551064f4c3a86df8f09e021a6dd80f17"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/cleanup/ledger.jsonl",
+      "bytes": 4105,
+      "sha256": "61a57a36c9ac331fc012386a95f1f8582a534f1070b795cc091d18596c988198"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/cleanup/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/cleanup/STOP.json",
+      "bytes": 339,
+      "sha256": "5e75661e7261fa9602effae5a58835a0673b78aa5a51bc831e6abb060c233b59"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/clock/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/clock/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/clock/ledger.jsonl",
+      "bytes": 3491,
+      "sha256": "8f719b79bdbad2de6f3418d2fabf6d72d13a4cc84b46509be2e90240cc7a2772"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/clock/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/clock/STOP.json",
+      "bytes": 337,
+      "sha256": "fac1e6dd1edbab37f8c04fcc02b77629f115d55a58b939afaed3fdaba99b56cf"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/device_budget/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/device_budget/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/device_budget/ledger.jsonl",
+      "bytes": 3493,
+      "sha256": "44c941bd05d665742e7c3368a8e5e96ecb3b9db37a59007476f9ce824244bfed"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/device_budget/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/device_budget/STOP.json",
+      "bytes": 362,
+      "sha256": "ff667ec313fe1c7b6a7b360d6083b5f6d7f786515c921ec3c07692ea16dcfa32"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/error/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/error/ledger.jsonl",
+      "bytes": 2567,
+      "sha256": "cb87f2bc7975054531fa8e1b67f56d919eded55c84457fbc61304f372fd30ed9"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/error/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/error/STOP.json",
+      "bytes": 329,
+      "sha256": "5808b00bc88bad941d85e72c9e8c76c8765c3cb0dbfc27042f1269861e298118"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/existing_original/original.txt",
+      "bytes": 23,
+      "sha256": "af1882c255452d0798c7b6f8168bebc8ab56abc26d8ec181797fee818b0dad21"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/guard/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/guard/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/guard/02.response.json",
+      "bytes": 1137,
+      "sha256": "3de0ea343c25d45dad273eb0977ad9fa7933d2288816efb7319871b648b52517"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/guard/ledger.jsonl",
+      "bytes": 4105,
+      "sha256": "61a57a36c9ac331fc012386a95f1f8582a534f1070b795cc091d18596c988198"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/guard/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/guard/STOP.json",
+      "bytes": 335,
+      "sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/host_budget/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/host_budget/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/host_budget/ledger.jsonl",
+      "bytes": 3492,
+      "sha256": "14ca7c9b6569f7876bbb9fe83838d967e04f9670da8b218dd4354ee7258c6f38"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/host_budget/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/host_budget/STOP.json",
+      "bytes": 373,
+      "sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/interrupt/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/interrupt/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/interrupt/ledger.jsonl",
+      "bytes": 3911,
+      "sha256": "6590682d9f494f03a026bec937514d027d2a407a9a1b4eebafd0739de2a6dc3c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/interrupt/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/interrupt/STOP.json",
+      "bytes": 333,
+      "sha256": "52dd0340a1113b355cf9cb9220482a5f9e5cd0cae87dbebc8038371d30980fd5"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/memory_unknown/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/memory_unknown/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/memory_unknown/ledger.jsonl",
+      "bytes": 3486,
+      "sha256": "76e7371ed0e4015e8c26940d1aa297c0a493b287f517d252dfbdba2b112dfb6f"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/memory_unknown/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/memory_unknown/STOP.json",
+      "bytes": 373,
+      "sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/mismatch/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/mismatch/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/mismatch/02.response.json",
+      "bytes": 1137,
+      "sha256": "dc8d95e0e296e2648e529a566968187a31097955576a8e62abd5e35cf559aedc"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/mismatch/ledger.jsonl",
+      "bytes": 4105,
+      "sha256": "61a57a36c9ac331fc012386a95f1f8582a534f1070b795cc091d18596c988198"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/mismatch/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/mismatch/STOP.json",
+      "bytes": 335,
+      "sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/missing_cancel/00.response.json",
+      "bytes": 1130,
+      "sha256": "04c43053c2a8c15adf34682a0def4d0620bc2042666143e292cc6ad263a13d48"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/missing_cancel/ledger.jsonl",
+      "bytes": 1524,
+      "sha256": "13dc07c19a863c33092456bc8d624afdc614573fc8d6e3060706b32b636c2b9c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/missing_cancel/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/missing_cancel/STOP.json",
+      "bytes": 329,
+      "sha256": "069ea98941eb56ea5b0c460637a54944cddb135abd65a8e78f95a97af85a776c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/02.response.json",
+      "bytes": 1136,
+      "sha256": "9cf73cb54c2a71b2394c8a2e75c54e06551064f4c3a86df8f09e021a6dd80f17"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/03.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/04.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/05.response.json",
+      "bytes": 1139,
+      "sha256": "94bbb73642d531cd0bf4ea6b0a6cf08611475832db6e325cd76b2b925effdba6"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/06.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/07.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/08.response.json",
+      "bytes": 1139,
+      "sha256": "94bbb73642d531cd0bf4ea6b0a6cf08611475832db6e325cd76b2b925effdba6"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/09.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/10.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/11.response.json",
+      "bytes": 1136,
+      "sha256": "9cf73cb54c2a71b2394c8a2e75c54e06551064f4c3a86df8f09e021a6dd80f17"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/ledger.jsonl",
+      "bytes": 17859,
+      "sha256": "b0841da8661d9f17c33ef42560c3d53abdd79878cd7bf7860a05fd1eec5f8e34"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/nominal/RECEIPT.json",
+      "bytes": 17359,
+      "sha256": "91dbbd17cffa7cea54b1c88d5e87179bd01d5181efff6aec35311ffbb1b44c75"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/retirement/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/retirement/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/retirement/02.response.json",
+      "bytes": 1137,
+      "sha256": "de81ea44e7a6655880a417e8953c1b8cc16f107fe468c17007c91fb4aba7f97d"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/retirement/ledger.jsonl",
+      "bytes": 4105,
+      "sha256": "61a57a36c9ac331fc012386a95f1f8582a534f1070b795cc091d18596c988198"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/retirement/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/retirement/STOP.json",
+      "bytes": 336,
+      "sha256": "b64b3390e551c10ffc9be893a7e31f3ce249dcbbba605e20e47cfcd60849d8f3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/sample_budget/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/sample_budget/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/sample_budget/ledger.jsonl",
+      "bytes": 15173,
+      "sha256": "c309187f8be0292817a2536762adcd57a52e888f4dd8a0336ec54b6409d92bd6"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/sample_budget/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/sample_budget/STOP.json",
+      "bytes": 332,
+      "sha256": "34ed2f09a888a6e7de5df1e372429854051c7608b0b6f1e4e1e2029aa9db72eb"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/storage_budget/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/storage_budget/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/storage_budget/ledger.jsonl",
+      "bytes": 3613,
+      "sha256": "40501320eb3ce0c439f944fbf1ced8ccde6edaa7e9bcaf6b76d201379241ef5c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/storage_budget/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/storage_budget/STOP.json",
+      "bytes": 332,
+      "sha256": "5425e2c9c4a7a1b2e864da4131990909c2ae8742acb8989041ef3b22452ec75c"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/TEST_RESULTS.json",
+      "bytes": 1727,
+      "sha256": "b32138569900db1a3bc2e75f3db8e26af84fb5948a74bb7cad4ef85907febf4b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/watchdog/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/watchdog/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/watchdog/ledger.jsonl",
+      "bytes": 3593,
+      "sha256": "e0b14bbad43e4638324162ca27a0d3270787e3076d14b352bb9e035c4f62c869"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/watchdog/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/watchdog/STOP.json",
+      "bytes": 328,
+      "sha256": "6a65c48d68f4cee137588ddb20b335dc6780170b56cd317a53547ef92b1898a1"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/wrong_order/00.response.json",
+      "bytes": 1130,
+      "sha256": "d6583096001a253dc449602e07235be5c9241e9c9c275cbc8a7680f72bca990e"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/wrong_order/01.response.json",
+      "bytes": 1132,
+      "sha256": "8dcfd70db27dec4107e3404d143d7d1570463a67bd7ac7e23827df5efbd30965"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/wrong_order/ledger.jsonl",
+      "bytes": 3797,
+      "sha256": "a932d088be1f49ae52708a4393a16e03e45f349ff53e9040312603ccd8ff381b"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/wrong_order/PLAN_USED.json",
+      "bytes": 4665,
+      "sha256": "ff8633753ca3c43ab7493d90653340adb0b9157b44eb14cacae240d96f86fed3"
+    },
+    {
+      "path": "wrapper/results/CPU_MOCK_TESTS_FINAL/wrong_order/STOP.json",
+      "bytes": 335,
+      "sha256": "b95d0078ff80ab811a353eaf3ad9320155a9bb05ee4f91072111379782d98481"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/00.response.json",
+      "bytes": 993,
+      "sha256": "032035839a9445c0f248af90f3d5a1a70b134bbfd4b7920fa441625d2b890ca2"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/01.response.json",
+      "bytes": 993,
+      "sha256": "3aa7aad04c2fe1e8d0e663d10f9298577712fc967e0e54a54df89645b7e524bd"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/02.response.json",
+      "bytes": 994,
+      "sha256": "0468418d61094a47cce08a629966f06e7cc998751966de27e7b3eb00a33674a9"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/03.response.json",
+      "bytes": 993,
+      "sha256": "1208d563123c9dc00eacf2d7df9b6cdc8a9bd0a2cd558ba128e8839f368280d9"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/04.response.json",
+      "bytes": 993,
+      "sha256": "483878f6d278a9e6959f39eb42fbb56fdaecbec15e58a9a11fb7d7bc18fc0fe7"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/05.response.json",
+      "bytes": 994,
+      "sha256": "ca36adc1b1bd6124c49e9415f58ed406e511c6a229ffada3676b67af8474e8dd"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/06.response.json",
+      "bytes": 993,
+      "sha256": "0f02a81fc5aff6c0f7784b118b8c7ff94ea0f541a72134cc468bf61645c2e449"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/07.response.json",
+      "bytes": 993,
+      "sha256": "9c3e0792d475167ca162139d7b661b2ac023cfde7a9ce9e34059227b5eba1cb0"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/08.response.json",
+      "bytes": 994,
+      "sha256": "b1b35d740e1cb2675cd51a3ebc0509a54c6f51341e1e03b6e93c4d81335181da"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/09.response.json",
+      "bytes": 993,
+      "sha256": "3cdef5f609d0530189c73b535f4be6d54df4946f51d4b49a1867094f0ca146d1"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/10.response.json",
+      "bytes": 993,
+      "sha256": "93104f2947933c39dcde9e570dd526e2c011bb48ebe9291162fc3060f795f909"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/11.response.json",
+      "bytes": 994,
+      "sha256": "b183cfcf25429143aa4022a897eb09d8d4b5f224a144417d0b2630c3e6244ece"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/ledger.jsonl",
+      "bytes": 53917,
+      "sha256": "bf38daed9d12e2be1f462161786dc9c952ec5ebba81ff2fe3f2e6bdc6c78a245"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/00/ack",
+      "bytes": 4,
+      "sha256": "dee71b933e851f0080386652c75645778d2804d4c595adb9978355a73461aabc"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/00/command.json",
+      "bytes": 626,
+      "sha256": "df17cf089a3ade3a0191daa293359914f0324df38442bb161dad29b5b8fe7cf8"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/00/ready",
+      "bytes": 4,
+      "sha256": "dee71b933e851f0080386652c75645778d2804d4c595adb9978355a73461aabc"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/00/result.json",
+      "bytes": 204,
+      "sha256": "cb8987a7efda0cd6d3856faec91cf49c27298a42b996de8e65140a16831430c0"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/00/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/00/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/00/TRANSPORT_RECEIPT.json",
+      "bytes": 4917,
+      "sha256": "1da47be9342b80e110ba7a04245af11d43d6c38774cbdbfcccc9dca00b59691f"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/00/watchdog.json",
+      "bytes": 89,
+      "sha256": "63e6e18d0c419581149b00d1eb6359401387e9522e9ebc63af8c7d5f0b2d9f03"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/01/ack",
+      "bytes": 5,
+      "sha256": "d660afca8387a937c130cc5e2a4fcad0acd3b45d18e79cca0c33a464ada27887"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/01/command.json",
+      "bytes": 626,
+      "sha256": "934f7beb122cf55efa3bba8afe545574e729c3e6df29d42ff7cdffca97953e19"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/01/ready",
+      "bytes": 5,
+      "sha256": "d660afca8387a937c130cc5e2a4fcad0acd3b45d18e79cca0c33a464ada27887"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/01/result.json",
+      "bytes": 204,
+      "sha256": "6d93b36dee0f0b95b9dc2c66e2b96dd35911221283c0d61371d71359c6b0b7fd"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/01/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/01/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/01/TRANSPORT_RECEIPT.json",
+      "bytes": 4289,
+      "sha256": "90818ec51d8115baaacd7af14fc21f55879611f0cf8414f76e1133d080e3d035"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/01/watchdog.json",
+      "bytes": 90,
+      "sha256": "21d501ff92c3fc9e9b88a640bd6f54482e73d8b7271e8e048d33bb06d8fa9ab9"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/02/ack",
+      "bytes": 5,
+      "sha256": "c59f7d7b41655a181ce8ac88efbec651b58c0cc2c0ec3b029211aeb405ebfee0"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/02/command.json",
+      "bytes": 627,
+      "sha256": "3dc526d1191ca207c1538d4dd3af76429b6a5e21dc4ef61824a742ffe87462aa"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/02/ready",
+      "bytes": 5,
+      "sha256": "c59f7d7b41655a181ce8ac88efbec651b58c0cc2c0ec3b029211aeb405ebfee0"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/02/result.json",
+      "bytes": 314,
+      "sha256": "7c11df548a2470ba03963c8850182dea1e8e484c7426ebbe9ae702ba081be993"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/02/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/02/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/02/TRANSPORT_RECEIPT.json",
+      "bytes": 3665,
+      "sha256": "61d7faf4232a8d56a9eb7955c777abfd7250397136b298b32397d00ba89a004f"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/02/watchdog.json",
+      "bytes": 90,
+      "sha256": "455ac2475791b51fe60a65aa8f65e89286444765c3678f0cc4ef45af7b8aef77"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/03/ack",
+      "bytes": 5,
+      "sha256": "b678340c2d0d9074a52e25a1ed5496a0183ea0bcaf4906fa6ee1797f96a1d177"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/03/command.json",
+      "bytes": 626,
+      "sha256": "983962b16270d0fe770fb1399c3b3b97bae6176c9b7ea7e9fb23cf6f3a50413a"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/03/ready",
+      "bytes": 5,
+      "sha256": "b678340c2d0d9074a52e25a1ed5496a0183ea0bcaf4906fa6ee1797f96a1d177"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/03/result.json",
+      "bytes": 204,
+      "sha256": "cb8987a7efda0cd6d3856faec91cf49c27298a42b996de8e65140a16831430c0"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/03/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/03/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/03/TRANSPORT_RECEIPT.json",
+      "bytes": 3034,
+      "sha256": "25770e2c5b6b4cd8231c9ec49b415ee65cd770e1452c593925cb11b053512acc"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/03/watchdog.json",
+      "bytes": 90,
+      "sha256": "93c29af601865d735cc8e458d77f6159148f879bb988cd9f87faadad390c8187"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/04/ack",
+      "bytes": 5,
+      "sha256": "80bacc02d67126353539ab9c8c382e9f96d0dbede2ad5267b1c0e3c5ff5c74be"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/04/command.json",
+      "bytes": 626,
+      "sha256": "682a86e0596fbded01d4e7598f4045f942d66557e724b2682a82052b312449cd"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/04/ready",
+      "bytes": 5,
+      "sha256": "80bacc02d67126353539ab9c8c382e9f96d0dbede2ad5267b1c0e3c5ff5c74be"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/04/result.json",
+      "bytes": 204,
+      "sha256": "6d93b36dee0f0b95b9dc2c66e2b96dd35911221283c0d61371d71359c6b0b7fd"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/04/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/04/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/04/TRANSPORT_RECEIPT.json",
+      "bytes": 3034,
+      "sha256": "bf79f0a8b92c7b8d4855ea4f61a6a7463c0175d46aadd02cfb24b99af9d627c6"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/04/watchdog.json",
+      "bytes": 90,
+      "sha256": "3fde11f42cc0e090b4c519d71ab07ae71b522cfd6ad4ccdc0573ca8888ed11a2"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/05/ack",
+      "bytes": 5,
+      "sha256": "9db1d4f9e043e5deadd617ccb0e6aa9caf5b402750d168383134d9013d153a55"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/05/command.json",
+      "bytes": 627,
+      "sha256": "ed2ad77fcfe8b07ec45ac52315dafaf3e07a19e755cfa4fa295214cb2ad29776"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/05/ready",
+      "bytes": 5,
+      "sha256": "9db1d4f9e043e5deadd617ccb0e6aa9caf5b402750d168383134d9013d153a55"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/05/result.json",
+      "bytes": 314,
+      "sha256": "d0ca6ad7cc83b063b3adec56f9ee6aa8de630210e3c16ad9d13321077fed20dd"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/05/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/05/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/05/TRANSPORT_RECEIPT.json",
+      "bytes": 3034,
+      "sha256": "d7f490d738224487e3ef929744cfa8c1daec600cc1e82f637581e6b370ec407c"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/05/watchdog.json",
+      "bytes": 90,
+      "sha256": "2139c53eef2f04accdaa6b892e80749876e1b69702787695cbf37fb8b40e23ce"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/06/ack",
+      "bytes": 5,
+      "sha256": "8ef93333d094b0b98ceee449457f4d22917c70bb949a466652be6171ca075801"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/06/command.json",
+      "bytes": 626,
+      "sha256": "52cc785f10fcca842d5de5fc59df6b9e1deae32bf01eb2dccc14444f839ad176"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/06/ready",
+      "bytes": 5,
+      "sha256": "8ef93333d094b0b98ceee449457f4d22917c70bb949a466652be6171ca075801"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/06/result.json",
+      "bytes": 204,
+      "sha256": "cb8987a7efda0cd6d3856faec91cf49c27298a42b996de8e65140a16831430c0"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/06/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/06/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/06/TRANSPORT_RECEIPT.json",
+      "bytes": 2409,
+      "sha256": "603c8f21a1c61928010593081eccb7123331b1e10290485e9cc9906c0a2e0175"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/06/watchdog.json",
+      "bytes": 90,
+      "sha256": "23cc61da12d1d3da20990df5d6bfb178e36d12b3bb3c8d5f58843be717669a01"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/07/ack",
+      "bytes": 5,
+      "sha256": "d3ce6c03687125f83d0a0e62c7975cce3c1b0e12561a53930a66fc2893fdac46"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/07/command.json",
+      "bytes": 626,
+      "sha256": "a7882ff9a7841e450b4cee948ed8437c1f12fd36f7432ed943f366c81e0379e0"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/07/ready",
+      "bytes": 5,
+      "sha256": "d3ce6c03687125f83d0a0e62c7975cce3c1b0e12561a53930a66fc2893fdac46"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/07/result.json",
+      "bytes": 204,
+      "sha256": "6d93b36dee0f0b95b9dc2c66e2b96dd35911221283c0d61371d71359c6b0b7fd"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/07/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/07/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/07/TRANSPORT_RECEIPT.json",
+      "bytes": 2409,
+      "sha256": "b3a1c50baa178287703d43fc89074c2541fcc28e949e71c2405398b598e7a52a"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/07/watchdog.json",
+      "bytes": 90,
+      "sha256": "815e833a5b5080f677ce5ce51bbf72bc7ab4e26d26f661cc566549626d9fae65"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/08/ack",
+      "bytes": 5,
+      "sha256": "b6616c4ad01e40a8e99b8cbf73625f7a5d08eaf085c30ef12b1ddca23d2d7779"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/08/command.json",
+      "bytes": 627,
+      "sha256": "6872d200698e13a509a8d2dc4dfb24eb4b12b504103db8cdc2ed78b2a1ebbaf7"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/08/ready",
+      "bytes": 5,
+      "sha256": "b6616c4ad01e40a8e99b8cbf73625f7a5d08eaf085c30ef12b1ddca23d2d7779"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/08/result.json",
+      "bytes": 314,
+      "sha256": "d0ca6ad7cc83b063b3adec56f9ee6aa8de630210e3c16ad9d13321077fed20dd"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/08/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/08/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/08/TRANSPORT_RECEIPT.json",
+      "bytes": 2409,
+      "sha256": "6261af29242ce10d40129b8817f3ecc83d8468c1a07efa19132adf0dde281b77"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/08/watchdog.json",
+      "bytes": 90,
+      "sha256": "64b40b8e0137dabe5cdf4c31df9c4c22c907d43becf0a1df78d66c6690a9b8b4"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/09/ack",
+      "bytes": 5,
+      "sha256": "f7c607579e6c4461c2366fd2a37fce4a6860aa995b0971e1fb9bc706f5fa3aaa"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/09/command.json",
+      "bytes": 626,
+      "sha256": "5cee994a0bfd633c13e4d0f65a1a6ce25e3f77bd28e5344a597c5b0e512df575"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/09/ready",
+      "bytes": 5,
+      "sha256": "f7c607579e6c4461c2366fd2a37fce4a6860aa995b0971e1fb9bc706f5fa3aaa"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/09/result.json",
+      "bytes": 204,
+      "sha256": "cb8987a7efda0cd6d3856faec91cf49c27298a42b996de8e65140a16831430c0"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/09/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/09/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/09/TRANSPORT_RECEIPT.json",
+      "bytes": 2413,
+      "sha256": "f9af67731bb874ce6f66100b2fc28988745d5b3eea480d21ead69cd92b3eea46"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/09/watchdog.json",
+      "bytes": 90,
+      "sha256": "3d9132232185882f2742306f8a0e3a63621d9840e1bb1d7570927547b4554aed"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/10/ack",
+      "bytes": 5,
+      "sha256": "4b1759895a9a0f02863cb040a169f6f4ef1af63d9339698bcbc4222d28fb9a93"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/10/command.json",
+      "bytes": 626,
+      "sha256": "95d751f1c8a6795347bdd4e06f0ffd53c8649c37c61da1767da03267fa73ad73"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/10/ready",
+      "bytes": 5,
+      "sha256": "4b1759895a9a0f02863cb040a169f6f4ef1af63d9339698bcbc4222d28fb9a93"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/10/result.json",
+      "bytes": 204,
+      "sha256": "6d93b36dee0f0b95b9dc2c66e2b96dd35911221283c0d61371d71359c6b0b7fd"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/10/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/10/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/10/TRANSPORT_RECEIPT.json",
+      "bytes": 2413,
+      "sha256": "676631ba2a7cf5b8591d44e2087ffe79c6e1f04e61b6ba845aa6826791144d40"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/10/watchdog.json",
+      "bytes": 90,
+      "sha256": "f312140ce6f6a707832cd2a26736ab2e9c64f7076053b2e13ab7ea46a81598c1"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/11/ack",
+      "bytes": 5,
+      "sha256": "e7d1f058d0666236f91b77f32e34ebcdfef78aed69b2135ab3ca6e30df30c09f"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/11/command.json",
+      "bytes": 627,
+      "sha256": "3531206b241a20da2d78b12cc97578f9f63018454db9508f7bbc25278f8d86b7"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/11/ready",
+      "bytes": 5,
+      "sha256": "e7d1f058d0666236f91b77f32e34ebcdfef78aed69b2135ab3ca6e30df30c09f"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/11/result.json",
+      "bytes": 314,
+      "sha256": "7c11df548a2470ba03963c8850182dea1e8e484c7426ebbe9ae702ba081be993"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/11/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/11/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/11/TRANSPORT_RECEIPT.json",
+      "bytes": 2413,
+      "sha256": "8da5231e39f9e037dc4f14d3e9ae43d365f0879bfc78eaea3f62d79d801176a4"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/owned_children/11/watchdog.json",
+      "bytes": 90,
+      "sha256": "ce746e530b2dbed971ceb95e71994bcf127ca393b9911c3478bc6a31767df2a5"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/PLAN_USED.json",
+      "bytes": 4499,
+      "sha256": "9d5b1ab40da37db79133a7c39be58e2258a72841be2808a9e5662563a772caba"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/campaign/RECEIPT.json",
+      "bytes": 15255,
+      "sha256": "760006c00c536bae1920ef604aa78aca1c4bf9151f9716c9ce14d2e870be4f40"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_00_nonzero/00/ack",
+      "bytes": 5,
+      "sha256": "4b09e24a2c8176f7c4aa882cd40bdc65c20372ff0198c9568cd0c1096b013042"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_00_nonzero/00/command.json",
+      "bytes": 621,
+      "sha256": "da4c33dd22340d78574daaedba1dde2ae39db5822af8a0fc773001421da6f595"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_00_nonzero/00/ready",
+      "bytes": 5,
+      "sha256": "4b09e24a2c8176f7c4aa882cd40bdc65c20372ff0198c9568cd0c1096b013042"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_00_nonzero/00/stderr.log",
+      "bytes": 23,
+      "sha256": "1adedc27ccbd73598b7ade9a10d2cb8a9bcb8ab69921ff5c0224b5c63a901068"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_00_nonzero/00/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_00_nonzero/00/TRANSPORT_RECEIPT.json",
+      "bytes": 7347,
+      "sha256": "b924f0a01ef28ba80ce5c9419787e5d4f6e3f073f081606179b9117558992282"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_00_nonzero/00/watchdog.json",
+      "bytes": 90,
+      "sha256": "ef402e78334321e127dc8a0b41781f327801f92d22d9d9077b12335be072c051"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_00_nonzero/events.json",
+      "bytes": 12990,
+      "sha256": "f59b8b83a0d27a00c88a3d92df0665dbe6364878bbd06c2e8cd43031e619e4a2"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_01_hang/00/ack",
+      "bytes": 4,
+      "sha256": "e902f49872400fbf419954994932d166f0f0868c36c8e755c45ff7403c0726aa"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_01_hang/00/command.json",
+      "bytes": 615,
+      "sha256": "dd4fa1e80bb49b265d25dac145a85cc582f53937a86e8e2333073b3301c6b1b4"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_01_hang/00/ready",
+      "bytes": 4,
+      "sha256": "e902f49872400fbf419954994932d166f0f0868c36c8e755c45ff7403c0726aa"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_01_hang/00/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_01_hang/00/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_01_hang/00/TRANSPORT_RECEIPT.json",
+      "bytes": 28711,
+      "sha256": "13193ec8de80682e21b6062b9d1db4af8fa9fce0796704e565c955e0b3a6525b"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_01_hang/00/watchdog.json",
+      "bytes": 102,
+      "sha256": "87b1d08311718098be23706ce53808823f4899b64c4c34371d867bbb604ce3a0"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_01_hang/events.json",
+      "bytes": 52260,
+      "sha256": "8914a2e0d206f71bd52858caa7447c570a57d776cbe604ce3ae67f24c5abff4f"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_02_cancel/00/ack",
+      "bytes": 5,
+      "sha256": "18330f8ded76883bd19db1e81e749e5253428e3f5e2cb43c3b8da28a486aa9b5"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_02_cancel/00/command.json",
+      "bytes": 619,
+      "sha256": "533dd9ab9db5c6809c6f70be9039c03f23e03695baf93a763fe3c9c139324d29"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_02_cancel/00/ready",
+      "bytes": 5,
+      "sha256": "18330f8ded76883bd19db1e81e749e5253428e3f5e2cb43c3b8da28a486aa9b5"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_02_cancel/00/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_02_cancel/00/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_02_cancel/00/TRANSPORT_RECEIPT.json",
+      "bytes": 6068,
+      "sha256": "78bdf3ecb6f5c45ad5441941343c29f7e3935c1ec2f873581955d1454d5a133a"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_02_cancel/00/watchdog.json",
+      "bytes": 90,
+      "sha256": "1e81a00efe07efa51a25e548eb6079c6451bfd37af4c3eef510a2aa367549669"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_02_cancel/events.json",
+      "bytes": 10600,
+      "sha256": "98c4cc53a935c4c145621062d3ab85eaae65e79ae9473708790fc509ebb9fcca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_03_bad_ready/00/command.json",
+      "bytes": 625,
+      "sha256": "43e9d78746962714e85390987c0dd3e99906e74527d5f99500f59e31ca5b5a49"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_03_bad_ready/00/ready",
+      "bytes": 5,
+      "sha256": "a97d08e7cd44479aa6ab146ef42a1481e9489b70d2c3a60ea95acb69851cb068"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_03_bad_ready/00/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_03_bad_ready/00/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_03_bad_ready/00/TRANSPORT_RECEIPT.json",
+      "bytes": 6077,
+      "sha256": "5bdbd15e05d1b8c836a73be0760a5320aa3dd28ec1c6b41b675aadb4eb03ef36"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_03_bad_ready/00/watchdog.json",
+      "bytes": 90,
+      "sha256": "8b29b80d80b7eb1694e71d374e204ecc15e56fb891dec2416854bf212eac641f"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_03_bad_ready/events.json",
+      "bytes": 10457,
+      "sha256": "888be4ad388442bbd855025eb8568e687ff9c90b3fbbbb03b83a9e0ed142578b"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_04_bad_output/00/ack",
+      "bytes": 5,
+      "sha256": "09094142a725eca31d60715e311af07c774ffffe64acdde4081379e7df6568f6"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_04_bad_output/00/command.json",
+      "bytes": 627,
+      "sha256": "8ba28c3f2a3d0b6ff764dc2beec18ed70bc18cdc0f607a77d086395951d60ad9"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_04_bad_output/00/ready",
+      "bytes": 5,
+      "sha256": "09094142a725eca31d60715e311af07c774ffffe64acdde4081379e7df6568f6"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_04_bad_output/00/result.json",
+      "bytes": 204,
+      "sha256": "632221b4cc483574b64fea8a0cc81d78ecdeb523428a21610bd1b755609dada2"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_04_bad_output/00/stderr.log",
+      "bytes": 28,
+      "sha256": "9c88ebe0c349aaad1198b8083d4868f94dd6b14b1e40b57990889a1e52ebeaca"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_04_bad_output/00/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_04_bad_output/00/TRANSPORT_RECEIPT.json",
+      "bytes": 6715,
+      "sha256": "5a1e0caf93758ec2bcd4c33f9501ea6fdea9de379167d3e35c554488067bac1a"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_04_bad_output/00/watchdog.json",
+      "bytes": 90,
+      "sha256": "3f498b443613f5500c641efd461568458572295b4560c6bc938dc6e12ecef567"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_04_bad_output/events.json",
+      "bytes": 11977,
+      "sha256": "94992b0b89469cb28f77e4be1ba10816ce442a3b1852ae8fe57772dbbb85d354"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_05_missing_release/00/ack",
+      "bytes": 5,
+      "sha256": "7542c600457c5b98dce90de79e045f6354e3b1c3a9ec67d185a1eb7d87d350fd"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_05_missing_release/00/command.json",
+      "bytes": 637,
+      "sha256": "6665c325dd8643788f258643007d042936366775d0f455bc578aa3ba8b24ae4b"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_05_missing_release/00/ready",
+      "bytes": 5,
+      "sha256": "7542c600457c5b98dce90de79e045f6354e3b1c3a9ec67d185a1eb7d87d350fd"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_05_missing_release/00/result.json",
+      "bytes": 204,
+      "sha256": "cb8987a7efda0cd6d3856faec91cf49c27298a42b996de8e65140a16831430c0"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_05_missing_release/00/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_05_missing_release/00/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_05_missing_release/00/TRANSPORT_RECEIPT.json",
+      "bytes": 6709,
+      "sha256": "ebcf5dff2b2c0f6a89ad4e5d887f9578b8cd50702aebc896bd0dd4aef55f3858"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_05_missing_release/00/watchdog.json",
+      "bytes": 90,
+      "sha256": "b78d1dbad66a2989467bb1f2cff260e581915d2525a99e5c0d7deda90fd9a20e"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_05_missing_release/events.json",
+      "bytes": 11833,
+      "sha256": "87373aba6a2f304a35ae9508be1feed7408da20d1bfb59ee07896a5896ef1419"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_06_success/00/command.json",
+      "bytes": 621,
+      "sha256": "fc9cef303e3777c4238fdd69770802356444ae579b93552a7e849f3edaafa79f"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_06_success/00/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_06_success/00/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_06_success/00/TRANSPORT_RECEIPT.json",
+      "bytes": 1052,
+      "sha256": "01657db338139c8a920570d3d1a272b8cf069527aac2c0af6b9891a5ca44e67b"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_06_success/00/watchdog.json",
+      "bytes": 90,
+      "sha256": "075ed7cb15387caf7af6ef930bcebce9c74241acd594081bcb31e6f3b35d27ea"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/negative_06_success/events.json",
+      "bytes": 201,
+      "sha256": "d1a23ef9f957d7b5f8a0489ef56285e95d83885a8626eaf81d9812d9916c153d"
+    },
+    {
+      "path": "wrapper/results/CPU_OWNED_CHILD_TESTS/SUMMARY.json",
+      "bytes": 1014,
+      "sha256": "a43aa01d4466f35f306d74f43c611aa1f454bedafb0eec2ad54bf3197b03a911"
+    },
+    {
+      "path": "wrapper/src/child_watchdog.py",
+      "bytes": 2116,
+      "sha256": "8b8aad8f5481b07e88110329516d5776600edfd3c02421680c89248cac5d19f4"
+    },
+    {
+      "path": "wrapper/src/cpu_child_fixture.py",
+      "bytes": 1390,
+      "sha256": "4098e9d024f09d4b733e119b3384a9b0a9cd7809855e9cbf3db459624bcbfd23"
+    },
+    {
+      "path": "wrapper/src/fair_report_adapter.py",
+      "bytes": 1641,
+      "sha256": "b3460d2646d91c1ffec4763c591b18d6ec7127d56b1fce768397bcac4f254b49"
+    },
+    {
+      "path": "wrapper/src/host_wrapper.py",
+      "bytes": 13598,
+      "sha256": "8c34c087fc52f9a935446531278731e9a65f4f2050937efedeab31942b01db24"
+    },
+    {
+      "path": "wrapper/src/mock_backend.py",
+      "bytes": 5320,
+      "sha256": "d24bb541ae44adb44094c7e1afc8f33de0b9d22f7c9677b18e5d36a737e3a8b6"
+    },
+    {
+      "path": "wrapper/src/owned_child_backend.py",
+      "bytes": 3346,
+      "sha256": "ac22beaaf3db92f3a6c815abcca663af5f0c5a9228ab53eb92ed528086315c0e"
+    },
+    {
+      "path": "wrapper/src/owned_cpu_transport.py",
+      "bytes": 8424,
+      "sha256": "3135a384846d4d5ac3a81baf8290c5d9578957be6a7b8f389644d65d093a4994"
+    },
+    {
+      "path": "wrapper/src/watchdog_support.py",
+      "bytes": 1020,
+      "sha256": "f75282b543cf4b59ac6737a64958fd5515eb3cf9db8e6100d4765b174ec5921c"
+    },
+    {
+      "path": "wrapper/tests/run_adapter_stop_tests.py",
+      "bytes": 1621,
+      "sha256": "088a22aa97e47457acd932c0c1cb06769bc7b8398df1bd0848a17ebb52ce8868"
+    },
+    {
+      "path": "wrapper/tests/run_mock_tests.py",
+      "bytes": 6141,
+      "sha256": "8e536a30be9de8aef7922b2e93582a74d84de5f10cebef58ce9270152802245c"
+    },
+    {
+      "path": "wrapper/tests/run_owned_child_tests.py",
+      "bytes": 3297,
+      "sha256": "4980dc80e2bfe5000a20f85bd1a52a6a7cf57c97c6e3eb1ce97fc20f4b2301fa"
+    }
+  ]
+}

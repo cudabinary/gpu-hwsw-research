@@ -1,0 +1,300 @@
+{
+  "source_lines": [
+    {
+      "path": "src/owner.cpp",
+      "pattern": "Owner(std::shared_ptr",
+      "matches": [
+        {
+          "line": 34,
+          "text": "Owner(std::shared_ptr<const independent::Graph>g,std::shared_ptr<const independent::Reverse>r,U mode):g_(std::move(g)),r_(std::move(r)),mode_(mode){"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "auto row=arena_",
+      "matches": [
+        {
+          "line": 39,
+          "text": "auto row=arena_.alloc<L>(d_.n+1);auto col=arena_.alloc<U>(d_.m);d_.row=row;d_.col=col;"
+        },
+        {
+          "line": 44,
+          "text": "auto row=arena_.alloc<L>(d_.n+1);auto src=arena_.alloc<U>(d_.m);d_.rrow=row;d_.rsource=src;d_.bitmap=arena_.alloc<L>((d_.n+63)/64);"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "d_.front=arena_",
+      "matches": [
+        {
+          "line": 42,
+          "text": "d_.front=arena_.alloc<U>(d_.n);d_.next=arena_.alloc<U>(d_.n);d_.distance=arena_.alloc<int>(d_.n);d_.counter=arena_.alloc<Counter>(1);d_.error=arena_.alloc<U>(1);"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "if(r_)",
+      "matches": [
+        {
+          "line": 43,
+          "text": "if(r_){"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "L remaining=mode_",
+      "matches": [
+        {
+          "line": 60,
+          "text": "L remaining=mode_>=2?d_.m-(r_->row()[source+1]-r_->row()[source]):0;"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "cudaEventCreateWithFlags",
+      "matches": [
+        {
+          "line": 62,
+          "text": "ck(cudaEventCreateWithFlags(&begin,0));ck(cudaEventCreateWithFlags(&end,0));ck(cudaEventRecord(begin,stream_));"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "native::launch(\"r_init\"",
+      "matches": [
+        {
+          "line": 63,
+          "text": "native::launch(\"r_init\",(d_.n+127)/128,128,stream_,d_,source);"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "if(a.seen==d_.n)",
+      "matches": [
+        {
+          "line": 69,
+          "text": "if(a.seen==d_.n){a.reason=1;break;}"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "fe==0",
+      "matches": [
+        {
+          "line": 70,
+          "text": "if((mode_==4||mode_==5)&&fe==0){a.reason=4;break;}"
+        },
+        {
+          "line": 110,
+          "text": "if((mode==4||mode==5)&&fe==0){a.reason=4;break;}"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "remaining==0",
+      "matches": [
+        {
+          "line": 71,
+          "text": "if((mode_==3||mode_==5)&&remaining==0){a.reason=2;break;}"
+        },
+        {
+          "line": 111,
+          "text": "if((mode==3||mode==5)&&remaining==0){a.reason=2;break;}"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "mode_>=2&&mode_!=6",
+      "matches": [
+        {
+          "line": 75,
+          "text": "if(mode_>=2&&mode_!=6){"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "cudaMemsetAsync(d_.bitmap",
+      "matches": [
+        {
+          "line": 79,
+          "text": "ck(cudaMemsetAsync(d_.bitmap,0,8ULL*((d_.n+63)/64),stream_));"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "cudaStreamSynchronize(stream_)",
+      "matches": [
+        {
+          "line": 48,
+          "text": "ck(cudaStreamSynchronize(stream_));reserve();"
+        },
+        {
+          "line": 65,
+          "text": "if(!maxlevels){ck(cudaStreamSynchronize(stream_));ck(cudaEventDestroy(begin));ck(cudaEventDestroy(end));a.kernels=native::launched-before;a.wall_ms=milliseconds(start);return a;}"
+        },
+        {
+          "line": 83,
+          "text": "ck(cudaStreamSynchronize(stream_));"
+        },
+        {
+          "line": 99,
+          "text": "void close(){ck(cudaStreamSynchronize(stream_));arena_.close();ck(cudaStreamDestroy(stream_));stream_=nullptr;}"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "Counter c{}",
+      "matches": [
+        {
+          "line": 84,
+          "text": "Counter c{};U error=0;ck(cudaMemcpy(&c,d_.counter,sizeof(c),cudaMemcpyDeviceToHost));ck(cudaMemcpy(&error,d_.error,4,cudaMemcpyDeviceToHost));"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "remaining-=c.in_edges",
+      "matches": [
+        {
+          "line": 86,
+          "text": "if(mode_>=2){require(c.in_edges<=remaining,\"remaining underflow\");remaining-=c.in_edges;fe=c.out_edges;}"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "auto out=std::make_shared",
+      "matches": [
+        {
+          "line": 92,
+          "text": "auto copy=Clock::now();auto out=std::make_shared<std::vector<int>>(d_.n);ck(cudaMemcpy(out->data(),d_.distance,4ULL*d_.n,cudaMemcpyDeviceToHost));a.copy_ms=milliseconds(copy);"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "auto batch_start",
+      "matches": [
+        {
+          "line": 140,
+          "text": "auto batch_start=Clock::now();for(U source:sources){auto a=owner.query(source);require(a.complete&&a.distance,\"missing owned output\");prefix.push_back(milliseconds(batch_start));answers.push_back(std::move(a));}"
+        }
+      ]
+    },
+    {
+      "path": "src/owner.cpp",
+      "pattern": "auto validation_start",
+      "matches": [
+        {
+          "line": 143,
+          "text": "auto validation_start=Clock::now();for(U i=0;i<q;++i){const auto&a=answers[i];require(*a.distance==expected[i],\"GPU full distance mismatch\");require(a.seen==work[i].seen&&a.levels==work[i].levels&&a.reason==work[i].reason,\"GPU/replay trajectory mismatch\");}"
+        }
+      ]
+    },
+    {
+      "path": "src/kernels.cu",
+      "pattern": "void append(",
+      "matches": [
+        {
+          "line": 13,
+          "text": "__device__ void append(View d,U v,bool stats){"
+        }
+      ]
+    },
+    {
+      "path": "src/kernels.cu",
+      "pattern": "void r_push(",
+      "matches": [
+        {
+          "line": 18,
+          "text": "extern \"C\" __global__ void r_push(View d,U count,U level,U stats){"
+        }
+      ]
+    },
+    {
+      "path": "src/kernels.cu",
+      "pattern": "void r_pull(",
+      "matches": [
+        {
+          "line": 25,
+          "text": "extern \"C\" __global__ void r_pull(View d,U level){"
+        }
+      ]
+    },
+    {
+      "path": "src/kernels.cu",
+      "pattern": "if(stats)",
+      "matches": [
+        {
+          "line": 16,
+          "text": "if(stats){atomicAdd(&d.counter->out_edges,d.row[v+1]-d.row[v]);atomicAdd(&d.counter->in_edges,d.rrow[v+1]-d.rrow[v]);}"
+        }
+      ]
+    },
+    {
+      "path": "src/kernels.cu",
+      "pattern": "atomicOr",
+      "matches": [
+        {
+          "line": 11,
+          "text": "if(i<count){U u=d.front[i];if(u>=d.n){bad(d,1);return;}atomicOr(d.bitmap+u/64,1ull<<(u%64));}"
+        }
+      ]
+    },
+    {
+      "path": "src/native_driver.hpp",
+      "pattern": "static std::map<std::string,CUfunction>",
+      "matches": [
+        {
+          "line": 36,
+          "text": "static std::map<std::string,CUfunction> functions;auto it=functions.find(name);if(it==functions.end()){CUfunction f{};check(DRV(cuModuleGetFunction,&f,module,name));it=functions.emplace(name,f).first;}"
+        }
+      ]
+    },
+    {
+      "path": "src/native_driver.hpp",
+      "pattern": "cudaMemGetInfo",
+      "matches": [
+        {
+          "line": 48,
+          "text": "inline CUresult cudaMemGetInfo(size_t*a,size_t*b){return DRVV(cuMemGetInfo,\"cuMemGetInfo_v2\",a,b);}"
+        }
+      ]
+    },
+    {
+      "path": "src/native_driver.hpp",
+      "pattern": "inline CUresult cudaMemcpy(",
+      "matches": [
+        {
+          "line": 53,
+          "text": "inline CUresult cudaMemcpy(void*to,const void*from,size_t n,CopyKind k){"
+        }
+      ]
+    },
+    {
+      "path": "include/consumers.cpp",
+      "pattern": "if(shadow_pull){std::fill",
+      "matches": [
+        {
+          "line": 19,
+          "text": "if(shadow_pull){std::fill(w.bitmap.begin(),w.bitmap.end(),0);for(L i=0;i<frontier;++i){U u=(*front)[i];w.bitmap[u/64]|=L(1)<<(u%64);}if constexpr(Trace){trace.bitmap_words_cleared=w.bitmap.size();trace.bitmap_set_ops=frontier;trace.queue_reads+=frontier;}}"
+        }
+      ]
+    }
+  ],
+  "GPU_queries": 0,
+  "code_changed": false
+}

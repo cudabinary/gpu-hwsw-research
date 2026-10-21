@@ -1,0 +1,69 @@
+{
+  "status": "REVIEW_PROPOSAL_ONLY_NOT_DISPATCHABLE",
+  "environment": "HOLD_ENVIRONMENT",
+  "existing_GPU_plan_modified": false,
+  "existing_modes": [
+    0,
+    6,
+    4,
+    5
+  ],
+  "missing_host_only_controls": [
+    "Lean Push + B(source)",
+    "Stats Push + B(source) + frontier-zero"
+  ],
+  "static_bound": "B(source)=count(indegree>0)+[indegree(source)==0]",
+  "new_GPU_kernels": 0,
+  "new_consumer_controls_implemented": false,
+  "source_or_binary_repin_performed": false,
+  "omitted_old_modes": [
+    2,
+    3
+  ],
+  "omission_reason": "Matched RIE-after-zero contrast remains 5/4; add stronger finite Push controls instead of another redundant weak comparison.",
+  "contrasts": {
+    "maintenance": "6/0",
+    "cheap_static_certificate": "lean-bound-Push/0",
+    "incremental_RIE": "5/4",
+    "ready_direction_utility": [
+      "5/lean-bound-Push",
+      "5/equal-stop-stats-Push"
+    ]
+  },
+  "fixed_inputs": [
+    "livejournal_sampled_4096.edges",
+    "google_sampled_1024.edges"
+  ],
+  "source_rule": "17*i, i=0..31",
+  "q_prefixes": [
+    1,
+    2,
+    8,
+    32
+  ],
+  "alpha": 15,
+  "beta": 24,
+  "paired_blocks": 3,
+  "conditional_future_ceiling": {
+    "functional_workers": 6,
+    "timing_workers": 36,
+    "total_workers": 42,
+    "full_BFS_arrays": 1170,
+    "init_only_cancellations": 6
+  },
+  "before_dispatch": [
+    "Review new controls and amended protocol; keep environment HOLD until coordinated",
+    "Implement bounded host-only adapter without changing kernels",
+    "Pin new source/binary; run functional gate within finite ledger; do not reuse existing token"
+  ],
+  "timing_boundary": "same resident ready reverse; full owned distance return, initialization, allocation and synchronization as original owner",
+  "single_open_question": "Does ready Direction beat both cheap static-bound Push and equal-stop Push at the full-output boundary?",
+  "a_positive_result_does_not_prove": [
+    "preparation-method contribution",
+    "GPU builder correctness or benefit",
+    "preparation-inclusive service gain",
+    "new HW necessity",
+    "public strongest GPU BFS superiority"
+  ],
+  "no_automatic_GPU_resume": true
+}

@@ -1,0 +1,17 @@
+fixture,q_prefix,control,processed_levels,logical_edge_tests,total_kernel_launches,policy_degree_atomics,control_D2H_bytes
+livejournal_sampled_4096.edges,1,Push_bound_lean,4,7141,5,0,112
+livejournal_sampled_4096.edges,1,Push_bound_zero_stats,4,7141,5,8190,112
+livejournal_sampled_4096.edges,2,Push_bound_lean,8,29756,10,0,224
+livejournal_sampled_4096.edges,2,Push_bound_zero_stats,8,29756,10,16378,224
+livejournal_sampled_4096.edges,8,Push_bound_lean,42,293212,50,0,1176
+livejournal_sampled_4096.edges,8,Push_bound_zero_stats,42,293212,50,65506,1176
+livejournal_sampled_4096.edges,32,Push_bound_lean,169,1191634,201,0,4732
+livejournal_sampled_4096.edges,32,Push_bound_zero_stats,168,1191634,200,253830,4704
+google_sampled_1024.edges,1,Push_bound_lean,5,6450,6,0,140
+google_sampled_1024.edges,1,Push_bound_zero_stats,5,6450,6,2046,140
+google_sampled_1024.edges,2,Push_bound_lean,17,13130,19,0,476
+google_sampled_1024.edges,2,Push_bound_zero_stats,17,13130,19,4092,476
+google_sampled_1024.edges,8,Push_bound_lean,65,39800,73,0,1820
+google_sampled_1024.edges,8,Push_bound_zero_stats,64,39800,72,12280,1792
+google_sampled_1024.edges,32,Push_bound_lean,266,134898,298,0,7448
+google_sampled_1024.edges,32,Push_bound_zero_stats,257,134898,289,41356,7196

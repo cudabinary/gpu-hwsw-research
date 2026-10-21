@@ -24,6 +24,97 @@
       "bytes": 1826
     },
     {
+      "path": "analysis/consumer_attribution_20261021/ACCOUNTING_SCOPE.json",
+      "raw_sha256": "ec805611cc4a82cae228d45024648a8f675c3a4f4b3def13a93d11e6667ff374",
+      "published_sha256": "ec805611cc4a82cae228d45024648a8f675c3a4f4b3def13a93d11e6667ff374",
+      "sanitized": false,
+      "bytes": 2006
+    },
+    {
+      "path": "analysis/consumer_attribution_20261021/ATTRIBUTION_VERDICT.md",
+      "raw_sha256": "96bf79d2f0c78414ccaaae94ff8d1c894551d3f0e88821734fff42e77cba055b",
+      "published_sha256": "96bf79d2f0c78414ccaaae94ff8d1c894551d3f0e88821734fff42e77cba055b",
+      "sanitized": false,
+      "bytes": 8128
+    },
+    {
+      "path": "analysis/consumer_attribution_20261021/MINIMUM_CONTRAST_PROPOSAL.json",
+      "raw_sha256": "21fa5c363b08e04050746d7e0d770ae4afd0ea1fb70824784818f078e8af50ff",
+      "published_sha256": "21fa5c363b08e04050746d7e0d770ae4afd0ea1fb70824784818f078e8af50ff",
+      "sanitized": false,
+      "bytes": 2218
+    },
+    {
+      "path": "analysis/consumer_attribution_20261021/REPRODUCE_ACCOUNTING.md",
+      "raw_sha256": "ba98965f6df092c1c87d06a2ca88cbe4a9ba327343f97aa40957c289e5296cef",
+      "published_sha256": "ba98965f6df092c1c87d06a2ca88cbe4a9ba327343f97aa40957c289e5296cef",
+      "sanitized": false,
+      "bytes": 2423
+    },
+    {
+      "path": "analysis/consumer_attribution_20261021/SHA256SUMS",
+      "raw_sha256": "84b7ea344005216c9b73791dbb663c1ebb9eaf0eaee963d4186bb47338bfe47d",
+      "published_sha256": "84b7ea344005216c9b73791dbb663c1ebb9eaf0eaee963d4186bb47338bfe47d",
+      "sanitized": false,
+      "bytes": 1760
+    },
+    {
+      "path": "analysis/consumer_attribution_20261021/SOURCE_CODE_MAP.json",
+      "raw_sha256": "9ae53836bfc4071940029dfab64e2a404bd59105693d3225ae9c1091330c3416",
+      "published_sha256": "9ae53836bfc4071940029dfab64e2a404bd59105693d3225ae9c1091330c3416",
+      "sanitized": false,
+      "bytes": 8839
+    },
+    {
+      "path": "analysis/consumer_attribution_20261021/contrasts.csv",
+      "raw_sha256": "53e93b8460faa80b7dabc50815d917e30daa5c62b723d4482d97c98f9786a61a",
+      "published_sha256": "53e93b8460faa80b7dabc50815d917e30daa5c62b723d4482d97c98f9786a61a",
+      "sanitized": false,
+      "bytes": 3585
+    },
+    {
+      "path": "analysis/consumer_attribution_20261021/level_work.csv",
+      "raw_sha256": "ca38b3e55ecd4cbc719637e466ed897b84ceb0d31aef9ed1ded84c7c5a0787d1",
+      "published_sha256": "ca38b3e55ecd4cbc719637e466ed897b84ceb0d31aef9ed1ded84c7c5a0787d1",
+      "sanitized": false,
+      "bytes": 321006
+    },
+    {
+      "path": "analysis/consumer_attribution_20261021/prefix_work.csv",
+      "raw_sha256": "be92a51669ede1d2b27105350b3399996b28cc51b0008730f1ec9800540ee89a",
+      "published_sha256": "be92a51669ede1d2b27105350b3399996b28cc51b0008730f1ec9800540ee89a",
+      "sanitized": false,
+      "bytes": 7231
+    },
+    {
+      "path": "analysis/consumer_attribution_20261021/query_work.csv",
+      "raw_sha256": "4024f947059ca90bed875e50ebc47b8f07014a9a2bed9925e3116e66ac9f336f",
+      "published_sha256": "4024f947059ca90bed875e50ebc47b8f07014a9a2bed9925e3116e66ac9f336f",
+      "sanitized": false,
+      "bytes": 52925
+    },
+    {
+      "path": "analysis/consumer_attribution_20261021/static_bound/STATIC_BOUND_IDENTITY.json",
+      "raw_sha256": "5392dae14bd8f1138ddcb60109183ed966187f7172bd8aaf82db9fb43bbc819a",
+      "published_sha256": "5392dae14bd8f1138ddcb60109183ed966187f7172bd8aaf82db9fb43bbc819a",
+      "sanitized": false,
+      "bytes": 1748
+    },
+    {
+      "path": "analysis/consumer_attribution_20261021/static_bound/prefix_controls.csv",
+      "raw_sha256": "90beba64b45c9de4577c18e24ef6e0c6ce5973508914e41fcd38b2a4a4c99519",
+      "published_sha256": "90beba64b45c9de4577c18e24ef6e0c6ce5973508914e41fcd38b2a4a4c99519",
+      "sanitized": false,
+      "bytes": 1264
+    },
+    {
+      "path": "analysis/consumer_attribution_20261021/static_bound/query_controls.csv",
+      "raw_sha256": "3be04a1bf3a0edab3e78c73f1a198b423cf60760c16cb49a3354f70c44ee78bc",
+      "published_sha256": "3be04a1bf3a0edab3e78c73f1a198b423cf60760c16cb49a3354f70c44ee78bc",
+      "sanitized": false,
+      "bytes": 20950
+    },
+    {
       "path": "audit/BLOCKED_PID_IDENTITY.json",
       "raw_sha256": "d0b03b18d20d113fdbbcfa63e309a4401058d0eca0e0ecda55be93141570b857",
       "published_sha256": "d0b03b18d20d113fdbbcfa63e309a4401058d0eca0e0ecda55be93141570b857",
@@ -346,6 +437,20 @@
       "bytes": 6078
     },
     {
+      "path": "tools/account_consumer_attribution.py",
+      "raw_sha256": "0e3c8dbeed21faafd0ad2b2cbd9ef699acd58a547dca999121bfa31f181f03a9",
+      "published_sha256": "0e3c8dbeed21faafd0ad2b2cbd9ef699acd58a547dca999121bfa31f181f03a9",
+      "sanitized": false,
+      "bytes": 9324
+    },
+    {
+      "path": "tools/account_static_bound.py",
+      "raw_sha256": "b86c66165d8b084df080ae76dcb67645b570db8c8dd2b770880eb35cf741cf6c",
+      "published_sha256": "b86c66165d8b084df080ae76dcb67645b570db8c8dd2b770880eb35cf741cf6c",
+      "sanitized": false,
+      "bytes": 4367
+    },
+    {
       "path": "tools/adapt_dispatch.py",
       "raw_sha256": "8fa834e8cd3d2e510fe3f58dc9f4f3dea4d64a6d2fbfa2a8349d3c7f751327a8",
       "published_sha256": "8fa834e8cd3d2e510fe3f58dc9f4f3dea4d64a6d2fbfa2a8349d3c7f751327a8",
@@ -486,5 +591,5 @@
       "bytes": 1495
     }
   ],
-  "latest_update_scope": "Native read-only diagnostics and one-pack restoration handoff; no benchmark or guard change"
+  "latest_update_scope": "Offline consumer attribution, elementary static-bound equivalence and non-dispatchable control proposal; no owner/kernel or GPU change"
 }

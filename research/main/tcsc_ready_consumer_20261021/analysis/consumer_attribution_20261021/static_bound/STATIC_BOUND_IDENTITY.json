@@ -1,0 +1,33 @@
+{
+  "scope": "STATIC_IDENTITY_AND_SAVED_TRACE_ACCOUNTING_ONLY",
+  "facts": [
+    {
+      "fixture": "livejournal_sampled_4096.edges",
+      "n": 4096,
+      "positive_indegree_vertices": 4095,
+      "zero_indegree_vertices": 1,
+      "static_scan_cost": "n comparisons of reverse row offsets once; source zero-indegree test once per query",
+      "extra_persistent_state": "one graph-versioned scalar K; no per-vertex bound table",
+      "without_ready_reverse": "Not free: derive nonzero indegree from CSR or existing COUNT metadata; charge construction and storage"
+    },
+    {
+      "fixture": "google_sampled_1024.edges",
+      "n": 1024,
+      "positive_indegree_vertices": 1024,
+      "zero_indegree_vertices": 0,
+      "static_scan_cost": "n comparisons of reverse row offsets once; source zero-indegree test once per query",
+      "extra_persistent_state": "one graph-versioned scalar K; no per-vertex bound table",
+      "without_ready_reverse": "Not free: derive nonzero indegree from CSR or existing COUNT metadata; charge construction and storage"
+    }
+  ],
+  "identity": "remaining_in == 0 iff seen == K + [indegree(source)==0], for valid BFS on immutable directed CSR",
+  "reason": "Every reached vertex other than the source has positive indegree; remaining_in is a sum of nonnegative indegrees over unreached vertices.",
+  "observed_processed_boundaries_checked": 465,
+  "projected_controls": 128,
+  "current_owner_or_CUDA_changes": 0,
+  "GPU_calls": 0,
+  "BFS_correctness_suite_runs": 0,
+  "new_GPU_times": "UNKNOWN",
+  "novelty_claim": "NONE; elementary static counting bound, not a new candidate",
+  "input_level_work_sha256": "ca38b3e55ecd4cbc719637e466ed897b84ceb0d31aef9ed1ded84c7c5a0787d1"
+}

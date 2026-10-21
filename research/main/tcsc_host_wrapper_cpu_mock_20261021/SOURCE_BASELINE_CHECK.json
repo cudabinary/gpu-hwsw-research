@@ -1,0 +1,12 @@
+{
+  "status": "FIXED_BINARY_FAIR_COLD_BASELINE_ABSENT",
+  "source_sha256": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+  "unconditional_reverse_builder_before_mode_execution": true,
+  "CPU_check_also_builds_reverse": true,
+  "Owner_requires_reverse": true,
+  "skip_reverse_argument_in_this_contract": false,
+  "scope": "Inspected unchanged owner only, not all preserved research",
+  "solution_by_timer_subtraction": false,
+  "original_sources_and_strict_preserved": true,
+  "new_GPU_queries_or_dispatches": 0
+}

@@ -1,0 +1,1176 @@
+{
+  "raw_files_in_private_delivery_ZIP": true,
+  "B2_checkpoint_this_round": false,
+  "files": [
+    {
+      "path": "config/PLAN_CPU_ONLY.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "COST_ACCOUNTING_AND_BASELINE.md",
+      "bytes": 5062,
+      "sha256": "22b20869c7c108f502ee9bac02c9e8401e3b8db9dc3822958e83bdc043a32b28"
+    },
+    {
+      "path": "GPU_INTEGRATION_DELTA.md",
+      "bytes": 3917,
+      "sha256": "5e6dae22d76c940fc128381eda145e0a90f792ba9ca59759e188ad73285a25cb"
+    },
+    {
+      "path": "ORIGINAL_SOURCE_PINS_AFTER.json",
+      "bytes": 401,
+      "sha256": "390d1b40628a5ecbd9bdab4a1b2308595a7de187e6ccdb203227aa3ccc8cd69f"
+    },
+    {
+      "path": "ORIGINAL_SOURCE_PINS_BEFORE.json",
+      "bytes": 401,
+      "sha256": "390d1b40628a5ecbd9bdab4a1b2308595a7de187e6ccdb203227aa3ccc8cd69f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2711,
+      "sha256": "95ffe10ba58fa8c172e0e70f3e046d48a9366615cddc71c87c3e17e32b9afc97"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 2091,
+      "sha256": "56810dc4e506dd2e8b8464e9d7f23ff57dba4b8795ea013190493c245162a655"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/arm_deadline/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/arm_deadline/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/arm_deadline/ledger.jsonl",
+      "bytes": 3526,
+      "sha256": "9990fa9df457fdba91bd79d55befcd76421adef0508342b3b9699aa329ead862"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/arm_deadline/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/arm_deadline/STOP.json",
+      "bytes": 326,
+      "sha256": "ab829d3bd842829f7f0ffddaa2abda31f3395c18bdeea74af6935c29851584b9"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/builder_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/builder_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/builder_budget/ledger.jsonl",
+      "bytes": 3429,
+      "sha256": "6efebf85e1b0963b3ffc8e053c7b65ad5f3c0f81d16bd3bb74047cf2045809aa"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/builder_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/builder_budget/STOP.json",
+      "bytes": 366,
+      "sha256": "7a650dd9042e860494c882c5ffffff04a71bae42641d531189a40d199224ee4a"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/campaign_deadline/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/campaign_deadline/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/campaign_deadline/ledger.jsonl",
+      "bytes": 3527,
+      "sha256": "a8978f27fdee03af857e2abc340afba20631324c81c7bff15c590901c4cee5e2"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/campaign_deadline/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/campaign_deadline/STOP.json",
+      "bytes": 331,
+      "sha256": "ad396e0b97cdb9b75618b4f0451d999526b920c1f63982969ea89a9d4e0f7dd5"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cancel/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cancel/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cancel/ledger.jsonl",
+      "bytes": 3832,
+      "sha256": "9a2da435c19ad271df45b8eb5e5d10fffb8efd1482d3534b327060f68295f1ab"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cancel/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cancel/STOP.json",
+      "bytes": 330,
+      "sha256": "1b744e191d36325810b7f23e9ff04d65ceec986bccbfbb4a78ab04c0c71ec806"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cleanup/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cleanup/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cleanup/02.response.json",
+      "bytes": 1139,
+      "sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cleanup/ledger.jsonl",
+      "bytes": 4023,
+      "sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cleanup/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cleanup/STOP.json",
+      "bytes": 339,
+      "sha256": "5e75661e7261fa9602effae5a58835a0673b78aa5a51bc831e6abb060c233b59"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/clock/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/clock/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/clock/ledger.jsonl",
+      "bytes": 3427,
+      "sha256": "540057af0a55de76c6e5b3b824db2ca079e50f5b7c551f260ae3e19cfed86f85"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/clock/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/clock/STOP.json",
+      "bytes": 337,
+      "sha256": "fac1e6dd1edbab37f8c04fcc02b77629f115d55a58b939afaed3fdaba99b56cf"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/device_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/device_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/device_budget/ledger.jsonl",
+      "bytes": 3429,
+      "sha256": "c74b7a64356a85d1e1f3392794a6d427010d1e53b6586c961d998b50e3ee7631"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/device_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/device_budget/STOP.json",
+      "bytes": 362,
+      "sha256": "ff667ec313fe1c7b6a7b360d6083b5f6d7f786515c921ec3c07692ea16dcfa32"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/error/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/error/ledger.jsonl",
+      "bytes": 2518,
+      "sha256": "ec120005287eaa6d474719fe4be4462cc559f62c64db17251485a82da01f8309"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/error/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/error/STOP.json",
+      "bytes": 329,
+      "sha256": "5808b00bc88bad941d85e72c9e8c76c8765c3cb0dbfc27042f1269861e298118"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/existing_original/original.txt",
+      "bytes": 23,
+      "sha256": "af1882c255452d0798c7b6f8168bebc8ab56abc26d8ec181797fee818b0dad21"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/guard/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/guard/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/guard/02.response.json",
+      "bytes": 1140,
+      "sha256": "6ebdcc7bd464ac5875f37cea7f500922e567e1bcc3bd939693fad69c80d9643c"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/guard/ledger.jsonl",
+      "bytes": 4023,
+      "sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/guard/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/guard/STOP.json",
+      "bytes": 335,
+      "sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/host_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/host_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/host_budget/ledger.jsonl",
+      "bytes": 3428,
+      "sha256": "c3519399216c307206f92d69363325d3cd830262b7c4117c4fc5396aef839c66"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/host_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/host_budget/STOP.json",
+      "bytes": 373,
+      "sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/memory_unknown/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/memory_unknown/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/memory_unknown/ledger.jsonl",
+      "bytes": 3422,
+      "sha256": "0861d7dfe819c68521b9ca4a047c8db68054b90e84ebf43bfcbee85350fbe528"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/memory_unknown/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/memory_unknown/STOP.json",
+      "bytes": 373,
+      "sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/mismatch/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/mismatch/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/mismatch/02.response.json",
+      "bytes": 1140,
+      "sha256": "2308b08b2906301f3bf488b94560145762b0fe37a595f6ed2c2a6583e56c1c33"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/mismatch/ledger.jsonl",
+      "bytes": 4023,
+      "sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/mismatch/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/mismatch/STOP.json",
+      "bytes": 335,
+      "sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/missing_cancel/00.response.json",
+      "bytes": 1135,
+      "sha256": "f103d6e071c4002e97cc289af60368538e2cfbc4222f1fc7f6aef14317362b16"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/missing_cancel/ledger.jsonl",
+      "bytes": 1493,
+      "sha256": "791124da4c9c020d8448daba68598910d14f03f2adf0d75dcef6e1a089d69209"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/missing_cancel/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/missing_cancel/STOP.json",
+      "bytes": 329,
+      "sha256": "069ea98941eb56ea5b0c460637a54944cddb135abd65a8e78f95a97af85a776c"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/02.response.json",
+      "bytes": 1139,
+      "sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/03.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/04.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/05.response.json",
+      "bytes": 1139,
+      "sha256": "b998316b2ab0e2e28759a2c2176d9d9cde1b0aa1eea76f21ad2d0393dca0c2f5"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/06.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/07.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/08.response.json",
+      "bytes": 1139,
+      "sha256": "b998316b2ab0e2e28759a2c2176d9d9cde1b0aa1eea76f21ad2d0393dca0c2f5"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/09.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/10.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/11.response.json",
+      "bytes": 1139,
+      "sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/ledger.jsonl",
+      "bytes": 17489,
+      "sha256": "08cce5e42879f623f417b758407ae3078a2cb745e8b5595368a1babe59c9830b"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/RECEIPT.json",
+      "bytes": 17455,
+      "sha256": "62feb1b748f1bc26bd05bb02ddb4794dd4fa84b1f2428bf367b645c3c7aac334"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/retirement/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/retirement/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/retirement/02.response.json",
+      "bytes": 1140,
+      "sha256": "27feb735281b711faba433e67c056f4dda0713712ba283f9e95a8715d8e7b4ad"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/retirement/ledger.jsonl",
+      "bytes": 4023,
+      "sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/retirement/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/retirement/STOP.json",
+      "bytes": 336,
+      "sha256": "b64b3390e551c10ffc9be893a7e31f3ce249dcbbba605e20e47cfcd60849d8f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/sample_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/sample_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/sample_budget/ledger.jsonl",
+      "bytes": 14755,
+      "sha256": "2b74b1d17f7d4b70fcd9c0e41804c5590bad40293d2857abb3e5599d992f479d"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/sample_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/sample_budget/STOP.json",
+      "bytes": 332,
+      "sha256": "34ed2f09a888a6e7de5df1e372429854051c7608b0b6f1e4e1e2029aa9db72eb"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/storage_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/storage_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/storage_budget/ledger.jsonl",
+      "bytes": 3546,
+      "sha256": "b6f09470fb67f540c279630b609751b319f99020a90a97aac5dbf4ad297d92bd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/storage_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/storage_budget/STOP.json",
+      "bytes": 332,
+      "sha256": "5425e2c9c4a7a1b2e864da4131990909c2ae8742acb8989041ef3b22452ec75c"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/TEST_RESULTS.json",
+      "bytes": 1673,
+      "sha256": "0f629885097e03356b2fe3f660921b29e08726f13de59c0970e8340881a9917a"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/watchdog/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/watchdog/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/watchdog/ledger.jsonl",
+      "bytes": 3526,
+      "sha256": "0ede37d36e704daebc1e34237402b5474fe21ca1da8845c28b95d27990f1d95c"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/watchdog/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/watchdog/STOP.json",
+      "bytes": 328,
+      "sha256": "6a65c48d68f4cee137588ddb20b335dc6780170b56cd317a53547ef92b1898a1"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/wrong_order/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/wrong_order/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/wrong_order/ledger.jsonl",
+      "bytes": 3724,
+      "sha256": "6dfb0bd79a28a80f3983dd5c05fc8b2ae21577611464cb681cfba45cae4ece92"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/wrong_order/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/wrong_order/STOP.json",
+      "bytes": 335,
+      "sha256": "b95d0078ff80ab811a353eaf3ad9320155a9bb05ee4f91072111379782d98481"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/arm_deadline/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/arm_deadline/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/arm_deadline/ledger.jsonl",
+      "bytes": 3526,
+      "sha256": "9990fa9df457fdba91bd79d55befcd76421adef0508342b3b9699aa329ead862"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/arm_deadline/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/arm_deadline/STOP.json",
+      "bytes": 326,
+      "sha256": "ab829d3bd842829f7f0ffddaa2abda31f3395c18bdeea74af6935c29851584b9"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/builder_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/builder_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/builder_budget/ledger.jsonl",
+      "bytes": 3429,
+      "sha256": "6efebf85e1b0963b3ffc8e053c7b65ad5f3c0f81d16bd3bb74047cf2045809aa"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/builder_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/builder_budget/STOP.json",
+      "bytes": 366,
+      "sha256": "7a650dd9042e860494c882c5ffffff04a71bae42641d531189a40d199224ee4a"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/campaign_deadline/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/campaign_deadline/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/campaign_deadline/ledger.jsonl",
+      "bytes": 3527,
+      "sha256": "a8978f27fdee03af857e2abc340afba20631324c81c7bff15c590901c4cee5e2"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/campaign_deadline/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/campaign_deadline/STOP.json",
+      "bytes": 331,
+      "sha256": "ad396e0b97cdb9b75618b4f0451d999526b920c1f63982969ea89a9d4e0f7dd5"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cancel/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cancel/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cancel/ledger.jsonl",
+      "bytes": 3832,
+      "sha256": "9a2da435c19ad271df45b8eb5e5d10fffb8efd1482d3534b327060f68295f1ab"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cancel/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cancel/STOP.json",
+      "bytes": 330,
+      "sha256": "1b744e191d36325810b7f23e9ff04d65ceec986bccbfbb4a78ab04c0c71ec806"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cleanup/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cleanup/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cleanup/02.response.json",
+      "bytes": 1139,
+      "sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cleanup/ledger.jsonl",
+      "bytes": 4023,
+      "sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cleanup/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cleanup/STOP.json",
+      "bytes": 339,
+      "sha256": "5e75661e7261fa9602effae5a58835a0673b78aa5a51bc831e6abb060c233b59"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/clock/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/clock/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/clock/ledger.jsonl",
+      "bytes": 3427,
+      "sha256": "540057af0a55de76c6e5b3b824db2ca079e50f5b7c551f260ae3e19cfed86f85"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/clock/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/clock/STOP.json",
+      "bytes": 337,
+      "sha256": "fac1e6dd1edbab37f8c04fcc02b77629f115d55a58b939afaed3fdaba99b56cf"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/device_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/device_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/device_budget/ledger.jsonl",
+      "bytes": 3429,
+      "sha256": "c74b7a64356a85d1e1f3392794a6d427010d1e53b6586c961d998b50e3ee7631"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/device_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/device_budget/STOP.json",
+      "bytes": 362,
+      "sha256": "ff667ec313fe1c7b6a7b360d6083b5f6d7f786515c921ec3c07692ea16dcfa32"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/error/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/error/ledger.jsonl",
+      "bytes": 2518,
+      "sha256": "ec120005287eaa6d474719fe4be4462cc559f62c64db17251485a82da01f8309"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/error/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/error/STOP.json",
+      "bytes": 329,
+      "sha256": "5808b00bc88bad941d85e72c9e8c76c8765c3cb0dbfc27042f1269861e298118"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/existing_original/original.txt",
+      "bytes": 23,
+      "sha256": "af1882c255452d0798c7b6f8168bebc8ab56abc26d8ec181797fee818b0dad21"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/guard/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/guard/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/guard/02.response.json",
+      "bytes": 1140,
+      "sha256": "6ebdcc7bd464ac5875f37cea7f500922e567e1bcc3bd939693fad69c80d9643c"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/guard/ledger.jsonl",
+      "bytes": 4023,
+      "sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/guard/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/guard/STOP.json",
+      "bytes": 335,
+      "sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/host_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/host_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/host_budget/ledger.jsonl",
+      "bytes": 3428,
+      "sha256": "c3519399216c307206f92d69363325d3cd830262b7c4117c4fc5396aef839c66"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/host_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/host_budget/STOP.json",
+      "bytes": 373,
+      "sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/interrupt/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/interrupt/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/interrupt/ledger.jsonl",
+      "bytes": 3835,
+      "sha256": "9bf1e29ac88f95611a3caeef46d63a1224152f0a52ac04b34c59f21dd912d4a8"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/interrupt/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/interrupt/STOP.json",
+      "bytes": 333,
+      "sha256": "52dd0340a1113b355cf9cb9220482a5f9e5cd0cae87dbebc8038371d30980fd5"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/memory_unknown/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/memory_unknown/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/memory_unknown/ledger.jsonl",
+      "bytes": 3422,
+      "sha256": "0861d7dfe819c68521b9ca4a047c8db68054b90e84ebf43bfcbee85350fbe528"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/memory_unknown/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/memory_unknown/STOP.json",
+      "bytes": 373,
+      "sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/mismatch/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/mismatch/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/mismatch/02.response.json",
+      "bytes": 1140,
+      "sha256": "2308b08b2906301f3bf488b94560145762b0fe37a595f6ed2c2a6583e56c1c33"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/mismatch/ledger.jsonl",
+      "bytes": 4023,
+      "sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/mismatch/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/mismatch/STOP.json",
+      "bytes": 335,
+      "sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/missing_cancel/00.response.json",
+      "bytes": 1135,
+      "sha256": "f103d6e071c4002e97cc289af60368538e2cfbc4222f1fc7f6aef14317362b16"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/missing_cancel/ledger.jsonl",
+      "bytes": 1493,
+      "sha256": "791124da4c9c020d8448daba68598910d14f03f2adf0d75dcef6e1a089d69209"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/missing_cancel/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/missing_cancel/STOP.json",
+      "bytes": 329,
+      "sha256": "069ea98941eb56ea5b0c460637a54944cddb135abd65a8e78f95a97af85a776c"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/02.response.json",
+      "bytes": 1139,
+      "sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/03.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/04.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/05.response.json",
+      "bytes": 1139,
+      "sha256": "b998316b2ab0e2e28759a2c2176d9d9cde1b0aa1eea76f21ad2d0393dca0c2f5"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/06.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/07.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/08.response.json",
+      "bytes": 1139,
+      "sha256": "b998316b2ab0e2e28759a2c2176d9d9cde1b0aa1eea76f21ad2d0393dca0c2f5"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/09.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/10.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/11.response.json",
+      "bytes": 1139,
+      "sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/ledger.jsonl",
+      "bytes": 17489,
+      "sha256": "08cce5e42879f623f417b758407ae3078a2cb745e8b5595368a1babe59c9830b"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/RECEIPT.json",
+      "bytes": 17455,
+      "sha256": "62feb1b748f1bc26bd05bb02ddb4794dd4fa84b1f2428bf367b645c3c7aac334"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/retirement/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/retirement/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/retirement/02.response.json",
+      "bytes": 1140,
+      "sha256": "27feb735281b711faba433e67c056f4dda0713712ba283f9e95a8715d8e7b4ad"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/retirement/ledger.jsonl",
+      "bytes": 4023,
+      "sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/retirement/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/retirement/STOP.json",
+      "bytes": 336,
+      "sha256": "b64b3390e551c10ffc9be893a7e31f3ce249dcbbba605e20e47cfcd60849d8f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/sample_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/sample_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/sample_budget/ledger.jsonl",
+      "bytes": 14755,
+      "sha256": "2b74b1d17f7d4b70fcd9c0e41804c5590bad40293d2857abb3e5599d992f479d"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/sample_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/sample_budget/STOP.json",
+      "bytes": 332,
+      "sha256": "34ed2f09a888a6e7de5df1e372429854051c7608b0b6f1e4e1e2029aa9db72eb"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/storage_budget/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/storage_budget/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/storage_budget/ledger.jsonl",
+      "bytes": 3546,
+      "sha256": "b6f09470fb67f540c279630b609751b319f99020a90a97aac5dbf4ad297d92bd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/storage_budget/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/storage_budget/STOP.json",
+      "bytes": 332,
+      "sha256": "5425e2c9c4a7a1b2e864da4131990909c2ae8742acb8989041ef3b22452ec75c"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/TEST_RESULTS.json",
+      "bytes": 1727,
+      "sha256": "b32138569900db1a3bc2e75f3db8e26af84fb5948a74bb7cad4ef85907febf4b"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/watchdog/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/watchdog/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/watchdog/ledger.jsonl",
+      "bytes": 3526,
+      "sha256": "0ede37d36e704daebc1e34237402b5474fe21ca1da8845c28b95d27990f1d95c"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/watchdog/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/watchdog/STOP.json",
+      "bytes": 328,
+      "sha256": "6a65c48d68f4cee137588ddb20b335dc6780170b56cd317a53547ef92b1898a1"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/wrong_order/00.response.json",
+      "bytes": 1135,
+      "sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/wrong_order/01.response.json",
+      "bytes": 1135,
+      "sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/wrong_order/ledger.jsonl",
+      "bytes": 3724,
+      "sha256": "6dfb0bd79a28a80f3983dd5c05fc8b2ae21577611464cb681cfba45cae4ece92"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/wrong_order/PLAN_USED.json",
+      "bytes": 4462,
+      "sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3"
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/wrong_order/STOP.json",
+      "bytes": 335,
+      "sha256": "b95d0078ff80ab811a353eaf3ad9320155a9bb05ee4f91072111379782d98481"
+    },
+    {
+      "path": "SOURCE_BASELINE_CHECK.json",
+      "bytes": 545,
+      "sha256": "7bde7d379ef6e10c2dc9070a29cd93d2412dfe1416f88342cdaf7649defec558"
+    },
+    {
+      "path": "src/host_wrapper.py",
+      "bytes": 12371,
+      "sha256": "c7d1188a4ae5e330fb3501c32b183f3f6850b8de3bfa990d886826ad952a7887"
+    },
+    {
+      "path": "src/mock_backend.py",
+      "bytes": 4934,
+      "sha256": "9cc9ea3a20dc9101aaa91d3e1eb7d2ba00d1088a0e8d016464555eea49817848"
+    },
+    {
+      "path": "tests/run_mock_tests.py",
+      "bytes": 6000,
+      "sha256": "41690eec0982079fe0e72e0ed52b2a4840a29c73e2874d58264b7fd216f14a5a"
+    }
+  ]
+}

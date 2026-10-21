@@ -1,0 +1,13 @@
+{
+  "status": "CPU_MOCK_STOP_NO_FOLLOWUP",
+  "reason": "MEMORY_BUDGET_OR_COVERAGE_owned_host_peak_upper_bound_bytes",
+  "simulated_workers_started": 3,
+  "workers_validated": 2,
+  "cleanup": {
+    "kind": "SYNTHETIC_NOT_MEASURED",
+    "owned_context_retirement_confirmed": true,
+    "cleanup_ms": 3
+  },
+  "resume_allowed": false,
+  "actual_GPU_dispatches": 0
+}

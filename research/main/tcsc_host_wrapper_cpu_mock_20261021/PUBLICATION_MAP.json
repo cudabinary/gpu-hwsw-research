@@ -1,0 +1,1645 @@
+{
+  "scope": "research/main/tcsc_host_wrapper_cpu_mock_20261021/",
+  "contract": "ISOLATION_UNVERIFIED",
+  "raw_CPU_mock_ledgers_in_private_delivery_ZIP": true,
+  "entries": [
+    {
+      "path": "config/PLAN_CPU_ONLY.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "COST_ACCOUNTING_AND_BASELINE.md",
+      "raw_sha256": "22b20869c7c108f502ee9bac02c9e8401e3b8db9dc3822958e83bdc043a32b28",
+      "published_sha256": "22b20869c7c108f502ee9bac02c9e8401e3b8db9dc3822958e83bdc043a32b28",
+      "sanitized_or_normalized": false,
+      "published_bytes": 5062
+    },
+    {
+      "path": "GPU_INTEGRATION_DELTA.md",
+      "raw_sha256": "5e6dae22d76c940fc128381eda145e0a90f792ba9ca59759e188ad73285a25cb",
+      "published_sha256": "5e6dae22d76c940fc128381eda145e0a90f792ba9ca59759e188ad73285a25cb",
+      "sanitized_or_normalized": false,
+      "published_bytes": 3917
+    },
+    {
+      "path": "ORIGINAL_SOURCE_PINS_AFTER.json",
+      "raw_sha256": "390d1b40628a5ecbd9bdab4a1b2308595a7de187e6ccdb203227aa3ccc8cd69f",
+      "published_sha256": "0a6a6ec0707dcebbbe4d34836dd27ff1905ce952255b94ca46ba83871d3a3215",
+      "sanitized_or_normalized": true,
+      "published_bytes": 396
+    },
+    {
+      "path": "ORIGINAL_SOURCE_PINS_BEFORE.json",
+      "raw_sha256": "390d1b40628a5ecbd9bdab4a1b2308595a7de187e6ccdb203227aa3ccc8cd69f",
+      "published_sha256": "0a6a6ec0707dcebbbe4d34836dd27ff1905ce952255b94ca46ba83871d3a3215",
+      "sanitized_or_normalized": true,
+      "published_bytes": 396
+    },
+    {
+      "path": "README.md",
+      "raw_sha256": "95ffe10ba58fa8c172e0e70f3e046d48a9366615cddc71c87c3e17e32b9afc97",
+      "published_sha256": "95ffe10ba58fa8c172e0e70f3e046d48a9366615cddc71c87c3e17e32b9afc97",
+      "sanitized_or_normalized": false,
+      "published_bytes": 2711
+    },
+    {
+      "path": "REPRODUCE.md",
+      "raw_sha256": "56810dc4e506dd2e8b8464e9d7f23ff57dba4b8795ea013190493c245162a655",
+      "published_sha256": "56810dc4e506dd2e8b8464e9d7f23ff57dba4b8795ea013190493c245162a655",
+      "sanitized_or_normalized": false,
+      "published_bytes": 2091
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/arm_deadline/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/arm_deadline/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/arm_deadline/ledger.jsonl",
+      "raw_sha256": "9990fa9df457fdba91bd79d55befcd76421adef0508342b3b9699aa329ead862",
+      "published_sha256": "569b1745ff600c1ec6b75f73d736c24f2d77ef390929b8785458022f7dec99ac",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3497
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/arm_deadline/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/arm_deadline/STOP.json",
+      "raw_sha256": "ab829d3bd842829f7f0ffddaa2abda31f3395c18bdeea74af6935c29851584b9",
+      "published_sha256": "fe1aa80ad2356ac987225caf8503d4140d385c138fceccda9f0375011a0f3249",
+      "sanitized_or_normalized": true,
+      "published_bytes": 314
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/builder_budget/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/builder_budget/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/builder_budget/ledger.jsonl",
+      "raw_sha256": "6efebf85e1b0963b3ffc8e053c7b65ad5f3c0f81d16bd3bb74047cf2045809aa",
+      "published_sha256": "46a824436ccdde3b51fa371c86729ec4bda3e3d3644d7e26f44cdd0c0f82f244",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3401
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/builder_budget/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/builder_budget/STOP.json",
+      "raw_sha256": "7a650dd9042e860494c882c5ffffff04a71bae42641d531189a40d199224ee4a",
+      "published_sha256": "6f0f26676cb9a8d8428ef2ba2103350506ad7a417813346d83ad5161affe9d24",
+      "sanitized_or_normalized": true,
+      "published_bytes": 354
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/campaign_deadline/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/campaign_deadline/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/campaign_deadline/ledger.jsonl",
+      "raw_sha256": "a8978f27fdee03af857e2abc340afba20631324c81c7bff15c590901c4cee5e2",
+      "published_sha256": "5d6f0ba1502751dedf1b7ea7b825c8f595e7a74043a50a9df5dcc2e999865027",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3498
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/campaign_deadline/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/campaign_deadline/STOP.json",
+      "raw_sha256": "ad396e0b97cdb9b75618b4f0451d999526b920c1f63982969ea89a9d4e0f7dd5",
+      "published_sha256": "e3c069baaea1092176342a79da6fbfb962e23d78089f2dd900282f5a58bb92a0",
+      "sanitized_or_normalized": true,
+      "published_bytes": 319
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cancel/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cancel/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cancel/ledger.jsonl",
+      "raw_sha256": "9a2da435c19ad271df45b8eb5e5d10fffb8efd1482d3534b327060f68295f1ab",
+      "published_sha256": "cc13abeccc9a78f8c74e6c6080135df733a06faed3e221182499e4d59174c03e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3800
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cancel/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cancel/STOP.json",
+      "raw_sha256": "1b744e191d36325810b7f23e9ff04d65ceec986bccbfbb4a78ab04c0c71ec806",
+      "published_sha256": "89b878f3f399e79795946f8b10486c42ae6ac36d6721bd1a59c3093b01dfe683",
+      "sanitized_or_normalized": true,
+      "published_bytes": 318
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cleanup/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cleanup/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cleanup/02.response.json",
+      "raw_sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f",
+      "published_sha256": "1c465cd004bc652bfb5972a798ec8446b2af0f65b4e6c0882dea5e6921a2ac5d",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1098
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cleanup/ledger.jsonl",
+      "raw_sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee",
+      "published_sha256": "d74566ba8ef6e939207ea15d7f5a9627cf7a0051f8ba5f5dcf638ba5c91276e6",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3989
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cleanup/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/cleanup/STOP.json",
+      "raw_sha256": "5e75661e7261fa9602effae5a58835a0673b78aa5a51bc831e6abb060c233b59",
+      "published_sha256": "441ac2a6674b5e24a1d663381fe8779a75d5034631213befff12a913a5256ba3",
+      "sanitized_or_normalized": true,
+      "published_bytes": 327
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/clock/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/clock/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/clock/ledger.jsonl",
+      "raw_sha256": "540057af0a55de76c6e5b3b824db2ca079e50f5b7c551f260ae3e19cfed86f85",
+      "published_sha256": "5b6cfe6e6877713db9700eb66352fa7e6bd0f97769177dd4345f83f99d4b8e57",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3399
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/clock/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/clock/STOP.json",
+      "raw_sha256": "fac1e6dd1edbab37f8c04fcc02b77629f115d55a58b939afaed3fdaba99b56cf",
+      "published_sha256": "9c3a99f3944d9d170870090f95dfae962d86f2c208832b8ff62e5d31c8a0ef75",
+      "sanitized_or_normalized": true,
+      "published_bytes": 325
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/device_budget/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/device_budget/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/device_budget/ledger.jsonl",
+      "raw_sha256": "c74b7a64356a85d1e1f3392794a6d427010d1e53b6586c961d998b50e3ee7631",
+      "published_sha256": "b97ee1041a0675f7946fc09b0545cd1787118344e9d42a27f2ab05073cc4cec8",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3401
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/device_budget/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/device_budget/STOP.json",
+      "raw_sha256": "ff667ec313fe1c7b6a7b360d6083b5f6d7f786515c921ec3c07692ea16dcfa32",
+      "published_sha256": "57dc6836515f47622aa8232263acdd52fab03036ff5bae5e47fcd38068f3f724",
+      "sanitized_or_normalized": true,
+      "published_bytes": 350
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/error/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/error/ledger.jsonl",
+      "raw_sha256": "ec120005287eaa6d474719fe4be4462cc559f62c64db17251485a82da01f8309",
+      "published_sha256": "8caeb9f428bf4e63406f28634d7b79e5fae760b6d5e0b401c2af2945bec0ebed",
+      "sanitized_or_normalized": true,
+      "published_bytes": 2497
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/error/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/error/STOP.json",
+      "raw_sha256": "5808b00bc88bad941d85e72c9e8c76c8765c3cb0dbfc27042f1269861e298118",
+      "published_sha256": "705536ba8228d58aee899ba0b9b1b6541385f6186e2b81f889beed02d892306a",
+      "sanitized_or_normalized": true,
+      "published_bytes": 317
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/existing_original/original.txt",
+      "raw_sha256": "af1882c255452d0798c7b6f8168bebc8ab56abc26d8ec181797fee818b0dad21",
+      "published_sha256": "af1882c255452d0798c7b6f8168bebc8ab56abc26d8ec181797fee818b0dad21",
+      "sanitized_or_normalized": false,
+      "published_bytes": 23
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/guard/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/guard/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/guard/02.response.json",
+      "raw_sha256": "6ebdcc7bd464ac5875f37cea7f500922e567e1bcc3bd939693fad69c80d9643c",
+      "published_sha256": "79dfb58918597a9ddae224423af44ae9066afb6211cecdf5e1b47a4ff9e3595b",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1099
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/guard/ledger.jsonl",
+      "raw_sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee",
+      "published_sha256": "d74566ba8ef6e939207ea15d7f5a9627cf7a0051f8ba5f5dcf638ba5c91276e6",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3989
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/guard/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/guard/STOP.json",
+      "raw_sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e",
+      "published_sha256": "41d4bb2ca1efc2d1d2a759091f9fa0acb6137c889d2336691098142c304c85f7",
+      "sanitized_or_normalized": true,
+      "published_bytes": 323
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/host_budget/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/host_budget/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/host_budget/ledger.jsonl",
+      "raw_sha256": "c3519399216c307206f92d69363325d3cd830262b7c4117c4fc5396aef839c66",
+      "published_sha256": "8b439f359b9bd69e19e8389d5a312937fc55a2981cc75a003e454da2b8588630",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3400
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/host_budget/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/host_budget/STOP.json",
+      "raw_sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6",
+      "published_sha256": "ae8422644db3ff97670132ec814654cad6350a527fd6cea59b866f9797139f69",
+      "sanitized_or_normalized": true,
+      "published_bytes": 361
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/memory_unknown/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/memory_unknown/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/memory_unknown/ledger.jsonl",
+      "raw_sha256": "0861d7dfe819c68521b9ca4a047c8db68054b90e84ebf43bfcbee85350fbe528",
+      "published_sha256": "26d3f2a59757b6c6a1284d190e028029f1c395cb41b527343fe514988499c5a2",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3394
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/memory_unknown/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/memory_unknown/STOP.json",
+      "raw_sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6",
+      "published_sha256": "ae8422644db3ff97670132ec814654cad6350a527fd6cea59b866f9797139f69",
+      "sanitized_or_normalized": true,
+      "published_bytes": 361
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/mismatch/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/mismatch/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/mismatch/02.response.json",
+      "raw_sha256": "2308b08b2906301f3bf488b94560145762b0fe37a595f6ed2c2a6583e56c1c33",
+      "published_sha256": "051167db21bef245bfbc08863928e116fdb6f1de9817d08514afe7b8ed294490",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1099
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/mismatch/ledger.jsonl",
+      "raw_sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee",
+      "published_sha256": "d74566ba8ef6e939207ea15d7f5a9627cf7a0051f8ba5f5dcf638ba5c91276e6",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3989
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/mismatch/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/mismatch/STOP.json",
+      "raw_sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e",
+      "published_sha256": "41d4bb2ca1efc2d1d2a759091f9fa0acb6137c889d2336691098142c304c85f7",
+      "sanitized_or_normalized": true,
+      "published_bytes": 323
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/missing_cancel/00.response.json",
+      "raw_sha256": "f103d6e071c4002e97cc289af60368538e2cfbc4222f1fc7f6aef14317362b16",
+      "published_sha256": "e5835df7b7d68bc2d9d04fea101fc737d9cbf8d93df8f8d4a1f9f5462bbb427a",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/missing_cancel/ledger.jsonl",
+      "raw_sha256": "791124da4c9c020d8448daba68598910d14f03f2adf0d75dcef6e1a089d69209",
+      "published_sha256": "d5a08d5108c39971ea878aa42aae827c0fbaa099bde86cbcd19a7a79efd9aa36",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1480
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/missing_cancel/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/missing_cancel/STOP.json",
+      "raw_sha256": "069ea98941eb56ea5b0c460637a54944cddb135abd65a8e78f95a97af85a776c",
+      "published_sha256": "65f4d365d2459ebed2e803c774e2b5840d113b53a582eedd3d979e537dfea7c3",
+      "sanitized_or_normalized": true,
+      "published_bytes": 317
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/02.response.json",
+      "raw_sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f",
+      "published_sha256": "1c465cd004bc652bfb5972a798ec8446b2af0f65b4e6c0882dea5e6921a2ac5d",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1098
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/03.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/04.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/05.response.json",
+      "raw_sha256": "b998316b2ab0e2e28759a2c2176d9d9cde1b0aa1eea76f21ad2d0393dca0c2f5",
+      "published_sha256": "f7f50e6c3421a682c79626b254a2de71639a1849d6d10e1f71e09cae9b7b6b20",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1098
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/06.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/07.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/08.response.json",
+      "raw_sha256": "b998316b2ab0e2e28759a2c2176d9d9cde1b0aa1eea76f21ad2d0393dca0c2f5",
+      "published_sha256": "f7f50e6c3421a682c79626b254a2de71639a1849d6d10e1f71e09cae9b7b6b20",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1098
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/09.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/10.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/11.response.json",
+      "raw_sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f",
+      "published_sha256": "1c465cd004bc652bfb5972a798ec8446b2af0f65b4e6c0882dea5e6921a2ac5d",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1098
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/ledger.jsonl",
+      "raw_sha256": "08cce5e42879f623f417b758407ae3078a2cb745e8b5595368a1babe59c9830b",
+      "published_sha256": "811b38b065e41a14bb32a6962decc15ee442ae602340b1624d21aab6212f169e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 17341
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/nominal/RECEIPT.json",
+      "raw_sha256": "62feb1b748f1bc26bd05bb02ddb4794dd4fa84b1f2428bf367b645c3c7aac334",
+      "published_sha256": "341e1fb70322bf2262e6e2cb480d5eef71ff9b77eb35624f8318192e2e5fa3d5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 16926
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/retirement/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/retirement/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/retirement/02.response.json",
+      "raw_sha256": "27feb735281b711faba433e67c056f4dda0713712ba283f9e95a8715d8e7b4ad",
+      "published_sha256": "e853bcb4dffd3de89502bcb6bbb9885c12d1f638ce08c7d8a81d54c9648efc9b",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1099
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/retirement/ledger.jsonl",
+      "raw_sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee",
+      "published_sha256": "d74566ba8ef6e939207ea15d7f5a9627cf7a0051f8ba5f5dcf638ba5c91276e6",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3989
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/retirement/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/retirement/STOP.json",
+      "raw_sha256": "b64b3390e551c10ffc9be893a7e31f3ce249dcbbba605e20e47cfcd60849d8f3",
+      "published_sha256": "36d596e7fd12cd367b01b9add7419ab3f65e30ee31eb8463ad66528aa90aab72",
+      "sanitized_or_normalized": true,
+      "published_bytes": 324
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/sample_budget/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/sample_budget/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/sample_budget/ledger.jsonl",
+      "raw_sha256": "2b74b1d17f7d4b70fcd9c0e41804c5590bad40293d2857abb3e5599d992f479d",
+      "published_sha256": "8b2093a1058f3ae84d96a27ba11a91107399b431457745e6aa3584f6ed536a73",
+      "sanitized_or_normalized": true,
+      "published_bytes": 14609
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/sample_budget/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/sample_budget/STOP.json",
+      "raw_sha256": "34ed2f09a888a6e7de5df1e372429854051c7608b0b6f1e4e1e2029aa9db72eb",
+      "published_sha256": "63c5a59a9c3526eec739d015fc518a67c1bfe271c40ef20c29ee4c95f082baec",
+      "sanitized_or_normalized": true,
+      "published_bytes": 320
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/storage_budget/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/storage_budget/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/storage_budget/ledger.jsonl",
+      "raw_sha256": "b6f09470fb67f540c279630b609751b319f99020a90a97aac5dbf4ad297d92bd",
+      "published_sha256": "8afc2c9eda42b6eff338b241c941bc285d782f4e4c0a4436545229c83b30fc52",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3517
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/storage_budget/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/storage_budget/STOP.json",
+      "raw_sha256": "5425e2c9c4a7a1b2e864da4131990909c2ae8742acb8989041ef3b22452ec75c",
+      "published_sha256": "f43d874820749940d24bd679664e7aa6a28f9e904e5048c5cdc4bca05577619f",
+      "sanitized_or_normalized": true,
+      "published_bytes": 320
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/TEST_RESULTS.json",
+      "raw_sha256": "0f629885097e03356b2fe3f660921b29e08726f13de59c0970e8340881a9917a",
+      "published_sha256": "9a0cf5462741263c2f80cf7a1cbc519df5c95342c92815bc64cbbe9b62cd0abf",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1638
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/watchdog/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/watchdog/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/watchdog/ledger.jsonl",
+      "raw_sha256": "0ede37d36e704daebc1e34237402b5474fe21ca1da8845c28b95d27990f1d95c",
+      "published_sha256": "c840833a4041197f1a107a37ad3ffd446fcfdc239aa8bf86cc6288aec328818c",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3497
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/watchdog/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/watchdog/STOP.json",
+      "raw_sha256": "6a65c48d68f4cee137588ddb20b335dc6780170b56cd317a53547ef92b1898a1",
+      "published_sha256": "cc62e584909adf5abf2b889958d7513e1d368c94063d292ed534060fc45c9857",
+      "sanitized_or_normalized": true,
+      "published_bytes": 316
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/wrong_order/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/wrong_order/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/wrong_order/ledger.jsonl",
+      "raw_sha256": "6dfb0bd79a28a80f3983dd5c05fc8b2ae21577611464cb681cfba45cae4ece92",
+      "published_sha256": "3d8268ec7c64b07d98d894c4cb88bb1632e91b313daf17fb2757a0cf58813e30",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3693
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/wrong_order/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS/wrong_order/STOP.json",
+      "raw_sha256": "b95d0078ff80ab811a353eaf3ad9320155a9bb05ee4f91072111379782d98481",
+      "published_sha256": "d69e0df1e962e08feffd6eaea2b65d6ae6d7a51ff79e63b50eee40e53daa4495",
+      "sanitized_or_normalized": true,
+      "published_bytes": 323
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/arm_deadline/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/arm_deadline/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/arm_deadline/ledger.jsonl",
+      "raw_sha256": "9990fa9df457fdba91bd79d55befcd76421adef0508342b3b9699aa329ead862",
+      "published_sha256": "569b1745ff600c1ec6b75f73d736c24f2d77ef390929b8785458022f7dec99ac",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3497
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/arm_deadline/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/arm_deadline/STOP.json",
+      "raw_sha256": "ab829d3bd842829f7f0ffddaa2abda31f3395c18bdeea74af6935c29851584b9",
+      "published_sha256": "fe1aa80ad2356ac987225caf8503d4140d385c138fceccda9f0375011a0f3249",
+      "sanitized_or_normalized": true,
+      "published_bytes": 314
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/builder_budget/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/builder_budget/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/builder_budget/ledger.jsonl",
+      "raw_sha256": "6efebf85e1b0963b3ffc8e053c7b65ad5f3c0f81d16bd3bb74047cf2045809aa",
+      "published_sha256": "46a824436ccdde3b51fa371c86729ec4bda3e3d3644d7e26f44cdd0c0f82f244",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3401
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/builder_budget/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/builder_budget/STOP.json",
+      "raw_sha256": "7a650dd9042e860494c882c5ffffff04a71bae42641d531189a40d199224ee4a",
+      "published_sha256": "6f0f26676cb9a8d8428ef2ba2103350506ad7a417813346d83ad5161affe9d24",
+      "sanitized_or_normalized": true,
+      "published_bytes": 354
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/campaign_deadline/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/campaign_deadline/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/campaign_deadline/ledger.jsonl",
+      "raw_sha256": "a8978f27fdee03af857e2abc340afba20631324c81c7bff15c590901c4cee5e2",
+      "published_sha256": "5d6f0ba1502751dedf1b7ea7b825c8f595e7a74043a50a9df5dcc2e999865027",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3498
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/campaign_deadline/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/campaign_deadline/STOP.json",
+      "raw_sha256": "ad396e0b97cdb9b75618b4f0451d999526b920c1f63982969ea89a9d4e0f7dd5",
+      "published_sha256": "e3c069baaea1092176342a79da6fbfb962e23d78089f2dd900282f5a58bb92a0",
+      "sanitized_or_normalized": true,
+      "published_bytes": 319
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cancel/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cancel/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cancel/ledger.jsonl",
+      "raw_sha256": "9a2da435c19ad271df45b8eb5e5d10fffb8efd1482d3534b327060f68295f1ab",
+      "published_sha256": "cc13abeccc9a78f8c74e6c6080135df733a06faed3e221182499e4d59174c03e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3800
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cancel/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cancel/STOP.json",
+      "raw_sha256": "1b744e191d36325810b7f23e9ff04d65ceec986bccbfbb4a78ab04c0c71ec806",
+      "published_sha256": "89b878f3f399e79795946f8b10486c42ae6ac36d6721bd1a59c3093b01dfe683",
+      "sanitized_or_normalized": true,
+      "published_bytes": 318
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cleanup/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cleanup/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cleanup/02.response.json",
+      "raw_sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f",
+      "published_sha256": "1c465cd004bc652bfb5972a798ec8446b2af0f65b4e6c0882dea5e6921a2ac5d",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1098
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cleanup/ledger.jsonl",
+      "raw_sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee",
+      "published_sha256": "d74566ba8ef6e939207ea15d7f5a9627cf7a0051f8ba5f5dcf638ba5c91276e6",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3989
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cleanup/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/cleanup/STOP.json",
+      "raw_sha256": "5e75661e7261fa9602effae5a58835a0673b78aa5a51bc831e6abb060c233b59",
+      "published_sha256": "441ac2a6674b5e24a1d663381fe8779a75d5034631213befff12a913a5256ba3",
+      "sanitized_or_normalized": true,
+      "published_bytes": 327
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/clock/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/clock/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/clock/ledger.jsonl",
+      "raw_sha256": "540057af0a55de76c6e5b3b824db2ca079e50f5b7c551f260ae3e19cfed86f85",
+      "published_sha256": "5b6cfe6e6877713db9700eb66352fa7e6bd0f97769177dd4345f83f99d4b8e57",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3399
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/clock/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/clock/STOP.json",
+      "raw_sha256": "fac1e6dd1edbab37f8c04fcc02b77629f115d55a58b939afaed3fdaba99b56cf",
+      "published_sha256": "9c3a99f3944d9d170870090f95dfae962d86f2c208832b8ff62e5d31c8a0ef75",
+      "sanitized_or_normalized": true,
+      "published_bytes": 325
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/device_budget/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/device_budget/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/device_budget/ledger.jsonl",
+      "raw_sha256": "c74b7a64356a85d1e1f3392794a6d427010d1e53b6586c961d998b50e3ee7631",
+      "published_sha256": "b97ee1041a0675f7946fc09b0545cd1787118344e9d42a27f2ab05073cc4cec8",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3401
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/device_budget/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/device_budget/STOP.json",
+      "raw_sha256": "ff667ec313fe1c7b6a7b360d6083b5f6d7f786515c921ec3c07692ea16dcfa32",
+      "published_sha256": "57dc6836515f47622aa8232263acdd52fab03036ff5bae5e47fcd38068f3f724",
+      "sanitized_or_normalized": true,
+      "published_bytes": 350
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/error/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/error/ledger.jsonl",
+      "raw_sha256": "ec120005287eaa6d474719fe4be4462cc559f62c64db17251485a82da01f8309",
+      "published_sha256": "8caeb9f428bf4e63406f28634d7b79e5fae760b6d5e0b401c2af2945bec0ebed",
+      "sanitized_or_normalized": true,
+      "published_bytes": 2497
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/error/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/error/STOP.json",
+      "raw_sha256": "5808b00bc88bad941d85e72c9e8c76c8765c3cb0dbfc27042f1269861e298118",
+      "published_sha256": "705536ba8228d58aee899ba0b9b1b6541385f6186e2b81f889beed02d892306a",
+      "sanitized_or_normalized": true,
+      "published_bytes": 317
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/existing_original/original.txt",
+      "raw_sha256": "af1882c255452d0798c7b6f8168bebc8ab56abc26d8ec181797fee818b0dad21",
+      "published_sha256": "af1882c255452d0798c7b6f8168bebc8ab56abc26d8ec181797fee818b0dad21",
+      "sanitized_or_normalized": false,
+      "published_bytes": 23
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/guard/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/guard/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/guard/02.response.json",
+      "raw_sha256": "6ebdcc7bd464ac5875f37cea7f500922e567e1bcc3bd939693fad69c80d9643c",
+      "published_sha256": "79dfb58918597a9ddae224423af44ae9066afb6211cecdf5e1b47a4ff9e3595b",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1099
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/guard/ledger.jsonl",
+      "raw_sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee",
+      "published_sha256": "d74566ba8ef6e939207ea15d7f5a9627cf7a0051f8ba5f5dcf638ba5c91276e6",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3989
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/guard/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/guard/STOP.json",
+      "raw_sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e",
+      "published_sha256": "41d4bb2ca1efc2d1d2a759091f9fa0acb6137c889d2336691098142c304c85f7",
+      "sanitized_or_normalized": true,
+      "published_bytes": 323
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/host_budget/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/host_budget/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/host_budget/ledger.jsonl",
+      "raw_sha256": "c3519399216c307206f92d69363325d3cd830262b7c4117c4fc5396aef839c66",
+      "published_sha256": "8b439f359b9bd69e19e8389d5a312937fc55a2981cc75a003e454da2b8588630",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3400
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/host_budget/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/host_budget/STOP.json",
+      "raw_sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6",
+      "published_sha256": "ae8422644db3ff97670132ec814654cad6350a527fd6cea59b866f9797139f69",
+      "sanitized_or_normalized": true,
+      "published_bytes": 361
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/interrupt/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/interrupt/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/interrupt/ledger.jsonl",
+      "raw_sha256": "9bf1e29ac88f95611a3caeef46d63a1224152f0a52ac04b34c59f21dd912d4a8",
+      "published_sha256": "0299ba74e640f44369a518d9e8374b711b04b3901e3410c5dd7f164e05548a93",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3803
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/interrupt/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/interrupt/STOP.json",
+      "raw_sha256": "52dd0340a1113b355cf9cb9220482a5f9e5cd0cae87dbebc8038371d30980fd5",
+      "published_sha256": "a4fe6adc3550878fb920f87732e4b8a90510fb3be3f4ea8aa04d96539f930684",
+      "sanitized_or_normalized": true,
+      "published_bytes": 321
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/memory_unknown/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/memory_unknown/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/memory_unknown/ledger.jsonl",
+      "raw_sha256": "0861d7dfe819c68521b9ca4a047c8db68054b90e84ebf43bfcbee85350fbe528",
+      "published_sha256": "26d3f2a59757b6c6a1284d190e028029f1c395cb41b527343fe514988499c5a2",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3394
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/memory_unknown/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/memory_unknown/STOP.json",
+      "raw_sha256": "069c67e6bef11471141a54c1b5f77a834003b799dbb8d295fd874d41ebfe13f6",
+      "published_sha256": "ae8422644db3ff97670132ec814654cad6350a527fd6cea59b866f9797139f69",
+      "sanitized_or_normalized": true,
+      "published_bytes": 361
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/mismatch/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/mismatch/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/mismatch/02.response.json",
+      "raw_sha256": "2308b08b2906301f3bf488b94560145762b0fe37a595f6ed2c2a6583e56c1c33",
+      "published_sha256": "051167db21bef245bfbc08863928e116fdb6f1de9817d08514afe7b8ed294490",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1099
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/mismatch/ledger.jsonl",
+      "raw_sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee",
+      "published_sha256": "d74566ba8ef6e939207ea15d7f5a9627cf7a0051f8ba5f5dcf638ba5c91276e6",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3989
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/mismatch/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/mismatch/STOP.json",
+      "raw_sha256": "7d7bea839b2c845d7ed4b06e0b8d2d04d64afdd72bf931a2186de34acb6f420e",
+      "published_sha256": "41d4bb2ca1efc2d1d2a759091f9fa0acb6137c889d2336691098142c304c85f7",
+      "sanitized_or_normalized": true,
+      "published_bytes": 323
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/missing_cancel/00.response.json",
+      "raw_sha256": "f103d6e071c4002e97cc289af60368538e2cfbc4222f1fc7f6aef14317362b16",
+      "published_sha256": "e5835df7b7d68bc2d9d04fea101fc737d9cbf8d93df8f8d4a1f9f5462bbb427a",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/missing_cancel/ledger.jsonl",
+      "raw_sha256": "791124da4c9c020d8448daba68598910d14f03f2adf0d75dcef6e1a089d69209",
+      "published_sha256": "d5a08d5108c39971ea878aa42aae827c0fbaa099bde86cbcd19a7a79efd9aa36",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1480
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/missing_cancel/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/missing_cancel/STOP.json",
+      "raw_sha256": "069ea98941eb56ea5b0c460637a54944cddb135abd65a8e78f95a97af85a776c",
+      "published_sha256": "65f4d365d2459ebed2e803c774e2b5840d113b53a582eedd3d979e537dfea7c3",
+      "sanitized_or_normalized": true,
+      "published_bytes": 317
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/02.response.json",
+      "raw_sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f",
+      "published_sha256": "1c465cd004bc652bfb5972a798ec8446b2af0f65b4e6c0882dea5e6921a2ac5d",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1098
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/03.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/04.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/05.response.json",
+      "raw_sha256": "b998316b2ab0e2e28759a2c2176d9d9cde1b0aa1eea76f21ad2d0393dca0c2f5",
+      "published_sha256": "f7f50e6c3421a682c79626b254a2de71639a1849d6d10e1f71e09cae9b7b6b20",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1098
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/06.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/07.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/08.response.json",
+      "raw_sha256": "b998316b2ab0e2e28759a2c2176d9d9cde1b0aa1eea76f21ad2d0393dca0c2f5",
+      "published_sha256": "f7f50e6c3421a682c79626b254a2de71639a1849d6d10e1f71e09cae9b7b6b20",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1098
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/09.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/10.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/11.response.json",
+      "raw_sha256": "4df1012318194e096e742e4870e184d36a51543f4c6386b336b61a4748e3d43f",
+      "published_sha256": "1c465cd004bc652bfb5972a798ec8446b2af0f65b4e6c0882dea5e6921a2ac5d",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1098
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/ledger.jsonl",
+      "raw_sha256": "08cce5e42879f623f417b758407ae3078a2cb745e8b5595368a1babe59c9830b",
+      "published_sha256": "811b38b065e41a14bb32a6962decc15ee442ae602340b1624d21aab6212f169e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 17341
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/nominal/RECEIPT.json",
+      "raw_sha256": "62feb1b748f1bc26bd05bb02ddb4794dd4fa84b1f2428bf367b645c3c7aac334",
+      "published_sha256": "341e1fb70322bf2262e6e2cb480d5eef71ff9b77eb35624f8318192e2e5fa3d5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 16926
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/retirement/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/retirement/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/retirement/02.response.json",
+      "raw_sha256": "27feb735281b711faba433e67c056f4dda0713712ba283f9e95a8715d8e7b4ad",
+      "published_sha256": "e853bcb4dffd3de89502bcb6bbb9885c12d1f638ce08c7d8a81d54c9648efc9b",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1099
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/retirement/ledger.jsonl",
+      "raw_sha256": "438d3f8326b035c9321eca636d89b8ef4a1e1db63f1190826db3e4038fc10eee",
+      "published_sha256": "d74566ba8ef6e939207ea15d7f5a9627cf7a0051f8ba5f5dcf638ba5c91276e6",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3989
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/retirement/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/retirement/STOP.json",
+      "raw_sha256": "b64b3390e551c10ffc9be893a7e31f3ce249dcbbba605e20e47cfcd60849d8f3",
+      "published_sha256": "36d596e7fd12cd367b01b9add7419ab3f65e30ee31eb8463ad66528aa90aab72",
+      "sanitized_or_normalized": true,
+      "published_bytes": 324
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/sample_budget/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/sample_budget/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/sample_budget/ledger.jsonl",
+      "raw_sha256": "2b74b1d17f7d4b70fcd9c0e41804c5590bad40293d2857abb3e5599d992f479d",
+      "published_sha256": "8b2093a1058f3ae84d96a27ba11a91107399b431457745e6aa3584f6ed536a73",
+      "sanitized_or_normalized": true,
+      "published_bytes": 14609
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/sample_budget/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/sample_budget/STOP.json",
+      "raw_sha256": "34ed2f09a888a6e7de5df1e372429854051c7608b0b6f1e4e1e2029aa9db72eb",
+      "published_sha256": "63c5a59a9c3526eec739d015fc518a67c1bfe271c40ef20c29ee4c95f082baec",
+      "sanitized_or_normalized": true,
+      "published_bytes": 320
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/storage_budget/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/storage_budget/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/storage_budget/ledger.jsonl",
+      "raw_sha256": "b6f09470fb67f540c279630b609751b319f99020a90a97aac5dbf4ad297d92bd",
+      "published_sha256": "8afc2c9eda42b6eff338b241c941bc285d782f4e4c0a4436545229c83b30fc52",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3517
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/storage_budget/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/storage_budget/STOP.json",
+      "raw_sha256": "5425e2c9c4a7a1b2e864da4131990909c2ae8742acb8989041ef3b22452ec75c",
+      "published_sha256": "f43d874820749940d24bd679664e7aa6a28f9e904e5048c5cdc4bca05577619f",
+      "sanitized_or_normalized": true,
+      "published_bytes": 320
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/TEST_RESULTS.json",
+      "raw_sha256": "b32138569900db1a3bc2e75f3db8e26af84fb5948a74bb7cad4ef85907febf4b",
+      "published_sha256": "e79be6aa3362f268f127b9644f7eda95385d7b12d5820ad38edcb8a4c26b5e7f",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1691
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/watchdog/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/watchdog/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/watchdog/ledger.jsonl",
+      "raw_sha256": "0ede37d36e704daebc1e34237402b5474fe21ca1da8845c28b95d27990f1d95c",
+      "published_sha256": "c840833a4041197f1a107a37ad3ffd446fcfdc239aa8bf86cc6288aec328818c",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3497
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/watchdog/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/watchdog/STOP.json",
+      "raw_sha256": "6a65c48d68f4cee137588ddb20b335dc6780170b56cd317a53547ef92b1898a1",
+      "published_sha256": "cc62e584909adf5abf2b889958d7513e1d368c94063d292ed534060fc45c9857",
+      "sanitized_or_normalized": true,
+      "published_bytes": 316
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/wrong_order/00.response.json",
+      "raw_sha256": "7cba33227cfbf5ff21b809611f4f28103efdf78ed220e3e16d3201ddbd1718cd",
+      "published_sha256": "6e78861d18643947841284c4b9ef2d9e09869e1be60f9e2705601a0f5fed374e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/wrong_order/01.response.json",
+      "raw_sha256": "8a22a095242d709ebc59deaddbc5c52c17e9ac6566fed4ead536be8d2433f2ea",
+      "published_sha256": "375157151bccaa6a9037240190ef59889ca20b019cd1d4f0c9ffb79f1a31dcd5",
+      "sanitized_or_normalized": true,
+      "published_bytes": 1094
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/wrong_order/ledger.jsonl",
+      "raw_sha256": "6dfb0bd79a28a80f3983dd5c05fc8b2ae21577611464cb681cfba45cae4ece92",
+      "published_sha256": "3d8268ec7c64b07d98d894c4cb88bb1632e91b313daf17fb2757a0cf58813e30",
+      "sanitized_or_normalized": true,
+      "published_bytes": 3693
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/wrong_order/PLAN_USED.json",
+      "raw_sha256": "8f8e9e05bfc8d5f4433ca9e0cd31cdafc7d1f8c2223a7429bac400bfc28161f3",
+      "published_sha256": "b3bf233c17b2926aad4fe64179af0f982ee3b5c2f9f026587380cab353e1d4c9",
+      "sanitized_or_normalized": true,
+      "published_bytes": 4337
+    },
+    {
+      "path": "results/CPU_MOCK_TESTS_V2/wrong_order/STOP.json",
+      "raw_sha256": "b95d0078ff80ab811a353eaf3ad9320155a9bb05ee4f91072111379782d98481",
+      "published_sha256": "d69e0df1e962e08feffd6eaea2b65d6ae6d7a51ff79e63b50eee40e53daa4495",
+      "sanitized_or_normalized": true,
+      "published_bytes": 323
+    },
+    {
+      "path": "SOURCE_BASELINE_CHECK.json",
+      "raw_sha256": "7bde7d379ef6e10c2dc9070a29cd93d2412dfe1416f88342cdaf7649defec558",
+      "published_sha256": "af7debdc2200d9cd276091fcf4d18228d20caaa26349e3c0cdec436b62e3e00e",
+      "sanitized_or_normalized": true,
+      "published_bytes": 534
+    },
+    {
+      "path": "src/host_wrapper.py",
+      "raw_sha256": "c7d1188a4ae5e330fb3501c32b183f3f6850b8de3bfa990d886826ad952a7887",
+      "published_sha256": "c7d1188a4ae5e330fb3501c32b183f3f6850b8de3bfa990d886826ad952a7887",
+      "sanitized_or_normalized": false,
+      "published_bytes": 12371
+    },
+    {
+      "path": "src/mock_backend.py",
+      "raw_sha256": "9cc9ea3a20dc9101aaa91d3e1eb7d2ba00d1088a0e8d016464555eea49817848",
+      "published_sha256": "9cc9ea3a20dc9101aaa91d3e1eb7d2ba00d1088a0e8d016464555eea49817848",
+      "sanitized_or_normalized": false,
+      "published_bytes": 4934
+    },
+    {
+      "path": "tests/run_mock_tests.py",
+      "raw_sha256": "41690eec0982079fe0e72e0ed52b2a4840a29c73e2874d58264b7fd216f14a5a",
+      "published_sha256": "41690eec0982079fe0e72e0ed52b2a4840a29c73e2874d58264b7fd216f14a5a",
+      "sanitized_or_normalized": false,
+      "published_bytes": 6000
+    }
+  ]
+}

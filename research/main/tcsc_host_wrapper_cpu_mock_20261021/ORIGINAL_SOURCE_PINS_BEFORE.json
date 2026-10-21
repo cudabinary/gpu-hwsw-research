@@ -1,0 +1,6 @@
+{
+  "build/owner_controls_v1.exe": "fae72a0eb71507315058b90f6753fbe913e2c7ac914142037317d1ee852d44e7",
+  "build/rcc_kernels.cubin": "7cea25e119f9e1abbc583cb423db03db5d84f67c1b0dc02cc7170d3ef6b12836",
+  "src/owner_controls_v1.cpp": "b9ebee00cfd5e45d336b37599672206c1e320c2b7be1f70497a8ae2c1fa1ef1b",
+  "tools/session_runner.py": "1e66bf125bc9661c710d957b8e8dd0353a89dcb3b62b7b572727970bdef02664"
+}

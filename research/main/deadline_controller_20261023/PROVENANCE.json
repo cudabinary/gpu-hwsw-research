@@ -1,0 +1,30 @@
+{
+  "checks": "Exact allowlist and content review; no research tests were rerun.",
+  "producer_package_sha256": "5905d5013bd82aa81162c251c3505dd2161aed7a549ba024a8437fc2959d82bf",
+  "publication_commit_is_execution_commit": false,
+  "schema": "curated-backup-payload-v1",
+  "source_execution_git_commit": null,
+  "source_members": [
+    {
+      "bytes": 8382,
+      "original_member": "MAIN_DEADLINE_FIX_AND_CANDIDATE_SCREEN_CPU_20261023/campaign_controller.py",
+      "sha256": "8bccba7170d07a70edf37b114e59e57380971035d85cf9c9185cee0a76148abe"
+    },
+    {
+      "bytes": 182,
+      "original_member": "MAIN_DEADLINE_FIX_AND_CANDIDATE_SCREEN_CPU_20261023/cpu_fixture.py",
+      "sha256": "b2086903b59ff5c269afaf68353e9968d5aba6c0373612dc3b1bea08cdce98a6"
+    },
+    {
+      "bytes": 5798,
+      "original_member": "MAIN_DEADLINE_FIX_AND_CANDIDATE_SCREEN_CPU_20261023/test_controller.py",
+      "sha256": "f81f2ab6b1375b26c8baa83330644a008bfd94058ce0ace299ba5bb6e11256e7"
+    },
+    {
+      "bytes": 11795,
+      "original_member": "MAIN_DEADLINE_FIX_AND_CANDIDATE_SCREEN_CPU_20261023/REPORT.md",
+      "sha256": "a20082507e72ae1bcd050aa21ceb6093a68bfbfda945be1fba93bc3f9b417c8d"
+    }
+  ],
+  "third_party_payload": "No vendor/data/weight source selected; original Python imports are standard library plus local controller."
+}

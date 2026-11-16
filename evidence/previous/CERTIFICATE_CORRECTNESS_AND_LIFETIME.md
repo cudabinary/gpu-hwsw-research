@@ -1,31 +1,13 @@
-# 정확성, 증거와 수명
+# Correctness, certificates, and lifetime
 
-계약은 불변 directed unweighted multigraph의 전체 최단거리 배열이다. 중복 간선과 self-loop를 보존한다.
-모든 shortest-path 수, edge callback, 방문 순서, 가중 그래프에는 이 종료 조건을 확장하지 않는다.
+The contract is a complete shortest-distance array for an immutable, directed, unweighted multigraph. Duplicate edges and self-loops are preserved. The stopping conditions cover distances. Counting all shortest paths, emitting edge callbacks, preserving visitation order, and weighted graphs are outside this contract.
 
-RCC: 과거 완료 BFS의 도달 집합 R에서 s∈R이면 Reach(s)⊆R이다.
-정확한 발견 수가 유효 상한 |R|에 도달하면 더 발견할 정점이 없다.
-TABLE[v]는 v를 포함한 완료 집합 크기의 최솟값이고, LAST는 최근 완료 결과만 사용한다.
-oracle의 실제 도달 수를 실행 상한으로 주입하는 공개 API는 없다.
-RIE: remaining은 미발견 정점들의 정확한 indegree 합이다.
-0이면 미발견 정점으로 들어갈 간선이 없으므로 추가 도달이 불가능하다.
-EARLY_N과 RIE는 기존 메타데이터의 충분조건이며 학술적 최초성은 주장하지 않는다.
+For RCC, if `s ∈ R` for a previously completed BFS's reachable set `R`, then `Reach(s) ⊆ R`. Once the exact discovered count reaches a valid bound `|R|`, no further reachable vertices remain. `TABLE[v]` stores the minimum size among completed sets containing `v`. LAST uses only the most recent completed result. The public API provides no way to inject an oracle reachability count as a bound.
 
-Direction의 frontier queue는 전체 방문 목록이 아니다. TABLE 갱신은 완료 distance 배열만 읽는다.
-미완료·cancel·출력 할당 실패는 새 Output/certificate를 공개하지 않고 이전 유효 인증을 보존한다.
-TABLE 갱신 전에 owned output 할당이 완료되며 그 이후 갱신은 할당 없는 루프다.
-cache 예산 부족 또는 주입된 할당 실패 시 강한 PUSH_N/DO_RIE로 돌아간다.
-같은 숫자 version이라도 다른 Graph 객체의 reverse는 거부한다.
-Graph 변경은 새 Executor로 수행한다. mutable CSR의 동시 갱신은 지원하지 않는다.
+For RIE, `remaining` is the exact sum of indegrees of undiscovered vertices. When it reaches zero, no incoming edge can lead to an undiscovered vertex. EARLY_N and RIE are sufficient conditions derived from existing metadata. Their academic priority remains outside the claim.
 
-한 Executor는 한 owner thread만 변경한다. 이 연구는 cache 동시 writer 지원이나 lock-free publication을 주장하지 않는다.
-기존 Catalog의 mutex/epoch/shared_ptr reverse 수명 계약은 유지한다.
-owned const Output과 graph 소유권이 reader 수명을 보장한다.
-소형 전수/무작위 검사에서 모든 source의 실제 도달 수와 상한 부등식을 진단용으로 비교했다.
-취소, 재시작, invalid source, graph identity, cache/output allocation 실패, Executor 파괴 후 reader를 검사했다.
-sanitizer는 이번에 실행하지 않았으며 기존 sanitizer PASS를 새 코드에 이월하지 않는다.
+The Direction frontier queue holds the current frontier. TABLE updates read only the completed distance array. Incomplete runs, cancellations, and output allocation failures preserve the previous valid certificate and publish no new output or certificate. Owned output allocation finishes before TABLE updates, which then run without allocation. When the cache budget is insufficient or allocation failure is injected, execution falls back to exact PUSH_N or DO_RIE. Reverse indexes from a different graph object are rejected even when the numeric version matches. Use a new executor for graph changes. Concurrent mutation of the CSR is unsupported.
 
-GPU는 단일 owner stream으로 레벨 완료를 기다린 뒤 counter를 읽는다.
-atomicCAS 성공 때만 distinct 수/정확 indegree를 더하며 같은 stream의 kernel 종료가 publication 경계다.
-GPU Push는 CPU와 달리 행 중간/행 경계가 아닌 레벨 경계 종료다. 동일한 최소거리 계약이지만 생략량은 다를 수 있다.
-GPU TABLE은 host의 완료 배열로만 갱신하며 device-side 공유 certificate queue를 새로 만들지 않았다.
+One owner thread mutates an executor. Concurrent cache writers and lock-free publication are outside the contract. The original Catalog's mutex, epoch, and shared-ownership reverse-index contract still applies. Owned immutable outputs and graph ownership keep readers valid. Small exhaustive and randomized checks compared the actual reachability count and the bound for every source. Tests covered cancellation, restart, invalid sources, graph identity, cache and output allocation failures, and readers that outlive the executor. This checkpoint did not run sanitizers.
+
+The GPU owner uses a single stream and reads counters after the level completes. Only a successful `atomicCAS` adds a newly discovered vertex to the distinct count and, when statistics are enabled, adds its exact indegree to the level's discovered indegree total. Kernel completion on that stream is the publication boundary. GPU Push stops at level boundaries, while the CPU can stop at row boundaries. Both return the same shortest distances, and the amount of work avoided may differ. GPU TABLE updates use the completed host array. There is no device-side shared certificate queue.

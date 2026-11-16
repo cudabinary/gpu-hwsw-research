@@ -1,9 +1,9 @@
-# 연구 후보 ledger
+# Research candidates
 
-| 후보 | 단계 | 다음 증거 | 병합 상태 |
+| Candidate | Stage | Evidence needed | Integration status |
 |---|---|---|---|
-| 이전 BFS 도달 집합을 이용한 다음 검사 영역 제한 | DISCOVERY | 기존 RCC/RIE/WCC/도달성 인덱스 대비 고유 생략, 전체 비용, 반례·무효화 | 기본 RCC/MAIN 미병합 |
-| GPU 공통 API backend | engineering prerequisite | 실제 모듈 교체·수명·오류·취소·안전성 | CUDA 호환 선언 금지 |
-| 미래 준비와 현재 작업의 자원 간섭 분리 | MAIN question | 강한 GPU SW baseline 뒤 instruction/SM/L2/DRAM/launch 기여 구분 | HW 기여 미확정 |
+| Use a prior BFS reachable set to narrow the next search | DISCOVERY | Unique work avoided versus RCC, RIE, WCC, and reachability indexes, plus total cost, counterexamples, and invalidation | Outside default RCC and MAIN |
+| Shared CUDA API backend | Engineering prerequisite | Actual module substitution, lifetime, error, cancellation, and safety tests | CUDA compatibility pending |
+| Isolate contention between current work and preparation for future requests | MAIN research question | Attribute instruction, SM, L2, DRAM, and launch costs after applying a strong GPU software baseline | Hardware contribution undetermined |
 
-새 기술마다 branch를 자동 생성하지 않는다. 실험 branch와 paper branch는 구분한다. MAIN은 RCC 내부 개발을 수행하지 않는다.
+Use experiment branches and paper branches for their respective stages. Create branches as needed. RCC algorithm development takes place on the RCC track.

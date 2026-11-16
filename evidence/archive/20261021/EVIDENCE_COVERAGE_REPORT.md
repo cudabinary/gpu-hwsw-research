@@ -1,11 +1,11 @@
 # Evidence coverage
 
-조사 범위는 기존 16개 연구 루트이다. OS 전체, 제외된 캐시·의존성 환경·인증 파일을 백업했다는 뜻이 아니다. 제외 목록·빈 폴더·심볼릭 링크 메타데이터는 Private B2 복원 Manifest에 보존한다. 링크는 무조건 따라가거나 원래 컴퓨터의 절대 경로로 복원하지 않는다.
+The survey covered 16 existing research roots. It excluded the operating system, designated caches, dependency environments, and credentials. The private B2 restore manifest retains the exclusion list, empty directories, and symbolic-link metadata. Restoration avoids blindly following links or pointing them to absolute paths on the original computer.
 
-실제 원격 데이터 전체를 내려받아 물리 객체 해시와 재구성된 원래 파일 해시를 확인했다. 별도 Python 격리 프로세스는 원본 연구 경로를 읽지 않고 새 빈 폴더에서 대표 파일을 복원했다. 구체적인 수량은 JSON의 `restore_validation`을 참조한다. 다른 물리 컴퓨터의 검증과 전체 논리 용량의 디스크 실물 복원은 아직 수행하지 않았다.
+The validation downloaded all remote data, checked physical object hashes, and reconstructed the original file hashes. A separate Python process restored representative files into a new empty directory without reading the original research paths. See `restore_validation` in the JSON for counts. Validation on a second physical machine and materializing the full logical dataset on disk remain outstanding.
 
-SQLite 6개는 mode=ro 온라인 백업 및 integrity_check를 통과한 파생 DB 스냅샷을 사용한다. 원시 DB/WAL/SHM을 따로 복사한 조합의 일관성을 주장하지 않는다. 여러 DB 사이의 동시점 일관성도 미입증이다.
+The six SQLite databases have derived snapshots created through online backup in read-only mode (`mode=ro`) and checked with `integrity_check`. The separately copied raw database, WAL, and SHM files have no combined consistency guarantee. Point-in-time consistency across databases remains unverified.
 
-최초 조사 중 바뀐 PAPER_SCOUT state.json은 두 번의 전체 읽기가 일치하고 JSON 구문이 유효한 별도 버전으로 보충했다. 실행 중인 PAPER_SCOUT는 중단하지 않았다. 최초 pending 기록은 역사 기록으로 보존하며 최종 checkpoint의 supplemental location이 이를 연결한다.
+PAPER_SCOUT's `state.json` changed during the first survey. A supplemental version was captured after two matching full reads and validation of the JSON syntax. The running process continued. The initial pending status remains in the historical record, and the final checkpoint links the supplemental location.
 
-CSV·로그의 존재와 해시 검증만으로 성능 주장을 검증하지 않는다. CPU, 실제 GPU, 합성 모델, 정적 컴파일, 미실행 계획은 원래 조건을 유지한다. 원시 CSV/로그가 없는 주장은 증거 누락 상태이며 이 백업으로 보완됐다고 간주하지 않는다. 과거 Evidence Index 및 claim links의 원본은 B2에 보존되어 있다.
+Hash verification establishes that CSVs and logs were preserved. Performance claims still depend on the experiment's evidence and scope. Retain the distinctions among CPU measurements, actual GPU runs, synthetic models, static compilation, and plans that were never run. Claims without underlying CSVs or logs still lack that evidence. The earlier evidence index and claim links are preserved in B2.

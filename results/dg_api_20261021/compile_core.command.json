@@ -14,7 +14,7 @@
     "-c",
     "research/dg_api_module.cpp",
     "-o",
-    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/core.o"
+    "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/core.o"
   ],
   "returncode": 0,
   "seconds": 3.2591979120000047

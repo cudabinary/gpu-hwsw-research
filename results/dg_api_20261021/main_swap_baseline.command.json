@@ -1,7 +1,7 @@
 {
   "argv": [
-    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/main_client",
-    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/baseline.so"
+    "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/main_client",
+    "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/baseline.so"
   ],
   "returncode": 0,
   "seconds": 0.12295045100000834

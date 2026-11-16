@@ -1,18 +1,18 @@
-# 호환성 증거 범위
+# Compatibility evidence
 
-| 항목 | CPU API1.0.0 | CUDA API1.0.0 |
+| Check | CPU API 1.0.0 | CUDA API 1.0.0 |
 |---|---|---|
-| 비활성화/무인증 exact fallback | PASS | 미구현 |
-| 활성 전체 배열·baseline 교체 | PASS | 미구현 |
-| identity/version/instance 거부 | PASS | 미구현 |
-| 변경 후 무효화·재준비 | PASS | 미구현 |
-| pre-cancel/행 예산·비공개 부분 상태 | PASS | 미구현 |
-| 캐시·출력 할당 실패 주입 | PASS | 미구현 |
-| 반복 요청·release 후 독자 | PASS | 미구현 |
-| TABLE/LAST 같은 인터페이스·알 수 없는 API 거부 | PASS | 미구현 |
-| MAIN/RCC worktree 동일 client 결과 | 최종 CROSS_WORKTREE.json 참조 | 미검증 |
-| 백엔드 지원 선언 | CPU true | CUDA false, UNSUPPORTED 반환 검사 |
+| Exact fallback when disabled or no certificate is available | PASS | Pending implementation |
+| Full arrays and baseline swap with RCC enabled | PASS | Pending implementation |
+| Rejection of mismatched graph identity, version, or instance | PASS | Pending implementation |
+| Invalidation and preparation after a graph change | PASS | Pending implementation |
+| Pre-cancellation, row budget, and private partial state | PASS | Pending implementation |
+| Injected cache and output allocation failures | PASS | Pending implementation |
+| Repeated requests and readers that outlive release | PASS | Pending implementation |
+| Shared TABLE/LAST interface and rejection of unknown API versions | PASS | Pending implementation |
+| Same client results across MAIN and RCC worktrees | See the final `CROSS_WORKTREE.json` | Unverified |
+| Backend capability reporting | Reports CPU support | Reports CUDA unavailable and rejects CUDA requests |
 
-동적 모듈은 동일 toolchain ABI를 가정한다. library unload는 지원하지 않으며 서로 다른 compiler ABI 호환성이나 미래 미작성 RCC v2/v3를 테스트했다고 하지 않는다.
+Dynamic modules require a matching toolchain ABI and remain loaded throughout the process. Coverage is limited to the current compiler ABI and API 1.0.0. Future RCC v2/v3 interfaces remain untested.
 
-역사적 CUDA owner의 36BFS+12취소 PASS 및 이번 복사본 정적 compile/link는 별도 증거다. 새 GPU 공통 API 호환성 검증에는 사용할 수 없다. 새 CUDA backend는 모든 해당 테스트 통과 전 통합 가능으로 선언하지 않는다.
+The historical CUDA owner passed 36 BFS runs and 12 cancellation checks. The static build of the preserved copy provides separate compile and link evidence. Shared CUDA API compatibility requires a backend that passes the applicable tests.

@@ -6,13 +6,13 @@
   },
   {
     "path": "README_FIRST_KO.md",
-    "bytes": 2227,
-    "sha256": "3ed53917ec7698b70a963b08f4dcc3895bb084ec8b653c3ad662360d891d6bad"
+    "bytes": 2221,
+    "sha256": "afea9d585ca80f229bb7e4297eeed8d17209c6e8fc62b526f29ce250ba82307e"
   },
   {
     "path": "REPRODUCE.md",
-    "bytes": 2826,
-    "sha256": "e6683a3f800503be1fd88ef633df8eb24ba4433daf9d545f44b3c33975aa868e"
+    "bytes": 2710,
+    "sha256": "fb6b884db0e1b65a2da88299139e384a25b5e7ecda533a6dcc5c82308d8dc254"
   },
   {
     "path": "build/distance_probe",
@@ -26,23 +26,23 @@
   },
   {
     "path": "docs/CODEX_MERGE_NOTES_KO.md",
-    "bytes": 2359,
-    "sha256": "77600ddb5282b2c29966734a065a0f18085e9d8f185ff5c5607fa544a9def0c4"
+    "bytes": 2121,
+    "sha256": "0890f1caf631df5febac81d19429d75f66ade0f17bc735e71d7c70f9c6aa857f"
   },
   {
     "path": "docs/DESIGN_PROOF_KO.md",
-    "bytes": 5991,
-    "sha256": "501f1b32265ca03d96349f5ce61e6c660f49f207ff8c5f7337e24c7b4eccb7f5"
+    "bytes": 5156,
+    "sha256": "8086a866c2dc3402a824cc98ea5a857d1b4c7f2e540e4bd05b4840b57450d007"
   },
   {
     "path": "docs/INDEPENDENT_RESULTS_KO.md",
-    "bytes": 9046,
-    "sha256": "4df71e749c6d12e5ca29d23839bda69e6a49cbc52022a020915e3cdabf21f854"
+    "bytes": 7415,
+    "sha256": "42d18d1fd7630a21186e93644ddde8be5b712505298793c2db5a6074ca51a2ca"
   },
   {
     "path": "docs/PRIOR_WORK_KO.md",
-    "bytes": 2551,
-    "sha256": "1f57699b5720c521ef7905a360758761fd5f4b64c2cbd9b148a6888541e9e76d"
+    "bytes": 1996,
+    "sha256": "0cbe65dd29bf796d35f5803cb727225a6cc69f03c14453666c71ceae72ceeca9"
   },
   {
     "path": "docs/UPSTREAM_FILES.json",

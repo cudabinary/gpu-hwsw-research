@@ -38,44 +38,29 @@ save('CPU_PLAN_A_INTERFERENCE.csv',a)
 audit=dict(status='LIMITATION_CONFIRMED',consumer_controls=controls,corrected_comparison_rows=len(out),new_benchmark_processes=0,original_P2_is_LJ_resident_winner=True,DO_RIE_over_OLD_P2=lj['median_paired_ratio'],service_original_P0_P2_not_measured=True,reason='Initial service gate enumerated only new modes and omitted the original P2. No remeasurement after the fixed 3-process/7-round budget. Universal strongest end-to-end winner remains UNKNOWN.')
 (P/'audit/STRONG_BASELINE_LIMITATION.json').write_text(json.dumps(audit,indent=2),encoding='utf-8')
 notice=f"""
-## 최종 강한 대조군 감사 — 반드시 함께 읽을 한계
+## Strongest-baseline audit
 
-원본 OLD_P2도 합법적인 비-RCC 기준선이다. 새 RIE가 항상 가장 강하다고 볼 수 없다.
-LJ original의 상주 소비자에서 OLD_P2 / PUSH_N은 0.7263배였고,
-DO_RIE / OLD_P2의 짝 중앙값은 **{lj['median_paired_ratio']:.4f}배**였다.
-같은 adapter의 DO_N에 비해 RIE가 일을 줄여도, frozen P2보다 최종 시간이 짧다는 뜻은 아니다.
-정확 discovered count/종료 검사, bridge의 validation/control 구조와 코드 생성 비용이 다르며,
-그 각각의 시간 기여를 분리 측정하지 않았으므로 특정 한 연산을 원인으로 단정하지 않는다.
+Original OLD_P2 is a valid non-RCC baseline. With the original LiveJournal input and a resident consumer, OLD_P2 took 0.7263 times as long as PUSH_N. The median paired DO_RIE / OLD_P2 ratio was **{lj['median_paired_ratio']:.4f}**. RIE reduced work relative to DO_N within the same adapter. Runtime also depends on exact discovery counting, termination checks, the bridge's validation and control logic, and code generation. The experiment did not isolate those individual contributions.
 
-초기 서비스 후보 목록에서 OLD_P0/OLD_P2를 누락했다. `config/service_modes.txt`와 초기 집계는
-그대로 보존했고, 추가 CPU benchmark는 실행하지 않았다. CPU_INCREMENTAL_VALUE.csv는 기존 raw만
-재집계하여 OLD_P0/OLD_P2까지 포함한 최강 resident 대조군으로 수정했다.
-초기 파일은 results/INITIAL_GATE_INCREMENTAL_SUMMARY.csv에 보존했다.
+The initial service gate omitted OLD_P0 and OLD_P2. The configuration in `config/service_modes.txt` and the original aggregation were preserved. `CPU_INCREMENTAL_VALUE.csv` was regenerated from existing raw data to include these modes in the strongest resident baseline. The initial aggregation is retained in `results/INITIAL_GATE_INCREMENTAL_SUMMARY.csv`. No additional CPU benchmark was run at this checkpoint.
 
-따라서 Push+RCC_TABLE의 cold q32 0.7999배(PUSH_N 대비),
-0.8999배(이번에 서비스에서 측정한 순차 DO_RIE 대비)는 실제 측정 범위의 성과다.
-**동일 owned-output 계약의 원본 P2 전체 서비스까지 포함한 최종 승자는 UNKNOWN**이다.
-과거 P2의 0.840713 수치를 이번 결과에 섞어 그 빈칸을 메우지 않는다.
-최소 추가 증거는 frozen P2의 순차/ready 서비스와 Push+RCC_TABLE을 동일 출력 계약으로 짝 비교하는 것이다.
-이번 3개 CPU 프로세스 × 7회 한도를 초과해서 그 보완 실험을 숨겨 실행하지 않았다.
+In the measured cold q32 service, Push+RCC_TABLE took 0.7999 times as long as PUSH_N and 0.8999 times as long as sequential DO_RIE. **The strongest full-service path remains unknown at this checkpoint**, pending a comparison with original OLD_P2 under the same owned-output contract. The earlier P2 value of 0.840713 used a different measurement boundary. The minimum follow-up is a paired comparison of frozen P2's sequential and ready paths against Push+RCC_TABLE under the same output contract. It was outside this checkpoint's completed budget of three CPU processes with seven rounds each.
 
-GPU pilot은 두 후보의 정확성만 확인했으므로 이 CPU 대조군 누락을 보완하지 않는다.
-GPU graph-version mismatch/할당 실패/dispatch cap을 실제 오류로 주입하지 않았고,
-그 부분은 CPU 검사 또는 정적 guard에 머문다. 실제 GPU의 cancellation/source 교대와 전체 배열 검사는 PASS다.
+The GPU pilot checked correctness for two candidates and their controls. It passed cancellation, source switching, and full-array comparisons. Graph version mismatch, allocation failure, and dispatch limits were covered through CPU tests or static guards. The pilot did not inject those failures on the GPU or measure the missing CPU baseline.
 """
 for name in ('README_FIRST_KO.md','FINAL_DECISION.md','COST_AND_INTERFERENCE_ANALYSIS.md','SOURCE_BASELINE_RECONCILIATION.md'):
     p=P/name;text=p.read_text(encoding='utf-8')
-    if '## 최종 강한 대조군 감사' not in text:
+    if '## Strongest-baseline audit' not in text:
         first,rest=text.split('\n',1);p.write_text(first+'\n'+notice+'\n'+rest,encoding='utf-8')
 p=P/'REPRODUCE.md';text=p.read_text(encoding='utf-8')
-if '최종 집계 감사는' not in text:text+='\n최종 집계 감사는 `python tools/report.py` 다음 `python tools/strong_control_audit.py` 순서다. 후자는 기존 CSV만 읽으며 성능 실행을 하지 않는다.\n'
+if 'Run the final aggregation audit' not in text:text+='\nRun the final aggregation audit with `python tools/report.py` followed by `python tools/strong_control_audit.py`. The audit reads existing CSV results and runs no benchmarks.\n'
 p.write_text(text,encoding='utf-8')
 # q-by-q A interference is explicitly separated from service completion.
 picked=[r for r in a if r['graph']=='livejournal_sampled_4096' and r['q']=='32' and r['mode'] in ('PUSH_RCC_TABLE','DO_RIE') and r['path'] in ('csr','deferred','concurrent')]
-text='\n## A 간섭 짝 비교 (LJ original q32)\n\n| Mode | Path | Metric | Median ratio / PUSH_N service |\n|---|---|---|---|\n'
+text='\n## Paired interference with A on the original LiveJournal input at q32\n\n| Mode | Path | Metric | Median ratio / PUSH_N service |\n|---|---|---|---|\n'
 for r in picked:text+=f"| {r['mode']} | {r['path']} | {r['metric']} | {r['median_paired_ratio']:.4f} |\n"
-text+='\n미세한 차이나 간섭 1% 이하를 판정하지 않는다. A completion에는 선행 할당·thread 시작·인증 공개가 포함된다.\n'
-p=P/'COST_AND_INTERFERENCE_ANALYSIS.md';previous=p.read_text(encoding='utf-8').split('\n## A 간섭 짝 비교')[0];p.write_text(previous+text,encoding='utf-8')
+text+='\nA completion includes advance allocations, thread startup, and certificate publication. The experiment did not resolve small effects or interference of 1% or less.\n'
+p=P/'COST_AND_INTERFERENCE_ANALYSIS.md';previous=p.read_text(encoding='utf-8').split('\n## Paired interference with A')[0];p.write_text(previous+text,encoding='utf-8')
 summary=json.loads((P/'results/FINAL_SUMMARY.json').read_text(encoding='utf-8'));summary['strong_service_baseline_limit']=audit
 (P/'results/FINAL_SUMMARY.json').write_text(json.dumps(summary,indent=2,ensure_ascii=False),encoding='utf-8')
 # Record the paid historical work in the warmed-certificate condition.

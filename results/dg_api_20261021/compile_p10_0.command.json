@@ -16,10 +16,10 @@
     "-DDG_DEFERRED=0",
     "-DDG_TIMERS=0",
     "research/dg_api_factory.cpp",
-    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/core.o",
-    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/consumer.o",
+    "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/core.o",
+    "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/consumer.o",
     "-o",
-    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/p10_0.so"
+    "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/p10_0.so"
   ],
   "returncode": 0,
   "seconds": 2.718339372999992

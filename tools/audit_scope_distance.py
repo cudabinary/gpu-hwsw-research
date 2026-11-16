@@ -41,7 +41,15 @@ def run(name,args,timeout=180):
 def intake_check():
     manifest=json.loads((PACKAGE/'MANIFEST.json').read_text())
     assert all(sha(PACKAGE/i['path'])==i['sha256'] and (PACKAGE/i['path']).stat().st_size==i['bytes'] for i in manifest)
-    assert sha(PACKAGE.parent.parent/'original.zip')=='c1ba7f6c6d595f84081dceb66052d76344a6685b902ccccde7e6e7c9f0a51d7c'
+    original = PACKAGE.parent.parent / 'original.zip'
+    if original.is_file():
+        original_sha256 = sha(original)
+    else:
+        # The exact source ZIP is retained in the original audit snapshot.
+        archive_ref = '8753f466eba01ee17658e9548a8048b7f7d7cf89:' + original.relative_to(ROOT).as_posix()
+        raw = subprocess.check_output(['git', '-C', str(ROOT), 'show', archive_ref])
+        original_sha256 = hashlib.sha256(raw).hexdigest()
+    assert original_sha256 == 'c1ba7f6c6d595f84081dceb66052d76344a6685b902ccccde7e6e7c9f0a51d7c'
     return len(manifest)
 def pins():
     paths=[ROOT/'research/scope_distance_audit.cpp',ROOT/'research/SCOPE_DISTANCE_PROTOCOL.json',Path(__file__),BUILD/'matched',BUILD/'scope_probe',BUILD/'distance_probe',ROOT/'api/rcc/v1.hpp']

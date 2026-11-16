@@ -1,67 +1,67 @@
-# DistanceGuard API 1.0.0 최종 실험 검증 — 2026-10-21
+# DistanceGuard API 1.0.0 experimental validation — 2026-10-21
 
-**CPU API 호환성·검사한 전체 거리 정확성 PASS. 합성 ready 한 조건의 고유 이득 유지. 기본 RCC 통합 HOLD.** Google/LJ에서는 강한 기준선과 matched ablation을 함께 이기는 실용적 전체시간 우위를 확보하지 못했다. 추가 최적화 반복·MAIN 변경·자동 병합·GPU 실행은 하지 않았다.
+**The experimental CPU plugin passed API substitution and full-distance checks. Default RCC integration is on hold.** One synthetic ready condition retained an incremental benefit. On Google and LiveJournal, the plugin failed to establish a practical full-service advantage over both strong baselines and matched ablations. The campaign ended without further optimization rounds, MAIN changes, merges, or GPU execution.
 
-## 고정 입력과 실제 MAIN
+## Pinned inputs and MAIN executable
 
-작업은 `research/rcc` worktree에서만 수행했다. 이전 독립 감사 commit `5c489f154d4c7c0bb587972ee307fcaf03a313e2`의 202개 artifact와 OLD_P2 commit `1a79b1048cc639c3c23f1000373c3ed6e10bbf7c`의 60개 artifact를 commit blob bytes/SHA256으로 확인했다. 기존 intake/results/source는 현재 파일과도 일치했다. 이전 보고서·CSV·ZIP·vendor를 수정하지 않았다. 입력 ZIP SHA256은 계속 `c1ba7f6c6d595f84081dceb66052d76344a6685b902ccccde7e6e7c9f0a51d7c`이며 92개 manifest 대상 파일이 일치한다.
+The campaign ran in the `research/rcc` worktree. It checked 202 artifacts from independent audit commit `5c489f154d4c7c0bb587972ee307fcaf03a313e2` and 60 OLD_P2 artifacts from commit `1a79b1048cc639c3c23f1000373c3ed6e10bbf7c` against Git blob bytes and SHA-256. The historical intake, results, and source also matched the files present at the time. Earlier reports, CSVs, ZIP, and vendor files stayed fixed. The input ZIP SHA-256 was `c1ba7f6c6d595f84081dceb66052d76344a6685b902ccccde7e6e7c9f0a51d7c` and all 92 manifest entries matched.
 
-**실행한 기존 `build/main_client` SHA256:**
+The existing `build/main_client` in the RCC and MAIN worktrees had the same SHA-256 before and after the campaign.
 
 ```text
 d5238d6b796509e64cab143ac5c1d75cdf368c4aba2f7325c6e309ec7483862e
 ```
 
-RCC와 MAIN worktree의 기존 MAIN executable이 같은 SHA이며 실행 전후 불변이다. `libgraph.so`도 양쪽에서 `11f75e3661fbd41a1e823d0f17f4c63e0007155d02eff6e02a23833873d5d795`로 불변이다. 기존 baseline/TABLE/LAST DSO, API header, 기본 `src/cpu_module.cpp`, MAIN client source를 고정했다. **MAIN 소스·바이너리를 수정하거나 재빌드하지 않았다.** `tools/verify.py`는 MAIN을 재빌드하므로 이번에는 호출하지 않고 기존 executable을 직접 실행했다. 공통 API 변경도 없다.
+Both copies of `libgraph.so` retained SHA-256 `11f75e3661fbd41a1e823d0f17f4c63e0007155d02eff6e02a23833873d5d795`. The baseline, TABLE, and LAST DSOs, shared API header, default `src/cpu_module.cpp`, and MAIN client source stayed pinned. The campaign ran the existing executable directly. Calling `tools/verify.py` would rebuild it. MAIN source, binaries, and API stayed fixed.
 
-MAIN HEAD `94a041c0bf300cd684ec1402244470dac499e55e`, tracked 219개 파일과 status, 원본 연구 대응 37개·vendor 37개를 전후 대조했다. 기존 MAIN의 미추적 `analysis/`, `evidence/audit/ORIGINAL_PRESERVATION_FINAL.json` 및 RCC의 이전 미추적 run도 유지했다. 상세는 `results/dg_api_20261021/{PROTECTED,FROZEN,PREVIOUS}_{BEFORE,AFTER}.json`이다.
+MAIN at `94a041c0bf300cd684ec1402244470dac499e55e`, its 219 tracked files and status, the 37 matching upstream files, and the 37 vendor files were checked before and after. Existing untracked `analysis/` and `evidence/audit/ORIGINAL_PRESERVATION_FINAL.json` on MAIN and earlier untracked RCC runs were preserved. See `results/dg_api_20261021/{PROTECTED,FROZEN,PREVIOUS}_{BEFORE,AFTER}.json`.
 
-## 구현과 계약
+## Implementation and contract
 
-새 코드는 `research/dg_api_module.cpp`, `dg_api_kernel.hpp`, `dg_api_factory.cpp`에만 독립 구현했다. 패키지의 DistanceGuard loop를 포팅하고 기존 frozen Builder/consumer/stop_bridge를 사용한다. API `0x00010000`, `rcc_create/rcc_destroy`, CPU backend만 지원한다. 기본 RCC factory나 로딩 기본값에 연결하지 않았다.
+The standalone code is in `research/dg_api_module.cpp`, `research/dg_api_kernel.hpp`, and `research/dg_api_factory.cpp`. It ports the supplied DistanceGuard loop and uses the frozen builder, consumer, and stop bridge. It implements API `0x00010000` with `rcc_create` and `rcc_destroy` for the CPU backend. The default factory and module selection do not load it automatically.
 
-완료된 API-owned immutable Output을 다음 인증의 이전 거리 배열로 보유한다. public output은 탐색·인증 publication 전에 할당하고, 완료 시 workspace에서 한 번 복사한 뒤 non-allocating shared ownership 교체로 인증을 공개한다. retained distance payload 4n bytes를 cache limit에 청구한다. 독자가 보유한 결과는 다음 run/invalidate/release/destroy 후에도 살아 있다. 라이브러리는 프로세스 종료까지 매핑을 유지한다.
+The module retains a completed API-owned immutable `Output` as the previous distance array. It allocates public output before traversal and certificate publication. After completion, it copies from workspace once and publishes the certificate by replacing shared ownership without allocation. It charges 4n bytes of retained distance data to the cache limit. Reader-owned output survives subsequent runs, invalidation, release, and destruction. The library stays mapped until process exit.
 
-같은 Graph 인스턴스·identity·version에만 인증을 적용한다. 다른 객체나 버전은 INVALID_GRAPH다. 인증 부재, 비활성화, cache limit/주입 실패에는 정확한 Push+EARLY_N을 실행한다. 유한 row_budget 요청도 guard를 사용하지 않고 행 경계 예산을 지원하는 정확한 Push 경로를 사용한다. pre-cancel 및 부분 탐색은 출력·인증을 공개하지 않는다. output 할당 주입 실패는 기존 인증을 보존한다. reverse Builder의 optional allocation 실패는 fallback하며 필수 graph/workspace/output 할당 실패는 ALLOCATION_FAILED다. 실제 OOM을 유발한 fault campaign은 하지 않았고 계약에 있는 cache/output 주입과 소스 검토 범위다.
+Certificates bind to the same Graph instance, identity, and version. Mismatch returns `INVALID_GRAPH`. Missing or disabled certificates, cache-limit failure, or injected cache failure use exact Push+EARLY_N. Finite row-budget requests also use the exact Push path, which supports row-boundary budgets. Pre-cancelled and partial runs publish neither output nor a certificate. Injected output allocation failure preserves the earlier certificate. Optional reverse-builder allocation failure triggers fallback. Failure to allocate required graph, workspace, or output memory returns `ALLOCATION_FAILED`. Cache and output failure injection and code inspection define the tested scope.
 
-**API의 `bound < n` 의미를 그대로 유지했다.** 원본 helper는 이전 reach가 n이어도 거리 label을 쓸 수 있지만 이번 plugin은 이를 유효 인증으로 광고하거나 사용하지 않는다. 이 제한은 특히 Google에서 큰 차이를 만든다. 임의 외부 거리 배열 import, API 버전 확장, mutable borrowed 출력은 추가하지 않았다. seed prepare/update는 실제 BFS 비용을 지불한다.
+The plugin preserves the API's **`bound < n`** requirement. The original helper can use old distance labels when the prior reach count is n. The plugin uses and advertises certificates only for smaller bounds, which especially affects Google. External distance-array import, API expansion, and mutable borrowed output are outside the contract. Seeded prepare and update execute a full BFS and charge its cost.
 
-새 build 하위 폴더의 정책 번호는 0 Push, 1 TABLE, 2 LAST matched controls, 3 OLD_P2, 4 Direction+RIE, 5 Direction+RIE+TABLE controls, 6 COUNT, 7 CLOSURE, 8 RADIUS, 9 FRONTIER, 10 immediate exact-result reuse다. `p9_0.so`는 FRONTIER ready, `p9_1.so`는 FRONTIER deferred다. `_phase.so`는 intrusive phase timer가 켜진 별도 진단 모듈이다. `dg_api_audit.hpp`/`dg_audit_snapshot`은 연구 진단용 선택 symbol이며 공통 API에 추가한 계약이 아니다. MAIN은 이 symbol을 사용하지 않는다.
+Policy numbers are 0 Push, 1 TABLE, 2 LAST (matched controls), 3 OLD_P2, 4 Direction+RIE, 5 Direction+RIE+TABLE, 6 COUNT, 7 CLOSURE, 8 RADIUS, 9 FRONTIER, and 10 immediate exact-result reuse. `p9_0.so` is FRONTIER ready and `p9_1.so` is FRONTIER deferred. The `_phase.so` modules enable intrusive diagnostic timers. `dg_api_audit.hpp` and the optional `dg_audit_snapshot` symbol are diagnostic and outside the shared API. MAIN does not call that symbol.
 
-OLD_P2/RIE control wrapper는 인증 부재에도 본래 Direction 알고리즘을 실행하도록 만든 성능 대조군이다. 전체 owned 출력·서비스 비용은 같지만 인증 제공 plugin의 fallback 적합성을 주장하지 않는다. MAIN 교체 검증 대상은 실제 기본 3종과 DistanceGuard 4종이다.
+The OLD_P2 and RIE performance wrappers run their original Direction algorithm before a certificate exists. They use the same owned-output and service boundary. Their fallback behavior is specific to the comparison. MAIN substitution covered the three deployed modules and four DistanceGuard variants.
 
-## 실제 교체와 독립 정확성
+## Actual module swaps and independent correctness
 
-| 검사 | 결과 |
+| Check | Result |
 |---|---|
-| 같은 기존 MAIN에서 BFS / RCC TABLE / RCC LAST | 각각 PASS |
-| 같은 MAIN에서 DG COUNT/CLOSURE/RADIUS/FRONTIER × ready/deferred | 8개 모두 PASS |
-| 각 MAIN 실행 | checks 193,136; 전체 배열 2,111; n=3 directed graph 512개 전수 포함 |
-| DG 추가 계약 검사 | 176건 PASS; graph 인스턴스/버전, pre-cancel, row_budget=1 부분 취소, 실패 후 기존 인증, finite budget fallback, update, disabled, destroy 후 결과, all-n fallback |
-| 별도 API 진단 | 12 graph × 2 source 순서 × 14 mode × 2 path × 33 요청 = 전체 배열 22,176 PASS |
-| 독립 Python raw-edge deque BFS | 내보낸 2,688 배열 / 6,544,608 원소 PASS; 12 graph, 86 distinct graph-source oracle |
-| 고정 primary service | 26,880 trials / 전체 배열 564,480 PASS; 모듈 파괴 후 보유 결과 재검증 |
-| 별도 phase diagnostics | 1,008 trials / 전체 배열 33,264 PASS |
+| Baseline BFS, RCC TABLE, and RCC LAST in the same existing MAIN | All three passed |
+| DG COUNT, CLOSURE, RADIUS, and FRONTIER in ready and deferred modes | All eight passed |
+| Each MAIN execution | 193,136 checks and 2,111 full arrays, including all 512 directed graphs on three vertices |
+| Additional DG contract checks | 176 passed, covering graph instance and version, pre-cancellation, partial cancellation with row_budget=1, previous-certificate preservation after failure, finite-budget fallback, update, disabled mode, outputs surviving destruction, and full-reach fallback |
+| Separate API diagnostics | 12 graphs × 2 source orders × 14 modes × 2 paths × 33 requests, yielding 22,176 matching arrays |
+| Independent Python deque BFS from raw edges | 2,688 exported arrays and 6,544,608 elements matched across 12 graphs and 86 distinct graph-source oracle keys |
+| Fixed primary service | 26,880 trials and 564,480 matching arrays, including rechecks after module destruction |
+| Separate phase diagnostics | 1,008 trials and 33,264 matching arrays |
 
-MAIN의 기존 cache limit 0·주입 실패·output 실패·동시 immutable reader·release/reprepare 검사도 각 교체에서 통과했다. 위 수는 중복 source와 graph를 포함한 검사 수이며 고유 실세계 표본 수가 아니다. 테스트 PASS는 모든 가능한 입력의 형식 증명이나 미수집 GPU 호환성을 뜻하지 않는다. CPU ABI는 기존 WSL Linux/g++/C++ runtime 조합에 한정된다.
+The existing MAIN checks for a zero cache limit, injected failures, output allocation failures, concurrent immutable readers, release, and reprepare passed for each substitution. Counts include repeated sources and graphs. Coverage applies to these CPU cases and the existing WSL Linux, g++, and C++ runtime ABI combination.
 
-## 동일 서비스 측정
+## Matched full-service measurement
 
-성능 전에 `DG_API_PROTOCOL.json`과 모든 소스·바이너리 pin을 고정했다. 기존 g++15.2/C++20/O2, **5개 순차 새 프로세스 × 8 round × 반대 순서 2 sweep**, warmup/성능 재시도/결과 후 최적화 0회다. Google1024/LJ4096 파생 graph와 합성 oneway_dense, legacy/unique source, q8/q32, ready/deferred, 14개 mode를 모두 보존했다. q는 첫 요청 다음의 후속 요청 수다.
+The campaign pinned `DG_API_PROTOCOL.json` and all sources and binaries before timing. It used g++ 15.2 with C++20 and O2, **five sequential fresh processes, eight rounds, and two mirrored sweeps**, with zero warmups, performance retries, or post-result optimization. The matrix retained derived Google1024 and LJ4096 graphs, synthetic oneway_dense, legacy and distinct source lists, q8 and q32, ready and deferred preparation, and 14 modes. q counts follow-ups after the initial request.
 
-모든 mode의 첫 요청은 인증 없는 동일 Push+EARLY_N이다. 후속은 동일 source 목록이며 기존 API에 없는 즉시 결과 재사용을 숨겨 넣지 않았다. 별도 EXACT_REUSE가 그 강한 간단한 대조군이다. 이전 감사의 공통 exact reuse·다른 첫 요청·borrowed kernel 측정과 이번 수치를 섞지 않는다.
+All modes use the same exact Push+EARLY_N without a certificate for the initial request and the same subsequent source list. Immediate result reuse is limited to the separate EXACT_REUSE control. The earlier audit used shared exact-result reuse, a different first-request rule, and a borrowed-kernel boundary. Its timings remain separate.
 
-`service_ns`는 module factory, deferred prepare, API can_apply/run 호출, 알고리즘, 인증 유지, 출력 할당·복사, module release/destroy를 포함한 연속 구간에 **별도 실측 소비자 출력·컨테이너 해제**를 더한 값이다. oracle 검증은 두 구간 사이에 있으며 제외·별도 보고한다. 따라서 oracle를 포함하지 않는 구성 요소 합이고 하나의 연속 wall timer라고 부르지 않는다. ready는 factory/prepare를 과거 준비로 이동하여 따로 기록하고, history-inclusive 지표에는 다시 더한다. deferred는 CSR 변환·workspace/cache 준비를 batch 안에서 수행하고 reverse를 첫 필요한 후속 호출에서 지연 구축한다. ready는 이들을 먼저 구축한다.
+`service_ns` adds the measured consumer output and container release interval to the continuous interval covering module construction, deferred preparation, API `can_apply` and `run`, algorithm execution, certificate maintenance, output allocation and copying, and `release` and destruction. Oracle validation falls between the two intervals and is reported separately. Ready shifts factory and preparation to measured historical work, which is added back in the history-inclusive metric. Deferred converts CSR and prepares workspace and cache inside the batch, building reverse at the first follow-up that needs it. Ready prepares them upfront.
 
-공통 immutable API Graph 생성/입력 I/O/독립 oracle와 프로세스의 1회 dlopen startup은 batch 밖이다. MAIN도 라이브러리를 유지한다. dlopen은 각 caller stderr에 별도 실측했다. 새로운 Graph를 외부에서 구성하는 비용까지 포함한 응용 전체 wall time이라고 확대하지 않는다. 기존 배포 DSO의 두 번 출력 복사와 달리 새 matched TABLE/LAST 및 DG는 한 번 복사한다. 고유 이득 판정은 **배포 모듈과 matched 대조군 모두**를 요구한다. primary에서는 선택 telemetry 호출과 세부 timer를 껐다. API 기존 계수 경로와 새 guard 논리 계수는 실행 비용에 남아 있다.
+Construction of the shared immutable API Graph, input I/O, the independent oracle, and one-time `dlopen` startup are outside the batch. The caller records `dlopen` separately on stderr and keeps libraries loaded. The tested service starts from the existing Graph. Deployed DSOs copy outputs twice. Matched TABLE/LAST and DG copy once. An incremental benefit must beat both the deployed modules and the matched controls. Primary timing disabled optional telemetry and detailed phase timers. Existing API counters and the new guard's logical counters remained active.
 
-두 mirrored sweep의 시간을 산술평균한 뒤 candidate/baseline 비율을 만들었다. 조건별 40개 짝 block, 5 session이다. gate는 median <0.95, 32/40 이상 승리, 5 session median 모두 <0.95를 동시에 요구한다. TABLE/LAST 배포·matched, OLD_P2, RIE, RIE+TABLE, EXACT_REUSE, DG_COUNT/RADIUS를 모두 통과해야 조건 양성이다. 10,000회 고정 seed session-cluster bootstrap의 기술적 95% 구간, session range, 모든 outlier를 보존했다. 5개의 같은 날 session이고 다중 비교 보정/다른 날짜 재현이 없으므로 모집단 보장으로 해석하지 않는다. 336개 동일-policy mirror 중앙 비율 범위는 0.9147–1.0339, raw 최대는 6.0209다.
+The analysis arithmetically averaged the two mirrored sweep times before taking the candidate/baseline ratio. Each condition had 40 paired blocks across five sessions. The rule required median below 0.95, at least 32/40 wins, and all five session medians below 0.95. A positive condition had to beat deployed and matched TABLE/LAST, OLD_P2, RIE, RIE+TABLE, EXACT_REUSE, DG_COUNT, and DG_RADIUS. The analysis retained descriptive 95% intervals from a fixed-seed 10,000-draw session-cluster bootstrap, session ranges, and all outliers. The five sessions occurred on one day. Multiple-comparison adjustment and across-day replication were outside the study. Across 336 same-policy mirror comparisons, median ratios ranged from 0.9147 to 1.0339 and the raw maximum was 6.0209.
 
-## 전체시간과 고유 이득
+## Full-service time and incremental benefit
 
-다음은 ready q32의 DG_FRONTIER/기준선 짝 중앙 비율이다. 괄호는 위 session-cluster bootstrap 95% 구간이다. 1 미만이 빠르다. 모든 비교·session medians·승패는 `PAIR_STATS.json`, 절대시간은 `COSTS.json`에 있다.
+The table gives median paired DG_FRONTIER / baseline ratios at ready q32. Parentheses give the descriptive session-cluster bootstrap 95% intervals. Ratios below 1 favor FRONTIER. See `PAIR_STATS.json` for all pairs, session medians, and win counts, and `COSTS.json` for absolute times.
 
-| graph / source | / 배포 TABLE | / matched TABLE | / OLD_P2 | / Direction+RIE | / DG_COUNT |
+| Graph and source order | / Deployed TABLE | / Matched TABLE | / OLD_P2 | / Direction+RIE | / DG_COUNT |
 |---|---:|---:|---:|---:|---:|
 | Google legacy | 0.9468 | 1.0021 (1.0005–1.0032) | 0.5994 | 0.5852 | 1.0004 |
 | Google unique | 0.9015 | 0.9792 (0.9713–0.9843) | 0.6035 | 0.5947 | 1.0118 |
@@ -70,19 +70,19 @@ MAIN의 기존 cache limit 0·주입 실패·output 실패·동시 immutable rea
 | oneway legacy | 0.7896 | 0.7331 (0.7195–0.7672) | 0.0907 | 0.0863 | 0.1102 |
 | oneway unique | 1.4125 | 1.3117 (1.3061–1.3213) | 0.3103 | 0.2939 | 0.7870 |
 
-Google legacy의 guard 인증 적용은 33번 중 2번뿐이고 실제 거리 label 읽기는 **0회**다. 네 DG ablation의 edge 수가 모두 131,150으로 같다. 원본 helper에서의 Google 추가 filter 생략은 이 엄격한 API 계약에서는 유지되지 않는다. TABLE 대비 관측 차이는 한 번 복사·fallback 경로 등으로 설명해야 하며 DistanceGuard의 고유 이득이라고 하지 않는다. matched LAST 대비도 legacy 비율 약1.02이며 전체 gate 실패다.
+On Google legacy, the guard certificate applied to just two of 33 requests and performed **zero** distance-label reads. Each of the four DG ablations examined 131,150 edges. The extra filtering from the original helper did not carry over to this stricter API. The observed differences versus deployed TABLE include a single output copy and fallback changes. The legacy ratio versus matched LAST was about 1.02 and the full rule failed.
 
-LJ legacy는 COUNT 874,228 → FRONTIER 825,955로 **48,273 edge probes를 추가 생략**했다. 그러나 RIE+TABLE은 815,173이어서 전체로는 FRONTIER가 10,782번 더 검사한다. API fallback·첫 공통 요청 때문에 과거 helper의 절대 edge 수와 다르다. FRONTIER의 추가 label 읽기는266,385회이며 old labels/필터 비용까지 지불한 시간은 COUNT보다5.19%, OLD_P2보다10.13%, RIE보다13.18% 느리다. 실제 파생 graph에서 강한 고유 전체시간 우위는 없다.
+On legacy LiveJournal, FRONTIER reduced edge probes from COUNT's 874,228 to 825,955, a saving of **48,273**. RIE+TABLE used 815,173, so FRONTIER still performed 10,782 more probes than that control. API fallback and the common first request change the totals relative to the original helper. FRONTIER made 266,385 additional label reads. Including filtering costs, it was 5.19% slower than COUNT, 10.13% slower than OLD_P2, and 13.18% slower than RIE.
 
-**유일한 전체 gate 양성은 oneway_dense / legacy / q32 / ready**다. 배포 TABLE 대비0.7896, LAST0.8019, matched TABLE0.7331, LAST0.7301이며 각각37/40 승리다. matched TABLE의 session median 범위0.7058–0.7903, bootstrap95% 0.7195–0.7672다. COUNT 대비0.1102, RADIUS0.5808, EXACT_REUSE0.4267도 통과한다. COUNT8,349,199 → CLOSURE2,057,647 → RADIUS1,104,106 → FRONTIER406,837 edges여서 matched filter 차분도 있다. 다만 일부 block에서 candidate가 느렸던 outlier를 삭제하지 않았다.
+**The only condition meeting the full rule was synthetic `oneway_dense / legacy / q32 / ready`.** Ratios were 0.7896 against deployed TABLE, 0.8019 against deployed LAST, 0.7331 against matched TABLE, and 0.7301 against matched LAST, each with 37/40 wins. Matched TABLE session medians ranged from 0.7058 to 0.7903 and its bootstrap interval was 0.7195–0.7672. Ratios of 0.1102 against COUNT, 0.5808 against RADIUS, and 0.4267 against EXACT_REUSE also met the rule. Edge probes declined from 8,349,199 in COUNT to 2,057,647 in CLOSURE, 1,104,106 in RADIUS, and 406,837 in FRONTIER, isolating the filter effect. Slower outlier blocks were retained.
 
-이 합성 양성도 **deferred에서는 matched TABLE 대비 약1.30**, ready에 실제 과거 준비를 합치면 약1.31로 역전된다. unique ready에서도1.3117로 느리다. q8 포함 다른 조건은 모든 강한 대조군을 동시에 통과하지 못했다. 준비비 포함 양성 조건은0개다. 사전 식별/선택 비용을 지불하는 온라인 정책이나 새 실제 holdout도 없다. 따라서 제한적인 이미 준비된 합성 요청 witness로만 인정한다.
+On the same synthetic condition, the ratio versus matched TABLE rose to about 1.30 deferred and about 1.31 when measured historical preparation was included. Ready distinct-source q32 was also slower, at 1.3117. No condition met the full rule with preparation charged. The remaining cases, including q8, failed at least one strong control. The limited ready result does not include an online selection cost or new real-world holdout.
 
-## 준비·유지·어댑터 비용 분리
+## Preparation, maintenance, and adapter costs
 
-primary ready/legacy/q32의 절대 실측 중앙값(µs)은 아래와 같다. 과거 준비는 factory+CSR 전환+workspace/cache+필요 시 reverse다. 열별 중앙값의 합을 전체 중앙값과 동일시하지 않는다.
+The primary ready, legacy, q32 medians below are in microseconds. Historical preparation includes factory, CSR conversion, workspace and cache, and reverse construction where needed. Column medians may come from different trials.
 
-| graph / mode | 서비스 | 과거 준비 | query 전체 | 소비자 해제 |
+| Graph and mode | Service | Historical preparation | Query total | Consumer release |
 |---|---:|---:|---:|---:|
 | Google matched TABLE | 222.47 | 23.36 | 220.50 | 1.40 |
 | Google FRONTIER | 224.16 | 59.17 | 221.98 | 1.37 |
@@ -92,26 +92,26 @@ primary ready/legacy/q32의 절대 실측 중앙값(µs)은 아래와 같다. �
 | oneway matched TABLE | 527.14 | 429.49 | 524.37 | 1.45 |
 | oneway FRONTIER | 387.07 | 872.91 | 384.53 | 1.34 |
 
-별도 intrusive phase build는 같은 algorithm core에서 세부 timer만 켠다. 아래는 ready/legacy/q32, 6개 진단 trial 중앙값(µs)이다. primary 배율의 분모로 사용하거나 다른 실행에서 뺄셈하지 않는다. `internal residual`은 **같은 trial**의 전체 run timer에서 알고리즘/할당/복사/유지/reverse 구간을 뺀 잔여다. 검증·분기·계수·내부 호출 및 timer overhead를 포함하며 순수한 간접호출 한 번의 지연은 아니다.
+The separate phase build enables detailed timers on the same algorithm core. The table gives median microseconds for six diagnostic trials at ready, legacy, q32. These measurements have their own instrumentation overhead and are separate from the primary ratios. The internal residual subtracts algorithm, allocation, copying, maintenance, and reverse phases from the same trial's run timer. It includes validation, branches, instrumentation, calls, and timer overhead.
 
-| graph | BFS/guard 알고리즘 | owned 할당 | 출력 복사 | 인증 유지 | 내부 residual | prepare CSR | prepare reverse |
+| Graph | BFS and guard | Owned allocation | Output copy | Certificate maintenance | Internal residual | Prepare CSR | Prepare reverse |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Google | 223.721 | 7.116 | 1.775 | 0.846 | 4.257 | 22.088 | 53.538 |
 | LJ | 1610.649 | 15.196 | 5.513 | 1.148 | 5.166 | 152.962 | 210.433 |
 | oneway | 373.294 | 10.059 | 1.874 | 0.891 | 5.207 | 456.370 | 456.056 |
 
-deferred reverse 계측은 각각36.590/208.721/427.714µs이며 service에 포함된다. ready도 매번 ensure_reverse 호출 확인 비용을 지불한다. caller dispatch·output vector·module release/destroy·마지막 소비자 해제는 service와 개별 열에 포함한다. P2 원래 비진단 경로의 exact inspected_edges는 미수집이다(`edge_available=false`); 0을 실제 무검사로 해석하지 않는다.
+The deferred reverse phases were 36.590, 208.721, and 427.714 µs respectively, and are included in service. Ready still pays for an `ensure_reverse` check. Caller dispatch, the output vector, module release and destruction, and final consumer release are included in service and reported in the corresponding fields. The original non-diagnostic P2 path did not collect exact `inspected_edges` and sets `edge_available=false`. A zero placeholder means unavailable.
 
-DG retained cache는 Google/oneway4096B, LJ16384B다. 추가 immutable CSR payload는34968/532500/225944B다. reverse와 workspace·임시 edge pair·allocator 메타데이터·보유 출력까지 포함한 peak memory 상한이라는 뜻은 아니다. 각 primary/phase process 관측 peak RSS19848KiB는 전체 로드된 대조군/fixture/oracle가 포함된 process 값이다. 유지에서 workspace 배열을 swap하는 원본과 달리 이미 반환한 API owned Output을 공유해 캐시를 갱신하며, 이 변경의 효과는 matched COUNT/TABLE/LAST 및 실제 복사비를 통해 분리했다.
+DG retained 4,096 bytes for Google and oneway and 16,384 bytes for LJ. Additional immutable CSR payload was 34,968, 532,500, and 225,944 bytes for Google, LJ, and oneway respectively. The totals omit some or all reverse, workspace, temporary edge pairs, allocator metadata, and retained outputs. Each primary and phase process reached 19,848 KiB peak RSS, including all loaded controls, fixtures, and oracles. The original helper swapped workspace arrays. The plugin updates its cache through shared ownership of an already returned API Output. Matched COUNT, TABLE, and LAST controls and measured copy cost account for the change.
 
-## 최종 판정과 보존
+## Decision, preserved evidence, and replay
 
-- 정확성/API 계약: **검사 범위 PASS**, 동일 MAIN 교체 가능 실험 plugin.
-- 기본 통합: **HOLD**, 기본 RCC·MAIN에 연결하거나 자동 병합하지 않음.
-- 제한적 가능성: 이미 준비된 reverse/모듈 + 고정 합성 지역 요청 + 충분한 q에서만 후보 효과 확인. 준비 포함/unique/실제 파생 입력으로 일반화 금지.
-- 신규성/논문: 기존 `SCOPE_DISTANCE_NOVELTY_AUDIT.md` 판정을 유지한다. 이번 API 어댑터·조건부 성능은 학술적 최초성이나 독립 논문 기여의 새 증거가 아니다. 새 문헌감사를 수행한 것으로 주장하지 않는다.
-- 이번 고정 campaign 뒤 최적화 반복0, 새 GPU0, 유료 자원0, MAIN 재빌드0.
+- **CPU correctness and API.** The tested contract and actual same-MAIN swaps passed for the independent plugin.
+- **Default integration.** HOLD. Default RCC and MAIN remained unchanged.
+- **Conditional result.** The measured candidate gain applies to the ready module and reverse index, the fixed synthetic graph and its localized request sequence, and sufficient q. Distinct sources, preparation-inclusive paths, and real-world-derived inputs did not establish the same benefit.
+- **Novelty and paper status.** The [prior audit](SCOPE_DISTANCE_NOVELTY_AUDIT.md) stands. The adapter and conditional timing provide implementation and performance evidence within this scope. Academic priority and a standalone paper contribution remain unestablished.
+- **Campaign scope.** Zero further optimization rounds, new GPU runs, paid resources, or MAIN rebuilds followed the fixed campaign.
 
-원시 service CSV 5개, phase CSV, 배열 JSONL, work CSV, 명령/stdout/stderr, 전체 pins, 불확실성·비용 JSON, 이전 증거/원본 보존 receipts를 `results/dg_api_20261021/`에 보존한다. 실제 실행 binaries도 `RUNTIME_BINARIES.tar.gz`와 bytes/SHA receipt로 보존한다. 컴파일 경고 두 건(들여쓰기/enum conditional)은 원문 로그에 있으며 오류·실패 trial는 없었다. 성능 결과를 본 뒤 소스·실행 조건을 바꾸지 않았다.
+The output at `results/dg_api_20261021/` includes five raw service CSVs, phase CSVs, array JSONL, work CSVs, commands and logs, pins, uncertainty and cost JSON, and original preservation receipts. `RUNTIME_BINARIES.tar.gz` holds the executed binaries with size and SHA receipts. The compiler emitted two warnings on indentation and an enum conditional. The original logs retain them. There were no compile errors or failed trials and no post-result changes to source or run conditions.
 
-새 깨끗한 복사본에서만 `python3 tools/run_dg_api.py prepare`, `benchmark`, `python3 tools/analyze_dg_api.py`를 실행할 수 있다. 기존 결과 디렉터리는 prepare가 거부하고 benchmark는 single-use다. 이는 현재 MAIN 재빌드를 허가하는 명령이 아니며 기존 pinned MAIN/libgraph/default DSO가 먼저 필요하다. binary bundle은 이 정확한 실행물을 제공한다. 무결성 manifest는 `ARTIFACT_SHA256.json`; GitHub 인증/권한 receipt는 `GITHUB_AUTH.json`; commit/push의 최종 SHA는 commit 밖 로컬 `DELIVERY_STATUS.json`과 실제 remote ref를 확인한다.
+For byte-exact replay or historical manifest checks, use the original checkpoint described in [the English edition provenance](../evidence/audit/ENGLISH_EDITION.md). The original commands are `python3 tools/run_dg_api.py prepare`, `python3 tools/run_dg_api.py benchmark`, and `python3 tools/analyze_dg_api.py`. They use a fresh copy and the existing pinned MAIN executable, libgraph, and default DSOs in the binary bundle. Prepare rejects an existing output directory, and benchmark is single-use. The historical integrity manifest and GitHub permission receipt are `ARTIFACT_SHA256.json` and `GITHUB_AUTH.json`. The local `DELIVERY_STATUS.json` recorded the original push, while the remote ref shows the current commit.

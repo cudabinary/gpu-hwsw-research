@@ -14,7 +14,7 @@
     "-c",
     "vendor/rcc_20261021/frozen/consumer/consumers.cpp",
     "-o",
-    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/consumer.o"
+    "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/dg_api_20261021/consumer.o"
   ],
   "returncode": 0,
   "seconds": 2.1999959530000055

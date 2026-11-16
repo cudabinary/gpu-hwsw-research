@@ -9,7 +9,7 @@
       "--cubin",
       "vendor/rcc_20261021/cuda/kernels.cu",
       "-o",
-      "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/main/build/static/rcc_kernels.cubin"
+      "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/main/build/static/rcc_kernels.cubin"
     ],
     "code": 0,
     "seconds": 0.5394054439999998
@@ -25,7 +25,7 @@
       "-I/usr/local/cuda-13.3/include",
       "vendor/rcc_20261021/cuda/owner.cpp",
       "-o",
-      "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/main/build/static/rcc_owner.exe"
+      "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/main/build/static/rcc_owner.exe"
     ],
     "code": 0,
     "seconds": 11.596342014000001

@@ -1,9 +1,9 @@
 {
   "argv": [
-    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/scope_distance_audit_20261021/matched",
+    "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/scope_distance_audit_20261021/matched",
     "worker",
     "1",
-    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/results/scope_distance_audit_20261021/service_1.csv"
+    "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/results/scope_distance_audit_20261021/service_1.csv"
   ],
   "returncode": 0,
   "seconds": 13.620973816000003

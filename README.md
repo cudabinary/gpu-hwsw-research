@@ -1,18 +1,20 @@
-# GPU HW–SW Research
+# GPU Hardware–Software Research
 
-MAIN은 강한 SW 기준선 이후 남는 GPU 구조적 병목을 연구한다. RCC 알고리즘 개발은 `research/rcc`에서만 진행한다.
+The main track studies structural GPU bottlenecks that persist after applying strong software baselines. The `research/rcc` branch develops reachability-certificate caching (RCC) for breadth-first search (BFS).
 
-최초 분리 체크포인트는 연구 환경 분리와 CPU 모듈 교체 계약을 확립했다. 새 알고리즘, 성능 개선, GPU 공통 API 호환성, 신규성 또는 HW 필요성을 입증하는 결과가 아니었다.
+This checkpoint established separate worktrees and verified that the same CPU client binary can load the baseline, RCC TABLE, and RCC LAST modules through API 1.0.0. CUDA support for the shared API is pending. The historical GPU pilot used a native CUDA owner and tested correctness. Algorithmic novelty, performance gains from the shared API, and the need for new hardware remain open questions.
 
-2026-10-21 RCC 후속 체크포인트: `research/OLD_P2_SERVICE_RESULTS.md`에 원본 OLD_P2의 동일 owned-output 서비스 비교를 보완했다. 원본 LJ에서는 reverse가 이미 준비된 P2에 대한 RCC의 우위가 성립하지 않으며 조건별 결론을 보존한다. 새 API 어댑터의 성능이나 새 알고리즘 기여로 해석하지 않는다.
+The [matched OLD_P2 follow-up](research/OLD_P2_SERVICE_RESULTS.md) compared full service under the same owned-output contract. On the original LiveJournal input, RCC lost to OLD_P2 when the reverse index was already available. The ranking depended on the fixture and preparation boundary.
 
-전달 확장 독립 감사는 `research/SCOPE_DISTANCE_AUDIT_RESULTS.md`와 `research/SCOPE_DISTANCE_NOVELTY_AUDIT.md`다. 원본 ZIP/92개 manifest 파일의 무결성, 재빌드 정확성, 실제 추가 probe 감소를 확인했다. 16개 policy의 전체 owned-output 서비스에서 실제 파생 입력의 강한 우위는 확보하지 못했다. 한정 합성 ready 양성과 cold/unique 부정 결과를 함께 보존한다. 기본 RCC·공통 API·MAIN은 변경하지 않았고 후보 API plugin을 배포하지 않았다.
+The [independent RCC-Scope and DistanceGuard audit](research/SCOPE_DISTANCE_AUDIT_RESULTS.md) verified the original ZIP and 92 manifest entries, rebuilt the prototypes, and reproduced additional probe savings. Across 16 policies, the only result meeting the full performance criteria was a synthetic ready condition. It lost when preparation was included or distinct sources were used. The audit left default RCC, the shared API, and MAIN intact. See the [prior-work assessment](research/SCOPE_DISTANCE_NOVELTY_AUDIT.md).
 
-- 공통 계약: `api/rcc/v1.hpp` (1.0.0)
-- 원본 복사본: `vendor/rcc_20261021/` (SHA 고정)
-- 이전 결과: `evidence/previous/`
-- 역사적 GPU 검증: `evidence/audit/HISTORICAL_GPU_VERIFICATION.json`
-- 새 CPU 호환성 결과: `results/COMPATIBILITY.json`
-- 실행: WSL의 기존 g++/Python으로 `python3 tools/verify.py`
+A later [experimental DistanceGuard plugin](research/DG_API_RESULTS.md) passed CPU module substitution using the existing MAIN binary. Default integration remains on hold. The tested real-world-derived graphs did not establish a speed advantage over strong, matched controls.
 
-빌드·로그·출력은 각 worktree에 별도로 생성한다. 원본 연구 폴더는 읽기 전용으로 취급한다. GPU 실행에는 별도 backend 구현·검증과 현재 환경에 대한 안전 검사가 필요하며, 과거 실행 승인 파일을 재활성화하지 않는다.
+- [Shared API 1.0.0](api/rcc/v1.hpp)
+- [Pinned RCC source snapshot](vendor/rcc_20261021/)
+- [Earlier experiments](evidence/previous/)
+- [Historical GPU verification](evidence/audit/HISTORICAL_GPU_VERIFICATION.json)
+- [CPU compatibility results](results/COMPATIBILITY.json)
+- [Reproduction instructions](REPRODUCE.md)
+
+To run the CPU compatibility checks, run `python3 tools/verify.py` from the worktree root in WSL with g++ and Python 3. Each worktree keeps its own builds, logs, and outputs. Treat the original research workspace as read-only. GPU testing requires a separate backend implementation, validation, and current environment checks. Historical run approvals apply only to their original runs.

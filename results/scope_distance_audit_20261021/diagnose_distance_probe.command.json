@@ -1,9 +1,9 @@
 {
   "argv": [
-    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/scope_distance_audit_20261021/distance_probe",
+    "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/build/scope_distance_audit_20261021/distance_probe",
     "diagnose",
-    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/intake/rcc_scope_distance_20261021/package/RCC_SCOPE_CPU_MODULE_20261021/fixtures",
-    "/mnt/c/Users/\uc815\ub2e4\ube48/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/results/scope_distance_audit_20261021/provided"
+    "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/intake/rcc_scope_distance_20261021/package/RCC_SCOPE_CPU_MODULE_20261021/fixtures",
+    "/mnt/c/Users/<windows-user>/Documents/Codex/2026-10-20/task/GPU_HW_SW_RESEARCH_20261021/rcc/results/scope_distance_audit_20261021/provided"
   ],
   "returncode": 0,
   "seconds": 1.0718827170000012

@@ -1,14 +1,14 @@
 [
   {
     "status": "## No commits yet on master",
-    "path": "C:\\Users\\정다빈\\Documents\\ChatGPT\\논문",
+    "path": "C:\\Users\\<windows-user>\\Documents\\ChatGPT\\<papers-directory>",
     "branch": "master",
     "name": "papers",
     "remotes": null
   },
   {
     "status": "## No commits yet on master",
-    "path": "C:\\Users\\정다빈\\Documents\\ChatGPT\\논문 소스",
+    "path": "C:\\Users\\<windows-user>\\Documents\\ChatGPT\\<paper-source-directory>",
     "branch": "master",
     "name": "papers_source",
     "remotes": null
